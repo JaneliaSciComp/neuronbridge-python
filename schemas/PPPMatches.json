@@ -125,6 +125,11 @@
           "description": "Indicates whether the target image was found within a mirrored version of the matching image.",
           "type": "boolean"
         },
+        "maskLibraryName": {
+          "title": "Masklibraryname",
+          "description": "This is just a hack to get around the fact that PPP imagery is stored under the mask library name.",
+          "type": "string"
+        },
         "pppRank": {
           "title": "Ppprank",
           "description": "Fractional rank reported by the PPPM algorithm. It's generally better to use the index of the image in the results.",
@@ -158,11 +163,6 @@
               "$ref": "#/definitions/Files"
             }
           ]
-        },
-        "maskLibraryName": {
-          "title": "Masklibraryname",
-          "description": "This is just a hack to get around the fact that PPP imagery is stored under the mask library name.",
-          "type": "string"
         }
       },
       "required": [

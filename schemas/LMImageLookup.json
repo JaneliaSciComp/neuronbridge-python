@@ -16,8 +16,8 @@
     "results"
   ],
   "definitions": {
-    "GenderEnum": {
-      "title": "GenderEnum",
+    "Gender": {
+      "title": "Gender",
       "description": "An enumeration.",
       "enum": [
         "m",
@@ -59,7 +59,7 @@
           "description": "Gender of the sample imaged.",
           "allOf": [
             {
-              "$ref": "#/definitions/GenderEnum"
+              "$ref": "#/definitions/Gender"
             }
           ]
         },

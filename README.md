@@ -1,6 +1,8 @@
 # neuronbridge-python
-Python API for NeuronBridge
 
+A Python API for the [NeuronBridge](https://github.com/JaneliaSciComp/neuronbridge) neuron similarity search service. 
+
+See [this notebook](notebooks/python_api_examples.ipynb) for usage examples.
 
 ## Development Notes
 
@@ -13,6 +15,15 @@ To update conda_requirements.txt:
 To update requirements.txt:
 
     pipreqs --savepath=requirements.txt && pip-compile
+
+Regenerate the JSON schemas:
+
+    python neuronbridge/generate_schemas.py
+
+Run the unit tests:
+
+    pytest tests
+
 
 ### Publishing a new release
 

@@ -39,6 +39,9 @@ class Client:
 
 
     def get_em_image(self, body_id) -> EMImage:
+        """
+        Returns the EMImage for the specified body ID.
+        """
         
         url = f"{self.data_url}/metadata/by_body/{body_id}.json"
         res = requests.get(url)
@@ -52,6 +55,9 @@ class Client:
 
     
     def get_lm_images(self, line_id) -> List[LMImage]:
+        """
+        Returns the LMImages for the specified line ID.
+        """
         
         url = f"{self.data_url}/metadata/by_line/{line_id}.json"
         res = requests.get(url)
@@ -63,6 +69,9 @@ class Client:
 
     
     def get_cds_matches(self, neuron_image : NeuronImage) -> List[CDSMatch]:
+        """
+        Returns the CDS matches for the specified neuron image (i.e. LMImage or EMImage).
+        """
 
         url = f"{self.data_url}/metadata/cdsresults/{neuron_image.id}.json"
         res = requests.get(url)
@@ -70,10 +79,19 @@ class Client:
         if res.status_code != 200:
             raise Exception("Could not retrieve "+url)
 
-        return CDSMatches(**res.json()).results
+        cds_matches = CDSMatches(**res.json())
+        results = cds_matches.results
+
+        # TODO: this is a hack to get around the fact that PPP imagery is stored under the mask library name
+        for result in results:
+            result.maskLibraryName = cds_matches.maskLibraryName
+        return results
     
     
     def get_ppp_matches(self, em_image : EMImage) -> List[PPPMatch]:
+        """
+        Returns the PPPM matches for the specified EMImage.
+        """
 
         url = f"{self.data_url}/metadata/pppresults/{em_image.publishedName}.json"
         res = requests.get(url)
@@ -83,6 +101,7 @@ class Client:
 
         ppp_matches = PPPMatches(**res.json())
         results = ppp_matches.results
+
         # TODO: this is a hack to get around the fact that PPP imagery is stored under the mask library name
         for result in results:
             result.maskLibraryName = ppp_matches.maskLibraryName
@@ -99,6 +118,10 @@ class Client:
 
 
     def get_cds_image(self, match : Union[NeuronImage, CDSMatch], thumbnail=False) -> Image:
+        """
+        Returns the representative PNG image for the specified CDSMatch or NeuronImage.
+        """
+
         if thumbnail:
             url = self.config['thumbnailsBaseURLs'] + "/" + match.thumbnailURL
         else:
@@ -106,15 +129,41 @@ class Client:
         return self._get_image(url)
 
 
+    def get_target_searchable_image(self, match : CDSMatch) -> Image:
+        """
+        Returns the target image for the specified CDSMatch.
+        """
+        url = f"{self.config['imageryBaseURL']}/{match.alignmentSpace}/{match.maskLibraryName.replace(' ','_')}/searchable_neurons/pngs/{match.sourceSearchablePNG}"
+        return self._get_image(url)
+
+
+    def get_match_searchable_image(self, match : CDSMatch) -> Image:
+        """
+        Returns the matched image for the specified CDSMatch.
+        """
+
+        url = f"{self.config['imageryBaseURL']}/{match.alignmentSpace}/{match.libraryName.replace(' ','_')}/searchable_neurons/pngs/{match.searchablePNG}"
+        return self._get_image(url)
+
+
     def get_ppp_image(self, match : PPPMatch) -> Image:
+        """
+        Returns the representative PNG image for the specified PPPMatch.
+        """
         url = f"{self.config['pppImageryBaseURL']}/{match.alignmentSpace}/{match.maskLibraryName}/{match.files.ColorDepthMip}"
         return self._get_image(url)
 
 
     def get_swc_skeleton(self, match : PPPMatch) -> Image:
+        """
+        Returns the SWC skeleton for the specified PPPMatch.
+        """
         url = f"{self.config['swcBaseURL']}/{match.publishedName}.swc"
         return self._get_image(url)
 
 
     def get_image_stack(self, match : Match) -> Image:
+        """
+        Returns the LM image stack for the specified Match.
+        """
         return self._get_image(match.imageStack)

@@ -1,0 +1,17 @@
+name: neuronbridge-python
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.8
+  - jupyter
+  - pillow
+  - requests
+  - pydantic
+  - python-devtools
+  - numpy
+  - pandas
+  - pip-tools
+  - pipreqs
+prefix: /Users/rokickik/opt/anaconda3/envs/neuronbridge-python

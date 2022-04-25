@@ -14,4 +14,4 @@ dependencies:
   - pandas
   - pip-tools
   - pipreqs
-prefix: /Users/rokickik/opt/anaconda3/envs/neuronbridge-python
+  - twine

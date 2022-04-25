@@ -1,10 +1,25 @@
 # neuronbridge-python
 
-A Python API for the [NeuronBridge](https://github.com/JaneliaSciComp/neuronbridge) neuron similarity search service. 
+A Python API for the [NeuronBridge](https://github.com/JaneliaSciComp/neuronbridge) neuron similarity search service.
 
 See [this notebook](notebooks/python_api_examples.ipynb) for usage examples.
 
 ## Development Notes
+
+Create a conda env with all the dependencies including Jupyter:
+
+    conda env create -f environment.yml
+    conda activate neuronbridge-python
+
+
+### Install for development
+
+You can install the module for development like this:
+
+    conda create --name neuronbridge-python python=3.8
+    conda activate neuronbridge-python
+    python setup.py develop
+
 
 ### Useful shell commands
 
@@ -30,11 +45,10 @@ Run the unit tests:
 1) Update the version in setup.py
 2) Push all changes and tag a release in GitHub
 3) Build PyPI distribution:
-    
+
     python setup.py sdist bdist_wheel
 
 4) Upload to PyPI:
 
     twine upload dist/*
-
 

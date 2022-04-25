@@ -1,5 +1,6 @@
 name: neuronbridge-python
 channels:
+  - flyem-forge
   - conda-forge
   - bioconda
   - defaults
@@ -12,6 +13,7 @@ dependencies:
   - python-devtools
   - numpy
   - pandas
+  - neuprint-python
   - pip-tools
   - pipreqs
   - twine

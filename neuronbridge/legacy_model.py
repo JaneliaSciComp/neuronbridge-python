@@ -118,7 +118,9 @@ class CDSMatch(Match):
     #gradientAreaGap: Optional[int] = None
     #highExpressionArea: Optional[int] = None
     #normalizedGapScore: Optional[float] = None
-
+    # only some results have gradientAreaGap/highExpressionArea/normalizedGapScore, see:
+    # https://janelia-neuronbridge-data-dev.s3.us-east-1.amazonaws.com/v2_4_0/metadata/cdsresults/2711775875749117963.json
+        
 
 class PPPMatches(BaseModel):
     """

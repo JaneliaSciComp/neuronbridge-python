@@ -127,8 +127,8 @@ class PPPMatches(BaseModel):
     maskId: str = Field(description="Unique identifier of the target image.")
     maskPublishedName: str = Field(description="Published name for the contents of the target image.")
     maskLibraryName: str = Field(description="Name of the image library containing the target image.")
-    neuronType: str = Field(description="Neuron type name from neuPrint")
-    neuronInstance: str = Field(description="Neuron instance name from neuPrint")
+    neuronType: Optional[str] = Field(description="Neuron type name from neuPrint")
+    neuronInstance: Optional[str] = Field(description="Neuron instance name from neuPrint")
     results: List[PPPMatch] = Field(description="List of PPPM matches.")
 
 

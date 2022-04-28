@@ -14,9 +14,9 @@ ppp = '$ppp/'
 swc = '$swc/'
 
 
-with open("test_data_v3/config.json") as f:
-    obj = model.DataConfig(**json.load(f))
-    #debug(obj)
+#with open("test_data_v3/config.json") as f:
+#    obj = model.DataConfig(**json.load(f))
+#    debug(obj)
 
 
 def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
@@ -27,7 +27,7 @@ def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
             publishedName = old_image.publishedName,
             gender = old_image.gender,
             alignmentSpace = VNC_ALIGNMENT_SPACE if "VNC" in old_image.imageURL else BRAIN_ALIGNMENT_SPACE,
-            neuronType = old_image.neuronType,
+            tttttttttt = old_image.neuronType,
             neuronInstance = old_image.neuronInstance,
             files = model.Files(
                 ColorDepthMip = img + old_image.imageURL,
@@ -203,4 +203,63 @@ def upgrade_ppp_matches(ppp_matches : legacy_model.PPPMatches):
 
 if __name__ == '__main__':
 
-    pass
+    import os
+
+    data_version = "2.4.0"
+    by_body_dir = f"/nrs/neuronbridge/v{data_version}/brain/mips/em_bodies"
+    by_line_dir = f"/nrs/neuronbridge/v{data_version}/brain/mips/all_mcfo_lines"
+    match_dirs = [
+        f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flyem-vs-flylight",
+        f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flylight-vs-flyem",
+        f"/nrs/neuronbridge/v{data_version}/brain/pppresults/flyem-to-flylight.public"
+    ]
+
+    data_version_vnc = "2.3.0-pre"
+    by_body_dir_vnc = f"/nrs/neuronbridge/v{data_version_vnc}/vnc/mips/em_bodies"
+    by_line_dir_vnc = f"/nrs/neuronbridge/v{data_version_vnc}/vnc/mips/gen1_mcfo_lines"
+
+    new_version = "3.0.0"
+
+    def convert(path, convert_lambda):
+        with open(path) as f:
+            obj = convert_lambda(json.load(f))
+        newpath = path.replace(data_version, new_version).replace(data_version_vnc, new_version)
+        if path == newpath:
+            raise Exception("Cannot write back to same path: "+path)
+        if new_version not in newpath:
+            raise Exception("New path must contain new version: "+newpath)
+        os.makedirs(os.path.dirname(newpath), exist_ok=True)
+        with open(newpath, "w") as w:
+            json.dump(obj.dict(exclude_unset=True), w, indent=2)
+        return newpath
+
+    def convert_all(path, convert_lambda):
+        for root, dirs, files in os.walk(path):
+            for filename in files:
+                try:
+                    filepath = f"{root}/{filename}"
+                    newpath = convert(filepath, convert_lambda)
+                    print(f"Wrote {newpath}")
+                except Exception as err:
+                    print(f"Error converting {filepath}\n", err)
+                    raise err
+
+    #convert_all(by_body_dir, lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))
+    #convert_all(by_line_dir, lambda x: upgrade_lm_lookup(legacy_model.LMImageLookup(**x)))
+    convert_all(by_body_dir_vnc, lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))
+    #convert_all(by_line_dir_vnc, lambda x: upgrade_lm_lookup(legacy_model.LMImageLookup(**x)))
+
+
+    #convert("em-body-vnc.json", lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))
+    #convert("mcfo-line.json", lambda x: upgrade_lm_lookup(legacy_model.LMImageLookup(**x)))
+    #convert("mcfo-line-vnc.json", lambda x: upgrade_lm_lookup(legacy_model.LMImageLookup(**x)))
+    #convert("flyem-flylight.json", lambda x: upgrade_cds_matches(legacy_model.CDSMatches(**x)))
+    #convert("flyem-flylight-vnc.json", lambda x: upgrade_cds_matches(legacy_model.CDSMatches(**x)))
+    #convert("flylight-flyem.json", lambda x: upgrade_cds_matches(legacy_model.CDSMatches(**x)))
+    #convert("flylight-flyem-vnc.json", lambda x: upgrade_cds_matches(legacy_model.CDSMatches(**x)))
+    #convert("pppresult.json", lambda x: upgrade_ppp_matches(legacy_model.PPPMatches(**x)))
+    #convert("pppresult-vnc.json", lambda x: upgrade_ppp_matches(legacy_model.PPPMatches(**x)))
+
+
+
+

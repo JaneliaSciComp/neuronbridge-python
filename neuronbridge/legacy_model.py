@@ -22,8 +22,8 @@ class EMImage(NeuronImage):
     """
     A color depth image containing a neuron body reconstructed from EM imagery.
     """
-    neuronType: str = Field(description="Neuron type name from neuPrint")
-    neuronInstance: str = Field(description="Neuron instance name from neuPrint")
+    neuronType: Optional[str] = Field(description="Neuron type name from neuPrint")
+    neuronInstance: Optional[str] = Field(description="Neuron instance name from neuPrint")
     #alignmentSpace: str (currently missing)    
 
 
@@ -41,7 +41,8 @@ class LMImage(NeuronImage):
     alignmentSpace: str = Field(description="Alignment space to which this image was registered.")
     slideCode: str = Field(description="Unique identifier for the sample that was imaged.")
     objective: str = Field(description="Magnification of the microscope objective used to imaged this image.")
-    mountingProtocol: str = Field(description="Description of the protocol used to mount the sample for imaging.")
+    # TODO: this is temporarily optional until the data can be fixed
+    mountingProtocol: Optional[str] = Field(description="Description of the protocol used to mount the sample for imaging.")
     anatomicalArea: str = Field(description="Anatomical area of the sample that was imaged.")
     channel: str = Field(description="Channel index within the full LM image stack.")
 

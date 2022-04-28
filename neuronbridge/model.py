@@ -13,8 +13,7 @@ class NeuronImage(BaseModel):
     id: str = Field(description="The unique identifier for this image.")
     libraryName: str = Field(description="Name of the image library containing this image.")
     publishedName: str = Field(description="Published name for the contents of this image. This is not a unique identifier.")
-    imageURL: str = Field(description="Path to a PNG version of the image. Relative to imageryBaseURL in the config.json.")
-    thumbnailURL: str = Field(description="Path of a PNG thumbnail of the image. Relative to thumbnailsBaseURLs in the config.json.")
+    alignmentSpace: str = Field(description="Alignment space to which this image was registered.")
     gender: Gender = Field(description="Gender of the sample imaged.")
 
 
@@ -24,7 +23,6 @@ class EMImage(NeuronImage):
     """
     neuronType: str = Field(description="Neuron type name from neuPrint")
     neuronInstance: str = Field(description="Neuron instance name from neuPrint")
-    #alignmentSpace: str (currently missing)    
 
 
 class EMImageLookup(BaseModel):
@@ -38,7 +36,6 @@ class LMImage(NeuronImage):
     """
     A color depth image of a single channel of an LM image stack.
     """
-    alignmentSpace: str = Field(description="Alignment space to which this image was registered.")
     slideCode: str = Field(description="Unique identifier for the sample that was imaged.")
     objective: str = Field(description="Magnification of the microscope objective used to imaged this image.")
     mountingProtocol: str = Field(description="Description of the protocol used to mount the sample for imaging.")
@@ -58,23 +55,25 @@ class Match(BaseModel):
     Putative matching between two NeuronImages.
     """
     id: str = Field(description="Unique identifier of the matching image.")
-    publishedName: str = Field(description="Published name for the contents of the matching image.")
-    libraryName: str = Field(description="Name of the image library containing the matching image.")
-    alignmentSpace: str = Field(description="Alignment space to which the matching image was registered.")
-    gender: str = Field(description="Gender of the sample represented in the matching image.")
-    imageStack: Optional[str] = Field(description="URL of the full LM image stack of the matching image.")
+    rank: int = Field(description="Rank of the match within the results, starting with 1. This is a consistent way to order results from best to worst regardless of algorithm.")
     mirrored: bool = Field(description="Indicates whether the target image was found within a mirrored version of the matching image.")
-    maskLibraryName: Optional[str] = Field(description="This is just a hack to get around the fact that PPP imagery is stored under the mask library name.", exclude=True)
+
 
 class Files(BaseModel):
     """
-    Files associated with a NeuronImage or Match.
+    Files associated with a NeuronImage or Match. These are either absolute URLs (e.g. starting with a protocol like http://) or relative paths. For relative paths, the first component should be replaced with its corresponding base URL from the DataConfig.
     """
-    ColorDepthMip: str = Field(description="PPPM-only. Relative path to the CDM of the best matching channel of the matching LM stack. 'LM - Best Channel CDM' in the NeuronBridge GUI.")
-    ColorDepthMipSkel: str = Field(description="PPPM-only. Relative path to CDM of the best matching channel with the matching LM segmentation fragments overlaid. 'LM - Best Channel CDM with EM overlay' in the NeuronBridge GUI.")
-    SignalMip: str = Field(description="PPPM-only. Relative path to the full MIP of all channels of the matching sample. 'LM - Sample All-Channel CDM' in the NeuronBridge GUI.")
-    SignalMipMasked: str = Field(description="PPPM-only. Relative path to an image showing LM signal content masked with the matching LM segmentation fragments. 'PPP Mask' in the NeuronBridge GUI.")
-    SignalMipMaskedSkel: str = Field(description="PPPM-only. Relative path an image showing LM signal content masked with the matching LM segmentation fragments, overlaid with the EM skeelton. 'PPP Mask with EM Overlay' in the NeuronBridge GUI.")
+    ColorDepthMip: str = Field(description="The CDM of the image. For PPPM, this is the best matching channel of the matching LM stack and called 'LM - Best Channel CDM' in the NeuronBridge GUI.")
+    ColorDepthMipThumbnail: str = Field(description="The thumbnail of the ColorDepthMip, if available.")
+    ColorDepthMipMatched: str = Field(description="PPPM-only. The CDM of the best matching channel of the matching LM stack. 'LM - Best Channel CDM' in the NeuronBridge GUI.")
+    ColorDepthMipSkel: str = Field(description="PPPM-only. The CDM of the best matching channel with the matching LM segmentation fragments overlaid. 'LM - Best Channel CDM with EM overlay' in the NeuronBridge GUI.")
+    SignalMip: str = Field(description="PPPM-only. The full MIP of all channels of the matching sample. 'LM - Sample All-Channel CDM' in the NeuronBridge GUI.")
+    SignalMipMasked: str = Field(description="PPPM-only. LM signal content masked with the matching LM segmentation fragments. 'PPP Mask' in the NeuronBridge GUI.")
+    SignalMipMaskedSkel: str = Field(description="PPPM-only. LM signal content masked with the matching LM segmentation fragments, overlaid with the EM skeleton. 'PPP Mask with EM Overlay' in the NeuronBridge GUI.")
+    SignalMipExpression: str = Field(description="MCFO-only. A representative CDM image of the full expression of the line.")
+    VisuallyLosslessStack: str = Field(description="LMImage-only. An H5J 3D image stack of all channels of the LM image.")
+    AlignedBodySWC: str = Field(description="EMImage-only, A 3D SWC skeleton of the EM body in the alignment space.")
+    AlignedBodyOBJ: str = Field(description="EMImage-only. A 3D OBJ representation of the EM body in the alignment space.")
 
 
 class PPPMatch(Match):
@@ -83,66 +82,19 @@ class PPPMatch(Match):
     """
     pppRank: float = Field(description="Fractional rank reported by the PPPM algorithm. It's generally better to use the index of the image in the results.")
     pppScore: int = Field(description="Match score reported by the PPPM algorithm.")
-    # EM->LM
-    slideCode: str = Field(description="Unique identifier for the sample that was imaged.")
-    objective: str = Field(description="Magnification of the microscope objective used to imaged this image.")
-    mountingProtocol: str = Field(description="Description of the protocol used to mount the sample for imaging.")
-    files: Files = Field(description="Files characterizing the match.")
-    #anatomicalArea: str (currently missing!)
-    # Unused fields present in the 2.4.0 JSON
-    #coverageScore: float
-    #aggregateCoverage: float
 
 
 class CDSMatch(Match):
     """
     A CDSMatch is a match generated by the CDS algorithm between an EMImage and a LMImage.
     """
-    imageURL: str = Field(description="Path to a PNG version of the image, relative to imageryBaseURL in the config.json.")
-    thumbnailURL: str = Field(description="Path of a PNG thumbnail of the image, relative to thumbnailsBaseURLs in the config.json.")
-    searchablePNG: str = Field(description="Path to a PNG version of the image that was actually matched. This is the same as imageURL if the image was not segmented or otherwise processed prior to searching.")
-    sourceSearchablePNG: Optional[str] = Field(description="Relative path to ")
     normalizedScore: float = Field(description="Match score reported by the matching algorithm")
     matchingPixels: int = Field(description="Number of matching pixels reported by the CDS algorithm")
-    # CDS LM->EM
-    neuronType: Optional[str] = Field(description="Neuron type name from neuPrint")
-    neuronInstance: Optional[str] = Field(description="Neuron instance name from neuPrint")
-    # CDS EM->LM
-    slideCode: Optional[str] = Field(description="Unique identifier for the sample that was imaged.")
-    objective: Optional[str] = Field(description="Magnification of the microscope objective used to imaged this image.")
-    mountingProtocol: Optional[str] = Field(description="Description of the protocol used to mount the sample for imaging.")
-    anatomicalArea: Optional[str] = Field(description="Anatomical area of the sample that was imaged.")
-    channel: Optional[str] = Field(description="Channel index within the full LM image stack.")
-    # Unused fields present in the 2.4.0 JSON
-    #matchingRatio: float
-    #gradientAreaGap: Optional[int] = None
-    #highExpressionArea: Optional[int] = None
-    #normalizedGapScore: Optional[float] = None
 
 
-class PPPMatches(BaseModel):
+class Matches(BaseModel):
     """
-    The results of a PPPM algorithm run on an EMImage.
+    The results of an algorithm run on an EMImage.
     """
-    maskId: str = Field(description="Unique identifier of the target image.")
-    maskPublishedName: str = Field(description="Published name for the contents of the target image.")
-    maskLibraryName: str = Field(description="Name of the image library containing the target image.")
-    neuronType: str = Field(description="Neuron type name from neuPrint")
-    neuronInstance: str = Field(description="Neuron instance name from neuPrint")
-    results: List[PPPMatch] = Field(description="List of PPPM matches.")
-
-
-class CDSMatches(BaseModel):
-    """
-    The results of a CDS algorithm run on an EMImage or LMImage.
-    """
-    maskId: str = Field(description="Unique identifier of the target image.")
-    maskPublishedName: str = Field(description="Published name for the contents of the target image.")
-    maskLibraryName: str = Field(description="Name of the image library containing the target image.")
-    maskImageStack: Optional[str] = Field(description="URL of the full LM image stack for the target image.")
-    results: List[CDSMatch] = Field(description="List of CDS matches.")
-    # Unused fields present in the 2.4.0 JSON
-    #maskImageURL: str
-    #maskSampleRef: str
-    #maskRelatedImageRefId: str
-
+    inputImage: NeuronImage = Field(description="Input image to the matching algorithm.")
+    results: List[PPPMatch] = Field(description="List of other images matching the input image.")

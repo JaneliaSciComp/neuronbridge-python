@@ -1,0 +1,1124 @@
+{
+  "results": [
+    {
+      "id": "2711777306946306059",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20190430_64_H1",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2711776871971815435",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20190430_64_H1",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2711776881673240587",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20190430_64_H1",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2711777172388839435",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20190430_64_H2",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2711777059155214347",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20190430_64_H2",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2711777021570056203",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20190430_64_H2",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2711777063634731019",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20190430_64_H3",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2711777182752964619",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20190430_64_H3",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2711777335882809355",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20190430_64_H3",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2711777304052236299",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20190430_64_H4",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2711776976783278091",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20190430_64_H4",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2711777027957981195",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20190430_64_H4",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2711776870029852683",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20190430_64_H5",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2711777098531340299",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20190430_64_H5",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2711777009171693579",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20190430_64_H5",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2728063861209956363",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20191001_63_E1",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2728063890058379275",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20191001_63_E1",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2728063910715326475",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20191001_63_E1",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2728063931699429387",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20191001_63_E10",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2728063886325448715",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20191001_63_E10",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2728063914179821579",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20191001_63_E10",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2728063913743613963",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20191001_63_E2",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2728063919594668043",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20191001_63_E2",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2728063871435669515",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20191001_63_E2",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2728063914083352587",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20191001_63_E3",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2728063894995075083",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20191001_63_E3",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2728063939639246859",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20191001_63_E3",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2728063894940549131",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20191001_63_E4",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2728063890540724235",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20191001_63_E4",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2728063938884272139",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20191001_63_E4",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2728063905912848395",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20191001_63_E5",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2728063858190057483",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20191001_63_E5",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2728063930634076171",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20191001_63_E5",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2728063931363885067",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20191001_63_E6",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2728063947008638987",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20191001_63_E6",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2728063929996541963",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20191001_63_E6",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2728063927391879179",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20191001_63_E7",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2728063947847499787",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20191001_63_E7",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2728063907426992139",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20191001_63_E7",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2728063940436164619",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20191001_63_E8",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2728063866578665483",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20191001_63_E8",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2728063911000539147",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20191001_63_E8",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2728063877492244491",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20191001_63_E9",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2728063958639443979",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20191001_63_E9",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2728063932202745867",
+      "libraryName": "FlyLight Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20191001_63_E9",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2711777758010146827",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20161007_19_A1",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2711777746270289931",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20161007_19_A1",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2711777845260058635",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20161007_19_A1",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2711777739001561099",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20161007_19_A2",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2711777885571514379",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20161007_19_A2",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2711777907256066059",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20161007_19_A2",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2711777830047318027",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20161007_19_A2",
+      "objective": "63x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2711777748887535627",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20161007_19_A2",
+      "objective": "63x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2711777815983816715",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20161007_19_A2",
+      "objective": "63x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2711777846300246027",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20161007_19_A3",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2711777801630908427",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20161007_19_A3",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2711777849047515147",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20161007_19_A3",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2711777789861691403",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A4-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A4-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20161007_19_A4",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2711777746161238027",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A4-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A4-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20161007_19_A4",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2711777875723288587",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20161007_19_A5",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2711777746748440587",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20161007_19_A5",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2711777861907251211",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20161007_19_A5",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2711777760258293771",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A6-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A6-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20161007_19_A6",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2711777950683889675",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A6-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A6-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20161007_19_A6",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2711777882325123083",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A7-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A7-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20161007_19_A7",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2711777776305700875",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A7-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A7-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20161007_19_A7",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2711777842089164811",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A8-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A8-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20161007_19_A8",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    },
+    {
+      "id": "2711777768865005579",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg"
+      },
+      "slideCode": "20161007_19_B1",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 1
+    },
+    {
+      "id": "2711777911358095371",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg"
+      },
+      "slideCode": "20161007_19_B1",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 2
+    },
+    {
+      "id": "2711777927980122123",
+      "libraryName": "FlyLight Annotator Gen1 MCFO",
+      "publishedName": "R77F05",
+      "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "gender": "f",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg"
+      },
+      "slideCode": "20161007_19_B1",
+      "objective": "20x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "Brain",
+      "channel": 3
+    }
+  ]
+}

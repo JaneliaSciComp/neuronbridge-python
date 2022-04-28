@@ -1,0 +1,17 @@
+{
+  "results": [
+    {
+      "id": "2988247199299817603",
+      "libraryName": "FlyEM_VNC_v0.6",
+      "publishedName": "19782",
+      "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+      "gender": "m",
+      "files": {
+        "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyEM_VNC_v0.6/19782-JRC2018_VNC_Unisex_40x_DS-CDM.png",
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyEM_VNC_v0.6/19782-JRC2018_VNC_Unisex_40x_DS-CDM.jpg"
+      },
+      "neuronType": "pct_15173",
+      "neuronInstance": "15173_R"
+    }
+  ]
+}

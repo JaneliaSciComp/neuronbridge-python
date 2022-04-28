@@ -1,0 +1,12 @@
+{
+    "prefixes": {
+        "img": "https://s3.amazonaws.com/janelia-flylight-color-depth",
+        "thm": "https://s3.amazonaws.com/janelia-flylight-color-depth-thumbnails",
+        "ppp": "https://s3.amazonaws.com/janelia-ppp-match-prod",
+        "swc": "https://s3.amazonaws.com/janelia-flylight-color-depth/SWC"
+    },
+    "anatomicalRegions": [
+        { "label": "Brain", "value": "brain" },
+        { "label": "VNC", "value": "vnc", "disabled": true}
+    ]
+}

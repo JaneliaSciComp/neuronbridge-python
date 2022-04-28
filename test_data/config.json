@@ -1,0 +1,10 @@
+{
+    "imageryBaseURL": "https://s3.amazonaws.com/janelia-flylight-color-depth",
+    "thumbnailsBaseURLs": "https://s3.amazonaws.com/janelia-flylight-color-depth-thumbnails",
+    "pppImageryBaseURL": "https://s3.amazonaws.com/janelia-ppp-match-prod",
+    "swcBaseURL": "https://s3.amazonaws.com/janelia-flylight-color-depth/SWC",
+    "anatomicalRegions": [
+      { "label": "Brain", "value": "brain" },
+      { "label": "VNC", "value": "vnc", "disabled": true}
+    ]
+}

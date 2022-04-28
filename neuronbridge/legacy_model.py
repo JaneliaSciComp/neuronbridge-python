@@ -88,7 +88,8 @@ class PPPMatch(Match):
     objective: str = Field(description="Magnification of the microscope objective used to imaged this image.")
     mountingProtocol: str = Field(description="Description of the protocol used to mount the sample for imaging.")
     files: Files = Field(description="Files characterizing the match.")
-    #anatomicalArea: str (currently missing!)
+    # currently missing for non-ppp results
+    anatomicalArea: Optional[str] = Field(description="Anatomical area of the sample that was imaged.")
     # Unused fields present in the 2.4.0 JSON
     #coverageScore: float
     #aggregateCoverage: float

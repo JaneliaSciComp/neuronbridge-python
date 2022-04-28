@@ -1,0 +1,3616 @@
+{
+  "inputImage": {
+    "id": "2941779935099879970",
+    "libraryName": "FlyEM_Hemibrain_v1.2.1",
+    "publishedName": "2384750665",
+    "alignmentSpace": "JRC2018_Unisex_20x_HR",
+    "gender": "m",
+    "files": {
+      "AlignedBodySWC": "$swc/FlyEM_Hemibrain_v1.2.1/2384750665.swc"
+    },
+    "neuronType": null,
+    "neuronInstance": null
+  },
+  "results": [
+    {
+      "image": {
+        "id": "2588090337243168866",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R20H11",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R20H11/R20H11-20180918_62_A5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180918_62_A5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 0.0,
+      "pppScore": 144
+    },
+    {
+      "image": {
+        "id": "2483116733896851554",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT038778",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT038778-20171128_62_C3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT038778-20171128_62_C3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT038778-20171128_62_C3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT038778-20171128_62_C3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT038778-20171128_62_C3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT038778/VT038778-20171128_62_C3-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20171128_62_C3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 1.0,
+      "pppScore": 136
+    },
+    {
+      "image": {
+        "id": "2713948410095861858",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R83E05",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R83E05-20190904_61_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R83E05-20190904_61_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R83E05-20190904_61_C6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R83E05-20190904_61_C6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R83E05-20190904_61_C6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83E05/R83E05-20190904_61_C6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190904_61_C6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 2.0,
+      "pppScore": 134
+    },
+    {
+      "image": {
+        "id": "2731363390583734370",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R19F06",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R19F06-20191018_61_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R19F06-20191018_61_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R19F06-20191018_61_A5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R19F06-20191018_61_A5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R19F06-20191018_61_A5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R19F06/R19F06-20191018_61_A5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191018_61_A5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 3.0,
+      "pppScore": 134
+    },
+    {
+      "image": {
+        "id": "2718618894683078754",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R45D05",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R45D05-20190910_62_I10-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R45D05-20190910_62_I10-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R45D05-20190910_62_I10-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R45D05-20190910_62_I10-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R45D05-20190910_62_I10-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R45D05/R45D05-20190910_62_I10-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190910_62_I10",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 4.0,
+      "pppScore": 133
+    },
+    {
+      "image": {
+        "id": "2500862620941156450",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT057230",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT057230/VT057230-20180117_62_C3-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180117_62_C3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 5.0,
+      "pppScore": 131
+    },
+    {
+      "image": {
+        "id": "2765063859277398114",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT057231",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT057231-20200114_61_A2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT057231-20200114_61_A2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT057231-20200114_61_A2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT057231-20200114_61_A2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT057231-20200114_61_A2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT057231/VT057231-20200114_61_A2-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200114_61_A2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 6.0,
+      "pppScore": 130
+    },
+    {
+      "image": {
+        "id": "2541774293314830434",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT016848",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT016848-20180522_64_A6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT016848-20180522_64_A6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT016848-20180522_64_A6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT016848-20180522_64_A6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT016848-20180522_64_A6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT016848/VT016848-20180522_64_A6-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180522_64_A6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 7.0,
+      "pppScore": 130
+    },
+    {
+      "image": {
+        "id": "2508093969695506530",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT038983",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT038983-20180202_64_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT038983-20180202_64_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT038983-20180202_64_B1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT038983-20180202_64_B1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT038983-20180202_64_B1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT038983/VT038983-20180202_64_B1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180202_64_B1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 8.0,
+      "pppScore": 129
+    },
+    {
+      "image": {
+        "id": "2582348458891411554",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R12C07",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R12C07/R12C07-20180831_61_D3-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180831_61_D3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 9.0,
+      "pppScore": 129
+    },
+    {
+      "image": {
+        "id": "2765043596401836130",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT029749",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT029749-20200124_64_E9-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT029749-20200124_64_E9-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT029749-20200124_64_E9-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT029749-20200124_64_E9-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT029749-20200124_64_E9-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT029749/VT029749-20200124_64_E9-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200124_64_E9",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 10.0,
+      "pppScore": 127
+    },
+    {
+      "image": {
+        "id": "2671882169147719778",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT050660",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT050660-20190510_61_H6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT050660-20190510_61_H6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT050660-20190510_61_H6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT050660-20190510_61_H6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT050660-20190510_61_H6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT050660/VT050660-20190510_61_H6-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190510_61_H6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 11.0,
+      "pppScore": 127
+    },
+    {
+      "image": {
+        "id": "2582348459851907170",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R12C07",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R12C07/R12C07-20180831_61_D6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180831_61_D6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 12.0,
+      "pppScore": 127
+    },
+    {
+      "image": {
+        "id": "2754480585853370466",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT007174",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT007174-20191220_62_G7-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT007174-20191220_62_G7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT007174-20191220_62_G7-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT007174-20191220_62_G7-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT007174-20191220_62_G7-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT007174/VT007174-20191220_62_G7-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191220_62_G7",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 13.0,
+      "pppScore": 127
+    },
+    {
+      "image": {
+        "id": "2818229467317534818",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT045607",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT045607/VT045607-20200310_61_H4-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200310_61_H4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 14.0,
+      "pppScore": 126
+    },
+    {
+      "image": {
+        "id": "2427644816394289250",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT011125",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT011125-20170615_61_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT011125-20170615_61_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT011125-20170615_61_F1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT011125-20170615_61_F1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT011125-20170615_61_F1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT011125/VT011125-20170615_61_F1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20170615_61_F1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 15.0,
+      "pppScore": 126
+    },
+    {
+      "image": {
+        "id": "2518614268035727458",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT015432",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT015432-20180316_62_G1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT015432-20180316_62_G1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT015432-20180316_62_G1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT015432-20180316_62_G1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT015432-20180316_62_G1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT015432/VT015432-20180316_62_G1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180316_62_G1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 16.0,
+      "pppScore": 124
+    },
+    {
+      "image": {
+        "id": "2500862620576252002",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT057230",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT057230/VT057230-20180117_62_C1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180117_62_C1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 17.0,
+      "pppScore": 124
+    },
+    {
+      "image": {
+        "id": "2613570726896074850",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R13E04",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R13E04-20181121_65_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R13E04-20181121_65_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R13E04-20181121_65_H5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R13E04-20181121_65_H5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R13E04-20181121_65_H5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R13E04/R13E04-20181121_65_H5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20181121_65_H5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 18.0,
+      "pppScore": 124
+    },
+    {
+      "image": {
+        "id": "2714269199722610786",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R95H02",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R95H02-20190910_61_C3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R95H02-20190910_61_C3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R95H02-20190910_61_C3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R95H02-20190910_61_C3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R95H02-20190910_61_C3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R95H02/R95H02-20190910_61_C3-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190910_61_C3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 19.0,
+      "pppScore": 124
+    },
+    {
+      "image": {
+        "id": "2711404969172402274",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R59D04",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R59D04-20190820_65_D5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R59D04-20190820_65_D5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R59D04-20190820_65_D5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R59D04-20190820_65_D5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R59D04-20190820_65_D5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R59D04/R59D04-20190820_65_D5-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190820_65_D5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 20.0,
+      "pppScore": 122
+    },
+    {
+      "image": {
+        "id": "2531307447641964642",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT040548",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT040548-20180410_62_G1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT040548-20180410_62_G1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT040548-20180410_62_G1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT040548-20180410_62_G1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT040548-20180410_62_G1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT040548/VT040548-20180410_62_G1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180410_62_G1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 20.5,
+      "pppScore": 122
+    },
+    {
+      "image": {
+        "id": "2729120288041074786",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R16G01",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R16G01-20191011_61_B2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R16G01-20191011_61_B2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R16G01-20191011_61_B2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R16G01-20191011_61_B2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R16G01-20191011_61_B2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R16G01/R16G01-20191011_61_B2-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191011_61_B2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 21.0,
+      "pppScore": 121
+    },
+    {
+      "image": {
+        "id": "2764996055769546850",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT056313",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT056313-20200117_65_D1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT056313-20200117_65_D1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT056313-20200117_65_D1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT056313-20200117_65_D1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT056313-20200117_65_D1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT056313/VT056313-20200117_65_D1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200117_65_D1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 22.0,
+      "pppScore": 121
+    },
+    {
+      "image": {
+        "id": "2662850878850990178",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R94B04",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R94B04-20190419_63_J3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R94B04-20190419_63_J3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R94B04-20190419_63_J3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R94B04-20190419_63_J3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R94B04-20190419_63_J3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R94B04/R94B04-20190419_63_J3-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190419_63_J3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 23.0,
+      "pppScore": 121
+    },
+    {
+      "image": {
+        "id": "2731351216201138274",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R40F11",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R40F11-20191008_61_H8-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R40F11-20191008_61_H8-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R40F11-20191008_61_H8-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R40F11-20191008_61_H8-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R40F11-20191008_61_H8-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R40F11/R40F11-20191008_61_H8-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191008_61_H8",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 24.0,
+      "pppScore": 121
+    },
+    {
+      "image": {
+        "id": "2627948535819010146",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R26C12",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R26C12-20181218_61_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R26C12-20181218_61_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R26C12-20181218_61_A1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R26C12-20181218_61_A1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R26C12-20181218_61_A1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R26C12/R26C12-20181218_61_A1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20181218_61_A1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 25.0,
+      "pppScore": 121
+    },
+    {
+      "image": {
+        "id": "2580249044538359906",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R11B09",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R11B09/R11B09-20180828_62_E6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180828_62_E6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 26.0,
+      "pppScore": 121
+    },
+    {
+      "image": {
+        "id": "2754132285425975394",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT006395",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT006395-20191218_63_K4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT006395-20191218_63_K4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT006395-20191218_63_K4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT006395-20191218_63_K4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT006395-20191218_63_K4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT006395/VT006395-20191218_63_K4-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191218_63_K4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 27.0,
+      "pppScore": 120
+    },
+    {
+      "image": {
+        "id": "2571860496416243810",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT058704",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT058704-20180803_61_A3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT058704-20180803_61_A3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT058704-20180803_61_A3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT058704-20180803_61_A3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT058704-20180803_61_A3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT058704/VT058704-20180803_61_A3-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180803_61_A3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 28.0,
+      "pppScore": 120
+    },
+    {
+      "image": {
+        "id": "2647968348922445922",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R64E01",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R64E01-20190221_61_A2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R64E01-20190221_61_A2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R64E01-20190221_61_A2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R64E01-20190221_61_A2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R64E01-20190221_61_A2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R64E01/R64E01-20190221_61_A2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190221_61_A2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 28.5,
+      "pppScore": 120
+    },
+    {
+      "image": {
+        "id": "2526189354620026978",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT050306",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT050306-20180323_64_G5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT050306-20180323_64_G5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT050306-20180323_64_G5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT050306-20180323_64_G5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT050306-20180323_64_G5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT050306/VT050306-20180323_64_G5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180323_64_G5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 29.0,
+      "pppScore": 119
+    },
+    {
+      "image": {
+        "id": "2777269063615774818",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT017191",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT017191-20200228_61_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT017191-20200228_61_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT017191-20200228_61_B1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT017191-20200228_61_B1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT017191-20200228_61_B1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT017191/VT017191-20200228_61_B1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200228_61_B1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 30.0,
+      "pppScore": 119
+    },
+    {
+      "image": {
+        "id": "2635661603625762914",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R43C10",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R43C10-20190205_63_D4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R43C10-20190205_63_D4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R43C10-20190205_63_D4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R43C10-20190205_63_D4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R43C10-20190205_63_D4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R43C10/R43C10-20190205_63_D4-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190205_63_D4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 31.0,
+      "pppScore": 119
+    },
+    {
+      "image": {
+        "id": "2754132258804727906",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R81G11",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R81G11-20191218_63_I3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R81G11-20191218_63_I3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R81G11-20191218_63_I3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R81G11-20191218_63_I3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R81G11-20191218_63_I3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R81G11/R81G11-20191218_63_I3-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191218_63_I3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 32.0,
+      "pppScore": 119
+    },
+    {
+      "image": {
+        "id": "2547588619883774050",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT037727",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT037727-20180530_62_G5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT037727-20180530_62_G5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT037727-20180530_62_G5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT037727-20180530_62_G5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT037727-20180530_62_G5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT037727/VT037727-20180530_62_G5-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180530_62_G5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 33.0,
+      "pppScore": 119
+    },
+    {
+      "image": {
+        "id": "2671831321600327778",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R50C12",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R50C12-20190514_64_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R50C12-20190514_64_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R50C12-20190514_64_D6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R50C12-20190514_64_D6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R50C12-20190514_64_D6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R50C12/R50C12-20190514_64_D6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190514_64_D6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 34.0,
+      "pppScore": 118
+    },
+    {
+      "image": {
+        "id": "2634868871479165026",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R51C07",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R51C07-20190118_63_J3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R51C07-20190118_63_J3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R51C07-20190118_63_J3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R51C07-20190118_63_J3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R51C07-20190118_63_J3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R51C07/R51C07-20190118_63_J3-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190118_63_J3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 35.0,
+      "pppScore": 118
+    },
+    {
+      "image": {
+        "id": "2557759723709399138",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT007396",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT007396-20180703_62_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT007396-20180703_62_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT007396-20180703_62_A1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT007396-20180703_62_A1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT007396-20180703_62_A1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT007396/VT007396-20180703_62_A1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180703_62_A1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 36.0,
+      "pppScore": 118
+    },
+    {
+      "image": {
+        "id": "2491078326643327074",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT029361",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT029361-20171222_69_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT029361-20171222_69_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT029361-20171222_69_E4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT029361-20171222_69_E4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT029361-20171222_69_E4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT029361/VT029361-20171222_69_E4-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20171222_69_E4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 37.0,
+      "pppScore": 118
+    },
+    {
+      "image": {
+        "id": "2556314504564572258",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT043796",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT043796-20180601_63_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT043796-20180601_63_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT043796-20180601_63_B1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT043796-20180601_63_B1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT043796-20180601_63_B1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT043796/VT043796-20180601_63_B1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180601_63_B1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 38.0,
+      "pppScore": 118
+    },
+    {
+      "image": {
+        "id": "2534895333557665890",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT015783",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT015783-20180501_61_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT015783-20180501_61_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT015783-20180501_61_E4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT015783-20180501_61_E4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT015783-20180501_61_E4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT015783/VT015783-20180501_61_E4-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180501_61_E4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 39.0,
+      "pppScore": 117
+    },
+    {
+      "image": {
+        "id": "2476233447765442658",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT007752",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT007752-20171114_62_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT007752-20171114_62_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT007752-20171114_62_D6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT007752-20171114_62_D6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT007752-20171114_62_D6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT007752/VT007752-20171114_62_D6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20171114_62_D6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 40.0,
+      "pppScore": 117
+    },
+    {
+      "image": {
+        "id": "2770455122369577058",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT004438",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT004438-20200131_63_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT004438-20200131_63_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT004438-20200131_63_D6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT004438-20200131_63_D6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT004438-20200131_63_D6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT004438/VT004438-20200131_63_D6-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200131_63_D6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 41.0,
+      "pppScore": 117
+    },
+    {
+      "image": {
+        "id": "2590325365100511330",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT000817",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT000817-20180925_62_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT000817-20180925_62_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT000817-20180925_62_D6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT000817-20180925_62_D6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT000817-20180925_62_D6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT000817/VT000817-20180925_62_D6-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180925_62_D6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 42.0,
+      "pppScore": 117
+    },
+    {
+      "image": {
+        "id": "2756635843648028770",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT049245",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT049245-20191220_68_C8-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT049245-20191220_68_C8-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT049245-20191220_68_C8-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT049245-20191220_68_C8-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT049245-20191220_68_C8-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT049245/VT049245-20191220_68_C8-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191220_68_C8",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 43.0,
+      "pppScore": 117
+    },
+    {
+      "image": {
+        "id": "2613558558293229666",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R14G03",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R14G03-20180905_65_J1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R14G03-20180905_65_J1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R14G03-20180905_65_J1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R14G03-20180905_65_J1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R14G03-20180905_65_J1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R14G03/R14G03-20180905_65_J1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180905_65_J1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 43.5,
+      "pppScore": 117
+    },
+    {
+      "image": {
+        "id": "2531319216498278498",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT016281",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT016281-20180413_64_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT016281-20180413_64_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT016281-20180413_64_F1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT016281-20180413_64_F1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT016281-20180413_64_F1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT016281/VT016281-20180413_64_F1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180413_64_F1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 44.0,
+      "pppScore": 116
+    },
+    {
+      "image": {
+        "id": "2622545884906258530",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R11B09",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R11B09/R11B09-20180828_62_E4-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180828_62_E4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 44.5,
+      "pppScore": 117
+    },
+    {
+      "image": {
+        "id": "2695798554034700386",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R74D06",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R74D06-20190705_61_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R74D06-20190705_61_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R74D06-20190705_61_D6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R74D06-20190705_61_D6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R74D06-20190705_61_D6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R74D06/R74D06-20190705_61_D6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190705_61_D6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 45.0,
+      "pppScore": 116
+    },
+    {
+      "image": {
+        "id": "2591817472021626978",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R22E04",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R22E04-20180921_62_E3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R22E04-20180921_62_E3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R22E04-20180921_62_E3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R22E04-20180921_62_E3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R22E04-20180921_62_E3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R22E04/R22E04-20180921_62_E3-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180921_62_E3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 46.0,
+      "pppScore": 116
+    },
+    {
+      "image": {
+        "id": "2772578214407569506",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT014430",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT014430/VT014430-20200211_61_H5-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200211_61_H5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 47.0,
+      "pppScore": 116
+    },
+    {
+      "image": {
+        "id": "2582348459533140066",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R12C07",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_D5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R12C07/R12C07-20180831_61_D5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180831_61_D5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 48.0,
+      "pppScore": 116
+    },
+    {
+      "image": {
+        "id": "2506644805484806242",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT019753",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT019753-20180130_61_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT019753-20180130_61_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT019753-20180130_61_F1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT019753-20180130_61_F1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT019753-20180130_61_F1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT019753/VT019753-20180130_61_F1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180130_61_F1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 49.0,
+      "pppScore": 116
+    },
+    {
+      "image": {
+        "id": "2579059762960269410",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT049245",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT049245-20180821_61_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT049245-20180821_61_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT049245-20180821_61_F1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT049245-20180821_61_F1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT049245-20180821_61_F1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT049245/VT049245-20180821_61_F1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180821_61_F1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 50.0,
+      "pppScore": 116
+    },
+    {
+      "image": {
+        "id": "2614957353044279394",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R19F06",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R19F06-20181207_61_E1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R19F06-20181207_61_E1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R19F06-20181207_61_E1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R19F06-20181207_61_E1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R19F06-20181207_61_E1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R19F06/R19F06-20181207_61_E1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20181207_61_E1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 50.5,
+      "pppScore": 116
+    },
+    {
+      "image": {
+        "id": "2731354098145165410",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R71B08",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R71B08-20191008_63_G3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R71B08-20191008_63_G3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R71B08-20191008_63_G3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R71B08-20191008_63_G3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R71B08-20191008_63_G3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R71B08/R71B08-20191008_63_G3-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191008_63_G3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 51.0,
+      "pppScore": 116
+    },
+    {
+      "image": {
+        "id": "2480585996610044002",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT058387",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT058387-20171114_63_G6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT058387-20171114_63_G6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT058387-20171114_63_G6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT058387-20171114_63_G6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT058387-20171114_63_G6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT058387/VT058387-20171114_63_G6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20171114_63_G6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 52.0,
+      "pppScore": 116
+    },
+    {
+      "image": {
+        "id": "2668261064889598050",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R78B06",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R78B06-20190426_63_I2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R78B06-20190426_63_I2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R78B06-20190426_63_I2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R78B06-20190426_63_I2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R78B06-20190426_63_I2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R78B06/R78B06-20190426_63_I2-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190426_63_I2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 53.0,
+      "pppScore": 116
+    },
+    {
+      "image": {
+        "id": "2587110211881795682",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R16E12",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R16E12-20180907_63_D1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R16E12-20180907_63_D1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R16E12-20180907_63_D1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R16E12-20180907_63_D1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R16E12-20180907_63_D1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R16E12/R16E12-20180907_63_D1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180907_63_D1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 54.0,
+      "pppScore": 115
+    },
+    {
+      "image": {
+        "id": "2818229469611819106",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT045607",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT045607/VT045607-20200310_61_H6-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200310_61_H6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 55.0,
+      "pppScore": 115
+    },
+    {
+      "image": {
+        "id": "2671835297142014050",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT039498",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT039498-20190507_62_D5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT039498-20190507_62_D5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT039498-20190507_62_D5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT039498-20190507_62_D5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT039498-20190507_62_D5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT039498/VT039498-20190507_62_D5-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190507_62_D5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 57.0,
+      "pppScore": 115
+    },
+    {
+      "image": {
+        "id": "2463177829118902370",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT020370",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT020370-20171006_62_G5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT020370-20171006_62_G5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT020370-20171006_62_G5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT020370-20171006_62_G5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT020370-20171006_62_G5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT020370/VT020370-20171006_62_G5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20171006_62_G5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 58.0,
+      "pppScore": 115
+    },
+    {
+      "image": {
+        "id": "2777282857154904162",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT056816",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT056816-20200225_61_I7-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT056816-20200225_61_I7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT056816-20200225_61_I7-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT056816-20200225_61_I7-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT056816-20200225_61_I7-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT056816/VT056816-20200225_61_I7-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200225_61_I7",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 59.5,
+      "pppScore": 116
+    },
+    {
+      "image": {
+        "id": "2582347934884429922",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT022985",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT022985-20180814_64_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT022985-20180814_64_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT022985-20180814_64_F1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT022985-20180814_64_F1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT022985-20180814_64_F1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT022985/VT022985-20180814_64_F1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180814_64_F1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 60.0,
+      "pppScore": 115
+    },
+    {
+      "image": {
+        "id": "2562806405069275234",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT016966",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT016966-20180710_61_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT016966-20180710_61_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT016966-20180710_61_C2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT016966-20180710_61_C2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT016966-20180710_61_C2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT016966/VT016966-20180710_61_C2-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180710_61_C2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 61.0,
+      "pppScore": 115
+    },
+    {
+      "image": {
+        "id": "2749421709235847266",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT056867",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT056867-20191218_66_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT056867-20191218_66_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT056867-20191218_66_B1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT056867-20191218_66_B1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT056867-20191218_66_B1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT056867/VT056867-20191218_66_B1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191218_66_B1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 62.0,
+      "pppScore": 115
+    },
+    {
+      "image": {
+        "id": "2465286942648959010",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT008142",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT008142-20171013_62_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT008142-20171013_62_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT008142-20171013_62_H5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT008142-20171013_62_H5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT008142-20171013_62_H5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT008142/VT008142-20171013_62_H5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20171013_62_H5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 63.0,
+      "pppScore": 115
+    },
+    {
+      "image": {
+        "id": "2711730641786896482",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R56G08",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R56G08-20190820_64_E1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R56G08-20190820_64_E1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R56G08-20190820_64_E1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R56G08-20190820_64_E1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R56G08-20190820_64_E1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R56G08/R56G08-20190820_64_E1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190820_64_E1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 64.0,
+      "pppScore": 114
+    },
+    {
+      "image": {
+        "id": "2770455108209606754",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT003238",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT003238-20200131_63_C3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT003238-20200131_63_C3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT003238-20200131_63_C3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT003238-20200131_63_C3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT003238-20200131_63_C3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT003238/VT003238-20200131_63_C3-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200131_63_C3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 65.0,
+      "pppScore": 114
+    },
+    {
+      "image": {
+        "id": "2516767263122522210",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT044326",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT044326-20180306_61_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT044326-20180306_61_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT044326-20180306_61_H5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT044326-20180306_61_H5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT044326-20180306_61_H5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT044326/VT044326-20180306_61_H5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180306_61_H5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 66.0,
+      "pppScore": 114
+    },
+    {
+      "image": {
+        "id": "2432746924818825314",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT034804",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT034804-20170721_66_A2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT034804-20170721_66_A2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT034804-20170721_66_A2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT034804-20170721_66_A2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT034804-20170721_66_A2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT034804/VT034804-20170721_66_A2-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20170721_66_A2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 67.0,
+      "pppScore": 114
+    },
+    {
+      "image": {
+        "id": "2518883507204259938",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT050246",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT050246-20180309_62_A6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT050246-20180309_62_A6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT050246-20180309_62_A6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT050246-20180309_62_A6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT050246-20180309_62_A6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT050246/VT050246-20180309_62_A6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180309_62_A6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 67.5,
+      "pppScore": 115
+    },
+    {
+      "image": {
+        "id": "2491078327784177762",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT030303",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT030303-20171222_69_F5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT030303-20171222_69_F5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT030303-20171222_69_F5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT030303-20171222_69_F5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT030303-20171222_69_F5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT030303/VT030303-20171222_69_F5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20171222_69_F5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 69.0,
+      "pppScore": 114
+    },
+    {
+      "image": {
+        "id": "2518630378793599074",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT061711",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT061711-20180309_63_F4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT061711-20180309_63_F4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT061711-20180309_63_F4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT061711-20180309_63_F4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT061711-20180309_63_F4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT061711/VT061711-20180309_63_F4-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180309_63_F4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 69.5,
+      "pppScore": 115
+    },
+    {
+      "image": {
+        "id": "2744382551249387618",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT006391",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT006391-20191115_61_A7-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT006391-20191115_61_A7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT006391-20191115_61_A7-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT006391-20191115_61_A7-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT006391-20191115_61_A7-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT006391/VT006391-20191115_61_A7-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191115_61_A7",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 70.0,
+      "pppScore": 114
+    },
+    {
+      "image": {
+        "id": "2608154846766825570",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R31E03",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R31E03-20181106_64_D1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R31E03-20181106_64_D1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R31E03-20181106_64_D1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R31E03-20181106_64_D1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R31E03-20181106_64_D1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R31E03/R31E03-20181106_64_D1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20181106_64_D1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 71.0,
+      "pppScore": 114
+    },
+    {
+      "image": {
+        "id": "2495794969646727266",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT040569",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT040569-20180112_61_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT040569-20180112_61_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT040569-20180112_61_B1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT040569-20180112_61_B1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT040569-20180112_61_B1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT040569/VT040569-20180112_61_B1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180112_61_B1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 72.0,
+      "pppScore": 114
+    },
+    {
+      "image": {
+        "id": "2549420494302478434",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT049493",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT049493-20180605_62_B3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT049493-20180605_62_B3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT049493-20180605_62_B3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT049493-20180605_62_B3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT049493-20180605_62_B3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT049493/VT049493-20180605_62_B3-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180605_62_B3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 73.0,
+      "pppScore": 114
+    },
+    {
+      "image": {
+        "id": "2731363388822126690",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R19F06",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R19F06-20191018_61_A3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R19F06-20191018_61_A3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R19F06-20191018_61_A3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R19F06-20191018_61_A3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R19F06-20191018_61_A3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R19F06/R19F06-20191018_61_A3-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191018_61_A3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 74.0,
+      "pppScore": 113
+    },
+    {
+      "image": {
+        "id": "2722604689408393314",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R89F06",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R89F06-20191001_62_C9-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R89F06-20191001_62_C9-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R89F06-20191001_62_C9-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R89F06-20191001_62_C9-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R89F06-20191001_62_C9-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R89F06/R89F06-20191001_62_C9-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191001_62_C9",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 75.0,
+      "pppScore": 113
+    },
+    {
+      "image": {
+        "id": "2422500461174063249",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT002063",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT002063-20170525_62_D4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT002063-20170525_62_D4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT002063-20170525_62_D4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT002063-20170525_62_D4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT002063-20170525_62_D4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT002063/VT002063-20170525_62_D4-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20170525_62_D4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 76.0,
+      "pppScore": 113
+    },
+    {
+      "image": {
+        "id": "2627948537148604514",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R26C12",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R26C12-20181218_61_A3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R26C12-20181218_61_A3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R26C12-20181218_61_A3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R26C12-20181218_61_A3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R26C12-20181218_61_A3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R26C12/R26C12-20181218_61_A3-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20181218_61_A3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 77.0,
+      "pppScore": 113
+    },
+    {
+      "image": {
+        "id": "2653319150495072354",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R48E02",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R48E02-20190315_63_F2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R48E02-20190315_63_F2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R48E02-20190315_63_F2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R48E02-20190315_63_F2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R48E02-20190315_63_F2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R48E02/R48E02-20190315_63_F2-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190315_63_F2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 79.0,
+      "pppScore": 113
+    },
+    {
+      "image": {
+        "id": "2735372703690129506",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R71B08",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R71B08-20191029_64_D4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R71B08-20191029_64_D4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R71B08-20191029_64_D4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R71B08-20191029_64_D4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R71B08-20191029_64_D4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R71B08/R71B08-20191029_64_D4-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191029_64_D4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 80.0,
+      "pppScore": 113
+    },
+    {
+      "image": {
+        "id": "2772578216622162018",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT014430",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H7-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H7-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H7-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H7-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT014430/VT014430-20200211_61_H7-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200211_61_H7",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 81.0,
+      "pppScore": 113
+    },
+    {
+      "image": {
+        "id": "2582348460174868578",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R12C07",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_E1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_E1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_E1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_E1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R12C07-20180831_61_E1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R12C07/R12C07-20180831_61_E1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180831_61_E1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 82.0,
+      "pppScore": 113
+    },
+    {
+      "image": {
+        "id": "2628411636150435938",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R27B03",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R27B03-20181221_62_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R27B03-20181221_62_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R27B03-20181221_62_C6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R27B03-20181221_62_C6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R27B03-20181221_62_C6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R27B03/R27B03-20181221_62_C6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20181221_62_C6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 83.0,
+      "pppScore": 113
+    },
+    {
+      "image": {
+        "id": "2541798801178361954",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT049105",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT049105-20180511_61_C1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT049105-20180511_61_C1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT049105-20180511_61_C1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT049105-20180511_61_C1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT049105-20180511_61_C1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT049105/VT049105-20180511_61_C1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180511_61_C1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 84.0,
+      "pppScore": 113
+    },
+    {
+      "image": {
+        "id": "2484189111976460386",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT006395",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT006395-20171212_61_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT006395-20171212_61_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT006395-20171212_61_C2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT006395-20171212_61_C2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT006395-20171212_61_C2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT006395/VT006395-20171212_61_C2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20171212_61_C2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 85.0,
+      "pppScore": 113
+    },
+    {
+      "image": {
+        "id": "2591813571629285474",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R23F05",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R23F05-20180921_64_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R23F05-20180921_64_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R23F05-20180921_64_E4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R23F05-20180921_64_E4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R23F05-20180921_64_E4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R23F05/R23F05-20180921_64_E4-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180921_64_E4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 85.5,
+      "pppScore": 113
+    },
+    {
+      "image": {
+        "id": "2772578217691709538",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT014430",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H8-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H8-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H8-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H8-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT014430-20200211_61_H8-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT014430/VT014430-20200211_61_H8-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200211_61_H8",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 86.0,
+      "pppScore": 113
+    },
+    {
+      "image": {
+        "id": "2671831223608803426",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R50C12",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R50C12-20190514_64_D3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R50C12-20190514_64_D3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R50C12-20190514_64_D3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R50C12-20190514_64_D3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R50C12-20190514_64_D3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R50C12/R50C12-20190514_64_D3-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190514_64_D3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 87.0,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2756635861297660002",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT049377",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT049377-20191220_68_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT049377-20191220_68_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT049377-20191220_68_E4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT049377-20191220_68_E4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT049377-20191220_68_E4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT049377/VT049377-20191220_68_E4-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191220_68_E4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 88.0,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2462388330805854242",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT008483",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT008483-20170926_63_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT008483-20170926_63_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT008483-20170926_63_C2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT008483-20170926_63_C2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT008483-20170926_63_C2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT008483/VT008483-20170926_63_C2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20170926_63_C2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 89.0,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2818229463647518818",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT045607",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT045607-20200310_61_H1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT045607/VT045607-20200310_61_H1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200310_61_H1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 90.0,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2622545884306473058",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R11B09",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R11B09-20180828_62_E3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R11B09/R11B09-20180828_62_E3-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180828_62_E3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 91.0,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2711730644102152290",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R56G08",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R56G08-20190820_64_E6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R56G08-20190820_64_E6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R56G08-20190820_64_E6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R56G08-20190820_64_E6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R56G08-20190820_64_E6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R56G08/R56G08-20190820_64_E6-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190820_64_E6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 92.0,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2726648187812053090",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R34C04",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R34C04-20191004_61_I9-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R34C04-20191004_61_I9-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R34C04-20191004_61_I9-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R34C04-20191004_61_I9-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R34C04-20191004_61_I9-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R34C04/R34C04-20191004_61_I9-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191004_61_I9",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 93.0,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2584593797908267106",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT024648",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT024648-20180828_65_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT024648-20180828_65_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT024648-20180828_65_A1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT024648-20180828_65_A1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT024648-20180828_65_A1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT024648/VT024648-20180828_65_A1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180828_65_A1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 94.0,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2650540110071726178",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R35B08",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R35B08-20190301_63_A6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R35B08-20190301_63_A6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R35B08-20190301_63_A6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R35B08-20190301_63_A6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R35B08-20190301_63_A6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R35B08/R35B08-20190301_63_A6-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190301_63_A6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 94.5,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2507073042295816290",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT043695",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT043695-20180209_61_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT043695-20180209_61_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT043695-20180209_61_B1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT043695-20180209_61_B1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT043695-20180209_61_B1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT043695/VT043695-20180209_61_B1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180209_61_B1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 95.0,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2698326718141169762",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R65B05",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R65B05-20190705_62_H2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R65B05-20190705_62_H2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R65B05-20190705_62_H2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R65B05-20190705_62_H2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R65B05-20190705_62_H2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R65B05/R65B05-20190705_62_H2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190705_62_H2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 96.0,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2614957356907233378",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R19F06",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R19F06-20181207_61_F2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R19F06-20181207_61_F2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R19F06-20181207_61_F2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R19F06-20181207_61_F2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R19F06-20181207_61_F2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R19F06/R19F06-20181207_61_F2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20181207_61_F2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 97.0,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2498362293373370466",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT058698",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT058698-20180119_61_G2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT058698-20180119_61_G2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT058698-20180119_61_G2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT058698-20180119_61_G2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT058698-20180119_61_G2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT058698/VT058698-20180119_61_G2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180119_61_G2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 98.0,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2422500465435476113",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT029752",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT029752-20170525_62_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT029752-20170525_62_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT029752-20170525_62_A1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT029752-20170525_62_A1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT029752-20170525_62_A1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT029752/VT029752-20170525_62_A1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20170525_62_A1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 99.0,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2764978023647150178",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT063541",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT063541-20200122_62_B5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT063541-20200122_62_B5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT063541-20200122_62_B5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT063541-20200122_62_B5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT063541-20200122_62_B5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT063541/VT063541-20200122_62_B5-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200122_62_B5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 100.0,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2640726349156712546",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R40B01",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R40B01-20190205_62_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R40B01-20190205_62_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R40B01-20190205_62_A5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R40B01-20190205_62_A5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R40B01-20190205_62_A5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R40B01/R40B01-20190205_62_A5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190205_62_A5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 101.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2698326703511437410",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R20D06",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R20D06-20190705_62_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R20D06-20190705_62_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R20D06-20190705_62_A5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R20D06-20190705_62_A5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R20D06-20190705_62_A5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R20D06/R20D06-20190705_62_A5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190705_62_A5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 102.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2510656340951564386",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT063541",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT063541-20180216_62_A2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT063541-20180216_62_A2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT063541-20180216_62_A2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT063541-20180216_62_A2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT063541-20180216_62_A2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT063541/VT063541-20180216_62_A2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180216_62_A2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 103.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2500862621700325474",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT057231",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT057231-20180117_62_E1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT057231-20180117_62_E1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT057231-20180117_62_E1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT057231-20180117_62_E1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT057231-20180117_62_E1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT057231/VT057231-20180117_62_E1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180117_62_E1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 105.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2531321980385230946",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT038780",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT038780-20180410_61_J2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT038780-20180410_61_J2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT038780-20180410_61_J2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT038780-20180410_61_J2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT038780-20180410_61_J2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT038780/VT038780-20180410_61_J2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180410_61_J2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 106.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2739337202130485346",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT058732",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT058732/VT058732-20191101_62_B4-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191101_62_B4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 106.5,
+      "pppScore": 112
+    },
+    {
+      "image": {
+        "id": "2491082298871513186",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT007395",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT007395-20171222_62_I4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT007395-20171222_62_I4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT007395-20171222_62_I4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT007395-20171222_62_I4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT007395-20171222_62_I4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT007395/VT007395-20171222_62_I4-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20171222_62_I4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 107.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2460584098079441041",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT000272",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT000272-20171006_63_H2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT000272-20171006_63_H2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT000272-20171006_63_H2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT000272-20171006_63_H2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT000272-20171006_63_H2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT000272/VT000272-20171006_63_H2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20171006_63_H2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 108.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2661698142671470690",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R74H07",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R74H07-20190405_63_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R74H07-20190405_63_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R74H07-20190405_63_A1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R74H07-20190405_63_A1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R74H07-20190405_63_A1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R74H07/R74H07-20190405_63_A1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190405_63_A1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 109.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2562832633654411362",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT007194",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT007194-20180615_61_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT007194-20180615_61_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT007194-20180615_61_A5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT007194-20180615_61_A5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT007194-20180615_61_A5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT007194/VT007194-20180615_61_A5-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180615_61_A5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 110.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2739337216277872738",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT058732",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT058732/VT058732-20191101_62_B5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191101_62_B5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 110.5,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2756625637673271394",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT033620",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT033620-20191220_65_I6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT033620-20191220_65_I6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT033620-20191220_65_I6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT033620-20191220_65_I6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT033620-20191220_65_I6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT033620/VT033620-20191220_65_I6-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191220_65_I6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 111.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2450107918649917474",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT041039",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT041039-20170908_61_H4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT041039-20170908_61_H4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT041039-20170908_61_H4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT041039-20170908_61_H4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT041039-20170908_61_H4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT041039/VT041039-20170908_61_H4-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20170908_61_H4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 112.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2770427552408272994",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT002408",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT002408-20200122_63_B6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT002408-20200122_63_B6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT002408-20200122_63_B6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT002408-20200122_63_B6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT002408-20200122_63_B6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT002408/VT002408-20200122_63_B6-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200122_63_B6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 112.5,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2739337173454028898",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT058732",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT058732-20191101_62_B2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT058732/VT058732-20191101_62_B2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191101_62_B2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 113.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2411756242155339874",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT008825",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT008825-20170510_63_B2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT008825-20170510_63_B2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT008825-20170510_63_B2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT008825-20170510_63_B2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT008825-20170510_63_B2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT008825/VT008825-20170510_63_B2-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20170510_63_B2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 113.5,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2543957885713383522",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT063220",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT063220-20180515_62_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT063220-20180515_62_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT063220-20180515_62_A1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT063220-20180515_62_A1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT063220-20180515_62_A1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT063220/VT063220-20180515_62_A1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180515_62_A1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 114.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2666755353298862117",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R94E06",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R94E06-20190423_61_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R94E06-20190423_61_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R94E06-20190423_61_C2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R94E06-20190423_61_C2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R94E06-20190423_61_C2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R94E06/R94E06-20190423_61_C2-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190423_61_C2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 114.5,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2501612759356014690",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT038829",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT038829-20180109_62_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT038829-20180109_62_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT038829-20180109_62_A1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT038829-20180109_62_A1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT038829-20180109_62_A1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT038829/VT038829-20180109_62_A1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180109_62_A1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 115.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2699395348991836258",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R29G11",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R29G11-20190723_64_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R29G11-20190723_64_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R29G11-20190723_64_C6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R29G11-20190723_64_C6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R29G11-20190723_64_C6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R29G11/R29G11-20190723_64_C6-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190723_64_C6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 116.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2481571612738977890",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT028340",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT028340-20171031_62_I1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT028340-20171031_62_I1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT028340-20171031_62_I1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT028340-20171031_62_I1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT028340-20171031_62_I1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT028340/VT028340-20171031_62_I1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20171031_62_I1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 117.0,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2518630379217223778",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT061711",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT061711-20180309_63_F6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT061711-20180309_63_F6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT061711-20180309_63_F6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT061711-20180309_63_F6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT061711-20180309_63_F6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT061711/VT061711-20180309_63_F6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180309_63_F6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 117.5,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2500862621335421026",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT057230",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT057230-20180117_62_C6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT057230/VT057230-20180117_62_C6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180117_62_C6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 118.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2536740434550456418",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT045982",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT045982-20180420_63_H4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT045982-20180420_63_H4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT045982-20180420_63_H4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT045982-20180420_63_H4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT045982-20180420_63_H4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT045982/VT045982-20180420_63_H4-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180420_63_H4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 118.5,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2447839157276377122",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT012289",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT012289-20170825_62_C1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT012289-20170825_62_C1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT012289-20170825_62_C1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT012289-20170825_62_C1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT012289-20170825_62_C1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT012289/VT012289-20170825_62_C1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20170825_62_C1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 119.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2777260781085917282",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT012319",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT012319-20200219_61_I7-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT012319-20200219_61_I7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT012319-20200219_61_I7-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT012319-20200219_61_I7-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT012319-20200219_61_I7-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT012319/VT012319-20200219_61_I7-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200219_61_I7",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 120.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2533488534875013218",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT007708",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT007708-20180427_62_D3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT007708-20180427_62_D3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT007708-20180427_62_D3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT007708-20180427_62_D3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT007708-20180427_62_D3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT007708/VT007708-20180427_62_D3-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180427_62_D3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 121.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2580538377065463906",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R10E07",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R10E07-20180828_61_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R10E07-20180828_61_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R10E07-20180828_61_H5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R10E07-20180828_61_H5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R10E07-20180828_61_H5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R10E07/R10E07-20180828_61_H5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180828_61_H5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 122.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2764998698524999778",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT063560",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT063560-20200114_62_B5-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT063560-20200114_62_B5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT063560-20200114_62_B5-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT063560-20200114_62_B5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT063560-20200114_62_B5-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT063560/VT063560-20200114_62_B5-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200114_62_B5",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 123.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2715008625264296034",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R89A02",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R89A02-20190904_63_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R89A02-20190904_63_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R89A02-20190904_63_B1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R89A02-20190904_63_B1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R89A02-20190904_63_B1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R89A02/R89A02-20190904_63_B1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190904_63_B1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 124.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2772299180775833698",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT061711",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT061711-20200131_62_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT061711-20200131_62_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT061711-20200131_62_C6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT061711-20200131_62_C6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT061711-20200131_62_C6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT061711/VT061711-20200131_62_C6-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20200131_62_C6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 125.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2653395425322598498",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R44B02",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R44B02-20190308_62_E3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R44B02-20190308_62_E3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R44B02-20190308_62_E3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R44B02-20190308_62_E3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R44B02-20190308_62_E3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R44B02/R44B02-20190308_62_E3-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190308_62_E3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 126.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2584596353178927202",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R16H01",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R16H01-20180905_62_I1-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R16H01-20180905_62_I1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R16H01-20180905_62_I1-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R16H01-20180905_62_I1-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R16H01-20180905_62_I1-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R16H01/R16H01-20180905_62_I1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180905_62_I1",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 126.5,
+      "pppScore": 111
+    },
+    {
+      "image": {
+        "id": "2655954425469730914",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R65F12",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R65F12-20190329_61_H3-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R65F12-20190329_61_H3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R65F12-20190329_61_H3-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R65F12-20190329_61_H3-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R65F12-20190329_61_H3-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R65F12/R65F12-20190329_61_H3-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190329_61_H3",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 127.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2491505405977428066",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT006391",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT006391-20171222_61_G2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT006391-20171222_61_G2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT006391-20171222_61_G2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT006391-20171222_61_G2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT006391-20171222_61_G2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT006391/VT006391-20171222_61_G2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20171222_61_G2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 128.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2725182308519772258",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R40C01",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R40C01-20191008_61_D7-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R40C01-20191008_61_D7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R40C01-20191008_61_D7-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R40C01-20191008_61_D7-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R40C01-20191008_61_D7-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R40C01/R40C01-20191008_61_D7-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20191008_61_D7",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 129.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2580537184255737954",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT063223",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT063223-20180817_62_A4-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT063223-20180817_62_A4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT063223-20180817_62_A4-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT063223-20180817_62_A4-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT063223-20180817_62_A4-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT063223/VT063223-20180817_62_A4-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180817_62_A4",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 130.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2587111402678255714",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT059774",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT059774-20180911_62_D2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT059774-20180911_62_D2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT059774-20180911_62_D2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT059774-20180911_62_D2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT059774-20180911_62_D2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT059774/VT059774-20180911_62_D2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180911_62_D2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 131.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2698324195598663778",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R16G08",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R16G08-20190719_61_F2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R16G08-20190719_61_F2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R16G08-20190719_61_F2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R16G08-20190719_61_F2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R16G08-20190719_61_F2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R16G08/R16G08-20190719_61_F2-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190719_61_F2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 132.0,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2640328129695973474",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R55D02",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R55D02-20190208_61_G6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R55D02-20190208_61_G6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R55D02-20190208_61_G6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R55D02-20190208_61_G6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R55D02-20190208_61_G6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R55D02/R55D02-20190208_61_G6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190208_61_G6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 134.0,
+      "pppScore": 109
+    },
+    {
+      "image": {
+        "id": "2714269201534550114",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R95H02",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R95H02-20190910_61_C7-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R95H02-20190910_61_C7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R95H02-20190910_61_C7-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R95H02-20190910_61_C7-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R95H02-20190910_61_C7-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R95H02/R95H02-20190910_61_C7-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20190910_61_C7",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 135.0,
+      "pppScore": 109
+    },
+    {
+      "image": {
+        "id": "2615675566027702370",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "R10G09",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "f",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-R10G09-20181121_62_A6-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-R10G09-20181121_62_A6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-R10G09-20181121_62_A6-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-R10G09-20181121_62_A6-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-R10G09-20181121_62_A6-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R10G09/R10G09-20181121_62_A6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20181121_62_A6",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": false,
+      "pppRank": 135.5,
+      "pppScore": 110
+    },
+    {
+      "image": {
+        "id": "2557759726163066978",
+        "libraryName": "FlyLight_Gen1_MCFO",
+        "publishedName": "VT007714",
+        "alignmentSpace": "JRC2018_Unisex_20x_HR",
+        "gender": "m",
+        "files": {
+          "ColorDepthMip": "$ppp/23/2384750665/2384750665-VT007714-20180703_62_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
+          "ColorDepthMipSkel": "$ppp/23/2384750665/2384750665-VT007714-20180703_62_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+          "SignalMip": "$ppp/23/2384750665/2384750665-VT007714-20180703_62_C2-40x-JRC2018_Unisex_20x_HR-raw.png",
+          "SignalMipMasked": "$ppp/23/2384750665/2384750665-VT007714-20180703_62_C2-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
+          "SignalMipMaskedSkel": "$ppp/23/2384750665/2384750665-VT007714-20180703_62_C2-40x-JRC2018_Unisex_20x_HR-skel.png",
+          "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/VT007714/VT007714-20180703_62_C2-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j"
+        },
+        "slideCode": "20180703_62_C2",
+        "objective": "40x",
+        "mountingProtocol": "DPX PBS Mounting",
+        "anatomicalArea": "Brain"
+      },
+      "mirrored": true,
+      "pppRank": 136.0,
+      "pppScore": 109
+    }
+  ]
+}

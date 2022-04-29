@@ -310,7 +310,7 @@ def load_images_db(prefix, image_dirs):
                         lookup = model.to_lookup(obj)
                         for image in lookup.results:
                             if isinstance(image, model.LMImage):
-                                key = f"{prefix}~{image.slideCode}~{image.channel}"
+                                key = f"{prefix}~{image.slideCode}~{image.objective}~{image.channel}"
                             else:
                                 key = f"{prefix}~{image.publishedName}"
                             new_obj = image.dict(exclude_unset=True)
@@ -319,7 +319,7 @@ def load_images_db(prefix, image_dirs):
                     except Exception as err:
                         print(f"Error reading {filepath}\n", err)
 
-    col.createIndex({key:1},{unique:True})
+    #col.createIndex({"key":1},{"unique":True})
 
 
 def convert_image(filepath):

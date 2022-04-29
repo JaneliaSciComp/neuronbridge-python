@@ -115,3 +115,16 @@ class Matches(BaseModel):
     """
     inputImage: NeuronImage = Field(description="Input image to the matching algorithm.")
     results: List[Match] = Field(description="List of other images matching the input image.")
+
+
+
+def to_lookup(json_obj):
+    """
+    """
+    if "slideCode" in json_obj['results'][0]:
+        return LMImageLookup(**json_obj)
+    else:
+        return EMImageLookup(**json_obj)
+
+
+

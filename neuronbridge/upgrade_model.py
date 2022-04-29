@@ -1,9 +1,29 @@
 #!/usr/bin/env python
+import os
+import sys
+import argparse
 import enum
 import json
 from devtools import debug
 import neuronbridge.legacy_model as legacy_model
 import neuronbridge.model as model
+
+data_version = "2.4.0"
+data_version_vnc = "2.3.0-pre"
+
+by_body_dir = f"/nrs/neuronbridge/v{data_version}/brain/mips/em_bodies"
+by_line_dir = f"/nrs/neuronbridge/v{data_version}/brain/mips/all_mcfo_lines"
+by_body_dir_vnc = f"/nrs/neuronbridge/v{data_version_vnc}/vnc/mips/em_bodies"
+by_line_dir_vnc = f"/nrs/neuronbridge/v{data_version_vnc}/vnc/mips/gen1_mcfo_lines"
+
+new_version = "3.0.0"
+
+match_dirs = [
+    f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flyem-vs-flylight",
+    f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flylight-vs-flyem",
+    f"/nrs/neuronbridge/v{data_version}/brain/pppresults/flyem-to-flylight.public"
+]
+
 
 VNC_ALIGNMENT_SPACE = "JRC2018_VNC_Unisex_40x_DS"
 BRAIN_ALIGNMENT_SPACE = "JRC2018_Unisex_20x_HR"
@@ -18,6 +38,9 @@ swc = '$swc/'
 #    obj = model.DataConfig(**json.load(f))
 #    debug(obj)
 
+def write_json(obj, file=sys.stdout):
+    json.dump(obj.dict(exclude_unset=True), file, indent=2)
+
 
 def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
     return model.EMImageLookup(results = [ 
@@ -27,7 +50,7 @@ def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
             publishedName = old_image.publishedName,
             gender = old_image.gender,
             alignmentSpace = VNC_ALIGNMENT_SPACE if "VNC" in old_image.imageURL else BRAIN_ALIGNMENT_SPACE,
-            tttttttttt = old_image.neuronType,
+            neuronType = old_image.neuronType,
             neuronInstance = old_image.neuronInstance,
             files = model.Files(
                 ColorDepthMip = img + old_image.imageURL,
@@ -58,6 +81,13 @@ def upgrade_lm_lookup(lm_lookup : legacy_model.LMImageLookup):
         )
         for old_image in lm_lookup.results
     ])
+
+
+def upgrade_lookup(lookup):
+    if isinstance(lookup, legacy_model.LMImageLookup):
+        return upgrade_lm_lookup(lookup)
+    else:
+        return upgrade_em_lookup(lookup)
 
 
 def upgrade_cds_match(old_match):
@@ -201,65 +231,158 @@ def upgrade_ppp_matches(ppp_matches : legacy_model.PPPMatches):
         ]
     )
 
-if __name__ == '__main__':
 
-    import os
+def upgrade_matches(matches):
+    if isinstance(matches, legacy_model.PPPMatches):
+        return upgrade_ppp_matches(matches)
+    else:
+        return upgrade_cds_matches(matches)
 
-    data_version = "2.4.0"
-    by_body_dir = f"/nrs/neuronbridge/v{data_version}/brain/mips/em_bodies"
-    by_line_dir = f"/nrs/neuronbridge/v{data_version}/brain/mips/all_mcfo_lines"
-    match_dirs = [
-        f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flyem-vs-flylight",
-        f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flylight-vs-flyem",
-        f"/nrs/neuronbridge/v{data_version}/brain/pppresults/flyem-to-flylight.public"
-    ]
 
-    data_version_vnc = "2.3.0-pre"
-    by_body_dir_vnc = f"/nrs/neuronbridge/v{data_version_vnc}/vnc/mips/em_bodies"
-    by_line_dir_vnc = f"/nrs/neuronbridge/v{data_version_vnc}/vnc/mips/gen1_mcfo_lines"
+def to_new(path):
+    return path.replace(data_version, new_version).replace(data_version_vnc, new_version)
 
-    new_version = "3.0.0"
 
-    def convert(path, convert_lambda):
-        with open(path) as f:
-            obj = convert_lambda(json.load(f))
-        newpath = path.replace(data_version, new_version).replace(data_version_vnc, new_version)
-        if path == newpath:
-            raise Exception("Cannot write back to same path: "+path)
-        if new_version not in newpath:
-            raise Exception("New path must contain new version: "+newpath)
-        os.makedirs(os.path.dirname(newpath), exist_ok=True)
-        with open(newpath, "w") as w:
-            json.dump(obj.dict(exclude_unset=True), w, indent=2)
-        return newpath
+def convert(path, convert_lambda):
+    with open(path) as f:
+        obj = convert_lambda(json.load(f))
+    newpath = to_new(path)
+    if path == newpath:
+        raise Exception("Cannot write back to same path: "+path)
+    if new_version not in newpath:
+        raise Exception("New path must contain new version: "+newpath)
+    os.makedirs(os.path.dirname(newpath), exist_ok=True)
+    with open(newpath, "w") as w:
+        write_json(obj, w)
+        print(f"Wrote {newpath}")
+    return newpath
 
-    def convert_all(path, convert_lambda):
-        for root, dirs, files in os.walk(path):
+
+def convert_all(path, convert_lambda):
+    for root, dirs, files in os.walk(path):
+        for filename in files:
+            try:
+                filepath = f"{root}/{filename}"
+                newpath = convert(filepath, convert_lambda)
+            except Exception as err:
+                print(f"Error converting {filepath}\n", err)
+                raise err
+
+
+def load_images(prefix, image_dirs, image_dict):
+    """ Load image metadata into the given dict
+    """
+    for image_dir in image_dirs:
+        for root, dirs, files in os.walk(image_dir):
+            print(f"Loading image metadata from {root}")
             for filename in files:
-                try:
-                    filepath = f"{root}/{filename}"
-                    newpath = convert(filepath, convert_lambda)
-                    print(f"Wrote {newpath}")
-                except Exception as err:
-                    print(f"Error converting {filepath}\n", err)
-                    raise err
+                filepath = root+"/"+filename
+                with open(filepath) as f:
+                    try:
+                        obj = json.load(f)
+                        lookup = model.to_lookup(obj)
+                        for image in lookup.results:
+                            if isinstance(image, model.LMImage):
+                                key = f"{prefix}~{image.slideCode}~{image.objective}~{image.channel}"
+                            else:
+                                key = f"{prefix}~{image.publishedName}"
+                            images[key] = image
+                    except Exception as err:
+                        print(f"Error reading {filepath}\n", err)
 
-    #convert_all(by_body_dir, lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))
-    #convert_all(by_line_dir, lambda x: upgrade_lm_lookup(legacy_model.LMImageLookup(**x)))
-    convert_all(by_body_dir_vnc, lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))
-    #convert_all(by_line_dir_vnc, lambda x: upgrade_lm_lookup(legacy_model.LMImageLookup(**x)))
+
+def load_images_db(prefix, image_dirs):
+    """ Load image metadata into the given dict
+    """
+    from pymongo import MongoClient
+    client = MongoClient("mongodb://dev-mongodb/jacs")
+    db = client.jacs
+    col = db["temp_img"]
+
+    for image_dir in image_dirs:
+        for root, dirs, files in os.walk(image_dir):
+            print(f"Loading image metadata from {root}")
+            for filename in files:
+                filepath = root+"/"+filename
+                with open(filepath) as f:
+                    try:
+                        obj = json.load(f)
+                        lookup = model.to_lookup(obj)
+                        for image in lookup.results:
+                            if isinstance(image, model.LMImage):
+                                key = f"{prefix}~{image.slideCode}~{image.channel}"
+                            else:
+                                key = f"{prefix}~{image.publishedName}"
+                            new_obj = image.dict(exclude_unset=True)
+                            new_obj['key'] = key
+                            x = col.insert_one(new_obj)
+                    except Exception as err:
+                        print(f"Error reading {filepath}\n", err)
+
+    col.createIndex({key:1},{unique:True})
 
 
-    #convert("em-body-vnc.json", lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))
-    #convert("mcfo-line.json", lambda x: upgrade_lm_lookup(legacy_model.LMImageLookup(**x)))
-    #convert("mcfo-line-vnc.json", lambda x: upgrade_lm_lookup(legacy_model.LMImageLookup(**x)))
-    #convert("flyem-flylight.json", lambda x: upgrade_cds_matches(legacy_model.CDSMatches(**x)))
-    #convert("flyem-flylight-vnc.json", lambda x: upgrade_cds_matches(legacy_model.CDSMatches(**x)))
-    #convert("flylight-flyem.json", lambda x: upgrade_cds_matches(legacy_model.CDSMatches(**x)))
+def convert_image(filepath):
+    """ Convert the image metadata on the given path
+    """
+    with open(filepath) as f:
+        obj = json.load(f)
+        if 'slideCode' in obj:
+            cons = legacy_model.LMImageLookup
+        else:
+            cons = legacy_model.EMImageLookup
+        convert(filepath, lambda x: upgrade_lookup(cons(**x)))
+
+
+def convert_match(filepath):
+    """ Convert the match metadata on the given path
+    """
     #convert("flylight-flyem-vnc.json", lambda x: upgrade_cds_matches(legacy_model.CDSMatches(**x)))
     #convert("pppresult.json", lambda x: upgrade_ppp_matches(legacy_model.PPPMatches(**x)))
-    #convert("pppresult-vnc.json", lambda x: upgrade_ppp_matches(legacy_model.PPPMatches(**x)))
+    with open(filepath) as f:
+        obj = json.load(f)
+        if 'pppRank' in obj['results'][0]:
+            cons = legacy_model.PPPMatches
+        else:
+            cons = legacy_model.CDSMatches
+        convert(filepath, lambda x: upgrade_matches(legacy_model.CDSMatches(**x)))
 
 
+if __name__ == '__main__':
 
+    parser = argparse.ArgumentParser(description='Convert between data versions')
+    parser.add_argument('-i', '--image', dest='input_image_path', type=str, required=False, \
+            help='Path to a imageh file for conversion')
+    parser.add_argument('-m', '--match', dest='input_match_path', type=str, required=False, \
+            help='Path to a match file for conversion')
+    parser.add_argument('--allimages', dest='allimages', action='store_true', \
+        help='If --allimages, all of the images will be processed in serial')
+    parser.add_argument('--allimagestodb', dest='allimagestodb', action='store_true', \
+        help='If --allimages, all of the images will be loaded into MongoDB')
+    parser.set_defaults(allimages=False)
+    args = parser.parse_args()
+
+    if args.allimages:
+        convert_all(by_body_dir, lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))
+        convert_all(by_line_dir, lambda x: upgrade_lm_lookup(legacy_model.LMImageLookup(**x)))
+        convert_all(by_body_dir_vnc, lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))
+        convert_all(by_line_dir_vnc, lambda x: upgrade_lm_lookup(legacy_model.LMImageLookup(**x)))
+
+    if args.allimagestodb:
+        load_images_db("brain", [to_new(p) for p in (by_body_dir,by_line_dir)])
+        load_images_db("vnc", [to_new(p) for p in (by_body_dir_vnc,by_line_dir_vnc)])
+
+    elif args.input_image_path:
+        convert_image(args.input_image_path)
+
+    elif args.input_match_path:
+        #print("Loading image metadata into memory...")
+        #image_dict = {}
+        #load_images("brain", [to_new(p) for p in (by_body_dir,by_line_dir)], image_dict)
+        #load_images("vnc", [to_new(p) for p in (by_body_dir_vnc,by_line_dir_vnc)], image_dict)
+        #print("Loaded", len(images.keys()), "images")
+        convert_match(args.input_match_path)
+
+    else:
+        parser.print_help(sys.stderr)
 

@@ -90,7 +90,8 @@ class Match(BaseModel):
     """
     image: NeuronImage = Field(description="The NeuronImage that was matched.")
     mirrored: bool = Field(description="Indicates whether the target image was found within a mirrored version of the matching image.")
-
+    def get_score(self):
+        pass
 
 
 class PPPMatch(Match):
@@ -109,12 +110,20 @@ class CDSMatch(Match):
     matchingPixels: int = Field(description="Number of matching pixels reported by the CDS algorithm")
 
 
-class Matches(BaseModel):
+class PPPMatches(BaseModel):
     """
-    The results of an algorithm run on an EMImage.
+    The results of PPPM matching run on a NeuronImage.
     """
-    inputImage: NeuronImage = Field(description="Input image to the matching algorithm.")
-    results: List[Match] = Field(description="List of other images matching the input image.")
+    inputImage: NeuronImage = Field(description="Input image to the PPPM matching algorithm.")
+    results: List[PPPMatch] = Field(description="List of other images matching the input image.")
+
+
+class CDSMatches(BaseModel):
+    """
+    The results of CDM matching run on a NeuronImage.
+    """
+    inputImage: NeuronImage = Field(description="Input image to the CDS matching algorithm.")
+    results: List[CDSMatch] = Field(description="List of other images matching the input image.")
 
 
 
@@ -125,6 +134,16 @@ def to_lookup(json_obj):
         return LMImageLookup(**json_obj)
     else:
         return EMImageLookup(**json_obj)
+
+
+def to_matches(json_obj):
+    """
+    """
+    if "slideCode" in json_obj['results'][0]:
+        return LMImageLookup(**json_obj)
+    else:
+        return EMImageLookup(**json_obj)
+    return Matches(**json_obj)
 
 
 

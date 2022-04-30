@@ -1,8 +1,5 @@
 name: neuronbridge-python
 channels:
-  - flyem-forge
-  - conda-forge
-  - bioconda
   - defaults
 dependencies:
   - python=3.8
@@ -17,3 +14,4 @@ dependencies:
   - pip-tools
   - pipreqs
   - twine
+  - pymongo=3.12.0

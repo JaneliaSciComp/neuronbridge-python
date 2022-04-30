@@ -7,7 +7,7 @@ if __name__ == '__main__':
         with open("test_data/"+filename) as f:
             obj = convert_lambda(json.load(f))
         with open("test_data_v3/"+filename, "w") as w:
-            json.dump(obj.dict(exclude_unset=True), w, indent=2)
+            json.dump(obj.dict(exclude_unset=True, by_alias=True), w, indent=2)
 
     convert("em-body.json", lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))
     convert("em-body-vnc.json", lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))

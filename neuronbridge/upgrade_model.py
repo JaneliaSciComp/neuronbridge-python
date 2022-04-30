@@ -58,7 +58,7 @@ def get_matched(alignmentSpace, libraryName, sourceSearchable):
 
 
 def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
-    return model.EMImageLookup(results = [ 
+    return model.ImageLookup(results = [ 
         model.EMImage(
             id = old_image.id,
             libraryName = old_image.libraryName,
@@ -77,7 +77,7 @@ def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
 
 
 def upgrade_lm_lookup(lm_lookup : legacy_model.LMImageLookup):
-    return model.LMImageLookup(results=[
+    return model.ImageLookup(results=[
         model.LMImage(
             id = old_image.id,
             libraryName = old_image.libraryName,
@@ -315,7 +315,7 @@ def load_images(prefix, image_dirs, image_dict):
                                 key = f"{prefix}~{image.slideCode}~{image.objective}~{image.channel}"
                             else:
                                 key = f"{prefix}~{image.publishedName}"
-                            images[key] = image
+                            image_dict[key] = image
                     except Exception as err:
                         print(f"Error reading {filepath}\n", err)
 

@@ -1,7 +1,49 @@
 from typing import List, Union, Optional, Any, Dict
 from enum import Enum
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, root_validator
 
+class InheritanceAwareBaseModel(BaseModel):
+    """ An alternative to Pydantic's BaseModel which preserves subclass type information in 
+        an attribute. If you're using this base class to define your SuperClass, you can then 
+        use SuperClass.parse_obj() and it will correct pick the right subclass to instantiate. 
+        Likewise, if your object graph contains subclasses, they will be correctly instantiated. 
+    """
+    t: str
+        
+    # used to register automatically all the submodels in `_types`.
+    _subtypes_: Dict[str, type] = {}
+    def __init_subclass__(cls):
+        cls._subtypes_[cls.__name__] = cls
+        
+    @classmethod
+    def __get_validators__(cls):
+        yield cls._convert_to_real_type_
+
+    @classmethod
+    def _convert_to_real_type_(cls, data):
+        if issubclass(type(data), cls): return data
+        data_type = data.get("t")
+
+        if data_type is None:
+            raise ValueError("Missing 'type' attribute")
+
+        sub = cls._subtypes_.get(data_type)
+
+        if sub is None:
+            raise TypeError(f"Unsupported sub-type: {data_type}")
+
+        return sub(**data)
+    
+    @classmethod
+    def parse_obj(cls, obj):
+        return cls._convert_to_real_type_(obj)
+    
+    @root_validator(pre=True)
+    def set_t(cls, values):
+        values['t'] = cls.__name__
+        return values
+    
+    
 class Gender(str, Enum):
     male = 'm'
     female = 'f'
@@ -38,7 +80,8 @@ class Files(BaseModel):
     AlignedBodySWC: Optional[str] = Field(description="EMImage-only, A 3D SWC skeleton of the EM body in the alignment space.")
     AlignedBodyOBJ: Optional[str] = Field(description="EMImage-only. A 3D OBJ representation of the EM body in the alignment space.")
 
-class NeuronImage(BaseModel):
+
+class NeuronImage(InheritanceAwareBaseModel):
     """
     A color depth image containing neurons. 
     """
@@ -57,14 +100,7 @@ class EMImage(NeuronImage):
     neuronType: Optional[str] = Field(description="Neuron type name from neuPrint")
     neuronInstance: Optional[str] = Field(description="Neuron instance name from neuPrint")
 
-
-class EMImageLookup(BaseModel):
-    """
-    Top level collection returned by the EMImage lookup API.
-    """
-    results: List[EMImage] = Field(description="List of EM images matching the query.")
         
-
 class LMImage(NeuronImage):
     """
     A color depth image of a single channel of an LM image stack.
@@ -77,14 +113,14 @@ class LMImage(NeuronImage):
     channel: Optional[int] = Field(description="Channel index within the full LM image stack. PPPM matches the entire stack and therefore this is blank.")
 
 
-class LMImageLookup(BaseModel):
+class ImageLookup(BaseModel):
     """
-    Top level collection returned by the LMImage lookup API.
+    Top level collection returned by the image lookup API.
     """
-    results: List[LMImage] = Field(description="List of LM images matching the query.")
+    results: List[NeuronImage] = Field(description="List of images matching the query.")
 
 
-class Match(BaseModel):
+class Match(InheritanceAwareBaseModel):
     """
     Putative matching between two NeuronImages.
     """
@@ -110,40 +146,9 @@ class CDSMatch(Match):
     matchingPixels: int = Field(description="Number of matching pixels reported by the CDS algorithm")
 
 
-class PPPMatches(BaseModel):
+class Matches(BaseModel):
     """
-    The results of PPPM matching run on a NeuronImage.
+    The results of a matching algorithm run on a NeuronImage.
     """
-    inputImage: NeuronImage = Field(description="Input image to the PPPM matching algorithm.")
-    results: List[PPPMatch] = Field(description="List of other images matching the input image.")
-
-
-class CDSMatches(BaseModel):
-    """
-    The results of CDM matching run on a NeuronImage.
-    """
-    inputImage: NeuronImage = Field(description="Input image to the CDS matching algorithm.")
-    results: List[CDSMatch] = Field(description="List of other images matching the input image.")
-
-
-
-def to_lookup(json_obj):
-    """
-    """
-    if "slideCode" in json_obj['results'][0]:
-        return LMImageLookup(**json_obj)
-    else:
-        return EMImageLookup(**json_obj)
-
-
-def to_matches(json_obj):
-    """
-    """
-    if "slideCode" in json_obj['results'][0]:
-        return LMImageLookup(**json_obj)
-    else:
-        return EMImageLookup(**json_obj)
-    return Matches(**json_obj)
-
-
-
+    inputImage: NeuronImage = Field(description="Input image to the matching algorithm.")
+    results: List[Match] = Field(description="List of other images matching the input image.")

@@ -378,9 +378,9 @@ if __name__ == '__main__':
     parser.add_argument('-m', '--match', dest='input_match_path', type=str, required=False, \
             help='Path to a match file for conversion')
     parser.add_argument('--allimages', dest='allimages', action='store_true', \
-        help='If --allimages, all of the images will be processed in serial')
+        help='If --allimages, all of the old images will be processed in serial to create new images')
     parser.add_argument('--allimagestodb', dest='allimagestodb', action='store_true', \
-        help='If --allimagestodb, all of the images will be loaded into MongoDB')
+        help='If --allimagestodb, all of the new images will be loaded into MongoDB')
     parser.add_argument('--matchstats', dest='matchstats', action='store_true', \
         help='If --matchstats, the new matches will be analyzed')
     parser.set_defaults(allimages=False)
@@ -412,8 +412,8 @@ if __name__ == '__main__':
 
     elif args.matchstats:
 
-        for image_dir in match_dirs:
-            for root, dirs, files in os.walk(to_new(image_dir)):
+        for match_dir in match_dirs:
+            for root, dirs, files in os.walk(to_new(match_dir)):
                 print(f"Loading image metadata from {root}")
                 for filename in files:
                     filepath = root+"/"+filename

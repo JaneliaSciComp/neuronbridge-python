@@ -53,12 +53,13 @@ def get_mongo_col():
     return db["temp_img"]
 
 
-def get_matched(alignmentSpace, libraryName, sourceSearchable):
-    return img + alignmentSpace +"/"+ libraryName.replace(" ","_") + "/searchable_neurons/pngs/" + sourceSearchable
+def get_matched(alignmentSpace, libraryName, searchable):
+    if not searchable: return None
+    return img + alignmentSpace +"/"+ libraryName.replace(" ","_") + "/searchable_neurons/pngs/" + searchable
 
 
 def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
-    return model.ImageLookup(results = [ 
+    return model.ImageLookup(results = [
         model.EMImage(
             id = old_image.id,
             libraryName = old_image.libraryName,
@@ -69,10 +70,11 @@ def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
             neuronInstance = old_image.neuronInstance,
             files = model.Files(
                 ColorDepthMip = img + old_image.imageURL,
-                ColorDepthMipThumbnail = thm + old_image.thumbnailURL
+                ColorDepthMipThumbnail = thm + old_image.thumbnailURL,
+                AlignedBodySWC = swc + old_image.libraryName + "/" + old_image.publishedName + ".swc",
             )
         )
-        for old_image in em_lookup.results 
+        for old_image in em_lookup.results
     ])
 
 
@@ -91,7 +93,8 @@ def upgrade_lm_lookup(lm_lookup : legacy_model.LMImageLookup):
             channel = old_image.channel,
             files = model.Files(
                 ColorDepthMip = img + old_image.imageURL,
-                ColorDepthMipThumbnail = thm + old_image.thumbnailURL
+                ColorDepthMipThumbnail = thm + old_image.thumbnailURL,
+                VisuallyLosslessStack = None
             )
         )
         for old_image in lm_lookup.results
@@ -106,7 +109,6 @@ def upgrade_lookup(lookup):
 
 
 def upgrade_cds_match(old_match):
-
     if old_match.libraryName.startswith("FlyEM"):
         image = model.EMImage(
             id = old_match.id,
@@ -119,7 +121,8 @@ def upgrade_cds_match(old_match):
             files = model.Files(
                 ColorDepthMip = img+old_match.imageURL,
                 ColorDepthMipThumbnail = thm + old_match.thumbnailURL,
-                ColorDepthMipMatched = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.searchablePNG),
+                ColorDepthMipInput = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.sourceSearchablePNG),
+                ColorDepthMipMatch = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.searchablePNG),
                 AlignedBodySWC = swc + old_match.libraryName + "/" + old_match.publishedName + ".swc",
             )
         )
@@ -138,7 +141,8 @@ def upgrade_cds_match(old_match):
             files = model.Files(
                 ColorDepthMip = img + old_match.imageURL,
                 ColorDepthMipThumbnail = thm + old_match.thumbnailURL,
-                ColorDepthMipMatched = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.searchablePNG),
+                ColorDepthMipInput = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.sourceSearchablePNG),
+                ColorDepthMipMatch = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.searchablePNG),
                 VisuallyLosslessStack = old_match.imageStack,
             )
         )
@@ -151,24 +155,20 @@ def upgrade_cds_match(old_match):
 
 
 def upgrade_cds_matches(cds_matches : legacy_model.CDSMatches):
-
     col = get_mongo_col()
-    image = col.find({"id":f"{cds_matches.maskId}"})[0]
+    image = col.find({"id":cds_matches.maskId})[0]
     if cds_matches.maskLibraryName.startswith("FlyEM"):
         inputImage = model.EMImage(
             id = cds_matches.maskId,
             libraryName = cds_matches.maskLibraryName,
             publishedName = cds_matches.maskPublishedName,
-            gender = "f" if "VNC" in cds_matches.maskLibraryName else "m",
+            gender = image['gender'],
             alignmentSpace = image['alignmentSpace'],
             neuronType = image['neuronType'],
             neuronInstance = image['neuronInstance'],
-            files = model.Files(
-                AlignedBodySWC = swc + cds_matches.maskLibraryName + "/" + cds_matches.maskPublishedName + ".swc",
-            )
+            files = image['files'],
         )
     else:
-        first = cds_matches.results[0]
         inputImage = model.LMImage(
             id = cds_matches.maskId,
             libraryName = cds_matches.maskLibraryName,
@@ -183,7 +183,6 @@ def upgrade_cds_matches(cds_matches : legacy_model.CDSMatches):
             files = model.Files(
                 ColorDepthMip = image['files']['ColorDepthMip'],
                 ColorDepthMipThumbnail = image['files']['ColorDepthMipThumbnail'],
-                ColorDepthMipMatched = get_matched(image['alignmentSpace'], cds_matches.maskLibraryName, first.sourceSearchablePNG),
                 VisuallyLosslessStack = cds_matches.maskImageStack,
             )
         )
@@ -198,7 +197,6 @@ def upgrade_cds_matches(cds_matches : legacy_model.CDSMatches):
 
 
 def upgrade_ppp_match(old_match):
-
     image = model.LMImage(
         id = old_match.id,
         libraryName = old_match.libraryName,
@@ -227,19 +225,17 @@ def upgrade_ppp_match(old_match):
 
 
 def upgrade_ppp_matches(ppp_matches : legacy_model.PPPMatches):
-
+    col = get_mongo_col()
+    image = col.find({"id":ppp_matches.maskId})[0]
     inputImage = model.EMImage(
         id = ppp_matches.maskId,
         libraryName = ppp_matches.maskLibraryName,
         publishedName = ppp_matches.maskPublishedName,
-        gender = "f" if "VNC" in ppp_matches.maskLibraryName else "m",
-        alignmentSpace = VNC_ALIGNMENT_SPACE if "VNC" in ppp_matches.maskLibraryName else BRAIN_ALIGNMENT_SPACE,
-        neuronType = ppp_matches.neuronType,
-        neuronInstance = ppp_matches.neuronInstance,
-        files = model.Files(
-            # TODO: look these up
-            AlignedBodySWC = swc + ppp_matches.maskLibraryName + "/" + ppp_matches.maskPublishedName + ".swc",
-        )
+        gender = image['gender'],
+        alignmentSpace = image['alignmentSpace'],
+        neuronType = image['neuronType'],
+        neuronInstance = image['neuronInstance'],
+        files = image['files'],
     )
 
     return model.Matches(
@@ -298,29 +294,6 @@ def convert_all(path, convert_lambda):
                 raise err
 
 
-def load_images(prefix, image_dirs, image_dict):
-    """ Load image metadata into the given dict
-    """
-    for image_dir in image_dirs:
-        for root, dirs, files in os.walk(image_dir):
-            print(f"Loading image metadata from {root}")
-            for filename in files:
-                filepath = root+"/"+filename
-                with open(filepath) as f:
-                    try:
-                        obj = json.load(f)
-                        lookup = model.to_lookup(obj)
-                        for image in lookup.results:
-                            if isinstance(image, model.LMImage):
-                                key = f"{prefix}~{image.slideCode}~{image.objective}~{image.channel}"
-                            else:
-                                key = f"{prefix}~{image.publishedName}"
-                            image_dict[key] = image
-                    except Exception as err:
-                        print(f"Error reading {filepath}\n", err)
-
-
-
 def load_images_db(prefix, image_dirs):
     """ Load image metadata into the given dict
     """
@@ -333,14 +306,9 @@ def load_images_db(prefix, image_dirs):
                 with open(filepath) as f:
                     try:
                         obj = json.load(f)
-                        lookup = model.to_lookup(obj)
+                        lookup = model.ImageLookup(**obj)
                         for image in lookup.results:
-                            if isinstance(image, model.LMImage):
-                                key = f"{prefix}~{image.slideCode}~{image.objective}~{image.channel}"
-                            else:
-                                key = f"{prefix}~{image.publishedName}"
                             new_obj = image.dict(exclude_unset=True)
-                            new_obj['key'] = key
                             x = col.insert_one(new_obj)
                     except Exception as err:
                         print(f"Error reading {filepath}\n", err)
@@ -351,7 +319,7 @@ def convert_image(filepath):
     """
     with open(filepath) as f:
         obj = json.load(f)
-        if 'slideCode' in obj:
+        if 'slideCode' in obj['results'][0]:
             cons = legacy_model.LMImageLookup
         else:
             cons = legacy_model.EMImageLookup
@@ -394,7 +362,9 @@ if __name__ == '__main__':
         convert_all(by_body_dir_vnc, lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))
         convert_all(by_line_dir_vnc, lambda x: upgrade_lm_lookup(legacy_model.LMImageLookup(**x)))
 
-    if args.allimagestodb:
+    elif args.allimagestodb:
+        print("Manually drop the table in the dev database: db.temp_img.drop()")
+        input("Press enter when ready...")
         load_images_db("brain", [to_new(p) for p in (by_body_dir,by_line_dir)])
         load_images_db("vnc", [to_new(p) for p in (by_body_dir_vnc,by_line_dir_vnc)])
         print("Manually run this on the database: db.temp_img.createIndex({id:1},{unique:true})")
@@ -403,11 +373,6 @@ if __name__ == '__main__':
         convert_image(args.input_image_path)
 
     elif args.input_match_path:
-        #print("Loading image metadata into memory...")
-        #image_dict = {}
-        #load_images("brain", [to_new(p) for p in (by_body_dir,by_line_dir)], image_dict)
-        #load_images("vnc", [to_new(p) for p in (by_body_dir_vnc,by_line_dir_vnc)], image_dict)
-        #print("Loaded", len(images.keys()), "images")
         convert_match(args.input_match_path)
 
     elif args.matchstats:
@@ -419,7 +384,7 @@ if __name__ == '__main__':
                     filepath = root+"/"+filename
                     with open(filepath) as f:
                         obj = json.load(f)
-                        matches = model.to_matches(obj)
+                        matches = model.Matches(**obj)
                         print(type(matches))
                         lowestMatch = matches.results[-1]
                         lowestScore = lowestMatch.matchingPixels if isinstance(lowestMatch, model.PPPMatch) else lowestMatch.pppScore

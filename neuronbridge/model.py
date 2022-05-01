@@ -26,9 +26,10 @@ class Files(BaseModel):
     """
     Files associated with a NeuronImage or Match. These are either absolute URLs (e.g. starting with a protocol like http://) or relative paths. For relative paths, the first component should be replaced with its corresponding base URL from the DataConfig.
     """
-    ColorDepthMip: Optional[str] = Field(description="The CDM of the image. For PPPM, this is the best matching channel of the matching LM stack and called 'LM - Best Channel CDM' in the NeuronBridge GUI.")
+    ColorDepthMip: Optional[str] = Field(description="The CDM of the image. For PPPM, this is the best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.")
     ColorDepthMipThumbnail: Optional[str] = Field(description="The thumbnail of the ColorDepthMip, if available.")
-    ColorDepthMipMatched: Optional[str] = Field(description="PPPM-only. The CDM of the best matching channel of the matching LM stack. 'LM - Best Channel CDM' in the NeuronBridge GUI.")
+    ColorDepthMipInput: Optional[str] = Field(description="CDM-only. The actual color depth image that was input. 'Matched CDM' in the NeuronBridge GUI.")
+    ColorDepthMipMatch: Optional[str] = Field(description="CDM-only. The actual color depth image that was matched. 'Matched CDM' in the NeuronBridge GUI.")
     ColorDepthMipSkel: Optional[str] = Field(description="PPPM-only. The CDM of the best matching channel with the matching LM segmentation fragments overlaid. 'LM - Best Channel CDM with EM overlay' in the NeuronBridge GUI.")
     SignalMip: Optional[str] = Field(description="PPPM-only. The full MIP of all channels of the matching sample. 'LM - Sample All-Channel CDM' in the NeuronBridge GUI.")
     SignalMipMasked: Optional[str] = Field(description="PPPM-only. LM signal content masked with the matching LM segmentation fragments. 'PPP Mask' in the NeuronBridge GUI.")
@@ -58,7 +59,7 @@ class EMImage(NeuronImage):
     neuronType: Optional[str] = Field(description="Neuron type name from neuPrint")
     neuronInstance: Optional[str] = Field(description="Neuron instance name from neuPrint")
 
-        
+
 class LMImage(NeuronImage):
     """
     A color depth image of a single channel of an LM image stack.
@@ -75,17 +76,19 @@ class ImageLookup(BaseModel):
     """
     Top level collection returned by the image lookup API.
     """
-    results: List[Union[EMImage, LMImage]] = Field(description="List of images matching the query.")
+    results: List[Union[LMImage, EMImage]] = Field(description="List of images matching the query.")
+    class Config:
+        smart_union = True
 
 
 class Match(BaseModel):
     """
     Putative matching between two NeuronImages.
     """
-    image: Union[EMImage,LMImage] = Field(description="The NeuronImage that was matched.")
+    image: Union[LMImage,EMImage] = Field(description="The NeuronImage that was matched.")
     mirrored: bool = Field(description="Indicates whether the target image was found within a mirrored version of the matching image.")
-    def get_score(self):
-        pass
+    class Config:
+        smart_union = True
 
 
 class PPPMatch(Match):
@@ -108,5 +111,8 @@ class Matches(BaseModel):
     """
     The results of a matching algorithm run on a NeuronImage.
     """
-    inputImage: Union[EMImage, LMImage] = Field(description="Input image to the matching algorithm.")
+    inputImage: Union[LMImage, EMImage] = Field(description="Input image to the matching algorithm.")
     results: List[Union[CDSMatch, PPPMatch]] = Field(description="List of other images matching the input image.")
+    class Config:
+        smart_union = True
+

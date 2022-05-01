@@ -8,7 +8,8 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyEM_VNC_v0.6/19782-JRC2018_VNC_Unisex_40x_DS-CDM.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyEM_VNC_v0.6/19782-JRC2018_VNC_Unisex_40x_DS-CDM.jpg"
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyEM_VNC_v0.6/19782-JRC2018_VNC_Unisex_40x_DS-CDM.jpg",
+        "AlignedBodySWC": "$swc/FlyEM_VNC_v0.6/19782.swc"
       },
       "neuronType": "pct_15173",
       "neuronInstance": "15173_R"

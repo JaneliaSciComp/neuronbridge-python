@@ -8,8 +8,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I1",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 1
     },
     {
       "id": "2711773247669534731",
@@ -19,8 +25,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I1",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 2
     },
     {
       "id": "2711773282717138955",
@@ -30,8 +42,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I1",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 3
     },
     {
       "id": "2711773364631896075",
@@ -41,8 +59,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I2",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 1
     },
     {
       "id": "2711773136818274315",
@@ -52,8 +76,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I2",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 2
     },
     {
       "id": "2711773245136175115",
@@ -63,8 +93,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I2",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 3
     },
     {
       "id": "2711773249812824075",
@@ -74,8 +110,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I3",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 1
     },
     {
       "id": "2711773132137431051",
@@ -85,8 +127,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I3",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 2
     },
     {
       "id": "2711773150353293323",
@@ -96,8 +144,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I3",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 3
     },
     {
       "id": "2711773486623227915",
@@ -107,8 +161,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I4",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 1
     },
     {
       "id": "2711773329479434251",
@@ -118,8 +178,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I4",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 2
     },
     {
       "id": "2711773232754589707",
@@ -129,8 +195,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I4",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 3
     },
     {
       "id": "2711773269920317451",
@@ -140,8 +212,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I6",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 1
     },
     {
       "id": "2711773507938680843",
@@ -151,8 +229,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I6",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 2
     },
     {
       "id": "2711773214127685643",
@@ -162,8 +246,14 @@
       "gender": "m",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190412_62_I6",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 3
     },
     {
       "id": "2728062347292704779",
@@ -173,8 +263,14 @@
       "gender": "f",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190830_63_G3",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 1
     },
     {
       "id": "2728062308889657355",
@@ -184,8 +280,14 @@
       "gender": "f",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190830_63_G3",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 2
     },
     {
       "id": "2728062329567576075",
@@ -195,8 +297,14 @@
       "gender": "f",
       "files": {
         "ColorDepthMip": "$img/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg"
-      }
+        "ColorDepthMipThumbnail": "$thm/JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
+        "VisuallyLosslessStack": null
+      },
+      "slideCode": "20190830_63_G3",
+      "objective": "40x",
+      "mountingProtocol": "DPX PBS Mounting",
+      "anatomicalArea": "VNC",
+      "channel": 3
     }
   ]
 }

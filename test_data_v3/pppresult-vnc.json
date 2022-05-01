@@ -1,6 +1,5 @@
 {
   "inputImage": {
-    "t": "EMImage",
     "id": "2973299564926206498",
     "libraryName": "FlyEM_VNC_v0.6",
     "publishedName": "16230",
@@ -14,9 +13,7 @@
   },
   "results": [
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2653359026770804834",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R53D12",
@@ -29,20 +26,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R53D12-20190319_62_G5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R53D12-20190319_62_G5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190319_62_G5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 0.0,
       "pppScore": 85
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2653359025386684514",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R53D12",
@@ -55,20 +46,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R53D12-20190319_62_G2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R53D12-20190319_62_G2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190319_62_G2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 1.0,
       "pppScore": 84
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2524035386380910690",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT046795",
@@ -81,20 +66,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT046795-20180323_63_H2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT046795-20180323_63_H2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180323_63_H2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 2.0,
       "pppScore": 76
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2756626570469703778",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT011145",
@@ -107,20 +86,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT011145-20191220_63_B1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT011145-20191220_63_B1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20191220_63_B1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 3.0,
       "pppScore": 76
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2504458375866089570",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT008975",
@@ -133,20 +106,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT008975-20180126_61_C2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT008975-20180126_61_C2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180126_61_C2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 4.0,
       "pppScore": 75
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2602605107300270178",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R75B10",
@@ -159,20 +126,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R75B10-20181030_64_C1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R75B10-20181030_64_C1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181030_64_C1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 4.5,
       "pppScore": 79
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2613486959439380578",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R17C11",
@@ -185,20 +146,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R17C11-20181127_65_G5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R17C11-20181127_65_G5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181127_65_G5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 5.0,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2565021030254903394",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT022289",
@@ -211,20 +166,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT022289-20180713_62_F3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT022289-20180713_62_F3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180713_62_F3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 6.0,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2500533068733874274",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT003285",
@@ -237,20 +186,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT003285-20180123_61_C2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT003285-20180123_61_C2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180123_61_C2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 6.5,
       "pppScore": 78
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2451230227330760802",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT002072",
@@ -263,20 +206,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT002072-20170727_62_E1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT002072-20170727_62_E1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20170727_62_E1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 7.0,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2531291148182356066",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT026005",
@@ -289,20 +226,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT026005-20180403_63_F2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT026005-20180403_63_F2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180403_63_F2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 7.5,
       "pppScore": 78
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2598263164315369570",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R37F06",
@@ -315,20 +246,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R37F06-20181005_63_C2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R37F06-20181005_63_C2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181005_63_C2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 8.0,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2668631626442866786",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R79G04",
@@ -341,20 +266,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R79G04-20190409_62_J1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R79G04-20190409_62_J1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190409_62_J1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 8.5,
       "pppScore": 78
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2756645168181411938",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT046778",
@@ -367,20 +286,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT046778-20191220_67_F3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT046778-20191220_67_F3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20191220_67_F3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 9.0,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2574800386300837986",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT019842",
@@ -393,20 +306,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT019842-20180814_62_A2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT019842-20180814_62_A2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180814_62_A2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 9.5,
       "pppScore": 77
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2591825635886235746",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R26F09",
@@ -419,20 +326,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R26F09-20180925_64_I5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R26F09-20180925_64_I5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180925_64_I5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 10.0,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2655793010977013858",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R72F09",
@@ -445,20 +346,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R72F09-20190322_63_B1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R72F09-20190322_63_B1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190322_63_B1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 10.5,
       "pppScore": 77
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2756626560399179874",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT010264",
@@ -471,20 +366,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT010264-20191220_63_A2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT010264-20191220_63_A2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20191220_63_A2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 11.0,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2655596997897093218",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R72H09",
@@ -497,20 +386,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R72H09-20190322_64_D3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R72H09-20190322_64_D3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190322_64_D3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 11.5,
       "pppScore": 77
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2599777435985641570",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R47D07",
@@ -523,20 +406,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R47D07-20181012_62_A2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R47D07-20181012_62_A2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181012_62_A2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 12.0,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2676262067350012002",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R30H05",
@@ -549,20 +426,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R30H05-20190514_62_A2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R30H05-20190514_62_A2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190514_62_A2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 12.5,
       "pppScore": 77
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2655225490092064866",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT019730",
@@ -575,20 +446,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT019730-20190329_65_J3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT019730-20190329_65_J3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190329_65_J3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 13.0,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2655225474971598946",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT009668",
@@ -601,20 +466,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT009668-20190329_65_A5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT009668-20190329_65_A5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190329_65_A5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 13.5,
       "pppScore": 77
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2588090337859731554",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R20H11",
@@ -627,20 +486,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R20H11-20180918_62_B1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R20H11-20180918_62_B1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180918_62_B1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 14.0,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2640078097033986146",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R51D07",
@@ -653,20 +506,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R51D07-20190215_62_A5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R51D07-20190215_62_A5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190215_62_A5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 14.5,
       "pppScore": 77
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2653981383428407394",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R65A07",
@@ -679,20 +526,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R65A07-20190322_62_B5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R65A07-20190322_62_B5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190322_62_B5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 15.0,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2489196050766626914",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT046808",
@@ -705,20 +546,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT046808-20171215_63_C3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT046808-20171215_63_C3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20171215_63_C3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 16.0,
       "pppScore": 71
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2633136850595741794",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R54G09",
@@ -731,20 +566,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R54G09-20190125_62_B2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R54G09-20190125_62_B2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190125_62_B2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 16.5,
       "pppScore": 76
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2661696976273277026",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R72D08",
@@ -757,20 +586,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R72D08-20190402_64_D6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R72D08-20190402_64_D6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190402_64_D6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 17.0,
       "pppScore": 71
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2628054385803919458",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R32C05",
@@ -783,20 +606,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R32C05-20190111_64_G2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R32C05-20190111_64_G2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190111_64_G2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 17.5,
       "pppScore": 76
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2660959710714265698",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R66B05",
@@ -809,20 +626,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R66B05-20190329_62_E1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R66B05-20190329_62_E1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190329_62_E1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 19.0,
       "pppScore": 71
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2521841118568513634",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT014706",
@@ -835,20 +646,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT014706-20180221_62_I5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT014706-20180221_62_I5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180221_62_I5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 19.5,
       "pppScore": 76
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2712123355405746274",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R30H05",
@@ -861,20 +666,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R30H05-20190813_65_E2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R30H05-20190813_65_E2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190813_65_E2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 20.0,
       "pppScore": 71
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2549420498542919778",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT050732",
@@ -887,20 +686,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT050732-20180605_62_G3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT050732-20180605_62_G3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180605_62_G3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 21.0,
       "pppScore": 70
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2655225475651076194",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT009668",
@@ -913,20 +706,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT009668-20190329_65_B1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT009668-20190329_65_B1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190329_65_B1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 21.5,
       "pppScore": 76
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2605124219205320802",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R59C10",
@@ -939,20 +726,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R59C10-20181023_63_G3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R59C10-20181023_63_G3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181023_63_G3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 22.0,
       "pppScore": 70
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2638860524665700450",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R64A10",
@@ -965,20 +746,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R64A10-20190212_61_I2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R64A10-20190212_61_I2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190212_61_I2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 23.5,
       "pppScore": 75
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2625910570800382050",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R22C09",
@@ -991,20 +766,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R22C09-20181211_61_H3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R22C09-20181211_61_H3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181211_61_H3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 24.0,
       "pppScore": 70
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2556315897371295842",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT016610",
@@ -1017,20 +786,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT016610-20180615_62_I3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT016610-20180615_62_I3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180615_62_I3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 24.5,
       "pppScore": 75
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2533483418696548450",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT026188",
@@ -1043,20 +806,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT026188-20180420_61_E6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT026188-20180420_61_E6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180420_61_E6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 25.0,
       "pppScore": 69
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2628054386386927714",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R32C05",
@@ -1069,20 +826,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R32C05-20190111_64_G3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R32C05-20190111_64_G3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190111_64_G3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 25.5,
       "pppScore": 75
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2604889843607535714",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R79C09",
@@ -1095,20 +846,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R79C09-20181102_61_F2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R79C09-20181102_61_F2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181102_61_F2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 26.0,
       "pppScore": 69
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2647952299720179810",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R49D03",
@@ -1121,20 +866,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R49D03-20190208_63_G1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R49D03-20190208_63_G1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190208_63_G1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 26.5,
       "pppScore": 75
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2521841117486383202",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT014706",
@@ -1147,20 +886,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT014706-20180221_62_I2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT014706-20180221_62_I2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180221_62_I2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 27.0,
       "pppScore": 69
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2604511733653438562",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R68A10",
@@ -1173,20 +906,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R68A10-20181026_63_B1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R68A10-20181026_63_B1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181026_63_B1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 29.0,
       "pppScore": 69
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2480952420734074978",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT017694",
@@ -1199,20 +926,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT017694-20171107_63_C3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT017694-20171107_63_C3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20171107_63_C3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 30.0,
       "pppScore": 69
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2656284136867627106",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R67E01",
@@ -1225,20 +946,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R67E01-20190329_63_E1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R67E01-20190329_63_E1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190329_63_E1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 30.5,
       "pppScore": 75
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2655225485671268450",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT019730",
@@ -1251,20 +966,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT019730-20190329_65_H1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT019730-20190329_65_H1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190329_65_H1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 31.5,
       "pppScore": 75
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2478678360167809122",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R36G02",
@@ -1277,20 +986,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R36G02-20171117_65_J1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R36G02-20171117_65_J1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20171117_65_J1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 32.0,
       "pppScore": 69
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2660971124996702306",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R70C05",
@@ -1303,20 +1006,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R70C05-20190402_62_B5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R70C05-20190402_62_B5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190402_62_B5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 32.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2422546506360815714",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT005008",
@@ -1329,20 +1026,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT005008-20170616_62_C2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT005008-20170616_62_C2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20170616_62_C2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 33.0,
       "pppScore": 68
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2473327706108854306",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT038210",
@@ -1355,20 +1046,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT038210-20171103_62_G5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT038210-20171103_62_G5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20171103_62_G5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 34.0,
       "pppScore": 68
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2655225489722966114",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT019730",
@@ -1381,20 +1066,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT019730-20190329_65_J1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT019730-20190329_65_J1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190329_65_J1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 34.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2640311250621300834",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R45C12",
@@ -1407,20 +1086,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R45C12-20190208_62_D3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R45C12-20190208_62_D3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190208_62_D3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 35.0,
       "pppScore": 68
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2666755368226390053",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R83E02",
@@ -1433,20 +1106,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R83E02-20190426_61_C2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R83E02-20190426_61_C2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190426_61_C2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 35.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2653359027139903586",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R53D12",
@@ -1459,20 +1126,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R53D12-20190319_62_G6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R53D12-20190319_62_G6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190319_62_G6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 36.0,
       "pppScore": 68
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2660959709963485282",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R66B05",
@@ -1485,20 +1146,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R66B05-20190329_62_D5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R66B05-20190329_62_D5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190329_62_D5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 36.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2533483411725615202",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT026188",
@@ -1511,20 +1166,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT026188-20180420_61_E2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT026188-20180420_61_E2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180420_61_E2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 37.0,
       "pppScore": 68
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2591812809343893602",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R24E12",
@@ -1537,20 +1186,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R24E12-20180925_61_A6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R24E12-20180925_61_A6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180925_61_A6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 37.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2683842866484084834",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R85F03",
@@ -1563,20 +1206,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R85F03-20190607_62_G1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R85F03-20190607_62_G1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190607_62_G1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 38.0,
       "pppScore": 68
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2521841119289933922",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT014706",
@@ -1589,20 +1226,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT014706-20180221_62_J1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT014706-20180221_62_J1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180221_62_J1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 38.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2436701413246500962",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT049923",
@@ -1615,20 +1246,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT049923-20170721_62_B2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT049923-20170721_62_B2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20170721_62_B2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 39.0,
       "pppScore": 68
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2653981379162800226",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R46H12",
@@ -1641,20 +1266,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R46H12-20190312_63_G6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R46H12-20190312_63_G6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190312_63_G6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 39.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2556303074293448802",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT006382",
@@ -1667,20 +1286,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT006382-20180703_64_H1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT006382-20180703_64_H1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180703_64_H1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 40.0,
       "pppScore": 68
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2494367947376558178",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT011145",
@@ -1693,20 +1306,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT011145-20171222_63_I5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT011145-20171222_63_I5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20171222_63_I5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 40.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2458127095654514786",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT012318",
@@ -1719,20 +1326,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT012318-20170915_61_F2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT012318-20170915_61_F2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20170915_61_F2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 41.0,
       "pppScore": 68
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2557695155196919906",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT018472",
@@ -1745,20 +1346,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT018472-20180622_62_C5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT018472-20180622_62_C5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180622_62_C5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 41.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2542166708722860130",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT008182",
@@ -1771,20 +1366,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT008182-20180522_61_D6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT008182-20180522_61_D6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180522_61_D6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 42.0,
       "pppScore": 68
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2521841117125673058",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT014706",
@@ -1797,20 +1386,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT014706-20180221_62_I1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT014706-20180221_62_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180221_62_I1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 42.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2525868117251326050",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT012319",
@@ -1823,20 +1406,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT012319-20180410_63_I1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT012319-20180410_63_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180410_63_I1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 43.0,
       "pppScore": 67
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2510656345024233570",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT001615",
@@ -1849,20 +1426,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT001615-20180216_62_D6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT001615-20180216_62_D6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180216_62_D6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 43.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2628266726600474722",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R28H03",
@@ -1875,20 +1446,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R28H03-20181221_70_G2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R28H03-20181221_70_G2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181221_70_G2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 44.0,
       "pppScore": 67
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2640071784568717410",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R60B12",
@@ -1901,20 +1466,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R60B12-20190201_61_A6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R60B12-20190201_61_A6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190201_61_A6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 45.0,
       "pppScore": 67
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2615728083780501602",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R21C05",
@@ -1927,20 +1486,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R21C05-20181207_64_B6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R21C05-20181207_64_B6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181207_64_B6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 46.0,
       "pppScore": 67
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2521841118929223778",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT014706",
@@ -1953,20 +1506,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT014706-20180221_62_I6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT014706-20180221_62_I6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180221_62_I6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 46.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2625817827315023926",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "RTDC2",
@@ -1979,20 +1526,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-RTDC2-20181109_65_A6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-RTDC2-20181109_65_A6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181109_65_A6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 47.0,
       "pppScore": 67
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2524035379510640738",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT046015",
@@ -2005,20 +1546,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT046015-20180323_63_D3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT046015-20180323_63_D3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180323_63_D3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 47.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2418150032499802210",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT009094",
@@ -2031,20 +1566,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT009094-20170510_61_D6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT009094-20170510_61_D6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20170510_61_D6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 48.0,
       "pppScore": 67
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2676262067794608226",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R30H05",
@@ -2057,20 +1586,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R30H05-20190514_62_A3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R30H05-20190514_62_A3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190514_62_A3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 49.0,
       "pppScore": 67
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2660931820308136034",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R83A12",
@@ -2083,20 +1606,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R83A12-20190412_62_I2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R83A12-20190412_62_I2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190412_62_I2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 50.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2450179241174630498",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT045791",
@@ -2109,20 +1626,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT045791-20170908_65_C6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT045791-20170908_65_C6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20170908_65_C6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 50.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2458127095801315426",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT012318",
@@ -2135,20 +1646,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT012318-20170915_61_F3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT012318-20170915_61_F3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20170915_61_F3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 51.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2668642134654976098",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R9F06",
@@ -2161,20 +1666,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R9F06-20190426_62_E4-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R9F06-20190426_62_E4-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190426_62_E4",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 51.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2663520101738741858",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R76H04",
@@ -2187,20 +1686,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R76H04-20190423_62_J5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R76H04-20190423_62_J5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190423_62_J5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 52.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2598263163505868898",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R37H09",
@@ -2213,20 +1706,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R37H09-20181005_63_B3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R37H09-20181005_63_B3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181005_63_B3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 52.5,
       "pppScore": 74
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2772601380454531170",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT025957",
@@ -2239,20 +1726,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT025957-20200214_61_A2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT025957-20200214_61_A2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20200214_61_A2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 53.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2495794972398190690",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT040970",
@@ -2265,20 +1746,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT040970-20180112_61_D5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT040970-20180112_61_D5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180112_61_D5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 53.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2662850878335090786",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R94B04",
@@ -2291,20 +1766,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R94B04-20190419_63_J2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R94B04-20190419_63_J2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190419_63_J2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 54.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2650151530723803234",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT019903",
@@ -2317,20 +1786,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT019903-20190222_66_C1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT019903-20190222_66_C1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190222_66_C1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 54.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2500862622069424226",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT057231",
@@ -2343,20 +1806,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT057231-20180117_62_E3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT057231-20180117_62_E3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180117_62_E3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 55.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2660932720258973794",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R67D09",
@@ -2369,20 +1826,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R67D09-20190326_61_H2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R67D09-20190326_61_H2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190326_61_H2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 55.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2450493181955932258",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT020600",
@@ -2395,20 +1846,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT020600-20170901_64_B5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT020600-20170901_64_B5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20170901_64_B5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 56.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2420785314462171234",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT025981",
@@ -2421,20 +1866,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT025981-20170525_61_E1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT025981-20170525_61_E1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20170525_61_E1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 56.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2656360620735070306",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R64H10",
@@ -2447,20 +1886,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R64H10-20190326_63_E2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R64H10-20190326_63_E2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190326_63_E2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 57.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2590325368539840610",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT038159",
@@ -2473,20 +1906,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT038159-20180925_62_G5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT038159-20180925_62_G5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180925_62_G5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 57.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2443300406009266274",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT043788",
@@ -2499,20 +1926,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT043788-20170818_61_E1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT043788-20170818_61_E1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20170818_61_E1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 58.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2579038834020843618",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT033281",
@@ -2525,20 +1946,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT033281-20180824_63_I1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT033281-20180824_63_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180824_63_I1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 58.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2588090337243168866",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R20H11",
@@ -2551,20 +1966,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R20H11-20180918_62_A5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R20H11-20180918_62_A5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180918_62_A5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 59.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2556315898621198434",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT016610",
@@ -2577,20 +1986,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT016610-20180615_62_J2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT016610-20180615_62_J2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180615_62_J2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 60.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2480952420415307874",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT017694",
@@ -2603,20 +2006,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT017694-20171107_63_C1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT017694-20171107_63_C1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20171107_63_C1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 60.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2507080160633684066",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT033619",
@@ -2629,20 +2026,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT033619-20180202_63_C1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT033619-20180202_63_C1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180202_63_C1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 61.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2638860524049137762",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R64A10",
@@ -2655,20 +2046,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R64A10-20190212_61_I1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R64A10-20190212_61_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190212_61_I1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 61.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2625533879158571106",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R18G02",
@@ -2681,20 +2066,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R18G02-20181221_64_E5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R18G02-20181221_64_E5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181221_64_E5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 62.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2490361906884247650",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT064568",
@@ -2707,20 +2086,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT064568-20171220_62_F5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT064568-20171220_62_F5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20171220_62_F5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 62.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2491497080388845666",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT008452",
@@ -2733,20 +2106,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT008452-20171212_62_A5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT008452-20171212_62_A5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20171212_62_A5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 63.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2536020376001970274",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT004972",
@@ -2759,20 +2126,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT004972-20180424_62_I2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT004972-20180424_62_I2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180424_62_I2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 63.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2651806680592941154",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R53G01",
@@ -2785,20 +2146,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R53G01-20190319_64_B3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R53G01-20190319_64_B3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190319_64_B3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 64.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2604867703659298914",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "TRH_G4",
@@ -2811,20 +2166,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-TRH_G4-20181023_62_E1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-TRH_G4-20181023_62_E1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181023_62_E1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 64.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2518630374167281762",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT058968",
@@ -2837,20 +2186,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT058968-20180309_63_B1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT058968-20180309_63_B1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180309_63_B1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 65.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2678339512987287650",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R25E05",
@@ -2863,20 +2206,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R25E05-20190529_61_E2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R25E05-20190529_61_E2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190529_61_E2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 65.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2719729701638635618",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R72C08",
@@ -2889,20 +2226,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R72C08-20190920_63_A2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R72C08-20190920_63_A2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190920_63_A2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 66.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2519692967183122530",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT049128",
@@ -2915,20 +2246,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT049128-20180309_61_D3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT049128-20180309_61_D3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180309_61_D3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 66.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2572239207170834530",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT013872",
@@ -2941,20 +2266,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT013872-20180803_64_B1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT013872-20180803_64_B1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180803_64_B1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 67.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2628054387565527138",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R32C05",
@@ -2967,20 +2286,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R32C05-20190111_64_G5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R32C05-20190111_64_G5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190111_64_G5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 67.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2735372712238121058",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R89G04",
@@ -2993,20 +2306,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R89G04-20191029_64_F3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R89G04-20191029_64_F3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20191029_64_F3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 68.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2489204936064106594",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT057292",
@@ -3019,20 +2326,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT057292-20171215_65_I1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT057292-20171215_65_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20171215_65_I1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 68.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2790390386227413090",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT046053",
@@ -3045,20 +2346,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT046053-20200310_62_C3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT046053-20200310_62_C3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20200310_62_C3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 69.0,
       "pppScore": 66
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2672893687729487970",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT007903",
@@ -3071,20 +2366,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT007903-20190510_61_G5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT007903-20190510_61_G5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190510_61_G5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 69.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2652686223226699874",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R47F09",
@@ -3097,20 +2386,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R47F09-20190315_61_I1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R47F09-20190315_61_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190315_61_I1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 70.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2675870367599300706",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT019730",
@@ -3123,20 +2406,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT019730-20190329_65_J6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT019730-20190329_65_J6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190329_65_J6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 70.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2533483412665139298",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT026188",
@@ -3149,20 +2426,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT026188-20180420_61_E5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT026188-20180420_61_E5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180420_61_E5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 71.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2465279314074009698",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT019792",
@@ -3175,20 +2446,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT019792-20171006_64_F3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT019792-20171006_64_F3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20171006_64_F3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 71.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2650061049046237282",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R38H04",
@@ -3201,20 +2466,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R38H04-20190305_61_J1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R38H04-20190305_61_J1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190305_61_J1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 72.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2655596997154701410",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R72H09",
@@ -3227,20 +2486,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R72H09-20190322_64_D1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R72H09-20190322_64_D1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190322_64_D1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 72.5,
       "pppScore": 73
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2604874492685582434",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R16C03",
@@ -3253,20 +2506,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R16C03-20180907_62_J1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R16C03-20180907_62_J1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180907_62_J1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 73.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2655793009072799842",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R70H02",
@@ -3279,20 +2526,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R70H02-20190322_63_G3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R70H02-20190322_63_G3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190322_63_G3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 74.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2614953163635032162",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R19A04",
@@ -3305,20 +2546,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R19A04-20181204_63_F2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R19A04-20181204_63_F2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181204_63_F2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 74.5,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2483116736455376994",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT039419",
@@ -3331,20 +2566,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT039419-20171128_62_F3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT039419-20171128_62_F3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20171128_62_F3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 75.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2685567617552351330",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R77D04",
@@ -3357,20 +2586,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R77D04-20190611_63_I5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R77D04-20190611_63_I5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190611_63_I5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 75.5,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2584593804673679458",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT039462",
@@ -3383,20 +2606,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT039462-20180828_65_H2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT039462-20180828_65_H2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180828_65_H2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 76.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2604874971729625186",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R42D11",
@@ -3409,20 +2626,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R42D11-20181016_61_B5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R42D11-20181016_61_B5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20181016_61_B5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 76.5,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2590325370502774882",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT046247",
@@ -3435,20 +2646,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT046247-20180925_62_J5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT046247-20180925_62_J5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180925_62_J5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 77.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2587742065001496674",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R18B11",
@@ -3461,20 +2666,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R18B11-20180914_62_B6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R18B11-20180914_62_B6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180914_62_B6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 77.5,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2653359028243005538",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R53E04",
@@ -3487,20 +2686,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R53E04-20190319_62_J2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R53E04-20190319_62_J2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190319_62_J2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 78.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2717203036660301922",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R47H01",
@@ -3513,20 +2706,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R47H01-20190913_62_I1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R47H01-20190913_62_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190913_62_I1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 78.5,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2699089642275209314",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R52D11",
@@ -3539,20 +2726,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R52D11-20190726_63_H2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R52D11-20190726_63_H2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190726_63_H2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 79.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2655591580378857570",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R41G07",
@@ -3565,20 +2746,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R41G07-20190308_64_B3-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R41G07-20190308_64_B3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190308_64_B3",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 80.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2531319476578680930",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT008668",
@@ -3591,20 +2766,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT008668-20180413_63_G6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT008668-20180413_63_G6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180413_63_G6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 80.5,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2628001197302218850",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R49D02",
@@ -3617,20 +2786,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R49D02-20190115_66_H1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R49D02-20190115_66_H1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190115_66_H1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 81.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2666429729938079842",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R92G12",
@@ -3643,20 +2806,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R92G12-20190419_62_H2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R92G12-20190419_62_H2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190419_62_H2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 81.5,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2489204933786599522",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT056867",
@@ -3669,20 +2826,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT056867-20171215_65_F5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT056867-20171215_65_F5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20171215_65_F5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 82.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2450179241560506466",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT046831",
@@ -3695,20 +2846,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT046831-20170908_65_E1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT046831-20170908_65_E1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20170908_65_E1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 83.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2554834531458744418",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT035031",
@@ -3721,20 +2866,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT035031-20180615_64_A2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT035031-20180615_64_A2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180615_64_A2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 83.5,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2756635859036930146",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT049377",
@@ -3747,20 +2886,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT049377-20191220_68_E2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT049377-20191220_68_E2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20191220_68_E2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 84.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2635202560088080482",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT048942",
@@ -3773,20 +2906,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT048942-20171110_62_I1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT048942-20171110_62_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20171110_62_I1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 85.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2770119454053367906",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT016681",
@@ -3799,20 +2926,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT016681-20200131_64_F1-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT016681-20200131_64_F1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20200131_64_F1",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 85.5,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2770451733992702050",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT002226",
@@ -3825,20 +2946,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT002226-20200207_64_C2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT002226-20200207_64_C2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20200207_64_C2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 86.0,
       "pppScore": 65
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2663215732522745954",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R89A06",
@@ -3851,20 +2966,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-R89A06-20190416_61_J6-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-R89A06-20190416_61_J6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20190416_61_J6",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 86.5,
       "pppScore": 72
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2500862621884874850",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT057231",
@@ -3877,20 +2986,14 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT057231-20180117_62_E2-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT057231-20180117_62_E2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180117_62_E2",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": false,
       "pppRank": 87.0,
       "pppScore": 64
     },
     {
-      "t": "PPPMatch",
       "image": {
-        "t": "LMImage",
         "id": "2542166708475396194",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT008182",
@@ -3903,11 +3006,7 @@
           "SignalMipMasked": "$ppp/16/16230/16230-VT008182-20180522_61_D5-40x-JRC2018_VNC_Unisex_40x_DS-masked_raw.png",
           "SignalMipMaskedSkel": "$ppp/16/16230/16230-VT008182-20180522_61_D5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png",
           "VisuallyLosslessStack": null
-        },
-        "slideCode": "20180522_61_D5",
-        "objective": "40x",
-        "mountingProtocol": "DPX PBS Mounting",
-        "anatomicalArea": "VNC"
+        }
       },
       "mirrored": true,
       "pppRank": 87.5,

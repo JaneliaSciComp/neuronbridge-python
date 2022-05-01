@@ -2,48 +2,6 @@ from typing import List, Union, Optional, Any, Dict
 from enum import Enum
 from pydantic import BaseModel, Field, root_validator
 
-class InheritanceAwareBaseModel(BaseModel):
-    """ An alternative to Pydantic's BaseModel which preserves subclass type information in 
-        an attribute. If you're using this base class to define your SuperClass, you can then 
-        use SuperClass.parse_obj() and it will correct pick the right subclass to instantiate. 
-        Likewise, if your object graph contains subclasses, they will be correctly instantiated. 
-    """
-    t: str
-        
-    # used to register automatically all the submodels in `_types`.
-    _subtypes_: Dict[str, type] = {}
-    def __init_subclass__(cls):
-        cls._subtypes_[cls.__name__] = cls
-        
-    @classmethod
-    def __get_validators__(cls):
-        yield cls._convert_to_real_type_
-
-    @classmethod
-    def _convert_to_real_type_(cls, data):
-        if issubclass(type(data), cls): return data
-        data_type = data.get("t")
-
-        if data_type is None:
-            raise ValueError("Missing 'type' attribute")
-
-        sub = cls._subtypes_.get(data_type)
-
-        if sub is None:
-            raise TypeError(f"Unsupported sub-type: {data_type}")
-
-        return sub(**data)
-    
-    @classmethod
-    def parse_obj(cls, obj):
-        return cls._convert_to_real_type_(obj)
-    
-    @root_validator(pre=True)
-    def set_t(cls, values):
-        values['t'] = cls.__name__
-        return values
-    
-    
 class Gender(str, Enum):
     male = 'm'
     female = 'f'
@@ -81,7 +39,7 @@ class Files(BaseModel):
     AlignedBodyOBJ: Optional[str] = Field(description="EMImage-only. A 3D OBJ representation of the EM body in the alignment space.")
 
 
-class NeuronImage(InheritanceAwareBaseModel):
+class NeuronImage(BaseModel):
     """
     A color depth image containing neurons. 
     """
@@ -117,14 +75,14 @@ class ImageLookup(BaseModel):
     """
     Top level collection returned by the image lookup API.
     """
-    results: List[NeuronImage] = Field(description="List of images matching the query.")
+    results: List[Union[EMImage, LMImage]] = Field(description="List of images matching the query.")
 
 
-class Match(InheritanceAwareBaseModel):
+class Match(BaseModel):
     """
     Putative matching between two NeuronImages.
     """
-    image: NeuronImage = Field(description="The NeuronImage that was matched.")
+    image: Union[EMImage,LMImage] = Field(description="The NeuronImage that was matched.")
     mirrored: bool = Field(description="Indicates whether the target image was found within a mirrored version of the matching image.")
     def get_score(self):
         pass
@@ -150,5 +108,5 @@ class Matches(BaseModel):
     """
     The results of a matching algorithm run on a NeuronImage.
     """
-    inputImage: NeuronImage = Field(description="Input image to the matching algorithm.")
-    results: List[Match] = Field(description="List of other images matching the input image.")
+    inputImage: Union[EMImage, LMImage] = Field(description="Input image to the matching algorithm.")
+    results: List[Union[CDSMatch, PPPMatch]] = Field(description="List of other images matching the input image.")

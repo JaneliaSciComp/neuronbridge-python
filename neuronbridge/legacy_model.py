@@ -88,7 +88,7 @@ class PPPMatch(Match):
     slideCode: str = Field(description="Unique identifier for the sample that was imaged.")
     objective: str = Field(description="Magnification of the microscope objective used to imaged this image.")
     mountingProtocol: str = Field(description="Description of the protocol used to mount the sample for imaging.")
-    files: Files = Field(description="Files characterizing the match.")
+    files: Optional[Files] = Field(description="Files characterizing the match.")
     # currently missing for non-ppp results
     anatomicalArea: Optional[str] = Field(description="Anatomical area of the sample that was imaged.")
     # Unused fields present in the 2.4.0 JSON
@@ -102,7 +102,7 @@ class CDSMatch(Match):
     """
     imageURL: str = Field(description="Path to a PNG version of the image, relative to imageryBaseURL in the config.json.")
     thumbnailURL: str = Field(description="Path of a PNG thumbnail of the image, relative to thumbnailsBaseURLs in the config.json.")
-    searchablePNG: str = Field(description="Path to a PNG version of the image that was actually matched. This is the same as imageURL if the image was not segmented or otherwise processed prior to searching.")
+    searchablePNG: Optional[str] = Field(description="Path to a PNG version of the image that was actually matched. This is the same as imageURL if the image was not segmented or otherwise processed prior to searching.")
     sourceSearchablePNG: Optional[str] = Field(description="Path to a PNG version of the target image that was actually matched.")
     normalizedScore: float = Field(description="Match score reported by the matching algorithm")
     matchingPixels: int = Field(description="Number of matching pixels reported by the CDS algorithm")
@@ -128,7 +128,7 @@ class PPPMatches(BaseModel):
     """
     The results of a PPPM algorithm run on an EMImage.
     """
-    maskId: str = Field(description="Unique identifier of the target image.")
+    maskId: Optional[str] = Field(description="Unique identifier of the target image.")
     maskPublishedName: str = Field(description="Published name for the contents of the target image.")
     maskLibraryName: str = Field(description="Name of the image library containing the target image.")
     neuronType: Optional[str] = Field(description="Neuron type name from neuPrint")

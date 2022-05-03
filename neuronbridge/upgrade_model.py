@@ -2,19 +2,31 @@
 import os
 import sys
 import argparse
+import traceback
 import enum
-import json
+import rapidjson
 from devtools import debug
 import neuronbridge.legacy_model as legacy_model
 import neuronbridge.model as model
 
+DEBUG = False
 data_version = "2.4.0"
 data_version_vnc = "2.3.0-pre"
 
-by_body_dir = f"/nrs/neuronbridge/v{data_version}/brain/mips/em_bodies"
-by_line_dir = f"/nrs/neuronbridge/v{data_version}/brain/mips/all_mcfo_lines"
-by_body_dir_vnc = f"/nrs/neuronbridge/v{data_version_vnc}/vnc/mips/em_bodies"
-by_line_dir_vnc = f"/nrs/neuronbridge/v{data_version_vnc}/vnc/mips/gen1_mcfo_lines"
+by_body_dir = [
+    f"/nrs/neuronbridge/v{data_version}/brain/mips/em_bodies"
+]
+by_line_dir = [
+    f"/nrs/neuronbridge/v{data_version}/brain/mips/all_mcfo_lines",
+    f"/nrs/neuronbridge/v{data_version}/brain/mips/split_gal4_lines",
+]
+by_body_dir_vnc = [
+    f"/nrs/neuronbridge/v{data_version_vnc}/vnc/mips/em_bodies"
+]
+by_line_dir_vnc = [
+    f"/nrs/neuronbridge/v{data_version_vnc}/vnc/mips/gen1_mcfo_lines",
+    f"/nrs/neuronbridge/v{data_version_vnc}/vnc/mips/split_gal4_lines_published",
+]
 
 new_version = "3.0.0"
 
@@ -26,7 +38,6 @@ match_dirs = [
     f"/nrs/neuronbridge/v{data_version_vnc}/vnc/cdsresults.final/flylight-vs-flyem",
     f"/nrs/neuronbridge/v{data_version_vnc}/vnc/pppresults/flyem-to-flylight.public"
 ]
-
 
 
 VNC_ALIGNMENT_SPACE = "JRC2018_VNC_Unisex_40x_DS"
@@ -43,7 +54,7 @@ swc = '$swc/'
 #    debug(obj)
 
 def write_json(obj, file=sys.stdout):
-    json.dump(obj.dict(exclude_unset=True), file, indent=2)
+    rapidjson.dump(obj.dict(exclude_unset=True), file, indent=2)
 
 
 def get_mongo_col():
@@ -156,39 +167,21 @@ def upgrade_cds_match(old_match):
 
 def upgrade_cds_matches(cds_matches : legacy_model.CDSMatches):
     col = get_mongo_col()
-    image = col.find({"id":cds_matches.maskId})[0]
-    if cds_matches.maskLibraryName.startswith("FlyEM"):
-        inputImage = model.EMImage(
-            id = cds_matches.maskId,
-            libraryName = cds_matches.maskLibraryName,
-            publishedName = cds_matches.maskPublishedName,
-            gender = image['gender'],
-            alignmentSpace = image['alignmentSpace'],
-            neuronType = image['neuronType'],
-            neuronInstance = image['neuronInstance'],
-            files = image['files'],
-        )
+    res = list(col.find({"id":cds_matches.maskId}))
+    if res:
+        moimg = res[0]
     else:
-        inputImage = model.LMImage(
-            id = cds_matches.maskId,
-            libraryName = cds_matches.maskLibraryName,
-            publishedName = cds_matches.maskPublishedName,
-            gender = image['gender'],
-            alignmentSpace = image['alignmentSpace'],
-            slideCode = image['slideCode'],
-            objective = image['objective'],
-            mountingProtocol = image['mountingProtocol'],
-            anatomicalArea = image['anatomicalArea'],
-            channel = image['channel'],
-            files = model.Files(
-                ColorDepthMip = image['files']['ColorDepthMip'],
-                ColorDepthMipThumbnail = image['files']['ColorDepthMipThumbnail'],
-                VisuallyLosslessStack = cds_matches.maskImageStack,
-            )
-        )
+        print("Error: no image found for CDS target "+cds_matches.maskId, file=sys.stderr)
+        return None
 
+    if 'slideCode' in moimg:
+        # TODO: this is only necessary because these do not appear in the image files
+        image = model.LMImage(**moimg)
+        image.files.VisuallyLosslessStack = cds_matches.maskImageStack
+    else:
+        image = model.EMImage(**moimg)
     return model.Matches(
-        inputImage=inputImage,
+        inputImage=image,
         results=[
             upgrade_cds_match(old_match)
             for old_match in cds_matches.results
@@ -226,23 +219,19 @@ def upgrade_ppp_match(old_match):
 
 def upgrade_ppp_matches(ppp_matches : legacy_model.PPPMatches):
     col = get_mongo_col()
-    image = col.find({"id":ppp_matches.maskId})[0]
-    inputImage = model.EMImage(
-        id = ppp_matches.maskId,
-        libraryName = ppp_matches.maskLibraryName,
-        publishedName = ppp_matches.maskPublishedName,
-        gender = image['gender'],
-        alignmentSpace = image['alignmentSpace'],
-        neuronType = image['neuronType'],
-        neuronInstance = image['neuronInstance'],
-        files = image['files'],
-    )
+    res = list(col.find({"publishedName":ppp_matches.maskPublishedName}))
+    if res:
+        moimg = res[0]
+    else:
+        print("Warning: no image found for PPPM target "+ppp_matches.maskPublishedName, file=sys.stderr)
+        return None
 
     return model.Matches(
-        inputImage=inputImage,
+        inputImage=model.EMImage(**moimg),
         results=[
             upgrade_ppp_match(old_match)
             for old_match in ppp_matches.results
+            if old_match.files
         ]
     )
 
@@ -253,16 +242,31 @@ def upgrade_matches(matches):
     else:
         m = upgrade_cds_matches(matches)
 
-    if isinstance(m.inputImage, model.EMImage):
-        print("EM image has matches: ", len(m.results))
+    if not m: return None
 
-        lines = set([m.image.publishedName for m in m.results])
-        print("Unique lines: ", len(lines))
+    if m.results and isinstance(m.results[0], model.CDSMatch) and isinstance(m.inputImage, model.EMImage):
+        results = []
+        counts = dict()
+        for result in m.results:
+            desc = f"{result.image.publishedName} {result.image.slideCode} with {result.normalizedScore} and {result.matchingPixels}"
+            if len(counts.keys()) < 300:
+                c = counts.get(result.image.publishedName, 0)
+                if c < 3:
+                    if DEBUG: print(f"Keep result {desc}")
+                    results.append(result)
+                else:
+                    if DEBUG: print(f"DROP result {desc}")
+            else:
+                if DEBUG: print(f"DROP result {desc} (over 300 lines)")
+            counts[result.image.publishedName] = c + 1
 
+        print(f"Truncating {len(m.results)} results to {len(results)}")
+        m.results = results
     else:
-        print("LM image has matches", len(m.results))
+        print(f"Keeping {len(m.results)} results")
 
     return m
+
 
 def to_new(path):
     return path.replace(data_version, new_version).replace(data_version_vnc, new_version)
@@ -270,7 +274,10 @@ def to_new(path):
 
 def convert(path, convert_lambda):
     with open(path) as f:
-        obj = convert_lambda(json.load(f))
+        obj = convert_lambda(rapidjson.load(f))
+    if not obj:
+        print("Could not convert", path)
+        return None
     newpath = to_new(path)
     if path == newpath:
         raise Exception("Cannot write back to same path: "+path)
@@ -279,19 +286,20 @@ def convert(path, convert_lambda):
     os.makedirs(os.path.dirname(newpath), exist_ok=True)
     with open(newpath, "w") as w:
         write_json(obj, w)
-        print(f"Wrote {newpath}")
+        print("Wrote ", newpath)
     return newpath
 
 
-def convert_all(path, convert_lambda):
-    for root, dirs, files in os.walk(path):
-        for filename in files:
-            try:
-                filepath = f"{root}/{filename}"
-                newpath = convert(filepath, convert_lambda)
-            except Exception as err:
-                print(f"Error converting {filepath}\n", err)
-                raise err
+def convert_all(paths, convert_lambda):
+    for path in paths:
+        for root, dirs, files in os.walk(path):
+            for filename in files:
+                try:
+                    filepath = f"{root}/{filename}"
+                    newpath = convert(filepath, convert_lambda)
+                except Exception as err:
+                    print(f"Error converting {filepath}\n", err)
+                    raise err
 
 
 def load_images_db(prefix, image_dirs):
@@ -305,7 +313,7 @@ def load_images_db(prefix, image_dirs):
                 filepath = root+"/"+filename
                 with open(filepath) as f:
                     try:
-                        obj = json.load(f)
+                        obj = rapidjson.load(f)
                         lookup = model.ImageLookup(**obj)
                         for image in lookup.results:
                             new_obj = image.dict(exclude_unset=True)
@@ -318,24 +326,24 @@ def convert_image(filepath):
     """ Convert the image metadata on the given path
     """
     with open(filepath) as f:
-        obj = json.load(f)
+        obj = rapidjson.load(f)
         if 'slideCode' in obj['results'][0]:
             cons = legacy_model.LMImageLookup
         else:
             cons = legacy_model.EMImageLookup
-        convert(filepath, lambda x: upgrade_lookup(cons(**x)))
+        return convert(filepath, lambda x: upgrade_lookup(cons(**x)))
 
 
 def convert_match(filepath):
     """ Convert the match metadata on the given path
     """
     with open(filepath) as f:
-        obj = json.load(f)
-        if 'pppRank' in obj['results'][0]:
+        obj = rapidjson.load(f)
+        if obj['results'] and 'pppRank' in obj['results'][0]:
             cons = legacy_model.PPPMatches
         else:
             cons = legacy_model.CDSMatches
-        convert(filepath, lambda x: upgrade_matches(cons(**x)))
+        return convert(filepath, lambda x: upgrade_matches(cons(**x)))
 
 
 if __name__ == '__main__':
@@ -351,9 +359,12 @@ if __name__ == '__main__':
         help='If --allimagestodb, all of the new images will be loaded into MongoDB')
     parser.add_argument('--matchstats', dest='matchstats', action='store_true', \
         help='If --matchstats, the new matches will be analyzed')
+    parser.add_argument('--filelists', dest='filelists', action='store_true', \
+        help='If --filelists, then a list of files will be generates for each match dir')
     parser.set_defaults(allimages=False)
     parser.set_defaults(allimagestodb=False)
     parser.set_defaults(matchstats=False)
+    parser.set_defaults(filelists=False)
     args = parser.parse_args()
 
     if args.allimages:
@@ -363,17 +374,50 @@ if __name__ == '__main__':
         convert_all(by_line_dir_vnc, lambda x: upgrade_lm_lookup(legacy_model.LMImageLookup(**x)))
 
     elif args.allimagestodb:
-        print("Manually drop the table in the dev database: db.temp_img.drop()")
+        print("Manually drop the table in the dev database: ")
+        print("    db.temp_img.drop()")
         input("Press enter when ready...")
-        load_images_db("brain", [to_new(p) for p in (by_body_dir,by_line_dir)])
-        load_images_db("vnc", [to_new(p) for p in (by_body_dir_vnc,by_line_dir_vnc)])
-        print("Manually run this on the database: db.temp_img.createIndex({id:1},{unique:true})")
+        load_images_db("brain", [to_new(p) for p in by_body_dir])
+        load_images_db("brain", [to_new(p) for p in by_line_dir])
+        load_images_db("vnc", [to_new(p) for p in by_body_dir_vnc])
+        load_images_db("vnc", [to_new(p) for p in by_line_dir_vnc])
+        print("Manually run these statements on the dev database: ")
+        print("    db.temp_img.createIndex({id:1},{unique:true})")
+        print("    db.temp_img.createIndex({publishedName:1})")
 
     elif args.input_image_path:
         convert_image(args.input_image_path)
 
     elif args.input_match_path:
-        convert_match(args.input_match_path)
+        if args.input_match_path.endswith(".txt"):
+            with open(args.input_match_path) as f:
+                for line in f:
+                    try:
+                        convert_match(line.rstrip())
+                    except Exception as err:
+                        print("Error converting "+line, file=sys.stderr)
+                        print(traceback.format_exc(), file=sys.stderr)
+        else:
+            convert_match(args.input_match_path)
+
+    elif args.filelists:
+        c = 1
+        i = 0
+        count = 0
+        os.makedirs("filelists", exist_ok=True)
+        writer = open(f"filelists/filelist_{c}.txt", "w")
+        for match_dir in match_dirs:
+            print("Walking", match_dir)
+            for root, dirs, files in os.walk(match_dir):
+                for filepath in files:
+                    writer.write(f"{root}/{filepath}\n")
+                    i += 1
+                    if i >= 10000:
+                        c += 1
+                        writer.close()
+                        writer = open(f"filelists/filelist_{c}.txt", "w")
+                        i = 0
+        writer.close()
 
     elif args.matchstats:
 
@@ -383,13 +427,12 @@ if __name__ == '__main__':
                 for filename in files:
                     filepath = root+"/"+filename
                     with open(filepath) as f:
-                        obj = json.load(f)
+                        obj = rapidjson.load(f)
                         matches = model.Matches(**obj)
                         print(type(matches))
                         lowestMatch = matches.results[-1]
                         lowestScore = lowestMatch.matchingPixels if isinstance(lowestMatch, model.PPPMatch) else lowestMatch.pppScore
                         print(f"{matches.inputImage.publishedName} - {len(matches.results)} matches - {lowestScore}")
-
 
     else:
         parser.print_help(sys.stderr)

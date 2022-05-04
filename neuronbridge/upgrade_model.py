@@ -5,7 +5,9 @@ import argparse
 import traceback
 import enum
 import rapidjson
+import itertools
 from devtools import debug
+from pymongo import MongoClient
 import neuronbridge.legacy_model as legacy_model
 import neuronbridge.model as model
 
@@ -27,9 +29,6 @@ by_line_dir_vnc = [
     f"/nrs/neuronbridge/v{data_version_vnc}/vnc/mips/gen1_mcfo_lines",
     f"/nrs/neuronbridge/v{data_version_vnc}/vnc/mips/split_gal4_lines_published",
 ]
-
-new_version = "3.0.0"
-
 match_dirs = [
     f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flyem-vs-flylight",
     f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flylight-vs-flyem",
@@ -39,6 +38,7 @@ match_dirs = [
     f"/nrs/neuronbridge/v{data_version_vnc}/vnc/pppresults/flyem-to-flylight.public"
 ]
 
+new_version = "3.0.0"
 
 VNC_ALIGNMENT_SPACE = "JRC2018_VNC_Unisex_40x_DS"
 BRAIN_ALIGNMENT_SPACE = "JRC2018_Unisex_20x_HR"
@@ -48,20 +48,21 @@ thm = '$thm/'
 ppp = '$ppp/'
 swc = '$swc/'
 
+client = MongoClient("mongodb://dev-mongodb/jacs")
 
-#with open("test_data_v3/config.json") as f:
-#    obj = model.DataConfig(**json.load(f))
-#    debug(obj)
+def error(s):
+    print(s, file=sys.stderr)
 
 def write_json(obj, file=sys.stdout):
     rapidjson.dump(obj.dict(exclude_unset=True), file, indent=2)
 
 
-def get_mongo_col():
-    from pymongo import MongoClient
-    client = MongoClient("mongodb://dev-mongodb/jacs")
-    db = client.jacs
-    return db["temp_img"]
+def get_mongo_img():
+    return client.jacs["temp_img"]
+
+
+def get_mongo_nb():
+    return client.jacs["publishedImage"]
 
 
 def get_matched(alignmentSpace, libraryName, searchable):
@@ -89,6 +90,20 @@ def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
     ])
 
 
+def get_h5j(old_image):
+    col = get_mongo_nb()
+    res = list(col.find({
+            "slideCode":old_image.slideCode,
+            "objective":old_image.objective,
+            "alignmentSpace":old_image.alignmentSpace,
+    }))
+    if res:
+        return res[0]["files"]["VisuallyLosslessStack"]
+    else:
+        print(f"Error: no h5j found for {old_image.slideCode} {old_image.objective} {old_image.alignmentSpace}", file=sys.stderr)
+        return None
+
+
 def upgrade_lm_lookup(lm_lookup : legacy_model.LMImageLookup):
     return model.ImageLookup(results=[
         model.LMImage(
@@ -105,7 +120,7 @@ def upgrade_lm_lookup(lm_lookup : legacy_model.LMImageLookup):
             files = model.Files(
                 ColorDepthMip = img + old_image.imageURL,
                 ColorDepthMipThumbnail = thm + old_image.thumbnailURL,
-                VisuallyLosslessStack = None
+                VisuallyLosslessStack = get_h5j(old_image)
             )
         )
         for old_image in lm_lookup.results
@@ -166,7 +181,7 @@ def upgrade_cds_match(old_match):
 
 
 def upgrade_cds_matches(cds_matches : legacy_model.CDSMatches):
-    col = get_mongo_col()
+    col = get_mongo_img()
     res = list(col.find({"id":cds_matches.maskId}))
     if res:
         moimg = res[0]
@@ -218,7 +233,7 @@ def upgrade_ppp_match(old_match):
 
 
 def upgrade_ppp_matches(ppp_matches : legacy_model.PPPMatches):
-    col = get_mongo_col()
+    col = get_mongo_img()
     res = list(col.find({"publishedName":ppp_matches.maskPublishedName}))
     if res:
         moimg = res[0]
@@ -286,7 +301,7 @@ def convert(path, convert_lambda):
     os.makedirs(os.path.dirname(newpath), exist_ok=True)
     with open(newpath, "w") as w:
         write_json(obj, w)
-        print("Wrote ", newpath)
+        print("Wrote", newpath)
     return newpath
 
 
@@ -305,7 +320,7 @@ def convert_all(paths, convert_lambda):
 def load_images_db(prefix, image_dirs):
     """ Load image metadata into the given dict
     """
-    col = get_mongo_col()
+    col = get_mongo_img()
     for image_dir in image_dirs:
         for root, dirs, files in os.walk(image_dir):
             print(f"Loading image metadata from {root}")
@@ -346,32 +361,47 @@ def convert_match(filepath):
         return convert(filepath, lambda x: upgrade_matches(cons(**x)))
 
 
+def validate(image, err):
+    if not image.files.ColorDepthMip:
+        err(f"No ColorDepthMip: {image.slideCode}")
+    if not image.files.ColorDepthMipThumbnail:
+        err(f"No ColorDepthMipThumbnail: {image.slideCode}")
+    if isinstance(image, model.LMImage):
+        if not image.files.VisuallyLosslessStack:
+            pass#err(f"No VisuallyLosslessStack: {image.slideCode}")
+        if not image.mountingProtocol:
+            pass#err(f"No mountingProtocol")
+    if isinstance(image, model.EMImage):
+        if not image.files.AlignedBodySWC:
+            err(f"No AlignedBodySWC")
+
+
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Convert between data versions')
     parser.add_argument('-i', '--image', dest='input_image_path', type=str, required=False, \
-            help='Path to a imageh file for conversion')
+            help='Path to an old image file for conversion')
     parser.add_argument('-m', '--match', dest='input_match_path', type=str, required=False, \
-            help='Path to a match file for conversion')
+            help='Path to an old match file for conversion')
     parser.add_argument('--allimages', dest='allimages', action='store_true', \
-        help='If --allimages, all of the old images will be processed in serial to create new images')
+        help='If --allimages, all of the old images will be processed in serial to create new images in the appropriate locations')
     parser.add_argument('--allimagestodb', dest='allimagestodb', action='store_true', \
         help='If --allimagestodb, all of the new images will be loaded into MongoDB')
-    parser.add_argument('--matchstats', dest='matchstats', action='store_true', \
-        help='If --matchstats, the new matches will be analyzed')
     parser.add_argument('--filelists', dest='filelists', action='store_true', \
-        help='If --filelists, then a list of files will be generates for each match dir')
+        help='If --filelists, then a list of files will be generates for each match dir, so that the matches can be processed in parallel on the cluster.')
+    parser.add_argument('--validate', dest='validate', action='store_true', \
+        help='If --validate, the new images and matches will be validated, and any issues logged.')
     parser.set_defaults(allimages=False)
     parser.set_defaults(allimagestodb=False)
-    parser.set_defaults(matchstats=False)
     parser.set_defaults(filelists=False)
+    parser.set_defaults(validate=False)
     args = parser.parse_args()
 
     if args.allimages:
-        convert_all(by_body_dir, lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))
         convert_all(by_line_dir, lambda x: upgrade_lm_lookup(legacy_model.LMImageLookup(**x)))
-        convert_all(by_body_dir_vnc, lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))
+        convert_all(by_body_dir, lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))
         convert_all(by_line_dir_vnc, lambda x: upgrade_lm_lookup(legacy_model.LMImageLookup(**x)))
+        convert_all(by_body_dir_vnc, lambda x: upgrade_em_lookup(legacy_model.EMImageLookup(**x)))
 
     elif args.allimagestodb:
         print("Manually drop the table in the dev database: ")
@@ -419,20 +449,61 @@ if __name__ == '__main__':
                         i = 0
         writer.close()
 
-    elif args.matchstats:
+    elif args.validate:
+
+        for image_dir in itertools.chain.from_iterable([by_line_dir, by_body_dir, by_line_dir_vnc, by_body_dir_vnc]):
+            publishedNames = set()
+            for root, dirs, files in os.walk(to_new(image_dir)):
+                print(f"Validating images from {root}")
+                c = 0
+                for filename in files:
+                    filepath = root+"/"+filename
+                    err = lambda msg: error(f"{msg}: {filepath}")
+                    with open(filepath) as f:
+                        obj = rapidjson.load(f)
+                        lookup = model.ImageLookup(**obj)
+                        if not lookup.results:
+                            err(f"No images")
+                        for image in lookup.results:
+                            validate(image, err)
+                            publishedNames.add(image.publishedName)
+                        c += 1
+                print(f"    Checked {c} matches")
 
         for match_dir in match_dirs:
             for root, dirs, files in os.walk(to_new(match_dir)):
-                print(f"Loading image metadata from {root}")
+                print(f"Validating matches from {root}")
+                c = 0
                 for filename in files:
                     filepath = root+"/"+filename
                     with open(filepath) as f:
                         obj = rapidjson.load(f)
                         matches = model.Matches(**obj)
-                        print(type(matches))
-                        lowestMatch = matches.results[-1]
-                        lowestScore = lowestMatch.matchingPixels if isinstance(lowestMatch, model.PPPMatch) else lowestMatch.pppScore
-                        print(f"{matches.inputImage.publishedName} - {len(matches.results)} matches - {lowestScore}")
+                        validate(matches.inputImage, err)
+                        if matches.inputImage.publishedName not in publishedNames:
+                            err(f"Published name not in index: {matches.inputImage.publishedName}")
+                        if not matches.results:
+                            err(f"No images")
+                        for match in matches.results:
+                            validate(match.image, err)
+                            if isinstance(match, CDSMatch):
+                                if not match.image.files.ColorDepthMipInput:
+                                    err("No ColorDepthMipInput: {match.image.slideCode}")
+                                if not match.image.files.ColorDepthMipMatch:
+                                    err("No ColorDepthMipMatch: {match.image.slideCode}")
+                            if isinstance(match, PPPMatch):
+                                if not match.image.files.ColorDepthMipSkel:
+                                    err("No ColorDepthMipSkel: {match.image.slideCode}")
+                                if not match.image.files.SignalMip:
+                                    err("No SignalMip: {match.image.slideCode}")
+                                if not match.image.files.SignalMipMasked:
+                                    err("No SignalMipMasked: {match.image.slideCode}")
+                                if not match.image.files.SignalMipMaskedSkel:
+                                    err("No SignalMipMaskedSkel: {match.image.slideCode}")
+                            if match.image.publishedName not in publishedNames:
+                                err(f"Published name not in index: {match.image.publishedName}")
+                        c += 1
+                print(f"    Checked {c} matches")
 
     else:
         parser.print_help(sys.stderr)

@@ -27,7 +27,7 @@ class Files(BaseModel):
     Files associated with a NeuronImage or Match. These are either absolute URLs (e.g. starting with a protocol like http://) or relative paths. For relative paths, the first component should be replaced with its corresponding base URL from the DataConfig.
     """
     ColorDepthMip: Optional[str] = Field(description="The CDM of the image. For PPPM, this is the best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.")
-    ColorDepthMipThumbnail: Optional[str] = Field(description="The thumbnail of the ColorDepthMip, if available.")
+    ColorDepthMipThumbnail: Optional[str] = Field(description="The thumbnail sized version of the ColorDepthMip, if available.")
     ColorDepthMipInput: Optional[str] = Field(description="CDM-only. The actual color depth image that was input. 'Matched CDM' in the NeuronBridge GUI.")
     ColorDepthMipMatch: Optional[str] = Field(description="CDM-only. The actual color depth image that was matched. 'Matched CDM' in the NeuronBridge GUI.")
     ColorDepthMipSkel: Optional[str] = Field(description="PPPM-only. The CDM of the best matching channel with the matching LM segmentation fragments overlaid. 'LM - Best Channel CDM with EM overlay' in the NeuronBridge GUI.")

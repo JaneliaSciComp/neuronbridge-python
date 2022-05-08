@@ -50,8 +50,18 @@ swc = '$swc/'
 
 client = MongoClient("mongodb://dev-mongodb/jacs")
 
-def error(s):
-    print(s, file=sys.stderr)
+
+error_counts = {}
+def error(s, *tags):
+    if s in error_counts:
+        error_counts[s] += 1
+    else:
+        error_counts[s] = 1
+    if error_counts[s] < 10:
+        print(f"{s}:", *tags, file=sys.stderr)
+    if error_counts[s] == 10:
+        print(f"Reached maximum logging count for '{s}'", file=sys.stderr)
+
 
 def write_json(obj, file=sys.stdout):
     rapidjson.dump(obj.dict(exclude_unset=True), file, indent=2)
@@ -280,7 +290,7 @@ def upgrade_matches(matches):
     else:
         print(f"Keeping {len(m.results)} results")
 
-    return m
+    return m if m.results else None
 
 
 def to_new(path):
@@ -361,19 +371,19 @@ def convert_match(filepath):
         return convert(filepath, lambda x: upgrade_matches(cons(**x)))
 
 
-def validate(image, err):
+def validate(image, filepath):
     if not image.files.ColorDepthMip:
-        err(f"No ColorDepthMip: {image.slideCode}")
+        error("Missing ColorDepthMip", image.id, filepath)
     if not image.files.ColorDepthMipThumbnail:
-        err(f"No ColorDepthMipThumbnail: {image.slideCode}")
+        error("Missing ColorDepthMipThumbnail", image.id, filepath)
     if isinstance(image, model.LMImage):
         if not image.files.VisuallyLosslessStack:
-            pass#err(f"No VisuallyLosslessStack: {image.slideCode}")
+            error("Missing VisuallyLosslessStack", image.id, filepath)
         if not image.mountingProtocol:
-            pass#err(f"No mountingProtocol")
+            error("Missing mountingProtocol", image.id, filepath)
     if isinstance(image, model.EMImage):
         if not image.files.AlignedBodySWC:
-            err(f"No AlignedBodySWC")
+            error("Missing AlignedBodySWC", image.id, filepath)
 
 
 if __name__ == '__main__':
@@ -451,59 +461,70 @@ if __name__ == '__main__':
 
     elif args.validate:
 
-        for image_dir in itertools.chain.from_iterable([by_line_dir, by_body_dir, by_line_dir_vnc, by_body_dir_vnc]):
-            publishedNames = set()
-            for root, dirs, files in os.walk(to_new(image_dir)):
-                print(f"Validating images from {root}")
-                c = 0
-                for filename in files:
-                    filepath = root+"/"+filename
-                    err = lambda msg: error(f"{msg}: {filepath}")
-                    with open(filepath) as f:
-                        obj = rapidjson.load(f)
-                        lookup = model.ImageLookup(**obj)
-                        if not lookup.results:
-                            err(f"No images")
-                        for image in lookup.results:
-                            validate(image, err)
-                            publishedNames.add(image.publishedName)
-                        c += 1
-                print(f"    Checked {c} matches")
+        try:
+            validateImageLookups = True
+            validatePublishedNames = True
 
-        for match_dir in match_dirs:
-            for root, dirs, files in os.walk(to_new(match_dir)):
-                print(f"Validating matches from {root}")
-                c = 0
-                for filename in files:
-                    filepath = root+"/"+filename
-                    with open(filepath) as f:
-                        obj = rapidjson.load(f)
-                        matches = model.Matches(**obj)
-                        validate(matches.inputImage, err)
-                        if matches.inputImage.publishedName not in publishedNames:
-                            err(f"Published name not in index: {matches.inputImage.publishedName}")
-                        if not matches.results:
-                            err(f"No images")
-                        for match in matches.results:
-                            validate(match.image, err)
-                            if isinstance(match, CDSMatch):
-                                if not match.image.files.ColorDepthMipInput:
-                                    err("No ColorDepthMipInput: {match.image.slideCode}")
-                                if not match.image.files.ColorDepthMipMatch:
-                                    err("No ColorDepthMipMatch: {match.image.slideCode}")
-                            if isinstance(match, PPPMatch):
-                                if not match.image.files.ColorDepthMipSkel:
-                                    err("No ColorDepthMipSkel: {match.image.slideCode}")
-                                if not match.image.files.SignalMip:
-                                    err("No SignalMip: {match.image.slideCode}")
-                                if not match.image.files.SignalMipMasked:
-                                    err("No SignalMipMasked: {match.image.slideCode}")
-                                if not match.image.files.SignalMipMaskedSkel:
-                                    err("No SignalMipMaskedSkel: {match.image.slideCode}")
-                            if match.image.publishedName not in publishedNames:
-                                err(f"Published name not in index: {match.image.publishedName}")
-                        c += 1
-                print(f"    Checked {c} matches")
+            publishedNames = set()
+            if validateImageLookups:
+                for image_dir in itertools.chain.from_iterable([by_line_dir, by_body_dir, by_line_dir_vnc, by_body_dir_vnc]):
+                    for root, dirs, files in os.walk(to_new(image_dir)):
+                        print(f"Validating images from {root}")
+                        c = 0
+                        for filename in files:
+                            filepath = root+"/"+filename
+                            err = lambda msg: error(f"{msg}: {filepath}")
+                            with open(filepath) as f:
+                                obj = rapidjson.load(f)
+                                lookup = model.ImageLookup(**obj)
+                                if not lookup.results:
+                                    error(f"No images")
+                                for image in lookup.results:
+                                    validate(image, filepath)
+                                    publishedNames.add(image.publishedName)
+                                c += 1
+                        print(f"    Checked {c} matches")
+
+            print(f"Indexed {len(publishedNames)} published names")
+
+            for match_dir in match_dirs:
+                for root, dirs, files in os.walk(to_new(match_dir)):
+                    print(f"Validating matches from {root}")
+                    c = 0
+                    for filename in files:
+                        filepath = root+"/"+filename
+                        with open(filepath) as f:
+                            obj = rapidjson.load(f)
+                            matches = model.Matches(**obj)
+                            validate(matches.inputImage, filepath)
+                            if validatePublishedNames and matches.inputImage.publishedName not in publishedNames:
+                                error(f"Published name not indexed", matches.inputImage.publishedName, filepath)
+                            if not matches.results:
+                                error(f"No results", filepath)
+                            for match in matches.results:
+                                validate(match.image, filepath)
+                                files = match.image.files
+                                if isinstance(match, model.CDSMatch):
+                                    if not files.ColorDepthMipInput:
+                                        error("Missing ColorDepthMipInput", match.image.id, filepath)
+                                    if not files.ColorDepthMipMatch:
+                                        error("Missing ColorDepthMipMatch", match.image.id, filepath)
+                                if isinstance(match, model.PPPMatch):
+                                    if not files.ColorDepthMipSkel:
+                                        error("Missing ColorDepthMipSkel", match.image.id, filepath)
+                                    if not files.SignalMip:
+                                        error("Missing SignalMip", match.image.id, filepath)
+                                    if not files.SignalMipMasked:
+                                        error("Missing SignalMipMasked", match.image.id, filepath)
+                                    if not files.SignalMipMaskedSkel:
+                                        error("Missing SignalMipMaskedSkel", match.image.id, filepath)
+                                if validatePublishedNames and match.image.publishedName not in publishedNames:
+                                    err("Match published name not indexed", match.image.publishedName, filepath)
+                            c += 1
+                    print(f"    Checked {c} matches")
+        finally:
+            for error,count in error_counts:
+                print(f"{error}: {count}")
 
     else:
         parser.print_help(sys.stderr)

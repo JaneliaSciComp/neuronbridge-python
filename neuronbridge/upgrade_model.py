@@ -186,9 +186,7 @@ def upgrade_cds_matches(cds_matches : legacy_model.CDSMatches):
         return None
 
     if 'slideCode' in moimg:
-        # TODO: this is only necessary because these do not appear in the image files
         image = model.LMImage(**moimg)
-        image.files.VisuallyLosslessStack = cds_matches.maskImageStack
     else:
         image = model.EMImage(**moimg)
     return model.Matches(

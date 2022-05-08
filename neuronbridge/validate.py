@@ -103,8 +103,6 @@ if __name__ == '__main__':
                         validate(matches.inputImage, filepath)
                         if validatePublishedNames and matches.inputImage.publishedName not in publishedNames:
                             error(f"Published name not indexed", matches.inputImage.publishedName, filepath)
-                        if not matches.results:
-                            error(f"No results", filepath)
                         for match in matches.results:
                             validate(match.image, filepath)
                             files = match.image.files

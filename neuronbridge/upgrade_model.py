@@ -276,7 +276,7 @@ def upgrade_matches(matches):
     else:
         print(f"Keeping {len(m.results)} results")
 
-    return m if m.results else None
+    return m
 
 
 def to_new(path):

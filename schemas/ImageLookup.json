@@ -1,0 +1,247 @@
+{
+  "title": "Image lookup",
+  "description": "Top level collection returned by the image lookup API.",
+  "type": "object",
+  "properties": {
+    "results": {
+      "title": "Results",
+      "description": "List of images matching the query.",
+      "type": "array",
+      "items": {
+        "anyOf": [
+          {
+            "$ref": "#/definitions/LMImage"
+          },
+          {
+            "$ref": "#/definitions/EMImage"
+          }
+        ]
+      }
+    }
+  },
+  "required": [
+    "results"
+  ],
+  "definitions": {
+    "Gender": {
+      "title": "Gender",
+      "description": "An enumeration.",
+      "enum": [
+        "m",
+        "f"
+      ],
+      "type": "string"
+    },
+    "Files": {
+      "title": "Files",
+      "description": "Files associated with a NeuronImage or Match. These are either absolute URLs (e.g. starting with a protocol like http://) or relative paths. For relative paths, the first component should be replaced with its corresponding base URL from the DataConfig.",
+      "type": "object",
+      "properties": {
+        "ColorDepthMip": {
+          "title": "Color Depth MIP",
+          "description": "The CDM of the image. For PPPM, this is the best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.",
+          "type": "string"
+        },
+        "ColorDepthMipThumbnail": {
+          "title": "Thumbnail",
+          "description": "The thumbnail sized version of the ColorDepthMip, if available.",
+          "type": "string"
+        },
+        "ColorDepthMipInput": {
+          "title": "CDM input",
+          "description": "CDM-only. The actual color depth image that was input. 'Matched CDM' in the NeuronBridge GUI.",
+          "type": "string"
+        },
+        "ColorDepthMipMatch": {
+          "title": "CDM match",
+          "description": "CDM-only. The actual color depth image that was matched. 'Matched CDM' in the NeuronBridge GUI.",
+          "type": "string"
+        },
+        "ColorDepthMipSkel": {
+          "title": "CDM with EM overlay",
+          "description": "PPPM-only. The CDM of the best matching channel with the matching LM segmentation fragments overlaid. 'LM - Best Channel CDM with EM overlay' in the NeuronBridge GUI.",
+          "type": "string"
+        },
+        "SignalMip": {
+          "title": "All-channel MIP of the sample",
+          "description": "PPPM-only. The full MIP of all channels of the matching sample. 'LM - Sample All-Channel MIP' in the NeuronBridge GUI.",
+          "type": "string"
+        },
+        "SignalMipMasked": {
+          "title": "PPPM fragments",
+          "description": "PPPM-only. LM signal content masked with the matching LM segmentation fragments. 'PPPM Mask' in the NeuronBridge GUI.",
+          "type": "string"
+        },
+        "SignalMipMaskedSkel": {
+          "title": "PPPM fragments with EM overlay",
+          "description": "PPPM-only. LM signal content masked with the matching LM segmentation fragments, overlaid with the EM skeleton. 'PPPM Mask with EM Overlay' in the NeuronBridge GUI.",
+          "type": "string"
+        },
+        "SignalMipExpression": {
+          "title": "MIP of full LM line expression",
+          "description": "MCFO-only. A representative CDM image of the full expression of the line.",
+          "type": "string"
+        },
+        "VisuallyLosslessStack": {
+          "title": "LM 3D image stack",
+          "description": "LMImage-only. An H5J 3D image stack of all channels of the LM image.",
+          "type": "string"
+        },
+        "AlignedBodySWC": {
+          "title": "EM body in SWC format",
+          "description": "EMImage-only, A 3D SWC skeleton of the EM body in the alignment space.",
+          "type": "string"
+        },
+        "AlignedBodyOBJ": {
+          "title": "EM body in OBJ format",
+          "description": "EMImage-only. A 3D OBJ representation of the EM body in the alignment space.",
+          "type": "string"
+        }
+      }
+    },
+    "LMImage": {
+      "title": "LM image",
+      "description": "A color depth image of a single channel of an LM image stack.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "title": "Image identifier",
+          "description": "The unique identifier for this image.",
+          "type": "string"
+        },
+        "libraryName": {
+          "title": "Library name",
+          "description": "Name of the image library containing this image.",
+          "type": "string"
+        },
+        "publishedName": {
+          "title": "Published name",
+          "description": "Published name for the contents of this image. This is not a unique identifier.",
+          "type": "string"
+        },
+        "alignmentSpace": {
+          "title": "Alignment space",
+          "description": "Alignment space to which this image was registered.",
+          "type": "string"
+        },
+        "gender": {
+          "title": "Gender",
+          "description": "Gender of the sample imaged.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/Gender"
+            }
+          ]
+        },
+        "files": {
+          "title": "Files",
+          "description": "Files associated with the image.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/Files"
+            }
+          ]
+        },
+        "slideCode": {
+          "title": "Slide code",
+          "description": "Unique identifier for the sample that was imaged.",
+          "type": "string"
+        },
+        "objective": {
+          "title": "Objective",
+          "description": "Magnification of the microscope objective used to imaged this image.",
+          "type": "string"
+        },
+        "anatomicalArea": {
+          "title": "Anatomical area",
+          "description": "Anatomical area of the sample that was imaged.",
+          "type": "string"
+        },
+        "mountingProtocol": {
+          "title": "Mounting protocol",
+          "description": "Description of the protocol used to mount the sample for imaging.",
+          "type": "string"
+        },
+        "channel": {
+          "title": "Channel",
+          "description": "Channel index within the full LM image stack. PPPM matches the entire stack and therefore this is blank.",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "id",
+        "libraryName",
+        "publishedName",
+        "alignmentSpace",
+        "gender",
+        "files",
+        "slideCode",
+        "objective",
+        "anatomicalArea"
+      ]
+    },
+    "EMImage": {
+      "title": "EM image",
+      "description": "A color depth image containing a neuron body reconstructed from EM imagery.",
+      "type": "object",
+      "properties": {
+        "id": {
+          "title": "Image identifier",
+          "description": "The unique identifier for this image.",
+          "type": "string"
+        },
+        "libraryName": {
+          "title": "Library name",
+          "description": "Name of the image library containing this image.",
+          "type": "string"
+        },
+        "publishedName": {
+          "title": "Published name",
+          "description": "Published name for the contents of this image. This is not a unique identifier.",
+          "type": "string"
+        },
+        "alignmentSpace": {
+          "title": "Alignment space",
+          "description": "Alignment space to which this image was registered.",
+          "type": "string"
+        },
+        "gender": {
+          "title": "Gender",
+          "description": "Gender of the sample imaged.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/Gender"
+            }
+          ]
+        },
+        "files": {
+          "title": "Files",
+          "description": "Files associated with the image.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/Files"
+            }
+          ]
+        },
+        "neuronType": {
+          "title": "Neuron type",
+          "description": "Neuron type name from neuPrint",
+          "type": "string"
+        },
+        "neuronInstance": {
+          "title": "Neuron instance",
+          "description": "Neuron instance name from neuPrint",
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "libraryName",
+        "publishedName",
+        "alignmentSpace",
+        "gender",
+        "files"
+      ]
+    }
+  }
+}

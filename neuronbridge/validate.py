@@ -57,27 +57,23 @@ if __name__ == '__main__':
         f"/nrs/neuronbridge/v{data_version}/vnc/mips/split_gal4_lines_published",
     ]
     match_dirs = [
+        f"/nrs/neuronbridge/v{data_version}/vnc/cdsresults.final/flylight-vs-flyem",
+        f"/nrs/neuronbridge/v{data_version}/vnc/pppresults/flyem-to-flylight.public",
         f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flyem-vs-flylight",
         f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flylight-vs-flyem",
         f"/nrs/neuronbridge/v{data_version}/brain/pppresults/flyem-to-flylight.public",
         f"/nrs/neuronbridge/v{data_version}/vnc/cdsresults.final/flyem-vs-flylight",
-        f"/nrs/neuronbridge/v{data_version}/vnc/cdsresults.final/flylight-vs-flyem",
-        f"/nrs/neuronbridge/v{data_version}/vnc/pppresults/flyem-to-flylight.public"
     ]
 
     try:
-        validateImageLookups = True
-        validatePublishedNames = True
-
         publishedNames = set()
-        if validateImageLookups:
+        if args.validateImageLookups:
             for image_dir in image_dirs:
                 for root, dirs, files in os.walk(image_dir):
                     print(f"Validating images from {root}")
                     c = 0
                     for filename in files:
                         filepath = root+"/"+filename
-                        err = lambda msg: error(f"{msg}: {filepath}")
                         with open(filepath) as f:
                             obj = rapidjson.load(f)
                             lookup = model.ImageLookup(**obj)
@@ -101,7 +97,7 @@ if __name__ == '__main__':
                         obj = rapidjson.load(f)
                         matches = model.Matches(**obj)
                         validate(matches.inputImage, filepath)
-                        if validatePublishedNames and matches.inputImage.publishedName not in publishedNames:
+                        if args.validatePublishedNames and matches.inputImage.publishedName not in publishedNames:
                             error(f"Published name not indexed", matches.inputImage.publishedName, filepath)
                         for match in matches.results:
                             validate(match.image, filepath)
@@ -120,10 +116,13 @@ if __name__ == '__main__':
                                     error("Missing SignalMipMasked", match.image.id, filepath)
                                 if not files.SignalMipMaskedSkel:
                                     error("Missing SignalMipMaskedSkel", match.image.id, filepath)
-                            if validatePublishedNames and match.image.publishedName not in publishedNames:
-                                err("Match published name not indexed", match.image.publishedName, filepath)
+                            if args.validatePublishedNames and match.image.publishedName not in publishedNames:
+                                error("Match published name not indexed", match.image.publishedName, filepath)
                         c += 1
                 print(f"    Checked {c} matches")
     finally:
-        for error,count in error_counts:
+        print()
+        for error,count in error_counts.items():
             print(f"{error}: {count}")
+        print()
+

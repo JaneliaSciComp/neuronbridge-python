@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 from neuronbridge.upgrade_model import *
+import json 
 
 if __name__ == '__main__':
 

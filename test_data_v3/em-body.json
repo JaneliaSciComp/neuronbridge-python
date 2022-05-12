@@ -7,9 +7,9 @@
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
       "gender": "f",
       "files": {
-        "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.png",
-        "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.jpg",
-        "AlignedBodySWC": "$swc/FlyEM_Hemibrain_v1.2.1/1734696429.swc"
+        "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.png",
+        "ColorDepthMipThumbnail": "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.jpg",
+        "AlignedBodySWC": "FlyEM_Hemibrain_v1.2.1/1734696429.swc"
       },
       "neuronType": "ORN_DA1",
       "neuronInstance": "ORN_DA1_L"

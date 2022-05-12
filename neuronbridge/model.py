@@ -23,7 +23,7 @@ class DataConfig(BaseModel):
     """
     Defines the data configuration for the NeuronBridge. 
     """
-    constants: Dict[str, str] = Field(title="Constants", description="Constants that are used in other data files to reduce the amount of data being transferred. They are referenced with `$key` and should be replaced with `value` when the data is used.")
+    prefixes: Dict[str, str] = Field(title="Prefixes", description="Prefixes for each file type in Files. If no prefix exist, then the path is treated as absolute.")
     anatomicalRegions: List[AnatomicalRegion] = Field(title="Anatomical regions", description="List of the anatomical regions that can be searched.")
     class Config:
         title: str = "Data configuration"

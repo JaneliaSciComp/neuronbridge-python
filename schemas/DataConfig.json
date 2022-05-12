@@ -3,9 +3,9 @@
   "description": "Defines the data configuration for the NeuronBridge. ",
   "type": "object",
   "properties": {
-    "constants": {
-      "title": "Constants",
-      "description": "Constants that are used in other data files to reduce the amount of data being transferred. They are referenced with `$key` and should be replaced with `value` when the data is used.",
+    "prefixes": {
+      "title": "Prefixes",
+      "description": "Prefixes for each file type in Files. If no prefix exist, then the path is treated as absolute.",
       "type": "object",
       "additionalProperties": {
         "type": "string"
@@ -21,7 +21,7 @@
     }
   },
   "required": [
-    "constants",
+    "prefixes",
     "anatomicalRegions"
   ],
   "definitions": {

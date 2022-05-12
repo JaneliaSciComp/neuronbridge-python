@@ -3,7 +3,6 @@ import os
 import sys
 import argparse
 import traceback
-import enum
 import rapidjson
 from devtools import debug
 from pymongo import MongoClient
@@ -37,15 +36,10 @@ match_dirs = [
     f"/nrs/neuronbridge/v{data_version_vnc}/vnc/pppresults/flyem-to-flylight.public"
 ]
 
-new_version = "3.0.0"
+new_version = "3.0.0-alpha"
 
 VNC_ALIGNMENT_SPACE = "JRC2018_VNC_Unisex_40x_DS"
 BRAIN_ALIGNMENT_SPACE = "JRC2018_Unisex_20x_HR"
-
-img = '$img/'
-thm = '$thm/'
-ppp = '$ppp/'
-swc = '$swc/'
 
 client = MongoClient("mongodb://dev-mongodb/jacs")
 
@@ -63,7 +57,7 @@ def get_mongo_nb():
 
 def get_matched(alignmentSpace, libraryName, searchable):
     if not searchable: return None
-    return img + alignmentSpace +"/"+ libraryName.replace(" ","_") + "/searchable_neurons/pngs/" + searchable
+    return alignmentSpace +"/"+ libraryName.replace(" ","_") + "/searchable_neurons/pngs/" + searchable
 
 
 def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
@@ -77,9 +71,9 @@ def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
             neuronType = old_image.neuronType,
             neuronInstance = old_image.neuronInstance,
             files = model.Files(
-                ColorDepthMip = img + old_image.imageURL,
-                ColorDepthMipThumbnail = thm + old_image.thumbnailURL,
-                AlignedBodySWC = swc + old_image.libraryName + "/" + old_image.publishedName + ".swc",
+                ColorDepthMip = old_image.imageURL,
+                ColorDepthMipThumbnail = old_image.thumbnailURL,
+                AlignedBodySWC = old_image.libraryName + "/" + old_image.publishedName + ".swc",
             )
         )
         for old_image in em_lookup.results
@@ -114,8 +108,8 @@ def upgrade_lm_lookup(lm_lookup : legacy_model.LMImageLookup):
             anatomicalArea = old_image.anatomicalArea,
             channel = old_image.channel,
             files = model.Files(
-                ColorDepthMip = img + old_image.imageURL,
-                ColorDepthMipThumbnail = thm + old_image.thumbnailURL,
+                ColorDepthMip = old_image.imageURL,
+                ColorDepthMipThumbnail = old_image.thumbnailURL,
                 VisuallyLosslessStack = get_h5j(old_image)
             )
         )
@@ -141,11 +135,11 @@ def upgrade_cds_match(old_match):
             neuronType = old_match.neuronType,
             neuronInstance = old_match.neuronInstance,
             files = model.Files(
-                ColorDepthMip = img+old_match.imageURL,
-                ColorDepthMipThumbnail = thm + old_match.thumbnailURL,
+                ColorDepthMip = old_match.imageURL,
+                ColorDepthMipThumbnail = old_match.thumbnailURL,
                 ColorDepthMipInput = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.sourceSearchablePNG),
                 ColorDepthMipMatch = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.searchablePNG),
-                AlignedBodySWC = swc + old_match.libraryName + "/" + old_match.publishedName + ".swc",
+                AlignedBodySWC = old_match.libraryName + "/" + old_match.publishedName + ".swc",
             )
         )
     else:
@@ -161,8 +155,8 @@ def upgrade_cds_match(old_match):
             anatomicalArea = old_match.anatomicalArea,
             channel = old_match.channel,
             files = model.Files(
-                ColorDepthMip = img + old_match.imageURL,
-                ColorDepthMipThumbnail = thm + old_match.thumbnailURL,
+                ColorDepthMip = old_match.imageURL,
+                ColorDepthMipThumbnail = old_match.thumbnailURL,
                 ColorDepthMipInput = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.sourceSearchablePNG),
                 ColorDepthMipMatch = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.searchablePNG),
                 VisuallyLosslessStack = old_match.imageStack,
@@ -210,11 +204,11 @@ def upgrade_ppp_match(old_match):
         mountingProtocol = old_match.mountingProtocol,
         anatomicalArea = "VNC" if "VNC" in old_match.alignmentSpace else "Brain",
         files = model.Files(
-            ColorDepthMip = ppp + old_match.files.ColorDepthMip,
-            ColorDepthMipSkel = ppp + old_match.files.ColorDepthMipSkel,
-            SignalMip = ppp + old_match.files.SignalMip,
-            SignalMipMasked = ppp + old_match.files.SignalMipMasked,
-            SignalMipMaskedSkel = ppp + old_match.files.SignalMipMaskedSkel,
+            ColorDepthMip = old_match.files.ColorDepthMip,
+            ColorDepthMipSkel = old_match.files.ColorDepthMipSkel,
+            SignalMip = old_match.files.SignalMip,
+            SignalMipMasked = old_match.files.SignalMipMasked,
+            SignalMipMaskedSkel = old_match.files.SignalMipMaskedSkel,
             VisuallyLosslessStack = old_match.imageStack,
         )
     )
@@ -260,6 +254,7 @@ def upgrade_matches(matches):
             desc = f"{result.image.publishedName} {result.image.slideCode} with {result.normalizedScore} and {result.matchingPixels}"
             if len(counts.keys()) < 300:
                 c = counts.get(result.image.publishedName, 0)
+                # TODO: use top 3 samples not images
                 if c < 3:
                     if DEBUG: print(f"Keep result {desc}")
                     results.append(result)

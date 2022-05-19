@@ -14,7 +14,8 @@ import ray
 
 default_data_version = "3.0.0-alpha"
 max_logs = 0
-debug_time = True
+debug = False
+batch_size = 1000
 
 def inc_count(counts, s, value=1):
     if s in counts:
@@ -37,6 +38,21 @@ def error(counts, s, *tags):
         print(f"{s}:", *tags, file=sys.stderr)
     if counts[s] == max_logs:
         print(f"Reached maximum logging count for '{s}'", file=sys.stderr)
+
+
+def print_summary(title, counts):
+    print()
+    print(title)
+    cc = counts.copy()
+    if 'Elapsed' in cc and 'Items' in cc:
+        mean_elapsed = cc['Elapsed'] / cc['Items']
+        print(f"  Items: {cc['Items']}")
+        print(f"  Elapsed: {mean_elapsed:0.4f} seconds (on avg per item)")
+        del cc['Items']
+        del cc['Elapsed']
+    for error,count in cc.items():
+        print(f"  {error}: {count}")
+
 
 
 def validate(counts, image, filepath):
@@ -63,7 +79,6 @@ def validate_image(filepath, counts, publishedNames):
         for image in lookup.results:
             validate(counts, image, filepath)
             publishedNames.add(image.publishedName)
-        inc_count(counts, "Num Images")
 
 
 @ray.remote
@@ -71,16 +86,14 @@ def validate_image_dir(image_dir):
     publishedNames = set()
     counts = {}
     for root, dirs, files in os.walk(image_dir):
-        print(f"Validating images from {root}")
+        if debug: print(f"Validating images from {root}")
         for filename in files:
+            tic = time.perf_counter()
             filepath = root+"/"+filename
             validate_image(filepath, counts, publishedNames)
-    print(f"Summary for {image_dir}:")
-    if counts:
-        for error,count in counts.items():
-            print(f"  {error}: {count}")
-    else:
-        print("No issues found")
+            inc_count(counts, "Items")
+            inc_count(counts, "Elapsed", value=time.perf_counter()-tic)
+    print_summary(f"Summary for {image_dir}:", counts)
     return {'publishedNames':publishedNames,'counts':counts}
 
 
@@ -113,8 +126,7 @@ def validate_match(filepath, counts, publishedNames=None):
                 error(counts, "Match published name not indexed", match.image.publishedName, filepath)
             inc_count(counts, "Num Matches")
         inc_count(counts, "Items")
-        toc = time.perf_counter()
-        inc_count(counts, "Elapsed", value=toc-tic)
+        inc_count(counts, "Elapsed", value=time.perf_counter()-tic)
 
 @ray.remote
 def validate_matches(match_files, publishedNames=None):
@@ -128,20 +140,20 @@ def validate_matches(match_files, publishedNames=None):
 def validate_match_dir(match_dir, publishedNames=None):
 
     unfinished = []
-    print(f"Validating matches from {match_dir}")
+    if debug: print(f"Validating matches from {match_dir}")
     for root, dirs, files in os.walk(match_dir):
         c = 0
         batch = []
         for filename in files:
             filepath = root+"/"+filename
             batch.append(filepath)
-            if len(batch)==5000:
+            if len(batch)==batch_size:
                 unfinished.append(validate_matches.remote(batch, publishedNames))
                 batch = []
             c += 1
         if batch:
             unfinished.append(validate_matches.remote(batch, publishedNames))
-        print(f"Validating {c} matches in {root}")
+        if debug: print(f"Validating {c} matches in {root}")
 
     counts = {}
     while unfinished:
@@ -149,19 +161,8 @@ def validate_match_dir(match_dir, publishedNames=None):
         for result in ray.get(finished):
             counts = sum_counts(counts, result)
 
-    print(f"Summary for {match_dir}:")
-
-    avg_elapsed = counts['Elapsed'] / counts['Items']
-    if debug_time: print(f"  Elapsed: {avg_elapsed:0.4f} seconds on average")
-
-    if counts:
-        for error,count in counts.items():
-            print(f"  {error}: {count}")
-    else:
-        print("  No issues found")
-
+    print_summary(f"Summary for {match_dir}:", counts)
     return counts
-
 
 
 if __name__ == '__main__':
@@ -175,7 +176,14 @@ if __name__ == '__main__':
         help='Number of CPU cores to use')
     parser.add_argument('--cluster', dest='cluster_address', type=str, default=None, \
         help='Connect to existing cluster, e.g. 123.45.67.89:10001')
+    parser.add_argument('--dashboard', dest='includeDashboard', action='store_true', \
+        help='Run the Ray dashboard for debugging')
+    parser.add_argument('--no-dashboard', dest='includeDashboard', action='store_false', \
+        help='Do not run the Ray dashboard for debugging')
+    
     parser.set_defaults(validateImageLookups=True)
+    parser.set_defaults(includeDashboard=False)
+    
     args = parser.parse_args()
     data_version = args.data_version
 
@@ -210,7 +218,17 @@ if __name__ == '__main__':
 
     if address:
         print(f"Using existing cluster: {address}")
-    ray.init(num_cpus=cpus, dashboard_port=8265, address=address)
+
+    include_dashboard = args.includeDashboard
+    dashboard_port = 8265
+    if include_dashboard:
+        print(f"Deploying dashboard on port {dashboard_port}")
+
+    ray.init(num_cpus=cpus,
+            include_dashboard=include_dashboard,
+            dashboard_port=dashboard_port,
+            address=address,
+            log_to_driver=True)
 
     try:
         publishedNames = set()
@@ -224,7 +242,7 @@ if __name__ == '__main__':
                 for result in ray.get(finished):
                     publishedNames.update(result['publishedNames'])
                     counts = sum_counts(counts, result['counts'])
-            print(f"Indexed {len(publishedNames)} published names")
+            if debug: print(f"Indexed {len(publishedNames)} published names")
 
         for match_dir in match_dirs:
             unfinished.append(validate_match_dir.remote(match_dir, \
@@ -234,11 +252,6 @@ if __name__ == '__main__':
                 for result in ray.get(finished):
                     counts = sum_counts(counts, result)
 
-
     finally:
-        print()
-        print("Validation complete. Issue summary:")
-        for error,count in counts.items():
-            print(f"{error}: {count}")
-        print()
+        print_summary("Validation complete. Issue summary:", counts)
 

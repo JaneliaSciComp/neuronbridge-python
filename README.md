@@ -1,4 +1,4 @@
-# neuronbridge-python
+# NeuronBridge Python API
 
 [![DOI](https://zenodo.org/badge/479832149.svg)](https://zenodo.org/badge/latestdoi/479832149)
 

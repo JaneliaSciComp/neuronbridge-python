@@ -171,7 +171,9 @@ if __name__ == '__main__':
     parser.add_argument('-d', '--data_version', dest='data_version', type=str, \
         default=default_data_version, help='Data version to validate, found under /nrs/neuronbridge/v<data_version>')
     parser.add_argument('--nolookups', dest='validateImageLookups', action='store_false', \
-        help='If --nolookups, then image lookups are skipped and only matches are validated.')
+        help='If --nolookups, then image lookups are skipped.')
+    parser.add_argument('--nomatches', dest='validateMatches', action='store_false', \
+        help='If --nomatches, then the matches are skipped.')
     parser.add_argument('--cores', dest='cores', type=int, default=None, \
         help='Number of CPU cores to use')
     parser.add_argument('--cluster', dest='cluster_address', type=str, default=None, \
@@ -182,6 +184,7 @@ if __name__ == '__main__':
         help='Do not run the Ray dashboard for debugging')
     
     parser.set_defaults(validateImageLookups=True)
+    parser.set_defaults(validateMatches=True)
     parser.set_defaults(includeDashboard=False)
     
     args = parser.parse_args()
@@ -211,13 +214,12 @@ if __name__ == '__main__':
     if "head_node" in os.environ:
         head_node = os.environ["head_node"]
         port = os.environ["port"]
-        address = f"ray://{head_node}:{port}"
-        ray.init(address=head_node+":"+port)
+        address = f"{head_node}:{port}"
     else:
-        address = f"ray://{args.cluster_address}" if args.cluster_address else None
+        address = f"{args.cluster_address}" if args.cluster_address else None
 
     if address:
-        print(f"Using existing cluster: {address}")
+        print(f"Using cluster: {address}")
 
     include_dashboard = args.includeDashboard
     dashboard_port = 8265
@@ -227,8 +229,7 @@ if __name__ == '__main__':
     ray.init(num_cpus=cpus,
             include_dashboard=include_dashboard,
             dashboard_port=dashboard_port,
-            address=address,
-            log_to_driver=True)
+            address=address)
 
     try:
         publishedNames = set()
@@ -244,13 +245,14 @@ if __name__ == '__main__':
                     counts = sum_counts(counts, result['counts'])
             if debug: print(f"Indexed {len(publishedNames)} published names")
 
-        for match_dir in match_dirs:
-            unfinished.append(validate_match_dir.remote(match_dir, \
-                    publishedNames if args.validateImageLookups else None))
-            while unfinished:
-                finished, unfinished = ray.wait(unfinished, num_returns=1)
-                for result in ray.get(finished):
-                    counts = sum_counts(counts, result)
+        if args.validateMatches:
+            for match_dir in match_dirs:
+                unfinished.append(validate_match_dir.remote(match_dir, \
+                        publishedNames if args.validateImageLookups else None))
+                while unfinished:
+                    finished, unfinished = ray.wait(unfinished, num_returns=1)
+                    for result in ray.get(finished):
+                        counts = sum_counts(counts, result)
 
     finally:
         print_summary("Validation complete. Issue summary:", counts)

@@ -124,7 +124,7 @@ def upgrade_lookup(lookup):
         return upgrade_em_lookup(lookup)
 
 
-def upgrade_cds_match(old_match):
+def upgrade_cds_match(input_image, old_match):
     if old_match.libraryName.startswith("FlyEM"):
         image = model.EMImage(
             id = old_match.id,
@@ -137,8 +137,6 @@ def upgrade_cds_match(old_match):
             files = model.Files(
                 ColorDepthMip = old_match.imageURL,
                 ColorDepthMipThumbnail = old_match.thumbnailURL,
-                ColorDepthMipInput = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.sourceSearchablePNG),
-                ColorDepthMipMatch = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.searchablePNG),
                 AlignedBodySWC = old_match.libraryName + "/" + old_match.publishedName + ".swc",
             )
         )
@@ -157,8 +155,6 @@ def upgrade_cds_match(old_match):
             files = model.Files(
                 ColorDepthMip = old_match.imageURL,
                 ColorDepthMipThumbnail = old_match.thumbnailURL,
-                ColorDepthMipInput = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.sourceSearchablePNG),
-                ColorDepthMipMatch = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.searchablePNG),
                 VisuallyLosslessStack = old_match.imageStack,
             )
         )
@@ -167,6 +163,10 @@ def upgrade_cds_match(old_match):
             mirrored = old_match.mirrored,
             normalizedScore = old_match.normalizedScore,
             matchingPixels = old_match.matchingPixels,
+            files = model.Files(
+                ColorDepthMipInput = get_matched(input_image.alignmentSpace, input_image.libraryName, old_match.sourceSearchablePNG),
+                ColorDepthMipMatch = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.searchablePNG),
+            )
         )
 
 
@@ -186,7 +186,7 @@ def upgrade_cds_matches(cds_matches : legacy_model.CDSMatches):
     return model.Matches(
         inputImage=image,
         results=[
-            upgrade_cds_match(old_match)
+            upgrade_cds_match(image, old_match)
             for old_match in cds_matches.results
         ]
     )
@@ -204,11 +204,6 @@ def upgrade_ppp_match(old_match):
         mountingProtocol = old_match.mountingProtocol,
         anatomicalArea = "VNC" if "VNC" in old_match.alignmentSpace else "Brain",
         files = model.Files(
-            ColorDepthMip = old_match.files.ColorDepthMip,
-            ColorDepthMipSkel = old_match.files.ColorDepthMipSkel,
-            SignalMip = old_match.files.SignalMip,
-            SignalMipMasked = old_match.files.SignalMipMasked,
-            SignalMipMaskedSkel = old_match.files.SignalMipMaskedSkel,
             VisuallyLosslessStack = old_match.imageStack,
         )
     )
@@ -217,6 +212,13 @@ def upgrade_ppp_match(old_match):
             mirrored = old_match.mirrored,
             pppRank = old_match.pppRank,
             pppScore = old_match.pppScore,
+            files = model.Files(
+                ColorDepthMip = old_match.files.ColorDepthMip,
+                ColorDepthMipSkel = old_match.files.ColorDepthMipSkel,
+                SignalMip = old_match.files.SignalMip,
+                SignalMipMasked = old_match.files.SignalMipMasked,
+                SignalMipMaskedSkel = old_match.files.SignalMipMaskedSkel,
+            )
         )
 
 

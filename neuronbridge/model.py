@@ -97,6 +97,7 @@ class Match(BaseModel):
     Putative matching between two NeuronImages.
     """
     image: Union[LMImage,EMImage] = Field(title="Matched image", description="The NeuronImage that was matched.")
+    files: Files = Field(title="Files", description="Files associated with the match.")
     mirrored: bool = Field(title="Mirror flag", description="Indicates whether the target image was found within a mirrored version of the matching image.")
     class Config:
         title: str = "Match"

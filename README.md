@@ -13,7 +13,6 @@ Create a conda env with all the dependencies including Jupyter:
     conda env create -f environment.yml
     conda activate neuronbridge-python
 
-
 ### Install for development
 
 You can install the module for development like this:
@@ -21,7 +20,6 @@ You can install the module for development like this:
     conda create --name neuronbridge-python python=3.8
     conda activate neuronbridge-python
     python setup.py develop
-
 
 ### Useful shell commands
 
@@ -41,7 +39,6 @@ Run the unit tests:
 
     pytest tests
 
-
 ### Publishing a new release
 
 1) Update the version in setup.py
@@ -53,4 +50,3 @@ Run the unit tests:
 4) Upload to PyPI:
 
     twine upload dist/*
-

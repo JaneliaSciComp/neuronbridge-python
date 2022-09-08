@@ -10,7 +10,10 @@
         "SignalMipMasked": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
         "SignalMipMaskedSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
         "SignalMipExpression": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
-        "AlignedBodySWC": "https://s3.amazonaws.com/janelia-flylight-color-depth/SWC/"
+        "AlignedBodySWC": "https://s3.amazonaws.com/janelia-flylight-color-depth/SWC/",
+        "AlignedBodyOBJ": "https://s3.amazonaws.com/janelia-flylight-color-depth/OBJ/",
+        "CDSResults": "https://s3.amazonaws.com/janelia-neuronbridge-data-prod/v3.0.0-alpha/metadata/cdsresults/",
+        "PPPMResults": "https://s3.amazonaws.com/janelia-neuronbridge-data-prod/v3.0.0-alpha/metadata/pppresults/"
     },
     "anatomicalRegions": [
         { "label": "Brain", "value": "brain" },

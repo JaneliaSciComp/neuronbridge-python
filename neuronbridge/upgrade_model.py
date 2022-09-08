@@ -80,6 +80,8 @@ def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
                 ColorDepthMip = old_image.imageURL,
                 ColorDepthMipThumbnail = old_image.thumbnailURL,
                 AlignedBodySWC = old_image.libraryName + "/" + old_image.publishedName + ".swc",
+                CDSResults = old_image.id+".json",
+                PPPMResults = old_image.publishedName+".json"
             )
         )
         for old_image in em_lookup.results
@@ -116,7 +118,8 @@ def upgrade_lm_lookup(lm_lookup : legacy_model.LMImageLookup):
             files = model.Files(
                 ColorDepthMip = old_image.imageURL,
                 ColorDepthMipThumbnail = old_image.thumbnailURL,
-                VisuallyLosslessStack = get_h5j(old_image)
+                VisuallyLosslessStack = get_h5j(old_image),
+                CDSResults = old_image.id+".json"
             )
         )
         for old_image in lm_lookup.results
@@ -282,7 +285,7 @@ def upgrade_matches(matches):
 
 
 def to_new(path):
-    return path.replace(data_version, new_version).replace(data_version_vnc, new_version)
+    return path.replace(data_version, new_version).replace(data_version_vnc, NEW_VERSION)
 
 
 def convert(path, convert_lambda):

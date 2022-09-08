@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+
+from neuronbridge import legacy_model
 from neuronbridge.upgrade_model import *
 import json 
 

@@ -50,3 +50,13 @@ Run the unit tests:
 4) Upload to PyPI:
 
     twine upload dist/*
+
+### Running validation using Ray
+
+You can run validation multithreaded on a single machine like this:
+
+    ./neuronbridge/validate_ray.py
+
+To run the validation script in a distributed manner on the Janelia cluster, you must first install [ray-janelia](https://github.com/JaneliaSciComp/ray-janelia) in a sister directory to where this code base is cloned. Then run a script to bsub the Ray cluster:
+
+    ./scripts/launch_validation.sh

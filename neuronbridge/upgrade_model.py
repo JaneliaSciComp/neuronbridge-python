@@ -40,6 +40,7 @@ new_version = "3.0.0-alpha"
 
 VNC_ALIGNMENT_SPACE = "JRC2018_VNC_Unisex_40x_DS"
 BRAIN_ALIGNMENT_SPACE = "JRC2018_Unisex_20x_HR"
+HEMIBRAIN_LIBRARY = "FlyEM_Hemibrain_v1.2.1"
 
 client = MongoClient("mongodb://dev-mongodb/jacs")
 
@@ -58,6 +59,11 @@ def get_mongo_nb():
 def get_matched(alignmentSpace, libraryName, searchable):
     if not searchable: return None
     return alignmentSpace +"/"+ libraryName.replace(" ","_") + "/searchable_neurons/pngs/" + searchable
+
+
+def get_pppm_path(old_match, file_path):
+    if not file_path: return None
+    return old_match.alignmentSpace + "/" + HEMIBRAIN_LIBRARY + "/" + file_path
 
 
 def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
@@ -213,11 +219,12 @@ def upgrade_ppp_match(old_match):
             pppRank = old_match.pppRank,
             pppScore = old_match.pppScore,
             files = model.Files(
-                ColorDepthMip = old_match.files.ColorDepthMip,
-                ColorDepthMipSkel = old_match.files.ColorDepthMipSkel,
-                SignalMip = old_match.files.SignalMip,
-                SignalMipMasked = old_match.files.SignalMipMasked,
-                SignalMipMaskedSkel = old_match.files.SignalMipMaskedSkel,
+                ColorDepthMipBest = get_pppm_path(old_match, old_match.files.ColorDepthMip),
+                ColorDepthMipBestThumbnail = get_pppm_path(old_match, old_match.files.ColorDepthMip.replace(".png",".jpg")),
+                ColorDepthMipSkel = get_pppm_path(old_match, old_match.files.ColorDepthMipSkel),
+                SignalMip = get_pppm_path(old_match, old_match.files.SignalMip),
+                SignalMipMasked = get_pppm_path(old_match, old_match.files.SignalMipMasked),
+                SignalMipMaskedSkel = get_pppm_path(old_match, old_match.files.SignalMipMaskedSkel),
             )
         )
 

@@ -34,9 +34,11 @@ class Files(BaseModel):
     Files associated with a NeuronImage or Match. These are either absolute URLs (e.g. starting with a protocol like http://) or relative paths. For relative paths, the first component should be replaced with its corresponding base URL from the DataConfig.
     """
     ColorDepthMip: Optional[str] = Field(title="Color Depth MIP", description="The CDM of the image. For PPPM, this is the best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.")
-    ColorDepthMipThumbnail: Optional[str] = Field(title="Thumbnail", description="The thumbnail sized version of the ColorDepthMip, if available.")
+    ColorDepthMipThumbnail: Optional[str] = Field(title="Thumbnail of the CDM", description="The thumbnail sized version of the ColorDepthMip, if available.")
     ColorDepthMipInput: Optional[str] = Field(title="CDM input", description="CDM-only. The actual color depth image that was input. 'Matched CDM' in the NeuronBridge GUI.")
     ColorDepthMipMatch: Optional[str] = Field(title="CDM match", description="CDM-only. The actual color depth image that was matched. 'Matched CDM' in the NeuronBridge GUI.")
+    ColorDepthMipBest: Optional[str] = Field(title="CDM of best-matching channel", description="PPPM-only. The CDM of best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.")
+    ColorDepthMipBestThumbnail: Optional[str] = Field(title="Thumbnail of the CDM of best-matching channel", description="PPPM-only. The CDM of best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.")
     ColorDepthMipSkel: Optional[str] = Field(title="CDM with EM overlay", description="PPPM-only. The CDM of the best matching channel with the matching LM segmentation fragments overlaid. 'LM - Best Channel CDM with EM overlay' in the NeuronBridge GUI.")
     SignalMip: Optional[str] = Field(title="All-channel MIP of the sample", description="PPPM-only. The full MIP of all channels of the matching sample. 'LM - Sample All-Channel MIP' in the NeuronBridge GUI.")
     SignalMipMasked: Optional[str] = Field(title="PPPM fragments", description="PPPM-only. LM signal content masked with the matching LM segmentation fragments. 'PPPM Mask' in the NeuronBridge GUI.")

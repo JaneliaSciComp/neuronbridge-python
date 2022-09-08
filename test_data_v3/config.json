@@ -4,11 +4,12 @@
         "ColorDepthMipThumbnail": "https://s3.amazonaws.com/janelia-flylight-color-depth-thumbnails/",
         "ColorDepthMipInput": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
         "ColorDepthMipMatch": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
-        "ColorDepthMipSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod",
-        "SignalMip": "https://s3.amazonaws.com/janelia-ppp-match-prod",
-        "SignalMipMasked": "https://s3.amazonaws.com/janelia-ppp-match-prod",
-        "SignalMipMaskedSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod",
-        "SignalMipExpression": "https://s3.amazonaws.com/janelia-ppp-match-prod",
+        "ColorDepthMipBest": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+        "ColorDepthMipSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+        "SignalMip": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+        "SignalMipMasked": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+        "SignalMipMaskedSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+        "SignalMipExpression": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
         "AlignedBodySWC": "https://s3.amazonaws.com/janelia-flylight-color-depth/SWC/"
     },
     "anatomicalRegions": [

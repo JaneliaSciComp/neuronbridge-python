@@ -285,7 +285,7 @@ def upgrade_matches(matches):
 
 
 def to_new(path):
-    return path.replace(data_version, new_version).replace(data_version_vnc, NEW_VERSION)
+    return path.replace(data_version, new_version).replace(data_version_vnc, new_version)
 
 
 def convert(path, convert_lambda):

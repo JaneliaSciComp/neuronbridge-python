@@ -1,20 +1,8 @@
 {
-  "title": "Matches",
-  "description": "The results of a matching algorithm run on a NeuronImage.",
+  "title": "CustomMatches",
+  "description": "The results of a matching algorithm run on an UploadImage.",
   "type": "object",
   "properties": {
-    "inputImage": {
-      "title": "Input image",
-      "description": "Input image to the matching algorithm.",
-      "anyOf": [
-        {
-          "$ref": "#/definitions/LMImage"
-        },
-        {
-          "$ref": "#/definitions/EMImage"
-        }
-      ]
-    },
     "results": {
       "title": "Results",
       "description": "List of other images matching the input image.",
@@ -29,12 +17,22 @@
           }
         ]
       }
+    },
+    "inputImage": {
+      "title": "Uploaded input image",
+      "description": "Input image to the matching algorithm.",
+      "allOf": [
+        {
+          "$ref": "#/definitions/UploadedImage"
+        }
+      ]
     }
   },
   "required": [
-    "inputImage",
-    "results"
+    "results",
+    "inputImage"
   ],
+  "additionalProperties": false,
   "definitions": {
     "Gender": {
       "title": "Gender",
@@ -56,7 +54,7 @@
           "type": "string"
         },
         "ColorDepthMipThumbnail": {
-          "title": "Thumbnail",
+          "title": "Thumbnail of the CDM",
           "description": "The thumbnail sized version of the ColorDepthMip, if available.",
           "type": "string"
         },
@@ -68,6 +66,16 @@
         "ColorDepthMipMatch": {
           "title": "CDM match",
           "description": "CDM-only. The actual color depth image that was matched. 'Matched CDM' in the NeuronBridge GUI.",
+          "type": "string"
+        },
+        "ColorDepthMipBest": {
+          "title": "CDM of best-matching channel",
+          "description": "PPPM-only. The CDM of best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.",
+          "type": "string"
+        },
+        "ColorDepthMipBestThumbnail": {
+          "title": "Thumbnail of the CDM of best-matching channel",
+          "description": "PPPM-only. The CDM of best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.",
           "type": "string"
         },
         "ColorDepthMipSkel": {
@@ -109,8 +117,19 @@
           "title": "EM body in OBJ format",
           "description": "EMImage-only. A 3D OBJ representation of the EM body in the alignment space.",
           "type": "string"
+        },
+        "CDSResults": {
+          "title": "Results of CDS matching on this image",
+          "description": "A JSON file serializing Matches containing CDSMatch objects for the input image.",
+          "type": "string"
+        },
+        "PPPMResults": {
+          "title": "Results of PPPM matching on this image",
+          "description": "EMImage-only, a JSON file serializing Matches containing PPPMatch objects for the input image.",
+          "type": "string"
         }
-      }
+      },
+      "additionalProperties": false
     },
     "LMImage": {
       "title": "LM image",
@@ -135,6 +154,11 @@
         "alignmentSpace": {
           "title": "Alignment space",
           "description": "Alignment space to which this image was registered.",
+          "type": "string"
+        },
+        "anatomicalArea": {
+          "title": "Anatomical area",
+          "description": "Anatomical area represented in the image.",
           "type": "string"
         },
         "gender": {
@@ -165,11 +189,6 @@
           "description": "Magnification of the microscope objective used to imaged this image.",
           "type": "string"
         },
-        "anatomicalArea": {
-          "title": "Anatomical area",
-          "description": "Anatomical area of the sample that was imaged.",
-          "type": "string"
-        },
         "mountingProtocol": {
           "title": "Mounting protocol",
           "description": "Description of the protocol used to mount the sample for imaging.",
@@ -186,15 +205,16 @@
         "libraryName",
         "publishedName",
         "alignmentSpace",
+        "anatomicalArea",
         "gender",
         "files",
         "slideCode",
-        "objective",
-        "anatomicalArea"
-      ]
+        "objective"
+      ],
+      "additionalProperties": false
     },
     "EMImage": {
-      "title": "EM image",
+      "title": "EMImage",
       "description": "A color depth image containing a neuron body reconstructed from EM imagery.",
       "type": "object",
       "properties": {
@@ -216,6 +236,11 @@
         "alignmentSpace": {
           "title": "Alignment space",
           "description": "Alignment space to which this image was registered.",
+          "type": "string"
+        },
+        "anatomicalArea": {
+          "title": "Anatomical area",
+          "description": "Anatomical area represented in the image.",
           "type": "string"
         },
         "gender": {
@@ -252,12 +277,14 @@
         "libraryName",
         "publishedName",
         "alignmentSpace",
+        "anatomicalArea",
         "gender",
         "files"
-      ]
+      ],
+      "additionalProperties": false
     },
     "CDSMatch": {
-      "title": "CDS match",
+      "title": "CDSMatch",
       "description": "A CDSMatch is a match generated by the CDS algorithm between an EMImage and a LMImage.",
       "type": "object",
       "properties": {
@@ -270,6 +297,15 @@
             },
             {
               "$ref": "#/definitions/EMImage"
+            }
+          ]
+        },
+        "files": {
+          "title": "Files",
+          "description": "Files associated with the match.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/Files"
             }
           ]
         },
@@ -291,10 +327,12 @@
       },
       "required": [
         "image",
+        "files",
         "mirrored",
         "normalizedScore",
         "matchingPixels"
-      ]
+      ],
+      "additionalProperties": false
     },
     "PPPMatch": {
       "title": "PPPM match",
@@ -310,6 +348,15 @@
             },
             {
               "$ref": "#/definitions/EMImage"
+            }
+          ]
+        },
+        "files": {
+          "title": "Files",
+          "description": "Files associated with the match.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/Files"
             }
           ]
         },
@@ -331,10 +378,44 @@
       },
       "required": [
         "image",
+        "files",
         "mirrored",
         "pppRank",
         "pppScore"
-      ]
+      ],
+      "additionalProperties": false
+    },
+    "UploadedImage": {
+      "title": "UploadedImage",
+      "description": "An uploaded image containing neurons. ",
+      "type": "object",
+      "properties": {
+        "alignmentSpace": {
+          "title": "Alignment space",
+          "description": "Alignment space to which this image was registered.",
+          "type": "string"
+        },
+        "anatomicalArea": {
+          "title": "Anatomical area",
+          "description": "Anatomical area represented in the image.",
+          "type": "string"
+        },
+        "files": {
+          "title": "Files",
+          "description": "Files associated with the image.",
+          "allOf": [
+            {
+              "$ref": "#/definitions/Files"
+            }
+          ]
+        }
+      },
+      "required": [
+        "alignmentSpace",
+        "anatomicalArea",
+        "files"
+      ],
+      "additionalProperties": false
     }
   }
 }

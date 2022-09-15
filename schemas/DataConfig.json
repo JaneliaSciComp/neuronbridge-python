@@ -1,11 +1,11 @@
 {
-  "title": "Data configuration",
+  "title": "DataConfig",
   "description": "Defines the data configuration for the NeuronBridge. ",
   "type": "object",
   "properties": {
     "prefixes": {
       "title": "Prefixes",
-      "description": "Prefixes for each file type in Files. If no prefix exist, then the path is treated as absolute.",
+      "description": "Path prefixes for each file type in Files. If no prefix exists for a given file type, then the path should be treated as absolute.",
       "type": "object",
       "additionalProperties": {
         "type": "string"
@@ -24,9 +24,10 @@
     "prefixes",
     "anatomicalRegions"
   ],
+  "additionalProperties": false,
   "definitions": {
     "AnatomicalRegion": {
-      "title": "Anatomical region",
+      "title": "AnatomicalRegion",
       "description": "Defines an anatomical region of the fly brain that can be searched using NeuronBridge. All searches are specific to one region.",
       "type": "object",
       "properties": {
@@ -55,7 +56,8 @@
         "value",
         "label",
         "alignmentSpace"
-      ]
+      ],
+      "additionalProperties": false
     }
   }
 }

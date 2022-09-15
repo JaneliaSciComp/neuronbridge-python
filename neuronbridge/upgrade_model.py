@@ -38,8 +38,10 @@ match_dirs = [
 
 new_version = "3.0.0-alpha"
 
-VNC_ALIGNMENT_SPACE = "JRC2018_VNC_Unisex_40x_DS"
+BRAIN_ANATOMICAL_AREA = "Brain"
 BRAIN_ALIGNMENT_SPACE = "JRC2018_Unisex_20x_HR"
+VNC_ANATOMICAL_AREA = "VNC"
+VNC_ALIGNMENT_SPACE = "JRC2018_VNC_Unisex_40x_DS"
 HEMIBRAIN_LIBRARY = "FlyEM_Hemibrain_v1.2.1"
 
 client = MongoClient("mongodb://dev-mongodb/jacs")
@@ -73,6 +75,7 @@ def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
             libraryName = old_image.libraryName,
             publishedName = old_image.publishedName,
             gender = old_image.gender,
+            anatomicalArea = VNC_ANATOMICAL_AREA if "VNC" in old_image.imageURL else BRAIN_ANATOMICAL_AREA,
             alignmentSpace = VNC_ALIGNMENT_SPACE if "VNC" in old_image.imageURL else BRAIN_ALIGNMENT_SPACE,
             neuronType = old_image.neuronType,
             neuronInstance = old_image.neuronInstance,
@@ -80,6 +83,7 @@ def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
                 ColorDepthMip = old_image.imageURL,
                 ColorDepthMipThumbnail = old_image.thumbnailURL,
                 AlignedBodySWC = old_image.libraryName + "/" + old_image.publishedName + ".swc",
+                AlignedBodyOBJ = old_image.libraryName + "/" + old_image.publishedName + ".obj",
                 CDSResults = old_image.id+".json",
                 PPPMResults = old_image.publishedName+".json"
             )
@@ -109,11 +113,11 @@ def upgrade_lm_lookup(lm_lookup : legacy_model.LMImageLookup):
             libraryName = old_image.libraryName,
             publishedName = old_image.publishedName,
             gender = old_image.gender,
+            anatomicalArea = old_image.anatomicalArea,
             alignmentSpace = old_image.alignmentSpace,
             slideCode = old_image.slideCode,
             objective = old_image.objective,
             mountingProtocol = old_image.mountingProtocol,
-            anatomicalArea = old_image.anatomicalArea,
             channel = old_image.channel,
             files = model.Files(
                 ColorDepthMip = old_image.imageURL,
@@ -140,6 +144,7 @@ def upgrade_cds_match(input_image, old_match):
             libraryName = old_match.libraryName,
             publishedName = old_match.publishedName,
             gender = old_match.gender,
+            anatomicalArea = VNC_ANATOMICAL_AREA if "VNC" in old_match.imageURL else BRAIN_ANATOMICAL_AREA,
             alignmentSpace = VNC_ALIGNMENT_SPACE if "VNC" in old_match.imageURL else BRAIN_ALIGNMENT_SPACE,
             neuronType = old_match.neuronType,
             neuronInstance = old_match.neuronInstance,
@@ -147,6 +152,7 @@ def upgrade_cds_match(input_image, old_match):
                 ColorDepthMip = old_match.imageURL,
                 ColorDepthMipThumbnail = old_match.thumbnailURL,
                 AlignedBodySWC = old_match.libraryName + "/" + old_match.publishedName + ".swc",
+                AlignedBodyOBJ = old_match.libraryName + "/" + old_match.publishedName + ".obj",
             )
         )
     else:
@@ -192,7 +198,7 @@ def upgrade_cds_matches(cds_matches : legacy_model.CDSMatches):
         image = model.LMImage(**moimg)
     else:
         image = model.EMImage(**moimg)
-    return model.Matches(
+    return model.PrecomputedMatches(
         inputImage=image,
         results=[
             upgrade_cds_match(image, old_match)
@@ -241,7 +247,7 @@ def upgrade_ppp_matches(ppp_matches : legacy_model.PPPMatches):
         print("Warning: no image found for PPPM target "+ppp_matches.maskPublishedName, file=sys.stderr)
         return None
 
-    return model.Matches(
+    return model.PrecomputedMatches(
         inputImage=model.EMImage(**moimg),
         results=[
             upgrade_ppp_match(old_match)

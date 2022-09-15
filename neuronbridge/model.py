@@ -1,6 +1,6 @@
 from typing import List, Union, Optional, Any, Dict
 from enum import Enum
-from pydantic import BaseModel, Field, root_validator
+from pydantic import BaseModel, Field
 
 class Gender(str, Enum):
     male = 'm'
@@ -16,17 +16,17 @@ class AnatomicalRegion(BaseModel):
     alignmentSpace: str = Field(title="Alignment space", description="Alignment space to which this images in this region are registered.")
     disabled: Optional[bool] = Field(title="Disabled flag", description="True if this region is disabled in the UI.")
     class Config:
-        title: str = "Anatomical region"
+        extra: str = 'forbid'
 
 
 class DataConfig(BaseModel):
     """
     Defines the data configuration for the NeuronBridge. 
     """
-    prefixes: Dict[str, str] = Field(title="Prefixes", description="Prefixes for each file type in Files. If no prefix exist, then the path is treated as absolute.")
+    prefixes: Dict[str, str] = Field(title="Prefixes", description="Path prefixes for each file type in Files. If no prefix exists for a given file type, then the path should be treated as absolute.")
     anatomicalRegions: List[AnatomicalRegion] = Field(title="Anatomical regions", description="List of the anatomical regions that can be searched.")
     class Config:
-        title: str = "Data configuration"
+        extra: str = 'forbid'
 
 
 class Files(BaseModel):
@@ -49,6 +49,18 @@ class Files(BaseModel):
     AlignedBodyOBJ: Optional[str] = Field(title="EM body in OBJ format", description="EMImage-only. A 3D OBJ representation of the EM body in the alignment space.")
     CDSResults: Optional[str] = Field(title="Results of CDS matching on this image", description="A JSON file serializing Matches containing CDSMatch objects for the input image.")
     PPPMResults: Optional[str] = Field(title="Results of PPPM matching on this image", description="EMImage-only, a JSON file serializing Matches containing PPPMatch objects for the input image.")
+    class Config:
+        extra: str = 'forbid'
+
+class UploadedImage(BaseModel):
+    """
+    An uploaded image containing neurons. 
+    """
+    alignmentSpace: str = Field(title="Alignment space", description="Alignment space to which this image was registered.")
+    anatomicalArea: str = Field(title="Anatomical area", description="Anatomical area represented in the image.")
+    files: Files = Field(title="Files", description="Files associated with the image.")
+    class Config:
+        extra: str = 'forbid'
 
 class NeuronImage(BaseModel):
     """
@@ -58,10 +70,11 @@ class NeuronImage(BaseModel):
     libraryName: str = Field(title="Library name", description="Name of the image library containing this image.")
     publishedName: str = Field(title="Published name", description="Published name for the contents of this image. This is not a unique identifier.")
     alignmentSpace: str = Field(title="Alignment space", description="Alignment space to which this image was registered.")
+    anatomicalArea: str = Field(title="Anatomical area", description="Anatomical area represented in the image.")
     gender: Gender = Field(title="Gender", description="Gender of the sample imaged.")
     files: Files = Field(title="Files", description="Files associated with the image.")
     class Config:
-        title: str = "Neuron image"
+        extra: str = 'forbid'
 
 
 class EMImage(NeuronImage):
@@ -71,7 +84,7 @@ class EMImage(NeuronImage):
     neuronType: Optional[str] = Field(title="Neuron type", description="Neuron type name from neuPrint")
     neuronInstance: Optional[str] = Field(title="Neuron instance", description="Neuron instance name from neuPrint")
     class Config:
-        title: str = "EM image"
+        extra: str = 'forbid'
 
 class LMImage(NeuronImage):
     """
@@ -79,7 +92,6 @@ class LMImage(NeuronImage):
     """
     slideCode: str = Field(title="Slide code", description="Unique identifier for the sample that was imaged.")
     objective: str = Field(title="Objective", description="Magnification of the microscope objective used to imaged this image.")
-    anatomicalArea: str = Field(title="Anatomical area", description="Anatomical area of the sample that was imaged.")
     # TODO: this is only temporarily optional until #2px2113 is fixed
     mountingProtocol: Optional[str] = Field(title="Mounting protocol", description="Description of the protocol used to mount the sample for imaging.")
     channel: Optional[int] = Field(title="Channel", description="Channel index within the full LM image stack. PPPM matches the entire stack and therefore this is blank.")
@@ -92,7 +104,7 @@ class ImageLookup(BaseModel):
     """
     results: List[Union[LMImage, EMImage]] = Field(title="Results", description="List of images matching the query.")
     class Config:
-        title: str = "Image lookup"
+        extra: str = 'forbid'
         smart_union = True
 
 class Match(BaseModel):
@@ -103,7 +115,7 @@ class Match(BaseModel):
     files: Files = Field(title="Files", description="Files associated with the match.")
     mirrored: bool = Field(title="Mirror flag", description="Indicates whether the target image was found within a mirrored version of the matching image.")
     class Config:
-        title: str = "Match"
+        extra: str = 'forbid'
         smart_union = True
 
 
@@ -124,16 +136,33 @@ class CDSMatch(Match):
     normalizedScore: float = Field(title="Normalized score", description="Match score reported by the matching algorithm")
     matchingPixels: int = Field(title="Matching pixels", description="Number of matching pixels reported by the CDS algorithm")
     class Config:
-        title: str = "CDS match"
+        extra: str = 'forbid'
 
 
 class Matches(BaseModel):
     """
+    The results of a matching algorithm run.
+    """
+    results: List[Union[CDSMatch, PPPMatch]] = Field(title="Results", description="List of other images matching the input image.")
+    class Config:
+        extra: str = 'forbid'
+        smart_union = True
+
+
+class PrecomputedMatches(Matches):
+    """
     The results of a matching algorithm run on a NeuronImage.
     """
     inputImage: Union[LMImage, EMImage] = Field(title="Input image", description="Input image to the matching algorithm.")
-    results: List[Union[CDSMatch, PPPMatch]] = Field(title="Results", description="List of other images matching the input image.")
     class Config:
-        title: str = "Matches"
+        extra: str = 'forbid'
         smart_union = True
 
+
+class CustomMatches(Matches):
+    """
+    The results of a matching algorithm run on an UploadImage.
+    """
+    inputImage: UploadedImage = Field(title="Uploaded input image", description="Input image to the matching algorithm.")
+    class Config:
+        extra: str = 'forbid'

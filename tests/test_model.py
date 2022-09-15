@@ -11,6 +11,7 @@ by_body = json.loads(
       "libraryName": "FlyEM_Hemibrain_v1.2.1",
       "publishedName": "1734696429",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.png",
@@ -54,6 +55,7 @@ ppp_results = json.loads(
     "id": "2945073144457764875",
     "libraryName": "FlyEM_Hemibrain_v1.2.1",
     "publishedName": "2384750665",
+    "anatomicalArea": "Brain",
     "alignmentSpace": "JRC2018_Unisex_20x_HR",
     "gender": "f",
     "files": {
@@ -96,7 +98,7 @@ ppp_results = json.loads(
 )
 
 def test_PPPMatches():
-    matches = Matches(**ppp_results)
+    matches = PrecomputedMatches(**ppp_results)
     img = matches.inputImage
     assert img.id == "2945073144457764875"
     assert len(matches.results) == 1
@@ -105,3 +107,59 @@ def test_PPPMatches():
     assert match.image.gender == Gender.female
     assert match.mirrored == True
     assert match.files.ColorDepthMip == "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-ch.png"
+
+new_results = json.loads(
+"""{
+  "inputImage" : {
+    "libraryName" : "FlyEM_Hemibrain_v1.2.1",
+    "publishedName" : "1253394541",
+    "alignmentSpace" : "JRC2018_Unisex_20x_HR",
+    "anatomicalArea": "Brain",
+    "gender": "f",
+    "neuronType" : "MC62",
+    "neuronInstance" : "MC62(LWF5)_R",
+    "id" : "2945073147357655051",
+    "files" : {
+      "ColorDepthMipThumbnail" : "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1253394541-JRC2018_Unisex_20x_HR-CDM.jpg",
+      "ColorDepthMip" : "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1253394541-JRC2018_Unisex_20x_HR-CDM.png",
+      "AlignedBodySWC" : "FlyEM_Hemibrain_v1.2.1/1253394541.swc"
+    }
+  },
+  "results" : [ {
+    "mirrored" : false,
+    "normalizedScore" : 34433.96,
+    "matchingPixels" : 73,
+    "matchingPixelsRatio" : 0.109445274,
+    "gradientAreaGap" : 0,
+    "image" : {
+      "libraryName" : "FlyLight Gen1 MCFO",
+      "publishedName" : "VT040712",
+      "alignmentSpace" : "JRC2018_Unisex_20x_HR",
+      "anatomicalArea" : "Brain",
+      "gender" : "m",
+      "slideCode" : "20200221_64_H4",
+      "objective" : "40x",
+      "mountingProtocol" : "DPX PBS Mounting",
+      "channel" : 2,
+      "id" : "2775341446398476299",
+      "files" : {
+        "ColorDepthMipThumbnail" : "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/VT040712-20200221_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
+        "ColorDepthMip" : "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/VT040712-20200221_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "VisuallyLosslessStack" : "Gen1+MCFO/VT040712/VT040712-20200221_64_H4-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
+        "Gal4Expression" : "Gen1/CDM/VT040712/VT040712-sample_003501-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png"
+      }
+    },
+    "files" : {
+      "ColorDepthMipMatch" : "VT040712-20200221_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2-04.png",
+      "ColorDepthMipInput" : "1253394541-JRC2018_Unisex_20x_HR-CDM.png"
+    }
+  }]
+}
+"""
+)
+
+def test_NewMatches():
+    matches = PrecomputedMatches(**new_results)
+    assert isinstance(matches.inputImage, EMImage)
+    match = matches.results[0]
+    assert isinstance(match.image, LMImage)

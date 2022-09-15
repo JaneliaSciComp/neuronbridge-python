@@ -8,6 +8,8 @@ import os
 import sys
 import time
 import argparse
+import traceback
+
 import rapidjson
 import neuronbridge.model as model
 import ray
@@ -90,7 +92,13 @@ def validate_image_dir(image_dir):
         for filename in files:
             tic = time.perf_counter()
             filepath = root+"/"+filename
-            validate_image(filepath, counts, publishedNames)
+            try:
+                validate_image(filepath, counts, publishedNames)
+            except Exception as e:
+                trace = traceback.format_exc()
+                print("Error validating", filepath)
+                print(trace)
+                inc_count(counts, "Exceptions")
             inc_count(counts, "Items")
             inc_count(counts, "Elapsed", value=time.perf_counter()-tic)
     print_summary(f"Summary for {image_dir}:", counts)
@@ -132,7 +140,13 @@ def validate_match(filepath, counts, publishedNames=None):
 def validate_matches(match_files, publishedNames=None):
     counts = {}
     for filepath in match_files:
-        validate_match(filepath, counts, publishedNames)
+        try:
+            validate_match(filepath, counts, publishedNames)
+        except Exception as e:
+            trace = traceback.format_exc()
+            print("Error validating", filepath)
+            print(trace)
+            inc_count(counts, "Exceptions")
     return counts
 
 
@@ -190,22 +204,40 @@ if __name__ == '__main__':
     args = parser.parse_args()
     data_version = args.data_version
 
-    image_dirs = [
-        f"/nrs/neuronbridge/v{data_version}/brain/mips/em_bodies",
-        f"/nrs/neuronbridge/v{data_version}/brain/mips/all_mcfo_lines",
-        f"/nrs/neuronbridge/v{data_version}/brain/mips/split_gal4_lines",
-        f"/nrs/neuronbridge/v{data_version}/vnc/mips/em_bodies",
-        f"/nrs/neuronbridge/v{data_version}/vnc/mips/gen1_mcfo_lines",
-        f"/nrs/neuronbridge/v{data_version}/vnc/mips/split_gal4_lines_published",
-    ]
-    match_dirs = [
-        f"/nrs/neuronbridge/v{data_version}/vnc/cdsresults.final/flylight-vs-flyem",
-        f"/nrs/neuronbridge/v{data_version}/vnc/pppresults/flyem-to-flylight.public",
-        f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flyem-vs-flylight",
-        f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flylight-vs-flyem",
-        f"/nrs/neuronbridge/v{data_version}/brain/pppresults/flyem-to-flylight.public",
-        f"/nrs/neuronbridge/v{data_version}/vnc/cdsresults.final/flyem-vs-flylight",
-    ]
+    if data_version == "3.0.0-alpha":
+        # For the alpha model, the directory structure was inherited from the older models.
+        # This can be deleted once we merge this code into the main branch.
+        image_dirs = [
+            f"/nrs/neuronbridge/v{data_version}/brain/mips/em_bodies",
+            f"/nrs/neuronbridge/v{data_version}/brain/mips/all_mcfo_lines",
+            f"/nrs/neuronbridge/v{data_version}/brain/mips/split_gal4_lines",
+            f"/nrs/neuronbridge/v{data_version}/vnc/mips/em_bodies",
+            f"/nrs/neuronbridge/v{data_version}/vnc/mips/gen1_mcfo_lines",
+            f"/nrs/neuronbridge/v{data_version}/vnc/mips/split_gal4_lines_published",
+        ]
+        match_dirs = [
+            f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flyem-vs-flylight",
+            f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flylight-vs-flyem",
+            f"/nrs/neuronbridge/v{data_version}/brain/pppresults/flyem-to-flylight.public",
+            f"/nrs/neuronbridge/v{data_version}/vnc/cdsresults.final/flyem-vs-flylight",
+            f"/nrs/neuronbridge/v{data_version}/vnc/cdsresults.final/flylight-vs-flyem",
+            f"/nrs/neuronbridge/v{data_version}/vnc/pppresults/flyem-to-flylight.public",
+        ]
+    else:
+        image_dirs = [
+            f"/nrs/neuronbridge/v{data_version}/brain/mips/embodies",
+            f"/nrs/neuronbridge/v{data_version}/brain/mips/lmlines",
+            f"/nrs/neuronbridge/v{data_version}/vnc/mips/embodies",
+            f"/nrs/neuronbridge/v{data_version}/vnc/mips/lmlines",
+        ]
+        match_dirs = [
+            f"/nrs/neuronbridge/v{data_version}/brain/cdmatches/em-vs-lm/",
+            f"/nrs/neuronbridge/v{data_version}/brain/cdmatches/lm-vs-em/",
+            f"/nrs/neuronbridge/v{data_version}/brain/pppmatches/em-vs-lm/",
+            f"/nrs/neuronbridge/v{data_version}/vnc/cdmatches/em-vs-lm/",
+            f"/nrs/neuronbridge/v{data_version}/vnc/cdmatches/lm-vs-em/",
+            f"/nrs/neuronbridge/v{data_version}/vnc/pppmatches/em-vs-lm/",
+        ]
 
     cpus = args.cores
     if cpus:
@@ -236,6 +268,7 @@ if __name__ == '__main__':
         counts, unfinished = {}, []
 
         if args.validateImageLookups:
+            print("Validating image lookups...")
             for image_dir in image_dirs:
                 unfinished.append(validate_image_dir.remote(image_dir))
             while unfinished:
@@ -246,6 +279,7 @@ if __name__ == '__main__':
             if debug: print(f"Indexed {len(publishedNames)} published names")
 
         if args.validateMatches:
+            print("Validating matches...")
             for match_dir in match_dirs:
                 unfinished.append(validate_match_dir.remote(match_dir, \
                         publishedNames if args.validateImageLookups else None))

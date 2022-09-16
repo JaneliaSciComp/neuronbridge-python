@@ -194,6 +194,9 @@ def upgrade_cds_matches(cds_matches : legacy_model.CDSMatches):
         print("Error: no image found for CDS target "+cds_matches.maskId, file=sys.stderr)
         return None
 
+    # extra fields are forbidden by the model, so we need to delete the Mongo id
+    del moimg['_id']
+
     if 'slideCode' in moimg:
         image = model.LMImage(**moimg)
     else:
@@ -247,6 +250,9 @@ def upgrade_ppp_matches(ppp_matches : legacy_model.PPPMatches):
         print("Warning: no image found for PPPM target "+ppp_matches.maskPublishedName, file=sys.stderr)
         return None
 
+    # extra fields are forbidden by the model, so we need to delete the Mongo id
+    del moimg['_id']
+    
     return model.PrecomputedMatches(
         inputImage=model.EMImage(**moimg),
         results=[

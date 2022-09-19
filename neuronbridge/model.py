@@ -56,6 +56,7 @@ class UploadedImage(BaseModel):
     """
     An uploaded image containing neurons. 
     """
+    filename: str = Field(title="Filename", description="Name of the uploaded file.")
     alignmentSpace: str = Field(title="Alignment space", description="Alignment space to which this image was registered.")
     anatomicalArea: str = Field(title="Anatomical area", description="Anatomical area represented in the image.")
     files: Files = Field(title="Files", description="Files associated with the image.")

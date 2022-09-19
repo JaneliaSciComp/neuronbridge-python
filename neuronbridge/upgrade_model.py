@@ -4,7 +4,6 @@ import sys
 import argparse
 import traceback
 import rapidjson
-from devtools import debug
 from pymongo import MongoClient
 import neuronbridge.legacy_model as legacy_model
 import neuronbridge.model as model

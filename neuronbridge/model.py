@@ -144,6 +144,7 @@ class Matches(BaseModel):
     """
     The results of a matching algorithm run.
     """
+    inputImage: None
     results: List[Union[CDSMatch, PPPMatch]] = Field(title="Results", description="List of other images matching the input image.")
     class Config:
         extra: str = 'forbid'
@@ -155,6 +156,7 @@ class PrecomputedMatches(Matches):
     The results of a matching algorithm run on a NeuronImage.
     """
     inputImage: Union[LMImage, EMImage] = Field(title="Input image", description="Input image to the matching algorithm.")
+
     class Config:
         extra: str = 'forbid'
         smart_union = True

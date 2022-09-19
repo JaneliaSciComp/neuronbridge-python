@@ -59,8 +59,6 @@ class UploadedImage(BaseModel):
     alignmentSpace: str = Field(title="Alignment space", description="Alignment space to which this image was registered.")
     anatomicalArea: str = Field(title="Anatomical area", description="Anatomical area represented in the image.")
     files: Files = Field(title="Files", description="Files associated with the image.")
-    class Config:
-        extra: str = 'forbid'
 
 class NeuronImage(BaseModel):
     """

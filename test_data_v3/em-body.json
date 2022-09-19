@@ -5,11 +5,13 @@
       "libraryName": "FlyEM_Hemibrain_v1.2.1",
       "publishedName": "1734696429",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.png",
         "ColorDepthMipThumbnail": "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.jpg",
         "AlignedBodySWC": "FlyEM_Hemibrain_v1.2.1/1734696429.swc",
+        "AlignedBodyOBJ": "FlyEM_Hemibrain_v1.2.1/1734696429.obj",
         "CDSResults": "2945073143148142603.json",
         "PPPMResults": "1734696429.json"
       },

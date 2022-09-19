@@ -5,6 +5,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -14,7 +15,6 @@
       },
       "slideCode": "20190430_64_H1",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -23,6 +23,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -32,7 +33,6 @@
       },
       "slideCode": "20190430_64_H1",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -41,6 +41,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -50,7 +51,6 @@
       },
       "slideCode": "20190430_64_H1",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -59,6 +59,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -68,7 +69,6 @@
       },
       "slideCode": "20190430_64_H2",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -77,6 +77,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -86,7 +87,6 @@
       },
       "slideCode": "20190430_64_H2",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -95,6 +95,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -104,7 +105,6 @@
       },
       "slideCode": "20190430_64_H2",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -113,6 +113,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -122,7 +123,6 @@
       },
       "slideCode": "20190430_64_H3",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -131,6 +131,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -140,7 +141,6 @@
       },
       "slideCode": "20190430_64_H3",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -149,6 +149,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -158,7 +159,6 @@
       },
       "slideCode": "20190430_64_H3",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -167,6 +167,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -176,7 +177,6 @@
       },
       "slideCode": "20190430_64_H4",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -185,6 +185,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -194,7 +195,6 @@
       },
       "slideCode": "20190430_64_H4",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -203,6 +203,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -212,7 +213,6 @@
       },
       "slideCode": "20190430_64_H4",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -221,6 +221,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -230,7 +231,6 @@
       },
       "slideCode": "20190430_64_H5",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -239,6 +239,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -248,7 +249,6 @@
       },
       "slideCode": "20190430_64_H5",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -257,6 +257,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -266,7 +267,6 @@
       },
       "slideCode": "20190430_64_H5",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -275,6 +275,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -284,7 +285,6 @@
       },
       "slideCode": "20191001_63_E1",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -293,6 +293,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -302,7 +303,6 @@
       },
       "slideCode": "20191001_63_E1",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -311,6 +311,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -320,7 +321,6 @@
       },
       "slideCode": "20191001_63_E1",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -329,6 +329,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -338,7 +339,6 @@
       },
       "slideCode": "20191001_63_E10",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -347,6 +347,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -356,7 +357,6 @@
       },
       "slideCode": "20191001_63_E10",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -365,6 +365,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -374,7 +375,6 @@
       },
       "slideCode": "20191001_63_E10",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -383,6 +383,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -392,7 +393,6 @@
       },
       "slideCode": "20191001_63_E2",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -401,6 +401,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -410,7 +411,6 @@
       },
       "slideCode": "20191001_63_E2",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -419,6 +419,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -428,7 +429,6 @@
       },
       "slideCode": "20191001_63_E2",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -437,6 +437,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -446,7 +447,6 @@
       },
       "slideCode": "20191001_63_E3",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -455,6 +455,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -464,7 +465,6 @@
       },
       "slideCode": "20191001_63_E3",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -473,6 +473,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -482,7 +483,6 @@
       },
       "slideCode": "20191001_63_E3",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -491,6 +491,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -500,7 +501,6 @@
       },
       "slideCode": "20191001_63_E4",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -509,6 +509,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -518,7 +519,6 @@
       },
       "slideCode": "20191001_63_E4",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -527,6 +527,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -536,7 +537,6 @@
       },
       "slideCode": "20191001_63_E4",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -545,6 +545,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -554,7 +555,6 @@
       },
       "slideCode": "20191001_63_E5",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -563,6 +563,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -572,7 +573,6 @@
       },
       "slideCode": "20191001_63_E5",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -581,6 +581,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -590,7 +591,6 @@
       },
       "slideCode": "20191001_63_E5",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -599,6 +599,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -608,7 +609,6 @@
       },
       "slideCode": "20191001_63_E6",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -617,6 +617,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -626,7 +627,6 @@
       },
       "slideCode": "20191001_63_E6",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -635,6 +635,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -644,7 +645,6 @@
       },
       "slideCode": "20191001_63_E6",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -653,6 +653,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -662,7 +663,6 @@
       },
       "slideCode": "20191001_63_E7",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -671,6 +671,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -680,7 +681,6 @@
       },
       "slideCode": "20191001_63_E7",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -689,6 +689,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -698,7 +699,6 @@
       },
       "slideCode": "20191001_63_E7",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -707,6 +707,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -716,7 +717,6 @@
       },
       "slideCode": "20191001_63_E8",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -725,6 +725,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -734,7 +735,6 @@
       },
       "slideCode": "20191001_63_E8",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -743,6 +743,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -752,7 +753,6 @@
       },
       "slideCode": "20191001_63_E8",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -761,6 +761,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -770,7 +771,6 @@
       },
       "slideCode": "20191001_63_E9",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -779,6 +779,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -788,7 +789,6 @@
       },
       "slideCode": "20191001_63_E9",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -797,6 +797,7 @@
       "libraryName": "FlyLight Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -806,7 +807,6 @@
       },
       "slideCode": "20191001_63_E9",
       "objective": "40x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -815,6 +815,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -824,7 +825,6 @@
       },
       "slideCode": "20161007_19_A1",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -833,6 +833,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -842,7 +843,6 @@
       },
       "slideCode": "20161007_19_A1",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -851,6 +851,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -860,7 +861,6 @@
       },
       "slideCode": "20161007_19_A1",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -869,6 +869,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -878,7 +879,6 @@
       },
       "slideCode": "20161007_19_A2",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -887,6 +887,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -896,7 +897,6 @@
       },
       "slideCode": "20161007_19_A2",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -905,6 +905,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -914,7 +915,6 @@
       },
       "slideCode": "20161007_19_A2",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -923,6 +923,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -932,7 +933,6 @@
       },
       "slideCode": "20161007_19_A2",
       "objective": "63x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -941,6 +941,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -950,7 +951,6 @@
       },
       "slideCode": "20161007_19_A2",
       "objective": "63x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -959,6 +959,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -968,7 +969,6 @@
       },
       "slideCode": "20161007_19_A2",
       "objective": "63x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -977,6 +977,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -986,7 +987,6 @@
       },
       "slideCode": "20161007_19_A3",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -995,6 +995,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -1004,7 +1005,6 @@
       },
       "slideCode": "20161007_19_A3",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -1013,6 +1013,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -1022,7 +1023,6 @@
       },
       "slideCode": "20161007_19_A3",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -1031,6 +1031,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A4-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -1040,7 +1041,6 @@
       },
       "slideCode": "20161007_19_A4",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -1049,6 +1049,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A4-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -1058,7 +1059,6 @@
       },
       "slideCode": "20161007_19_A4",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -1067,6 +1067,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -1076,7 +1077,6 @@
       },
       "slideCode": "20161007_19_A5",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -1085,6 +1085,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -1094,7 +1095,6 @@
       },
       "slideCode": "20161007_19_A5",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -1103,6 +1103,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -1112,7 +1113,6 @@
       },
       "slideCode": "20161007_19_A5",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -1121,6 +1121,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A6-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -1130,7 +1131,6 @@
       },
       "slideCode": "20161007_19_A6",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -1139,6 +1139,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A6-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -1148,7 +1149,6 @@
       },
       "slideCode": "20161007_19_A6",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -1157,6 +1157,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A7-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -1166,7 +1167,6 @@
       },
       "slideCode": "20161007_19_A7",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -1175,6 +1175,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A7-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -1184,7 +1185,6 @@
       },
       "slideCode": "20161007_19_A7",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -1193,6 +1193,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A8-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -1202,7 +1203,6 @@
       },
       "slideCode": "20161007_19_A8",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     },
@@ -1211,6 +1211,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
@@ -1220,7 +1221,6 @@
       },
       "slideCode": "20161007_19_B1",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 1
     },
@@ -1229,6 +1229,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -1238,7 +1239,6 @@
       },
       "slideCode": "20161007_19_B1",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 2
     },
@@ -1247,6 +1247,7 @@
       "libraryName": "FlyLight Annotator Gen1 MCFO",
       "publishedName": "R77F05",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
+      "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
         "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
@@ -1256,7 +1257,6 @@
       },
       "slideCode": "20161007_19_B1",
       "objective": "20x",
-      "anatomicalArea": "Brain",
       "mountingProtocol": "DPX PBS Mounting",
       "channel": 3
     }

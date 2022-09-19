@@ -4,11 +4,15 @@
     "libraryName": "FlyEM_VNC_v0.6",
     "publishedName": "16230",
     "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+    "anatomicalArea": "VNC",
     "gender": "m",
     "files": {
       "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyEM_VNC_v0.6/16230-JRC2018_VNC_Unisex_40x_DS-CDM.png",
       "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyEM_VNC_v0.6/16230-JRC2018_VNC_Unisex_40x_DS-CDM.jpg",
-      "AlignedBodySWC": "FlyEM_VNC_v0.6/16230.swc"
+      "AlignedBodySWC": "FlyEM_VNC_v0.6/16230.swc",
+      "AlignedBodyOBJ": "FlyEM_VNC_v0.6/16230.obj",
+      "CDSResults": "2988247193634181251.json",
+      "PPPMResults": "16230.json"
     },
     "neuronType": "pct_15002",
     "neuronInstance": "15002_R"
@@ -20,13 +24,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R53D12",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190319_62_G5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -47,13 +51,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R53D12",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190319_62_G2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -74,13 +78,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT046795",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180323_63_H2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -101,13 +105,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT011145",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20191220_63_B1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -128,13 +132,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT008975",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180126_61_C2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -155,13 +159,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R75B10",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181030_64_C1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -182,13 +186,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R17C11",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181127_65_G5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -209,13 +213,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT022289",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180713_62_F3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -236,13 +240,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT003285",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180123_61_C2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -263,13 +267,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT002072",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20170727_62_E1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -290,13 +294,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT026005",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180403_63_F2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -317,13 +321,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R37F06",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181005_63_C2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -344,13 +348,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R79G04",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190409_62_J1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -371,13 +375,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT046778",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20191220_67_F3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -398,13 +402,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT019842",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180814_62_A2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -425,13 +429,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R26F09",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180925_64_I5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -452,13 +456,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R72F09",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190322_63_B1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -479,13 +483,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT010264",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20191220_63_A2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -506,13 +510,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R72H09",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190322_64_D3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -533,13 +537,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R47D07",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181012_62_A2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -560,13 +564,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R30H05",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190514_62_A2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -587,13 +591,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT019730",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190329_65_J3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -614,13 +618,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT009668",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190329_65_A5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -641,13 +645,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R20H11",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180918_62_B1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -668,13 +672,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R51D07",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190215_62_A5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -695,13 +699,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R65A07",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190322_62_B5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -722,13 +726,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT046808",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20171215_63_C3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -749,13 +753,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R54G09",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190125_62_B2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -776,13 +780,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R72D08",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190402_64_D6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -803,13 +807,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R32C05",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190111_64_G2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -830,13 +834,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R66B05",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190329_62_E1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -857,13 +861,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT014706",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180221_62_I5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -884,13 +888,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R30H05",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190813_65_E2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -911,13 +915,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT050732",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180605_62_G3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -938,13 +942,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT009668",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190329_65_B1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -965,13 +969,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R59C10",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181023_63_G3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -992,13 +996,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R64A10",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190212_61_I2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1019,13 +1023,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R22C09",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181211_61_H3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1046,13 +1050,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT016610",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180615_62_I3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1073,13 +1077,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT026188",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180420_61_E6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1100,13 +1104,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R32C05",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190111_64_G3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1127,13 +1131,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R79C09",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181102_61_F2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1154,13 +1158,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R49D03",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190208_63_G1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1181,13 +1185,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT014706",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180221_62_I2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1208,13 +1212,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R68A10",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181026_63_B1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1235,13 +1239,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT017694",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20171107_63_C3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1262,13 +1266,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R67E01",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190329_63_E1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1289,13 +1293,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT019730",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190329_65_H1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1316,13 +1320,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R36G02",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20171117_65_J1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1343,13 +1347,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R70C05",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190402_62_B5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1370,13 +1374,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT005008",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20170616_62_C2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1397,13 +1401,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT038210",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20171103_62_G5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1424,13 +1428,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT019730",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190329_65_J1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1451,13 +1455,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R45C12",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190208_62_D3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1478,13 +1482,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R83E02",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190426_61_C2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1505,13 +1509,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R53D12",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190319_62_G6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1532,13 +1536,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R66B05",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190329_62_D5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1559,13 +1563,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT026188",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180420_61_E2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1586,13 +1590,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R24E12",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180925_61_A6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1613,13 +1617,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R85F03",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190607_62_G1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1640,13 +1644,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT014706",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180221_62_J1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1667,13 +1671,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT049923",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20170721_62_B2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1694,13 +1698,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R46H12",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190312_63_G6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1721,13 +1725,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT006382",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180703_64_H1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1748,13 +1752,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT011145",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20171222_63_I5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1775,13 +1779,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT012318",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20170915_61_F2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1802,13 +1806,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT018472",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180622_62_C5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1829,13 +1833,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT008182",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180522_61_D6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1856,13 +1860,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT014706",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180221_62_I1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1883,13 +1887,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT012319",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180410_63_I1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1910,13 +1914,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT001615",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180216_62_D6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1937,13 +1941,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R28H03",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181221_70_G2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1964,13 +1968,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R60B12",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190201_61_A6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -1991,13 +1995,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R21C05",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181207_64_B6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2018,13 +2022,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT014706",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180221_62_I6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2045,13 +2049,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "RTDC2",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181109_65_A6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2072,13 +2076,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT046015",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180323_63_D3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2099,13 +2103,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT009094",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20170510_61_D6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2126,13 +2130,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R30H05",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190514_62_A3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2153,13 +2157,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R83A12",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190412_62_I2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2180,13 +2184,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT045791",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20170908_65_C6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2207,13 +2211,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT012318",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20170915_61_F3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2234,13 +2238,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R9F06",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190426_62_E4",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2261,13 +2265,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R76H04",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190423_62_J5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2288,13 +2292,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R37H09",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181005_63_B3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2315,13 +2319,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT025957",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20200214_61_A2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2342,13 +2346,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT040970",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180112_61_D5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2369,13 +2373,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R94B04",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190419_63_J2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2396,13 +2400,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT019903",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190222_66_C1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2423,13 +2427,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT057231",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180117_62_E3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2450,13 +2454,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R67D09",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190326_61_H2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2477,13 +2481,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT020600",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20170901_64_B5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2504,13 +2508,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT025981",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20170525_61_E1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2531,13 +2535,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R64H10",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190326_63_E2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2558,13 +2562,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT038159",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180925_62_G5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2585,13 +2589,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT043788",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20170818_61_E1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2612,13 +2616,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT033281",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180824_63_I1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2639,13 +2643,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R20H11",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180918_62_A5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2666,13 +2670,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT016610",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180615_62_J2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2693,13 +2697,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT017694",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20171107_63_C1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2720,13 +2724,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT033619",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180202_63_C1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2747,13 +2751,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R64A10",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190212_61_I1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2774,13 +2778,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R18G02",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181221_64_E5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2801,13 +2805,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT064568",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20171220_62_F5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2828,13 +2832,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT008452",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20171212_62_A5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2855,13 +2859,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT004972",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180424_62_I2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2882,13 +2886,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R53G01",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190319_64_B3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2909,13 +2913,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "TRH_G4",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181023_62_E1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2936,13 +2940,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT058968",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180309_63_B1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2963,13 +2967,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R25E05",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190529_61_E2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -2990,13 +2994,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R72C08",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190920_63_A2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3017,13 +3021,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT049128",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180309_61_D3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3044,13 +3048,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT013872",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180803_64_B1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3071,13 +3075,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R32C05",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190111_64_G5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3098,13 +3102,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R89G04",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20191029_64_F3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3125,13 +3129,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT057292",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20171215_65_I1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3152,13 +3156,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT046053",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20200310_62_C3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3179,13 +3183,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT007903",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190510_61_G5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3206,13 +3210,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R47F09",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190315_61_I1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3233,13 +3237,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT019730",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190329_65_J6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3260,13 +3264,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT026188",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180420_61_E5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3287,13 +3291,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT019792",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20171006_64_F3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3314,13 +3318,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R38H04",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190305_61_J1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3341,13 +3345,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R72H09",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190322_64_D1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3368,13 +3372,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R16C03",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180907_62_J1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3395,13 +3399,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R70H02",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190322_63_G3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3422,13 +3426,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R19A04",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181204_63_F2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3449,13 +3453,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT039419",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20171128_62_F3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3476,13 +3480,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R77D04",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190611_63_I5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3503,13 +3507,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT039462",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180828_65_H2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3530,13 +3534,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R42D11",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20181016_61_B5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3557,13 +3561,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT046247",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180925_62_J5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3584,13 +3588,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R18B11",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180914_62_B6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3611,13 +3615,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R53E04",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190319_62_J2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3638,13 +3642,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R47H01",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190913_62_I1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3665,13 +3669,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R52D11",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190726_63_H2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3692,13 +3696,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R41G07",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190308_64_B3",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3719,13 +3723,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT008668",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180413_63_G6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3746,13 +3750,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R49D02",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190115_66_H1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3773,13 +3777,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R92G12",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190419_62_H2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3800,13 +3804,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT056867",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20171215_65_F5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3827,13 +3831,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT046831",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20170908_65_E1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3854,13 +3858,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT035031",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180615_64_A2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3881,13 +3885,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT049377",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20191220_68_E2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3908,13 +3912,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT048942",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20171110_62_I1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3935,13 +3939,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT016681",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20200131_64_F1",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3962,13 +3966,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT002226",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20200207_64_C2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -3989,13 +3993,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R89A06",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20190416_61_J6",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -4016,13 +4020,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT057231",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "f",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180117_62_E2",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
@@ -4043,13 +4047,13 @@
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "VT008182",
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+        "anatomicalArea": "VNC",
         "gender": "m",
         "files": {
           "VisuallyLosslessStack": null
         },
         "slideCode": "20180522_61_D5",
         "objective": "40x",
-        "anatomicalArea": "VNC",
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {

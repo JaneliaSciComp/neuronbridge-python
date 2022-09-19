@@ -5,11 +5,13 @@
       "libraryName": "FlyEM_VNC_v0.6",
       "publishedName": "19782",
       "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+      "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
         "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyEM_VNC_v0.6/19782-JRC2018_VNC_Unisex_40x_DS-CDM.png",
         "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyEM_VNC_v0.6/19782-JRC2018_VNC_Unisex_40x_DS-CDM.jpg",
         "AlignedBodySWC": "FlyEM_VNC_v0.6/19782.swc",
+        "AlignedBodyOBJ": "FlyEM_VNC_v0.6/19782.obj",
         "CDSResults": "2988247199299817603.json",
         "PPPMResults": "19782.json"
       },

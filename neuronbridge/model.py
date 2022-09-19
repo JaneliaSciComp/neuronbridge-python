@@ -43,7 +43,7 @@ class Files(BaseModel):
     SignalMip: Optional[str] = Field(title="All-channel MIP of the sample", description="PPPM-only. The full MIP of all channels of the matching sample. 'LM - Sample All-Channel MIP' in the NeuronBridge GUI.")
     SignalMipMasked: Optional[str] = Field(title="PPPM fragments", description="PPPM-only. LM signal content masked with the matching LM segmentation fragments. 'PPPM Mask' in the NeuronBridge GUI.")
     SignalMipMaskedSkel: Optional[str] = Field(title="PPPM fragments with EM overlay", description="PPPM-only. LM signal content masked with the matching LM segmentation fragments, overlaid with the EM skeleton. 'PPPM Mask with EM Overlay' in the NeuronBridge GUI.")
-    SignalMipExpression: Optional[str] = Field(title="MIP of full LM line expression", description="MCFO-only. A representative CDM image of the full expression of the line.")
+    Gal4Expression: Optional[str] = Field(title="CDM of full LM line expression", description="MCFO-only. A representative CDM image of the full expression of the line.")
     VisuallyLosslessStack: Optional[str] = Field(title="LM 3D image stack", description="LMImage-only. An H5J 3D image stack of all channels of the LM image.")
     AlignedBodySWC: Optional[str] = Field(title="EM body in SWC format", description="EMImage-only, A 3D SWC skeleton of the EM body in the alignment space.")
     AlignedBodyOBJ: Optional[str] = Field(title="EM body in OBJ format", description="EMImage-only. A 3D OBJ representation of the EM body in the alignment space.")

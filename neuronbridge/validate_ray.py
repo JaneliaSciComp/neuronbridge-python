@@ -77,7 +77,7 @@ def validate_image(filepath, counts, publishedNames):
         obj = rapidjson.load(f)
         lookup = model.ImageLookup(**obj)
         if not lookup.results:
-            error(error_counts, f"No images")
+            error(counts, f"No images")
         for image in lookup.results:
             validate(counts, image, filepath)
             publishedNames.add(image.publishedName)

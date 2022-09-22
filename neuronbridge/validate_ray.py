@@ -12,12 +12,14 @@ import traceback
 
 import rapidjson
 import neuronbridge.model as model
+import pydantic
 import ray
 
-default_data_version = "3.0.0-alpha"
+default_data_version = "3.0.0"
 max_logs = 0
 debug = False
 batch_size = 1000
+Ï = False
 
 def inc_count(counts, s, value=1):
     if s in counts:
@@ -75,9 +77,16 @@ def validate(counts, image, filepath):
 def validate_image(filepath, counts, publishedNames):
     with open(filepath) as f:
         obj = rapidjson.load(f)
-        lookup = model.ImageLookup(**obj)
+        try:
+            lookup = model.ImageLookup(**obj)
+        except TypeError:
+            print(f"error in file {filepath}; got object {obj}")
+            return
+        except pydantic.ValidationError:
+            error(counts, "Validation failed when loading ImageLookup", filepath)
+            return
         if not lookup.results:
-            error(counts, f"No images")
+            error(counts, f"No images", filepath)
         for image in lookup.results:
             validate(counts, image, filepath)
             publishedNames.add(image.publishedName)
@@ -109,30 +118,36 @@ def validate_match(filepath, counts, publishedNames=None):
     tic = time.perf_counter()
     with open(filepath) as f:
         obj = rapidjson.load(f)
-        matches = model.Matches(**obj)
-        validate(counts, matches.inputImage, filepath)
-        if publishedNames and matches.inputImage.publishedName not in publishedNames:
-            error(counts, f"Published name not indexed", matches.inputImage.publishedName, filepath)
-        for match in matches.results:
-            validate(counts, match.image, filepath)
-            files = match.image.files
-            if isinstance(match, model.CDSMatch):
-                if not files.ColorDepthMipInput:
-                    error(counts, "Missing ColorDepthMipInput", match.image.id, filepath)
-                if not files.ColorDepthMipMatch:
-                    error(counts, "Missing ColorDepthMipMatch", match.image.id, filepath)
-            if isinstance(match, model.PPPMatch):
-                if not files.ColorDepthMipSkel:
-                    error(counts, "Missing ColorDepthMipSkel", match.image.id, filepath)
-                if not files.SignalMip:
-                    error(counts, "Missing SignalMip", match.image.id, filepath)
-                if not files.SignalMipMasked:
-                    error(counts, "Missing SignalMipMasked", match.image.id, filepath)
-                if not files.SignalMipMaskedSkel:
-                    error(counts, "Missing SignalMipMaskedSkel", match.image.id, filepath)
-            if publishedNames and match.image.publishedName not in publishedNames:
-                error(counts, "Match published name not indexed", match.image.publishedName, filepath)
-            inc_count(counts, "Num Matches")
+        modelSuccess = False
+        try:
+            matches = model.Matches(**obj)
+            modelSuccess = True
+        except pydantic.ValidationError:
+            error(counts, "Validation failed when loading Matches", filepath)
+        if modelSuccess:
+            validate(counts, matches.inputImage, filepath)
+            if publishedNames and matches.inputImage.publishedName not in publishedNames:
+                error(counts, f"Published name not indexed", matches.inputImage.publishedName, filepath)
+            for match in matches.results:
+                validate(counts, match.image, filepath)
+                files = match.image.files
+                if isinstance(match, model.CDSMatch):
+                    if not files.ColorDepthMipInput:
+                        error(counts, "Missing ColorDepthMipInput", match.image.id, filepath)
+                    if not files.ColorDepthMipMatch:
+                        error(counts, "Missing ColorDepthMipMatch", match.image.id, filepath)
+                if isinstance(match, model.PPPMatch):
+                    if not files.ColorDepthMipSkel:
+                        error(counts, "Missing ColorDepthMipSkel", match.image.id, filepath)
+                    if not files.SignalMip:
+                        error(counts, "Missing SignalMip", match.image.id, filepath)
+                    if not files.SignalMipMasked:
+                        error(counts, "Missing SignalMipMasked", match.image.id, filepath)
+                    if not files.SignalMipMaskedSkel:
+                        error(counts, "Missing SignalMipMaskedSkel", match.image.id, filepath)
+                if publishedNames and match.image.publishedName not in publishedNames:
+                    error(counts, "Match published name not indexed", match.image.publishedName, filepath)
+                inc_count(counts, "Num Matches")
         inc_count(counts, "Items")
         inc_count(counts, "Elapsed", value=time.perf_counter()-tic)
 
@@ -167,6 +182,9 @@ def validate_match_dir(match_dir, publishedNames=None):
             c += 1
         if batch:
             unfinished.append(validate_matches.remote(batch, publishedNames))
+        if one_batch and len(batch) > 0:
+            # for testing purposes, just do one batch per match dir
+            break
         if debug: print(f"Validating {c} matches in {root}")
 
     counts = {}
@@ -196,14 +214,20 @@ if __name__ == '__main__':
         help='Run the Ray dashboard for debugging')
     parser.add_argument('--no-dashboard', dest='includeDashboard', action='store_false', \
         help='Do not run the Ray dashboard for debugging')
+    parser.add_argument('--log-lines', '-l', dest='logLines', type=int, default=0, 
+        help='Number of lines per error to print to stderr (default 0)')
+    parser.add_argument('--one-batch', dest='one_batch', action='store_false',
+        help='Do only one batch of match validation (for testing)')
     
     parser.set_defaults(validateImageLookups=True)
     parser.set_defaults(validateMatches=True)
     parser.set_defaults(includeDashboard=False)
+    parser.set_defaults(one_batch=False)
     
     args = parser.parse_args()
     data_version = args.data_version
-
+    max_logs = args.logLines
+    one_batch = args.one_batch
     if data_version == "3.0.0-alpha":
         # For the alpha model, the directory structure was inherited from the older models.
         # This can be deleted once we merge this code into the main branch.
@@ -220,8 +244,6 @@ if __name__ == '__main__':
             f"/nrs/neuronbridge/v{data_version}/brain/cdsresults.final/flylight-vs-flyem",
             f"/nrs/neuronbridge/v{data_version}/brain/pppresults/flyem-to-flylight.public",
             f"/nrs/neuronbridge/v{data_version}/vnc/cdsresults.final/flyem-vs-flylight",
-            f"/nrs/neuronbridge/v{data_version}/vnc/cdsresults.final/flylight-vs-flyem",
-            f"/nrs/neuronbridge/v{data_version}/vnc/pppresults/flyem-to-flylight.public",
         ]
     else:
         image_dirs = [

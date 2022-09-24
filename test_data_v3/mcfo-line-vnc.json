@@ -13,6 +13,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I1-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773510744670219.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I1",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -31,6 +32,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I1-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773247669534731.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I1",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -49,6 +51,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I1-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773282717138955.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I1",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -67,6 +70,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I2-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773364631896075.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I2",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -85,6 +89,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I2-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773136818274315.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I2",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -103,6 +108,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I2-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773245136175115.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I2",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -121,6 +127,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I3-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773249812824075.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I3",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -139,6 +146,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I3-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773132137431051.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I3",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -157,6 +165,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I3-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773150353293323.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I3",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -175,6 +184,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I4-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773486623227915.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I4",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -193,6 +203,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I4-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773329479434251.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I4",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -211,6 +222,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I4-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773232754589707.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I4",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -229,6 +241,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I6-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773269920317451.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I6",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -247,6 +260,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I6-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773507938680843.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I6",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -265,6 +279,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I6-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773214127685643.json"
       },
+      "type": "LMImage",
       "slideCode": "20190412_62_I6",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -283,6 +298,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190830_63_G3-f-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2728062347292704779.json"
       },
+      "type": "LMImage",
       "slideCode": "20190830_63_G3",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -301,6 +317,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190830_63_G3-f-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2728062308889657355.json"
       },
+      "type": "LMImage",
       "slideCode": "20190830_63_G3",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",
@@ -319,6 +336,7 @@
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190830_63_G3-f-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2728062329567576075.json"
       },
+      "type": "LMImage",
       "slideCode": "20190830_63_G3",
       "objective": "40x",
       "mountingProtocol": "DPX PBS Mounting",

@@ -15,6 +15,7 @@
         "CDSResults": "2988247199299817603.json",
         "PPPMResults": "19782.json"
       },
+      "type": "EMImage",
       "neuronType": "pct_15173",
       "neuronInstance": "15173_R"
     }

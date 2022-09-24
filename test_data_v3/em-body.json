@@ -15,6 +15,7 @@
         "CDSResults": "2945073143148142603.json",
         "PPPMResults": "1734696429.json"
       },
+      "type": "EMImage",
       "neuronType": "ORN_DA1",
       "neuronInstance": "ORN_DA1_L"
     }

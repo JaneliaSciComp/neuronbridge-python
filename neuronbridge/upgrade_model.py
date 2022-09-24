@@ -46,7 +46,7 @@ HEMIBRAIN_LIBRARY = "FlyEM_Hemibrain_v1.2.1"
 client = MongoClient("mongodb://dev-mongodb/jacs")
 
 def write_json(obj, file=sys.stdout):
-    rapidjson.dump(obj.dict(exclude_unset=True), file, indent=2)
+    rapidjson.dump(obj.dict(exclude_none=True), file, indent=2)
 
 
 def get_mongo_img():

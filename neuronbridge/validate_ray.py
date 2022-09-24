@@ -41,7 +41,8 @@ def error(counts, s, *tags):
     if counts[s] < max_logs:
         print(f"{s}:", *tags, file=sys.stderr)
     if counts[s] == max_logs:
-        print(f"Reached maximum logging count for '{s}'", file=sys.stderr)
+        #print(f"Reached maximum logging count for '{s}'", file=sys.stderr)
+        pass
 
 
 def print_summary(title, counts):
@@ -82,9 +83,10 @@ def validate_image(filepath, counts, publishedNames):
         except TypeError:
             print(f"error in file {filepath}; got object {obj}")
             return
-        except pydantic.ValidationError:
+        except pydantic.ValidationError as e:
             error(counts, "Validation failed when loading ImageLookup", filepath)
             return
+
         if not lookup.results:
             error(counts, f"No images", filepath)
         for image in lookup.results:

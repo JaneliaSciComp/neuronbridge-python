@@ -1,6 +1,8 @@
 import json
 
 from neuronbridge.model import *
+from neuronbridge.model import PPPMatch
+from neuronbridge.model import LMImage
 
 by_body = json.loads(
 """
@@ -8,6 +10,7 @@ by_body = json.loads(
   "results": [
     {
       "id": "2945073143148142603",
+      "type": "EMImage",
       "libraryName": "FlyEM_Hemibrain_v1.2.1",
       "publishedName": "1734696429",
       "alignmentSpace": "JRC2018_Unisex_20x_HR",
@@ -26,13 +29,13 @@ by_body = json.loads(
     }
   ]
 }
-
 """)
 
 def test_EMImageLookup():
     lookup = ImageLookup(**by_body)
     assert len(lookup.results) == 1
     img = lookup.results[0]
+    assert isinstance(img, EMImage)
     assert img.id == "2945073143148142603"
     assert img.libraryName == "FlyEM_Hemibrain_v1.2.1"
     assert img.publishedName == "1734696429"
@@ -53,6 +56,7 @@ ppp_results = json.loads(
 {
   "inputImage": {
     "id": "2945073144457764875",
+    "type": "EMImage",
     "libraryName": "FlyEM_Hemibrain_v1.2.1",
     "publishedName": "2384750665",
     "anatomicalArea": "Brain",
@@ -68,8 +72,10 @@ ppp_results = json.loads(
   },
   "results": [
     {
+      "type": "PPPMatch",
       "image": {
         "id": "2588090337243168866",
+        "type": "LMImage",
         "libraryName": "FlyLight_Gen1_MCFO",
         "publishedName": "R20H11",
         "alignmentSpace": "JRC2018_Unisex_20x_HR",
@@ -100,9 +106,12 @@ ppp_results = json.loads(
 def test_PPPMatches():
     matches = PrecomputedMatches(**ppp_results)
     img = matches.inputImage
+    assert isinstance(img, EMImage)
     assert img.id == "2945073144457764875"
     assert len(matches.results) == 1
     match = matches.results[0]
+    assert isinstance(match, PPPMatch)
+    assert isinstance(match.image, LMImage)
     assert match.image.id == "2588090337243168866"
     assert match.image.gender == Gender.female
     assert match.mirrored == True
@@ -111,6 +120,8 @@ def test_PPPMatches():
 new_results = json.loads(
 """{
   "inputImage" : {
+    "id" : "2945073147357655051",
+    "type": "EMImage",
     "libraryName" : "FlyEM_Hemibrain_v1.2.1",
     "publishedName" : "1253394541",
     "alignmentSpace" : "JRC2018_Unisex_20x_HR",
@@ -118,7 +129,6 @@ new_results = json.loads(
     "gender": "f",
     "neuronType" : "MC62",
     "neuronInstance" : "MC62(LWF5)_R",
-    "id" : "2945073147357655051",
     "files" : {
       "ColorDepthMipThumbnail" : "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1253394541-JRC2018_Unisex_20x_HR-CDM.jpg",
       "ColorDepthMip" : "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1253394541-JRC2018_Unisex_20x_HR-CDM.png",
@@ -126,12 +136,13 @@ new_results = json.loads(
     }
   },
   "results" : [ {
+    "type": "CDSMatch",
     "mirrored" : false,
     "normalizedScore" : 34433.96,
     "matchingPixels" : 73,
-    "matchingPixelsRatio" : 0.109445274,
-    "gradientAreaGap" : 0,
     "image" : {
+      "id" : "2775341446398476299",
+      "type": "LMImage",
       "libraryName" : "FlyLight Gen1 MCFO",
       "publishedName" : "VT040712",
       "alignmentSpace" : "JRC2018_Unisex_20x_HR",
@@ -141,7 +152,6 @@ new_results = json.loads(
       "objective" : "40x",
       "mountingProtocol" : "DPX PBS Mounting",
       "channel" : 2,
-      "id" : "2775341446398476299",
       "files" : {
         "ColorDepthMipThumbnail" : "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/VT040712-20200221_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "ColorDepthMip" : "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/VT040712-20200221_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
@@ -162,4 +172,5 @@ def test_NewMatches():
     matches = PrecomputedMatches(**new_results)
     assert isinstance(matches.inputImage, EMImage)
     match = matches.results[0]
+    assert isinstance(match, CDSMatch)
     assert isinstance(match.image, LMImage)

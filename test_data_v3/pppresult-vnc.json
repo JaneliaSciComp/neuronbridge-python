@@ -14,6 +14,7 @@
       "CDSResults": "2988247193634181251.json",
       "PPPMResults": "16230.json"
     },
+    "type": "EMImage",
     "neuronType": "pct_15002",
     "neuronInstance": "15002_R"
   },
@@ -26,9 +27,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190319_62_G5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -42,6 +42,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R53D12-20190319_62_G5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 0.0,
       "pppScore": 85
     },
@@ -53,9 +54,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190319_62_G2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -69,6 +69,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R53D12-20190319_62_G2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 1.0,
       "pppScore": 84
     },
@@ -80,9 +81,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180323_63_H2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -96,6 +96,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT046795-20180323_63_H2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 2.0,
       "pppScore": 76
     },
@@ -107,9 +108,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20191220_63_B1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -123,6 +123,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT011145-20191220_63_B1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 3.0,
       "pppScore": 76
     },
@@ -134,9 +135,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180126_61_C2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -150,6 +150,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT008975-20180126_61_C2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 4.0,
       "pppScore": 75
     },
@@ -161,9 +162,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181030_64_C1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -177,6 +177,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R75B10-20181030_64_C1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 4.5,
       "pppScore": 79
     },
@@ -188,9 +189,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181127_65_G5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -204,6 +204,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R17C11-20181127_65_G5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 5.0,
       "pppScore": 74
     },
@@ -215,9 +216,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180713_62_F3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -231,6 +231,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT022289-20180713_62_F3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 6.0,
       "pppScore": 74
     },
@@ -242,9 +243,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180123_61_C2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -258,6 +258,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT003285-20180123_61_C2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 6.5,
       "pppScore": 78
     },
@@ -269,9 +270,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20170727_62_E1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -285,6 +285,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT002072-20170727_62_E1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 7.0,
       "pppScore": 74
     },
@@ -296,9 +297,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180403_63_F2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -312,6 +312,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT026005-20180403_63_F2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 7.5,
       "pppScore": 78
     },
@@ -323,9 +324,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181005_63_C2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -339,6 +339,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R37F06-20181005_63_C2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 8.0,
       "pppScore": 73
     },
@@ -350,9 +351,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190409_62_J1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -366,6 +366,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R79G04-20190409_62_J1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 8.5,
       "pppScore": 78
     },
@@ -377,9 +378,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20191220_67_F3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -393,6 +393,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT046778-20191220_67_F3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 9.0,
       "pppScore": 72
     },
@@ -404,9 +405,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180814_62_A2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -420,6 +420,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT019842-20180814_62_A2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 9.5,
       "pppScore": 77
     },
@@ -431,9 +432,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180925_64_I5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -447,6 +447,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R26F09-20180925_64_I5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 10.0,
       "pppScore": 72
     },
@@ -458,9 +459,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190322_63_B1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -474,6 +474,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R72F09-20190322_63_B1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 10.5,
       "pppScore": 77
     },
@@ -485,9 +486,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20191220_63_A2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -501,6 +501,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT010264-20191220_63_A2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 11.0,
       "pppScore": 72
     },
@@ -512,9 +513,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190322_64_D3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -528,6 +528,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R72H09-20190322_64_D3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 11.5,
       "pppScore": 77
     },
@@ -539,9 +540,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181012_62_A2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -555,6 +555,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R47D07-20181012_62_A2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 12.0,
       "pppScore": 72
     },
@@ -566,9 +567,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190514_62_A2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -582,6 +582,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R30H05-20190514_62_A2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 12.5,
       "pppScore": 77
     },
@@ -593,9 +594,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190329_65_J3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -609,6 +609,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT019730-20190329_65_J3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 13.0,
       "pppScore": 72
     },
@@ -620,9 +621,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190329_65_A5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -636,6 +636,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT009668-20190329_65_A5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 13.5,
       "pppScore": 77
     },
@@ -647,9 +648,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180918_62_B1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -663,6 +663,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R20H11-20180918_62_B1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 14.0,
       "pppScore": 72
     },
@@ -674,9 +675,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190215_62_A5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -690,6 +690,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R51D07-20190215_62_A5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 14.5,
       "pppScore": 77
     },
@@ -701,9 +702,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190322_62_B5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -717,6 +717,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R65A07-20190322_62_B5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 15.0,
       "pppScore": 72
     },
@@ -728,9 +729,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20171215_63_C3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -744,6 +744,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT046808-20171215_63_C3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 16.0,
       "pppScore": 71
     },
@@ -755,9 +756,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190125_62_B2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -771,6 +771,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R54G09-20190125_62_B2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 16.5,
       "pppScore": 76
     },
@@ -782,9 +783,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190402_64_D6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -798,6 +798,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R72D08-20190402_64_D6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 17.0,
       "pppScore": 71
     },
@@ -809,9 +810,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190111_64_G2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -825,6 +825,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R32C05-20190111_64_G2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 17.5,
       "pppScore": 76
     },
@@ -836,9 +837,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190329_62_E1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -852,6 +852,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R66B05-20190329_62_E1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 19.0,
       "pppScore": 71
     },
@@ -863,9 +864,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180221_62_I5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -879,6 +879,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT014706-20180221_62_I5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 19.5,
       "pppScore": 76
     },
@@ -890,9 +891,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190813_65_E2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -906,6 +906,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R30H05-20190813_65_E2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 20.0,
       "pppScore": 71
     },
@@ -917,9 +918,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180605_62_G3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -933,6 +933,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT050732-20180605_62_G3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 21.0,
       "pppScore": 70
     },
@@ -944,9 +945,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190329_65_B1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -960,6 +960,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT009668-20190329_65_B1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 21.5,
       "pppScore": 76
     },
@@ -971,9 +972,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181023_63_G3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -987,6 +987,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R59C10-20181023_63_G3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 22.0,
       "pppScore": 70
     },
@@ -998,9 +999,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190212_61_I2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1014,6 +1014,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R64A10-20190212_61_I2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 23.5,
       "pppScore": 75
     },
@@ -1025,9 +1026,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181211_61_H3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1041,6 +1041,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R22C09-20181211_61_H3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 24.0,
       "pppScore": 70
     },
@@ -1052,9 +1053,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180615_62_I3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1068,6 +1068,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT016610-20180615_62_I3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 24.5,
       "pppScore": 75
     },
@@ -1079,9 +1080,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180420_61_E6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1095,6 +1095,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT026188-20180420_61_E6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 25.0,
       "pppScore": 69
     },
@@ -1106,9 +1107,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190111_64_G3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1122,6 +1122,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R32C05-20190111_64_G3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 25.5,
       "pppScore": 75
     },
@@ -1133,9 +1134,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181102_61_F2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1149,6 +1149,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R79C09-20181102_61_F2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 26.0,
       "pppScore": 69
     },
@@ -1160,9 +1161,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190208_63_G1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1176,6 +1176,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R49D03-20190208_63_G1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 26.5,
       "pppScore": 75
     },
@@ -1187,9 +1188,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180221_62_I2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1203,6 +1203,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT014706-20180221_62_I2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 27.0,
       "pppScore": 69
     },
@@ -1214,9 +1215,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181026_63_B1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1230,6 +1230,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R68A10-20181026_63_B1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 29.0,
       "pppScore": 69
     },
@@ -1241,9 +1242,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20171107_63_C3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1257,6 +1257,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT017694-20171107_63_C3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 30.0,
       "pppScore": 69
     },
@@ -1268,9 +1269,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190329_63_E1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1284,6 +1284,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R67E01-20190329_63_E1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 30.5,
       "pppScore": 75
     },
@@ -1295,9 +1296,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190329_65_H1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1311,6 +1311,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT019730-20190329_65_H1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 31.5,
       "pppScore": 75
     },
@@ -1322,9 +1323,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20171117_65_J1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1338,6 +1338,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R36G02-20171117_65_J1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 32.0,
       "pppScore": 69
     },
@@ -1349,9 +1350,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190402_62_B5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1365,6 +1365,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R70C05-20190402_62_B5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 32.5,
       "pppScore": 74
     },
@@ -1376,9 +1377,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20170616_62_C2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1392,6 +1392,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT005008-20170616_62_C2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 33.0,
       "pppScore": 68
     },
@@ -1403,9 +1404,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20171103_62_G5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1419,6 +1419,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT038210-20171103_62_G5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 34.0,
       "pppScore": 68
     },
@@ -1430,9 +1431,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190329_65_J1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1446,6 +1446,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT019730-20190329_65_J1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 34.5,
       "pppScore": 74
     },
@@ -1457,9 +1458,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190208_62_D3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1473,6 +1473,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R45C12-20190208_62_D3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 35.0,
       "pppScore": 68
     },
@@ -1484,9 +1485,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190426_61_C2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1500,6 +1500,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R83E02-20190426_61_C2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 35.5,
       "pppScore": 74
     },
@@ -1511,9 +1512,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190319_62_G6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1527,6 +1527,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R53D12-20190319_62_G6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 36.0,
       "pppScore": 68
     },
@@ -1538,9 +1539,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190329_62_D5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1554,6 +1554,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R66B05-20190329_62_D5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 36.5,
       "pppScore": 74
     },
@@ -1565,9 +1566,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180420_61_E2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1581,6 +1581,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT026188-20180420_61_E2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 37.0,
       "pppScore": 68
     },
@@ -1592,9 +1593,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180925_61_A6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1608,6 +1608,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R24E12-20180925_61_A6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 37.5,
       "pppScore": 74
     },
@@ -1619,9 +1620,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190607_62_G1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1635,6 +1635,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R85F03-20190607_62_G1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 38.0,
       "pppScore": 68
     },
@@ -1646,9 +1647,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180221_62_J1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1662,6 +1662,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT014706-20180221_62_J1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 38.5,
       "pppScore": 74
     },
@@ -1673,9 +1674,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20170721_62_B2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1689,6 +1689,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT049923-20170721_62_B2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 39.0,
       "pppScore": 68
     },
@@ -1700,9 +1701,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190312_63_G6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1716,6 +1716,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R46H12-20190312_63_G6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 39.5,
       "pppScore": 74
     },
@@ -1727,9 +1728,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180703_64_H1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1743,6 +1743,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT006382-20180703_64_H1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 40.0,
       "pppScore": 68
     },
@@ -1754,9 +1755,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20171222_63_I5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1770,6 +1770,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT011145-20171222_63_I5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 40.5,
       "pppScore": 74
     },
@@ -1781,9 +1782,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20170915_61_F2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1797,6 +1797,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT012318-20170915_61_F2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 41.0,
       "pppScore": 68
     },
@@ -1808,9 +1809,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180622_62_C5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1824,6 +1824,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT018472-20180622_62_C5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 41.5,
       "pppScore": 74
     },
@@ -1835,9 +1836,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180522_61_D6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1851,6 +1851,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT008182-20180522_61_D6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 42.0,
       "pppScore": 68
     },
@@ -1862,9 +1863,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180221_62_I1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1878,6 +1878,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT014706-20180221_62_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 42.5,
       "pppScore": 74
     },
@@ -1889,9 +1890,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180410_63_I1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1905,6 +1905,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT012319-20180410_63_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 43.0,
       "pppScore": 67
     },
@@ -1916,9 +1917,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180216_62_D6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1932,6 +1932,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT001615-20180216_62_D6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 43.5,
       "pppScore": 74
     },
@@ -1943,9 +1944,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181221_70_G2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1959,6 +1959,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R28H03-20181221_70_G2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 44.0,
       "pppScore": 67
     },
@@ -1970,9 +1971,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190201_61_A6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -1986,6 +1986,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R60B12-20190201_61_A6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 45.0,
       "pppScore": 67
     },
@@ -1997,9 +1998,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181207_64_B6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2013,6 +2013,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R21C05-20181207_64_B6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 46.0,
       "pppScore": 67
     },
@@ -2024,9 +2025,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180221_62_I6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2040,6 +2040,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT014706-20180221_62_I6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 46.5,
       "pppScore": 74
     },
@@ -2051,9 +2052,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181109_65_A6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2067,6 +2067,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-RTDC2-20181109_65_A6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 47.0,
       "pppScore": 67
     },
@@ -2078,9 +2079,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180323_63_D3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2094,6 +2094,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT046015-20180323_63_D3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 47.5,
       "pppScore": 74
     },
@@ -2105,9 +2106,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20170510_61_D6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2121,6 +2121,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT009094-20170510_61_D6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 48.0,
       "pppScore": 67
     },
@@ -2132,9 +2133,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190514_62_A3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2148,6 +2148,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R30H05-20190514_62_A3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 49.0,
       "pppScore": 67
     },
@@ -2159,9 +2160,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190412_62_I2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2175,6 +2175,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R83A12-20190412_62_I2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 50.0,
       "pppScore": 66
     },
@@ -2186,9 +2187,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20170908_65_C6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2202,6 +2202,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT045791-20170908_65_C6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 50.5,
       "pppScore": 74
     },
@@ -2213,9 +2214,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20170915_61_F3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2229,6 +2229,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT012318-20170915_61_F3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 51.0,
       "pppScore": 66
     },
@@ -2240,9 +2241,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190426_62_E4",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2256,6 +2256,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R9F06-20190426_62_E4-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 51.5,
       "pppScore": 74
     },
@@ -2267,9 +2268,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190423_62_J5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2283,6 +2283,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R76H04-20190423_62_J5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 52.0,
       "pppScore": 66
     },
@@ -2294,9 +2295,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181005_63_B3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2310,6 +2310,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R37H09-20181005_63_B3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 52.5,
       "pppScore": 74
     },
@@ -2321,9 +2322,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20200214_61_A2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2337,6 +2337,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT025957-20200214_61_A2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 53.0,
       "pppScore": 66
     },
@@ -2348,9 +2349,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180112_61_D5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2364,6 +2364,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT040970-20180112_61_D5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 53.5,
       "pppScore": 73
     },
@@ -2375,9 +2376,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190419_63_J2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2391,6 +2391,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R94B04-20190419_63_J2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 54.0,
       "pppScore": 66
     },
@@ -2402,9 +2403,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190222_66_C1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2418,6 +2418,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT019903-20190222_66_C1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 54.5,
       "pppScore": 73
     },
@@ -2429,9 +2430,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180117_62_E3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2445,6 +2445,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT057231-20180117_62_E3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 55.0,
       "pppScore": 66
     },
@@ -2456,9 +2457,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190326_61_H2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2472,6 +2472,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R67D09-20190326_61_H2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 55.5,
       "pppScore": 73
     },
@@ -2483,9 +2484,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20170901_64_B5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2499,6 +2499,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT020600-20170901_64_B5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 56.0,
       "pppScore": 66
     },
@@ -2510,9 +2511,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20170525_61_E1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2526,6 +2526,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT025981-20170525_61_E1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 56.5,
       "pppScore": 73
     },
@@ -2537,9 +2538,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190326_63_E2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2553,6 +2553,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R64H10-20190326_63_E2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 57.0,
       "pppScore": 66
     },
@@ -2564,9 +2565,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180925_62_G5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2580,6 +2580,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT038159-20180925_62_G5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 57.5,
       "pppScore": 73
     },
@@ -2591,9 +2592,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20170818_61_E1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2607,6 +2607,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT043788-20170818_61_E1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 58.0,
       "pppScore": 66
     },
@@ -2618,9 +2619,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180824_63_I1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2634,6 +2634,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT033281-20180824_63_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 58.5,
       "pppScore": 73
     },
@@ -2645,9 +2646,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180918_62_A5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2661,6 +2661,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R20H11-20180918_62_A5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 59.0,
       "pppScore": 66
     },
@@ -2672,9 +2673,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180615_62_J2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2688,6 +2688,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT016610-20180615_62_J2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 60.0,
       "pppScore": 66
     },
@@ -2699,9 +2700,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20171107_63_C1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2715,6 +2715,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT017694-20171107_63_C1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 60.5,
       "pppScore": 73
     },
@@ -2726,9 +2727,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180202_63_C1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2742,6 +2742,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT033619-20180202_63_C1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 61.0,
       "pppScore": 66
     },
@@ -2753,9 +2754,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190212_61_I1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2769,6 +2769,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R64A10-20190212_61_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 61.5,
       "pppScore": 73
     },
@@ -2780,9 +2781,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181221_64_E5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2796,6 +2796,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R18G02-20181221_64_E5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 62.0,
       "pppScore": 66
     },
@@ -2807,9 +2808,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20171220_62_F5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2823,6 +2823,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT064568-20171220_62_F5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 62.5,
       "pppScore": 73
     },
@@ -2834,9 +2835,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20171212_62_A5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2850,6 +2850,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT008452-20171212_62_A5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 63.0,
       "pppScore": 66
     },
@@ -2861,9 +2862,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180424_62_I2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2877,6 +2877,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT004972-20180424_62_I2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 63.5,
       "pppScore": 73
     },
@@ -2888,9 +2889,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190319_64_B3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2904,6 +2904,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R53G01-20190319_64_B3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 64.0,
       "pppScore": 66
     },
@@ -2915,9 +2916,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181023_62_E1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2931,6 +2931,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-TRH_G4-20181023_62_E1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 64.5,
       "pppScore": 73
     },
@@ -2942,9 +2943,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180309_63_B1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2958,6 +2958,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT058968-20180309_63_B1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 65.0,
       "pppScore": 66
     },
@@ -2969,9 +2970,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190529_61_E2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -2985,6 +2985,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R25E05-20190529_61_E2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 65.5,
       "pppScore": 73
     },
@@ -2996,9 +2997,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190920_63_A2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3012,6 +3012,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R72C08-20190920_63_A2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 66.0,
       "pppScore": 66
     },
@@ -3023,9 +3024,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180309_61_D3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3039,6 +3039,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT049128-20180309_61_D3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 66.5,
       "pppScore": 73
     },
@@ -3050,9 +3051,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180803_64_B1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3066,6 +3066,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT013872-20180803_64_B1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 67.0,
       "pppScore": 66
     },
@@ -3077,9 +3078,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190111_64_G5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3093,6 +3093,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R32C05-20190111_64_G5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 67.5,
       "pppScore": 73
     },
@@ -3104,9 +3105,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20191029_64_F3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3120,6 +3120,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R89G04-20191029_64_F3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 68.0,
       "pppScore": 66
     },
@@ -3131,9 +3132,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20171215_65_I1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3147,6 +3147,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT057292-20171215_65_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 68.5,
       "pppScore": 73
     },
@@ -3158,9 +3159,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20200310_62_C3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3174,6 +3174,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT046053-20200310_62_C3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 69.0,
       "pppScore": 66
     },
@@ -3185,9 +3186,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190510_61_G5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3201,6 +3201,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT007903-20190510_61_G5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 69.5,
       "pppScore": 73
     },
@@ -3212,9 +3213,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190315_61_I1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3228,6 +3228,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R47F09-20190315_61_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 70.0,
       "pppScore": 65
     },
@@ -3239,9 +3240,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190329_65_J6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3255,6 +3255,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT019730-20190329_65_J6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 70.5,
       "pppScore": 73
     },
@@ -3266,9 +3267,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180420_61_E5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3282,6 +3282,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT026188-20180420_61_E5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 71.0,
       "pppScore": 65
     },
@@ -3293,9 +3294,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20171006_64_F3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3309,6 +3309,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT019792-20171006_64_F3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 71.5,
       "pppScore": 73
     },
@@ -3320,9 +3321,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190305_61_J1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3336,6 +3336,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R38H04-20190305_61_J1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 72.0,
       "pppScore": 65
     },
@@ -3347,9 +3348,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190322_64_D1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3363,6 +3363,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R72H09-20190322_64_D1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 72.5,
       "pppScore": 73
     },
@@ -3374,9 +3375,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180907_62_J1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3390,6 +3390,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R16C03-20180907_62_J1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 73.0,
       "pppScore": 65
     },
@@ -3401,9 +3402,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190322_63_G3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3417,6 +3417,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R70H02-20190322_63_G3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 74.0,
       "pppScore": 65
     },
@@ -3428,9 +3429,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181204_63_F2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3444,6 +3444,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R19A04-20181204_63_F2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 74.5,
       "pppScore": 72
     },
@@ -3455,9 +3456,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20171128_62_F3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3471,6 +3471,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT039419-20171128_62_F3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 75.0,
       "pppScore": 65
     },
@@ -3482,9 +3483,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190611_63_I5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3498,6 +3498,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R77D04-20190611_63_I5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 75.5,
       "pppScore": 72
     },
@@ -3509,9 +3510,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180828_65_H2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3525,6 +3525,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT039462-20180828_65_H2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 76.0,
       "pppScore": 65
     },
@@ -3536,9 +3537,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20181016_61_B5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3552,6 +3552,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R42D11-20181016_61_B5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 76.5,
       "pppScore": 72
     },
@@ -3563,9 +3564,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180925_62_J5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3579,6 +3579,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT046247-20180925_62_J5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 77.0,
       "pppScore": 65
     },
@@ -3590,9 +3591,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180914_62_B6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3606,6 +3606,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R18B11-20180914_62_B6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 77.5,
       "pppScore": 72
     },
@@ -3617,9 +3618,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190319_62_J2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3633,6 +3633,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R53E04-20190319_62_J2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 78.0,
       "pppScore": 65
     },
@@ -3644,9 +3645,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190913_62_I1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3660,6 +3660,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R47H01-20190913_62_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 78.5,
       "pppScore": 72
     },
@@ -3671,9 +3672,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190726_63_H2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3687,6 +3687,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R52D11-20190726_63_H2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 79.0,
       "pppScore": 65
     },
@@ -3698,9 +3699,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190308_64_B3",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3714,6 +3714,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R41G07-20190308_64_B3-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 80.0,
       "pppScore": 65
     },
@@ -3725,9 +3726,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180413_63_G6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3741,6 +3741,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT008668-20180413_63_G6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 80.5,
       "pppScore": 72
     },
@@ -3752,9 +3753,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190115_66_H1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3768,6 +3768,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R49D02-20190115_66_H1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 81.0,
       "pppScore": 65
     },
@@ -3779,9 +3780,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190419_62_H2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3795,6 +3795,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R92G12-20190419_62_H2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 81.5,
       "pppScore": 72
     },
@@ -3806,9 +3807,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20171215_65_F5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3822,6 +3822,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT056867-20171215_65_F5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 82.0,
       "pppScore": 65
     },
@@ -3833,9 +3834,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20170908_65_E1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3849,6 +3849,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT046831-20170908_65_E1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 83.0,
       "pppScore": 65
     },
@@ -3860,9 +3861,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180615_64_A2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3876,6 +3876,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT035031-20180615_64_A2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 83.5,
       "pppScore": 72
     },
@@ -3887,9 +3888,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20191220_68_E2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3903,6 +3903,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT049377-20191220_68_E2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 84.0,
       "pppScore": 65
     },
@@ -3914,9 +3915,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20171110_62_I1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3930,6 +3930,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT048942-20171110_62_I1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 85.0,
       "pppScore": 65
     },
@@ -3941,9 +3942,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20200131_64_F1",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3957,6 +3957,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT016681-20200131_64_F1-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 85.5,
       "pppScore": 72
     },
@@ -3968,9 +3969,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20200207_64_C2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -3984,6 +3984,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT002226-20200207_64_C2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 86.0,
       "pppScore": 65
     },
@@ -3995,9 +3996,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20190416_61_J6",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -4011,6 +4011,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-R89A06-20190416_61_J6-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 86.5,
       "pppScore": 72
     },
@@ -4022,9 +4023,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "f",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180117_62_E2",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -4038,6 +4038,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT057231-20180117_62_E2-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": false,
+      "type": "PPPMatch",
       "pppRank": 87.0,
       "pppScore": 64
     },
@@ -4049,9 +4050,8 @@
         "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
         "anatomicalArea": "VNC",
         "gender": "m",
-        "files": {
-          "VisuallyLosslessStack": null
-        },
+        "files": {},
+        "type": "LMImage",
         "slideCode": "20180522_61_D5",
         "objective": "40x",
         "mountingProtocol": "DPX PBS Mounting"
@@ -4065,6 +4065,7 @@
         "SignalMipMaskedSkel": "JRC2018_VNC_Unisex_40x_DS/FlyEM_Hemibrain_v1.2.1/16/16230/16230-VT008182-20180522_61_D5-40x-JRC2018_VNC_Unisex_40x_DS-skel.png"
       },
       "mirrored": true,
+      "type": "PPPMatch",
       "pppRank": 87.5,
       "pppScore": 72
     }

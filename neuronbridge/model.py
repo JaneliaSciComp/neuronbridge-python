@@ -7,23 +7,37 @@ class Gender(str, Enum):
     male = 'm'
     female = 'f'
 
+class AnatomicalArea(BaseModel, extra=Extra.forbid):
+    """
+    Defines an anatomical areas of the fly brain that can be searched using NeuronBridge. All searches are specific to one area.
+    """
+    label: str = Field(title="Anatomical area label", description="Label used for the anatomical area in the UI.")
+    alignmentSpace: str = Field(title="Alignment space", description="Alignment space to which this images in this area are registered.")
+    disabled: Optional[bool] = Field(title="Disabled flag", description="True if this area is disabled in the UI.")
 
-class AnatomicalRegion(BaseModel, extra=Extra.forbid):
+
+class CustomSearchConfig(BaseModel, extra=Extra.forbid):
     """
-    Defines an anatomical region of the fly brain that can be searched using NeuronBridge. All searches are specific to one region.
+    Configuration for the custom search.
     """
-    value: str = Field(title="Region name", description="Internal identifier for the anatomical region.")
-    label: str = Field(title="Region label", description="Label used for the anatomical region in the UI.")
-    alignmentSpace: str = Field(title="Alignment space", description="Alignment space to which this images in this region are registered.")
-    disabled: Optional[bool] = Field(title="Disabled flag", description="True if this region is disabled in the UI.")
+    searchFolder: str = Field(title="Search folder", description="Name of sub-folder on S3 to traverse when using custom search.")
+    lmLibraries: List[str] = Field(title="List of LM libraries", description="List of the identifiers of LM libraries included in this data set.")
+    emLibraries: List[str] = Field(title="List of EM libraries", description="List of the identifiers of EM libraries included in this data set.")
+
+
+class DataSet(BaseModel, extra=Extra.forbid):
+    label: str = Field(title="Data set label", description="Label used for the data set in the UI.")
+    anatomicalArea: str = Field(title="Anatomical area name", description="Internal identifier for the anatomical area used for this data set. Can be used to look up additional details by matching to AnatomicalArea.value.")
+    prefixes: Dict[str, str] = Field(title="Prefixes", description="Path prefixes for each file type in Files. If no prefix exists for a given file type, then the path should be treated as absolute.")
+    customSearch: CustomSearchConfig = Field(title="Custom search", description="Custom search configuration for this data set.")
 
 
 class DataConfig(BaseModel, extra=Extra.forbid):
     """
     Defines the data configuration for the NeuronBridge. 
     """
-    prefixes: Dict[str, str] = Field(title="Prefixes", description="Path prefixes for each file type in Files. If no prefix exists for a given file type, then the path should be treated as absolute.")
-    anatomicalRegions: List[AnatomicalRegion] = Field(title="Anatomical regions", description="List of the anatomical regions that can be searched.")
+    anatomicalAreas: Dict[str, AnatomicalArea] = Field(title="Anatomical areas", description="Anatomical areas that can be searched.")
+    dataSets: Dict[str, DataSet] = Field(title="Prefixes", description="Path prefixes for each file type in Files. If no prefix exists for a given file type, then the path should be treated as absolute.")
 
 
 class Files(BaseModel, extra=Extra.forbid):

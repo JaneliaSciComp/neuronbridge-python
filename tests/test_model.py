@@ -174,3 +174,95 @@ def test_NewMatches():
     match = matches.results[0]
     assert isinstance(match, CDSMatch)
     assert isinstance(match.image, LMImage)
+
+
+config = json.loads(
+"""
+{
+    "anatomicalAreas": {
+        "brain": { 
+            "label": "Brain",
+            "alignmentSpace": "JRC2018_Unisex_20x_HR",
+            "disabled": false
+        },
+        "vnc": { 
+            "label": "Ventral Nerve Cord",
+            "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
+            "disabled": false
+        }
+    },
+    "dataSets": {
+        "brain": {
+            "label": "Brain",
+            "anatomicalArea": "brain",
+            "prefixes": {
+                "ColorDepthMip": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
+                "ColorDepthMipThumbnail": "https://s3.amazonaws.com/janelia-flylight-color-depth-thumbnails/",
+                "ColorDepthMipInput": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
+                "ColorDepthMipMatch": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
+                "ColorDepthMipBest": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "ColorDepthMipSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "SignalMip": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "SignalMipMasked": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "SignalMipMaskedSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "SignalMipExpression": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "AlignedBodySWC": "https://s3.amazonaws.com/janelia-flylight-color-depth/SWC/",
+                "AlignedBodyOBJ": "https://s3.amazonaws.com/janelia-flylight-color-depth/OBJ/",
+                "CDSResults": "https://s3.amazonaws.com/janelia-neuronbridge-data-prod/v3.0.0-alpha/metadata/cdsresults/",
+                "PPPMResults": "https://s3.amazonaws.com/janelia-neuronbridge-data-prod/v3.0.0-alpha/metadata/pppresults/"    
+            },
+            "customSearch": {
+                "searchFolder": "searchable_neurons",
+                "lmLibraries": [
+                    "FlyLight_Split-GAL4_Drivers",
+                    "FlyLight_Gen1_MCFO",
+                    "FlyLight_Annotator_Gen1_MCFO"
+                ],
+                "emLibraries": [
+                    "FlyEM_Hemibrain_v1.2.1"
+                ]
+            }
+        },
+        "vnc": {
+            "label": "VNC",
+            "anatomicalArea": "vnc",
+            "prefixes": {
+                "ColorDepthMip": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
+                "ColorDepthMipThumbnail": "https://s3.amazonaws.com/janelia-flylight-color-depth-thumbnails/",
+                "ColorDepthMipInput": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
+                "ColorDepthMipMatch": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
+                "ColorDepthMipBest": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "ColorDepthMipSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "SignalMip": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "SignalMipMasked": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "SignalMipMaskedSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "SignalMipExpression": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "AlignedBodySWC": "https://s3.amazonaws.com/janelia-flylight-color-depth/SWC/",
+                "AlignedBodyOBJ": "https://s3.amazonaws.com/janelia-flylight-color-depth/OBJ/",
+                "CDSResults": "https://s3.amazonaws.com/janelia-neuronbridge-data-prod/v3.0.0-alpha/metadata/cdsresults/",
+                "PPPMResults": "https://s3.amazonaws.com/janelia-neuronbridge-data-prod/v3.0.0-alpha/metadata/pppresults/"    
+            },
+            "customSearch": {
+                "searchFolder": "searchable_neurons",
+                "lmLibraries": [
+                    "FlyLight_Split-GAL4_Drivers",
+                    "FlyLight_Gen1_MCFO"
+                ],
+                "emLibraries": [
+                    "FlyEM_VNC_v0.6"
+                ]
+            }
+        }
+    }
+}
+"""
+)
+
+def test_DataConfig():
+    data_config = DataConfig(**config)
+
+    assert data_config.anatomicalAreas["brain"].alignmentSpace=="JRC2018_Unisex_20x_HR"
+    assert data_config.anatomicalAreas["vnc"].alignmentSpace=="JRC2018_VNC_Unisex_40x_DS"
+    for dataSetName in data_config.dataSets:
+        dataSet = data_config.dataSets[dataSetName]
+        assert dataSet.anatomicalArea in data_config.anatomicalAreas

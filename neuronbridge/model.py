@@ -18,7 +18,7 @@ class AnatomicalArea(BaseModel, extra=Extra.forbid):
 
 class CustomSearchConfig(BaseModel, extra=Extra.forbid):
     """
-    Configuration for the custom search.
+    Configuration for the custom search on a data set.
     """
     searchFolder: str = Field(title="Search folder", description="Name of sub-folder on S3 to traverse when using custom search.")
     lmLibraries: List[str] = Field(title="List of LM libraries", description="List of the identifiers of LM libraries included in this data set.")
@@ -26,6 +26,9 @@ class CustomSearchConfig(BaseModel, extra=Extra.forbid):
 
 
 class DataSet(BaseModel, extra=Extra.forbid):
+    """
+    Configuration for a data set. This allows some flexibility for defining the S3 locations for various file types. 
+    """
     label: str = Field(title="Data set label", description="Label used for the data set in the UI.")
     anatomicalArea: str = Field(title="Anatomical area name", description="Internal identifier for the anatomical area used for this data set. Can be used to look up additional details by matching to AnatomicalArea.value.")
     prefixes: Dict[str, str] = Field(title="Prefixes", description="Path prefixes for each file type in Files. If no prefix exists for a given file type, then the path should be treated as absolute.")

@@ -13,21 +13,21 @@ class AnatomicalArea(BaseModel, extra=Extra.forbid):
     """
     label: str = Field(title="Anatomical area label", description="Label used for the anatomical area in the UI.")
     alignmentSpace: str = Field(title="Alignment space", description="Alignment space to which this images in this area are registered.")
-    disabled: Optional[bool] = Field(title="Disabled flag", description="True if this area is disabled in the UI.")
 
 
 class CustomSearchConfig(BaseModel, extra=Extra.forbid):
     """
     Configuration for the custom search on a data set.
     """
+    alignmentSpace: str = Field(title="Alignment space", description="Alignment space used for search. This property is denormalized from the AnatomicalArea.")
     searchFolder: str = Field(title="Search folder", description="Name of sub-folder on S3 to traverse when using custom search.")
     lmLibraries: List[str] = Field(title="List of LM libraries", description="List of the identifiers of LM libraries included in this data set.")
     emLibraries: List[str] = Field(title="List of EM libraries", description="List of the identifiers of EM libraries included in this data set.")
 
 
-class DataSet(BaseModel, extra=Extra.forbid):
+class DataStore(BaseModel, extra=Extra.forbid):
     """
-    Configuration for a data set. This allows some flexibility for defining the S3 locations for various file types. 
+    Configuration for a data store. This allows some flexibility for defining the S3 locations for various file types. 
     """
     label: str = Field(title="Data set label", description="Label used for the data set in the UI.")
     anatomicalArea: str = Field(title="Anatomical area name", description="Internal identifier for the anatomical area used for this data set. Can be used to look up additional details by matching to AnatomicalArea.value.")
@@ -40,7 +40,7 @@ class DataConfig(BaseModel, extra=Extra.forbid):
     Defines the data configuration for the NeuronBridge. 
     """
     anatomicalAreas: Dict[str, AnatomicalArea] = Field(title="Anatomical areas", description="Anatomical areas that can be searched.")
-    dataSets: Dict[str, DataSet] = Field(title="Prefixes", description="Path prefixes for each file type in Files. If no prefix exists for a given file type, then the path should be treated as absolute.")
+    stores: Dict[str, DataStore] = Field(title="Data stores", description="A data store provides access to imagery for a given subset of images.")
 
 
 class Files(BaseModel, extra=Extra.forbid):
@@ -85,6 +85,7 @@ class NeuronImage(BaseModel, extra=Extra.forbid):
     alignmentSpace: str = Field(title="Alignment space", description="Alignment space to which this image was registered.")
     anatomicalArea: str = Field(title="Anatomical area", description="Anatomical area represented in the image.")
     gender: Gender = Field(title="Gender", description="Gender of the sample imaged.")
+    store: str = Field(title="Data store", description="Identifier for the data store where the files can be found.")
     files: Files = Field(title="Files", description="Files associated with the image.")
 
 
@@ -104,7 +105,6 @@ class LMImage(NeuronImage, extra=Extra.forbid):
     type: Literal['LMImage'] = 'LMImage'
     slideCode: str = Field(title="Slide code", description="Unique identifier for the sample that was imaged.")
     objective: str = Field(title="Objective", description="Magnification of the microscope objective used to imaged this image.")
-    # TODO: this is only temporarily optional until #2px2113 is fixed
     mountingProtocol: Optional[str] = Field(title="Mounting protocol", description="Description of the protocol used to mount the sample for imaging.")
     channel: Optional[int] = Field(title="Channel", description="Channel index within the full LM image stack. PPPM matches the entire stack and therefore this is blank.")
 
@@ -147,7 +147,6 @@ class CDSMatch(Match, extra=Extra.forbid):
 
 
 ConcreteMatch = Annotated[Union[CDSMatch, PPPMatch], Field(discriminator="type")]
-
 
 class Matches(BaseModel, extra=Extra.forbid):
     """

@@ -1,20 +1,18 @@
 {
     "anatomicalAreas": {
-        "brain": { 
+        "Brain": { 
             "label": "Brain",
-            "alignmentSpace": "JRC2018_Unisex_20x_HR",
-            "disabled": false
+            "alignmentSpace": "JRC2018_Unisex_20x_HR"
         },
-        "vnc": { 
+        "VNC": { 
             "label": "Ventral Nerve Cord",
-            "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
-            "disabled": false
+            "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS"
         }
     },
-    "dataSets": {
-        "brain": {
-            "label": "Brain",
-            "anatomicalArea": "brain",
+    "stores": {
+        "fl:hemibrain:v1.2.1": {
+            "label": "FlyLight vs Hemibrain",
+            "anatomicalArea": "Brain",
             "prefixes": {
                 "ColorDepthMip": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
                 "ColorDepthMipThumbnail": "https://s3.amazonaws.com/janelia-flylight-color-depth-thumbnails/",
@@ -34,6 +32,7 @@
                 "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/"
             },
             "customSearch": {
+                "alignmentSpace": "JRC2018_Unisex_20x_HR",
                 "searchFolder": "searchable_neurons",
                 "lmLibraries": [
                     "FlyLight_Split-GAL4_Drivers",
@@ -45,9 +44,9 @@
                 ]
             }
         },
-        "vnc": {
-            "label": "VNC",
-            "anatomicalArea": "vnc",
+        "fl:vnc:latest": {
+            "label": "FlyLight vs VNC",
+            "anatomicalArea": "VNC",
             "prefixes": {
                 "ColorDepthMip": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
                 "ColorDepthMipThumbnail": "https://s3.amazonaws.com/janelia-flylight-color-depth-thumbnails/",
@@ -67,6 +66,7 @@
                 "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/"
             },
             "customSearch": {
+                "alignmentSpace": "JRC2018_VNC_Unisex_40x_DS",
                 "searchFolder": "searchable_neurons",
                 "lmLibraries": [
                     "FlyLight_Split-GAL4_Drivers",

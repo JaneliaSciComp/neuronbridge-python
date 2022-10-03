@@ -18,8 +18,8 @@ by_body = json.loads(
       "gender": "f",
       "store": "fl:hemibrain:v1.2.1",
       "files": {
-        "ColorDepthMip": "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.png",
-        "ColorDepthMipThumbnail": "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.jpg",
+        "CDM": "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.png",
+        "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.jpg",
         "AlignedBodySWC": "FlyEM_Hemibrain_v1.2.1/1734696429.swc",
         "AlignedBodyOBJ": "FlyEM_Hemibrain_v1.2.1/1734696429.obj",
         "CDSResults": "2945073143148142603.json",
@@ -42,8 +42,8 @@ def test_EMImageLookup():
     assert img.publishedName == "1734696429"
     assert img.alignmentSpace == "JRC2018_Unisex_20x_HR"
     assert img.gender == Gender.female
-    assert img.files.ColorDepthMip == "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.png"
-    assert img.files.ColorDepthMipThumbnail == "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.jpg"
+    assert img.files.CDM == "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.png"
+    assert img.files.CDMThumbnail == "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.jpg"
     assert img.files.AlignedBodySWC == "FlyEM_Hemibrain_v1.2.1/1734696429.swc"
     assert img.files.AlignedBodyOBJ == "FlyEM_Hemibrain_v1.2.1/1734696429.obj"
     assert img.files.CDSResults == "2945073143148142603.json"
@@ -65,8 +65,8 @@ ppp_results = json.loads(
     "gender": "f",
     "store": "fl:hemibrain:v1.2.1",
     "files": {
-      "ColorDepthMip": "$img/JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/2384750665-JRC2018_Unisex_20x_HR-CDM.png",
-      "ColorDepthMipThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/2384750665-JRC2018_Unisex_20x_HR-CDM.jpg",
+      "CDM": "$img/JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/2384750665-JRC2018_Unisex_20x_HR-CDM.png",
+      "CDMThumbnail": "$thm/JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/2384750665-JRC2018_Unisex_20x_HR-CDM.jpg",
       "AlignedBodySWC": "$swc/FlyEM_Hemibrain_v1.2.1/2384750665.swc"
     },
     "neuronType": null,
@@ -92,8 +92,8 @@ ppp_results = json.loads(
         "mountingProtocol": "DPX PBS Mounting"
       },
       "files": {
-        "ColorDepthMip": "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
-        "ColorDepthMipSkel": "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "CDM": "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "CDMSkel": "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-masked_raw.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-skel.png"
@@ -118,7 +118,7 @@ def test_PPPMatches():
     assert match.image.id == "2588090337243168866"
     assert match.image.gender == Gender.female
     assert match.mirrored == True
-    assert match.files.ColorDepthMip == "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-ch.png"
+    assert match.files.CDM == "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-ch.png"
 
 new_results = json.loads(
 """{
@@ -134,8 +134,8 @@ new_results = json.loads(
     "neuronInstance" : "MC62(LWF5)_R",
     "store": "fl:hemibrain:v1.2.1",
     "files" : {
-      "ColorDepthMipThumbnail" : "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1253394541-JRC2018_Unisex_20x_HR-CDM.jpg",
-      "ColorDepthMip" : "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1253394541-JRC2018_Unisex_20x_HR-CDM.png",
+      "CDMThumbnail" : "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1253394541-JRC2018_Unisex_20x_HR-CDM.jpg",
+      "CDM" : "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1253394541-JRC2018_Unisex_20x_HR-CDM.png",
       "AlignedBodySWC" : "FlyEM_Hemibrain_v1.2.1/1253394541.swc"
     }
   },
@@ -158,15 +158,15 @@ new_results = json.loads(
       "channel" : 2,
       "store": "fl:hemibrain:v1.2.1",
       "files" : {
-        "ColorDepthMipThumbnail" : "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/VT040712-20200221_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
-        "ColorDepthMip" : "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/VT040712-20200221_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
+        "CDMThumbnail" : "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/VT040712-20200221_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
+        "CDM" : "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/VT040712-20200221_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "VisuallyLosslessStack" : "Gen1+MCFO/VT040712/VT040712-20200221_64_H4-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
         "Gal4Expression" : "Gen1/CDM/VT040712/VT040712-sample_003501-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png"
       }
     },
     "files" : {
-      "ColorDepthMipMatch" : "VT040712-20200221_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2-04.png",
-      "ColorDepthMipInput" : "1253394541-JRC2018_Unisex_20x_HR-CDM.png"
+      "CDMMatch" : "VT040712-20200221_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2-04.png",
+      "CDMInput" : "1253394541-JRC2018_Unisex_20x_HR-CDM.png"
     }
   }]
 }
@@ -199,13 +199,13 @@ config = json.loads(
             "label": "FlyLight vs Hemibrain",
             "anatomicalArea": "Brain",
             "prefixes": {
-                "ColorDepthMip": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
-                "ColorDepthMipThumbnail": "https://s3.amazonaws.com/janelia-flylight-color-depth-thumbnails/",
-                "ColorDepthMipInput": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
-                "ColorDepthMipMatch": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
-                "ColorDepthMipBest": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
-                "ColorDepthMipBestThumbnail": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
-                "ColorDepthMipSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "CDM": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
+                "CDMThumbnail": "https://s3.amazonaws.com/janelia-flylight-color-depth-thumbnails/",
+                "CDMInput": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
+                "CDMMatch": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
+                "CDMBest": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "CDMBestThumbnail": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "CDMSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
                 "SignalMip": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
                 "SignalMipMasked": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
                 "SignalMipMaskedSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
@@ -233,13 +233,13 @@ config = json.loads(
             "label": "FlyLight vs VNC",
             "anatomicalArea": "VNC",
             "prefixes": {
-                "ColorDepthMip": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
-                "ColorDepthMipThumbnail": "https://s3.amazonaws.com/janelia-flylight-color-depth-thumbnails/",
-                "ColorDepthMipInput": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
-                "ColorDepthMipMatch": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
-                "ColorDepthMipBest": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
-                "ColorDepthMipBestThumbnail": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
-                "ColorDepthMipSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "CDM": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
+                "CDMThumbnail": "https://s3.amazonaws.com/janelia-flylight-color-depth-thumbnails/",
+                "CDMInput": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
+                "CDMMatch": "https://s3.amazonaws.com/janelia-flylight-color-depth/",
+                "CDMBest": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "CDMBestThumbnail": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
+                "CDMSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
                 "SignalMip": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
                 "SignalMipMasked": "https://s3.amazonaws.com/janelia-ppp-match-prod/",
                 "SignalMipMaskedSkel": "https://s3.amazonaws.com/janelia-ppp-match-prod/",

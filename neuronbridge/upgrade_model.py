@@ -79,8 +79,8 @@ def upgrade_em_lookup(em_lookup : legacy_model.EMImageLookup):
             neuronType = old_image.neuronType,
             neuronInstance = old_image.neuronInstance,
             files = model.Files(
-                ColorDepthMip = old_image.imageURL,
-                ColorDepthMipThumbnail = old_image.thumbnailURL,
+                CDM = old_image.imageURL,
+                CDMThumbnail = old_image.thumbnailURL,
                 AlignedBodySWC = old_image.libraryName + "/" + old_image.publishedName + ".swc",
                 AlignedBodyOBJ = old_image.libraryName + "/" + old_image.publishedName + ".obj",
                 CDSResults = old_image.id+".json",
@@ -119,8 +119,8 @@ def upgrade_lm_lookup(lm_lookup : legacy_model.LMImageLookup):
             mountingProtocol = old_image.mountingProtocol,
             channel = old_image.channel,
             files = model.Files(
-                ColorDepthMip = old_image.imageURL,
-                ColorDepthMipThumbnail = old_image.thumbnailURL,
+                CDM = old_image.imageURL,
+                CDMThumbnail = old_image.thumbnailURL,
                 VisuallyLosslessStack = get_h5j(old_image),
                 CDSResults = old_image.id+".json"
             )
@@ -148,8 +148,8 @@ def upgrade_cds_match(input_image, old_match):
             neuronType = old_match.neuronType,
             neuronInstance = old_match.neuronInstance,
             files = model.Files(
-                ColorDepthMip = old_match.imageURL,
-                ColorDepthMipThumbnail = old_match.thumbnailURL,
+                CDM = old_match.imageURL,
+                CDMThumbnail = old_match.thumbnailURL,
                 AlignedBodySWC = old_match.libraryName + "/" + old_match.publishedName + ".swc",
                 AlignedBodyOBJ = old_match.libraryName + "/" + old_match.publishedName + ".obj",
             )
@@ -167,8 +167,8 @@ def upgrade_cds_match(input_image, old_match):
             anatomicalArea = old_match.anatomicalArea,
             channel = old_match.channel,
             files = model.Files(
-                ColorDepthMip = old_match.imageURL,
-                ColorDepthMipThumbnail = old_match.thumbnailURL,
+                CDM = old_match.imageURL,
+                CDMThumbnail = old_match.thumbnailURL,
                 VisuallyLosslessStack = old_match.imageStack,
             )
         )
@@ -178,8 +178,8 @@ def upgrade_cds_match(input_image, old_match):
             normalizedScore = old_match.normalizedScore,
             matchingPixels = old_match.matchingPixels,
             files = model.Files(
-                ColorDepthMipInput = get_matched(input_image.alignmentSpace, input_image.libraryName, old_match.sourceSearchablePNG),
-                ColorDepthMipMatch = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.searchablePNG),
+                CDMInput = get_matched(input_image.alignmentSpace, input_image.libraryName, old_match.sourceSearchablePNG),
+                CDMMatch = get_matched(old_match.alignmentSpace, old_match.libraryName, old_match.searchablePNG),
             )
         )
 
@@ -230,9 +230,9 @@ def upgrade_ppp_match(old_match):
             pppRank = old_match.pppRank,
             pppScore = old_match.pppScore,
             files = model.Files(
-                ColorDepthMipBest = get_pppm_path(old_match, old_match.files.ColorDepthMip),
-                ColorDepthMipBestThumbnail = get_pppm_path(old_match, old_match.files.ColorDepthMip.replace(".png",".jpg")),
-                ColorDepthMipSkel = get_pppm_path(old_match, old_match.files.ColorDepthMipSkel),
+                CDMBest = get_pppm_path(old_match, old_match.files.ColorDepthMip),
+                CDMBestThumbnail = get_pppm_path(old_match, old_match.files.ColorDepthMip.replace(".png",".jpg")),
+                CDMSkel = get_pppm_path(old_match, old_match.files.ColorDepthMipSkel),
                 SignalMip = get_pppm_path(old_match, old_match.files.SignalMip),
                 SignalMipMasked = get_pppm_path(old_match, old_match.files.SignalMipMasked),
                 SignalMipMaskedSkel = get_pppm_path(old_match, old_match.files.SignalMipMaskedSkel),

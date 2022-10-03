@@ -8,8 +8,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I1-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773510744670219.json"
       },
@@ -27,8 +27,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I1-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773247669534731.json"
       },
@@ -46,8 +46,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I1-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I1-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773282717138955.json"
       },
@@ -65,8 +65,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I2-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773364631896075.json"
       },
@@ -84,8 +84,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I2-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773136818274315.json"
       },
@@ -103,8 +103,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I2-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I2-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773245136175115.json"
       },
@@ -122,8 +122,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I3-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773249812824075.json"
       },
@@ -141,8 +141,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I3-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773132137431051.json"
       },
@@ -160,8 +160,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I3-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I3-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773150353293323.json"
       },
@@ -179,8 +179,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I4-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773486623227915.json"
       },
@@ -198,8 +198,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I4-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773329479434251.json"
       },
@@ -217,8 +217,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I4-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I4-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773232754589707.json"
       },
@@ -236,8 +236,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I6-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773269920317451.json"
       },
@@ -255,8 +255,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I6-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773507938680843.json"
       },
@@ -274,8 +274,8 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190412_62_I6-GAL4-m-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190412_62_I6-m-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2711773214127685643.json"
       },
@@ -293,8 +293,8 @@
       "anatomicalArea": "VNC",
       "gender": "f",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190830_63_G3-f-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2728062347292704779.json"
       },
@@ -312,8 +312,8 @@
       "anatomicalArea": "VNC",
       "gender": "f",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190830_63_G3-f-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2728062308889657355.json"
       },
@@ -331,8 +331,8 @@
       "anatomicalArea": "VNC",
       "gender": "f",
       "files": {
-        "ColorDepthMip": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
-        "ColorDepthMipThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
+        "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.png",
+        "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyLight_Gen1_MCFO/R83A12-20190830_63_G3-GAL4-f-40x-vnc-JRC2018_VNC_Unisex_40x_DS-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R83A12/R83A12-20190830_63_G3-f-40x-vnc-GAL4-JRC2018_VNC_Unisex-aligned_stack.h5j",
         "CDSResults": "2728062329567576075.json"
       },

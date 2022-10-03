@@ -150,7 +150,7 @@ class Client:
         """
         Returns the representative PNG image for the specified PPPMatch.
         """
-        url = f"{self.config['pppImageryBaseURL']}/{match.alignmentSpace}/{match.maskLibraryName}/{match.files.ColorDepthMip}"
+        url = f"{self.config['pppImageryBaseURL']}/{match.alignmentSpace}/{match.maskLibraryName}/{match.files.CDM}"
         return self._get_image(url)
 
 

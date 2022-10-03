@@ -21,10 +21,10 @@ def error(s, *tags):
 
 
 def validate(image, filepath):
-    if not image.files.ColorDepthMip:
-        error("Missing ColorDepthMip", image.id, filepath)
-    if not image.files.ColorDepthMipThumbnail:
-        error("Missing ColorDepthMipThumbnail", image.id, filepath)
+    if not image.files.CDM:
+        error("Missing CDM", image.id, filepath)
+    if not image.files.CDMThumbnail:
+        error("Missing CDMThumbnail", image.id, filepath)
     if isinstance(image, model.LMImage):
         if not image.files.VisuallyLosslessStack:
             error("Missing VisuallyLosslessStack", image.id, filepath)
@@ -103,13 +103,13 @@ if __name__ == '__main__':
                             validate(match.image, filepath)
                             files = match.image.files
                             if isinstance(match, model.CDSMatch):
-                                if not files.ColorDepthMipInput:
-                                    error("Missing ColorDepthMipInput", match.image.id, filepath)
-                                if not files.ColorDepthMipMatch:
-                                    error("Missing ColorDepthMipMatch", match.image.id, filepath)
+                                if not files.CDMInput:
+                                    error("Missing CDMInput", match.image.id, filepath)
+                                if not files.CDMMatch:
+                                    error("Missing CDMMatch", match.image.id, filepath)
                             if isinstance(match, model.PPPMatch):
-                                if not files.ColorDepthMipSkel:
-                                    error("Missing ColorDepthMipSkel", match.image.id, filepath)
+                                if not files.CDMSkel:
+                                    error("Missing CDMSkel", match.image.id, filepath)
                                 if not files.SignalMip:
                                     error("Missing SignalMip", match.image.id, filepath)
                                 if not files.SignalMipMasked:

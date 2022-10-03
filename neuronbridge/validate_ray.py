@@ -61,10 +61,10 @@ def print_summary(title, counts):
 
 
 def validate(counts, image, filepath):
-    if not image.files.ColorDepthMip:
-        error(counts, "Missing ColorDepthMip", image.id, filepath)
-    if not image.files.ColorDepthMipThumbnail:
-        error(counts, "Missing ColorDepthMipThumbnail", image.id, filepath)
+    if not image.files.CDM:
+        error(counts, "Missing CDM", image.id, filepath)
+    if not image.files.CDMThumbnail:
+        error(counts, "Missing CDMThumbnail", image.id, filepath)
     if isinstance(image, model.LMImage):
         if not image.files.VisuallyLosslessStack:
             error(counts, "Missing VisuallyLosslessStack", image.id, filepath)
@@ -134,13 +134,13 @@ def validate_match(filepath, counts, publishedNames=None):
                 validate(counts, match.image, filepath)
                 files = match.image.files
                 if isinstance(match, model.CDSMatch):
-                    if not files.ColorDepthMipInput:
-                        error(counts, "Missing ColorDepthMipInput", match.image.id, filepath)
-                    if not files.ColorDepthMipMatch:
-                        error(counts, "Missing ColorDepthMipMatch", match.image.id, filepath)
+                    if not files.CDMInput:
+                        error(counts, "Missing CDMInput", match.image.id, filepath)
+                    if not files.CDMMatch:
+                        error(counts, "Missing CDMMatch", match.image.id, filepath)
                 if isinstance(match, model.PPPMatch):
-                    if not files.ColorDepthMipSkel:
-                        error(counts, "Missing ColorDepthMipSkel", match.image.id, filepath)
+                    if not files.CDMSkel:
+                        error(counts, "Missing CDMSkel", match.image.id, filepath)
                     if not files.SignalMip:
                         error(counts, "Missing SignalMip", match.image.id, filepath)
                     if not files.SignalMipMasked:

@@ -19,7 +19,6 @@ class CustomSearchConfig(BaseModel, extra=Extra.forbid):
     """
     Configuration for the custom search on a data set.
     """
-    alignmentSpace: str = Field(title="Alignment space", description="Alignment space used for search. This property is denormalized from the AnatomicalArea.")
     searchFolder: str = Field(title="Search folder", description="Name of sub-folder on S3 to traverse when using custom search.")
     lmLibraries: List[str] = Field(title="List of LM libraries", description="List of the identifiers of LM libraries included in this data set.")
     emLibraries: List[str] = Field(title="List of EM libraries", description="List of the identifiers of EM libraries included in this data set.")

@@ -201,7 +201,7 @@ def upgrade_cds_matches(cds_matches : legacy_model.CDSMatches):
     # extra fields are forbidden by the model, so we need to delete the Mongo id
     del moimg['_id']
 
-    if moimg.type == "LMImage":
+    if moimg['type'] == "LMImage":
         image = model.LMImage(**moimg)
     else:
         image = model.EMImage(**moimg)

@@ -18,9 +18,9 @@
       "aggregateCoverage": 95.22691443330088,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R20H11-20180918_62_A5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -41,9 +41,9 @@
       "aggregateCoverage": 90.55445610975076,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT038778-20171128_62_C3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT038778-20171128_62_C3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT038778-20171128_62_C3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT038778-20171128_62_C3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT038778-20171128_62_C3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT038778-20171128_62_C3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT038778-20171128_62_C3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -64,9 +64,9 @@
       "aggregateCoverage": 94.04398528606087,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R83E05-20190904_61_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R83E05-20190904_61_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R83E05-20190904_61_C6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R83E05-20190904_61_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R83E05-20190904_61_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R83E05-20190904_61_C6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R83E05-20190904_61_C6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -87,9 +87,9 @@
       "aggregateCoverage": 97.49997204798798,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R19F06-20191018_61_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R19F06-20191018_61_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R19F06-20191018_61_A5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R19F06-20191018_61_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R19F06-20191018_61_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R19F06-20191018_61_A5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R19F06-20191018_61_A5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -110,9 +110,9 @@
       "aggregateCoverage": 96.59879918156507,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R45D05-20190910_62_I10-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R45D05-20190910_62_I10-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R45D05-20190910_62_I10-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R45D05-20190910_62_I10-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R45D05-20190910_62_I10-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R45D05-20190910_62_I10-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R45D05-20190910_62_I10-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -133,9 +133,9 @@
       "aggregateCoverage": 99.06416663871461,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT057230-20180117_62_C3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT057230-20180117_62_C3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT057230-20180117_62_C3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT057230-20180117_62_C3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT057230-20180117_62_C3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT057230-20180117_62_C3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT057230-20180117_62_C3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -156,9 +156,9 @@
       "aggregateCoverage": 95.13746799494623,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT057231-20200114_61_A2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT057231-20200114_61_A2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT057231-20200114_61_A2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT057231-20200114_61_A2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT057231-20200114_61_A2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT057231-20200114_61_A2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT057231-20200114_61_A2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -179,9 +179,9 @@
       "aggregateCoverage": 99.53040619863815,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT016848-20180522_64_A6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT016848-20180522_64_A6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT016848-20180522_64_A6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT016848-20180522_64_A6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT016848-20180522_64_A6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT016848-20180522_64_A6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT016848-20180522_64_A6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -202,9 +202,9 @@
       "aggregateCoverage": 92.74589384943927,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT038983-20180202_64_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT038983-20180202_64_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT038983-20180202_64_B1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT038983-20180202_64_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT038983-20180202_64_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT038983-20180202_64_B1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT038983-20180202_64_B1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -225,9 +225,9 @@
       "aggregateCoverage": 93.37313699840112,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R12C07-20180831_61_D3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R12C07-20180831_61_D3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R12C07-20180831_61_D3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R12C07-20180831_61_D3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R12C07-20180831_61_D3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R12C07-20180831_61_D3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R12C07-20180831_61_D3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -248,9 +248,9 @@
       "aggregateCoverage": 97.78061024832564,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT029749-20200124_64_E9-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT029749-20200124_64_E9-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT029749-20200124_64_E9-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT029749-20200124_64_E9-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT029749-20200124_64_E9-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT029749-20200124_64_E9-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT029749-20200124_64_E9-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -271,9 +271,9 @@
       "aggregateCoverage": 97.05273985621483,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT050660-20190510_61_H6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT050660-20190510_61_H6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT050660-20190510_61_H6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT050660-20190510_61_H6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT050660-20190510_61_H6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT050660-20190510_61_H6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT050660-20190510_61_H6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -294,9 +294,9 @@
       "aggregateCoverage": 97.02366976374957,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R12C07-20180831_61_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R12C07-20180831_61_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R12C07-20180831_61_D6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R12C07-20180831_61_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R12C07-20180831_61_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R12C07-20180831_61_D6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R12C07-20180831_61_D6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -317,9 +317,9 @@
       "aggregateCoverage": 99.99999999999997,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT007174-20191220_62_G7-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT007174-20191220_62_G7-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT007174-20191220_62_G7-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT007174-20191220_62_G7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT007174-20191220_62_G7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT007174-20191220_62_G7-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT007174-20191220_62_G7-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -340,9 +340,9 @@
       "aggregateCoverage": 99.79874551370204,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT045607-20200310_61_H4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT045607-20200310_61_H4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT045607-20200310_61_H4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT045607-20200310_61_H4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT045607-20200310_61_H4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT045607-20200310_61_H4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT045607-20200310_61_H4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -363,9 +363,9 @@
       "aggregateCoverage": 88.94442021936737,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT011125-20170615_61_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT011125-20170615_61_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT011125-20170615_61_F1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT011125-20170615_61_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT011125-20170615_61_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT011125-20170615_61_F1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT011125-20170615_61_F1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -386,9 +386,9 @@
       "aggregateCoverage": 86.53942910810719,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT015432-20180316_62_G1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT015432-20180316_62_G1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT015432-20180316_62_G1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT015432-20180316_62_G1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT015432-20180316_62_G1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT015432-20180316_62_G1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT015432-20180316_62_G1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -409,9 +409,9 @@
       "aggregateCoverage": 82.46178959961536,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT057230-20180117_62_C1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT057230-20180117_62_C1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT057230-20180117_62_C1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT057230-20180117_62_C1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT057230-20180117_62_C1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT057230-20180117_62_C1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT057230-20180117_62_C1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -432,9 +432,9 @@
       "aggregateCoverage": 90.89994297789555,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R13E04-20181121_65_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R13E04-20181121_65_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R13E04-20181121_65_H5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R13E04-20181121_65_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R13E04-20181121_65_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R13E04-20181121_65_H5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R13E04-20181121_65_H5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -455,9 +455,9 @@
       "aggregateCoverage": 98.7511041044734,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R95H02-20190910_61_C3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R95H02-20190910_61_C3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R95H02-20190910_61_C3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R95H02-20190910_61_C3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R95H02-20190910_61_C3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R95H02-20190910_61_C3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R95H02-20190910_61_C3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -478,9 +478,9 @@
       "aggregateCoverage": 97.47313811648159,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R59D04-20190820_65_D5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R59D04-20190820_65_D5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R59D04-20190820_65_D5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R59D04-20190820_65_D5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R59D04-20190820_65_D5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R59D04-20190820_65_D5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R59D04-20190820_65_D5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -501,9 +501,9 @@
       "aggregateCoverage": 98.66165766611878,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT040548-20180410_62_G1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT040548-20180410_62_G1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT040548-20180410_62_G1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT040548-20180410_62_G1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT040548-20180410_62_G1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT040548-20180410_62_G1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT040548-20180410_62_G1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -524,9 +524,9 @@
       "aggregateCoverage": 89.94622032893926,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R16G01-20191011_61_B2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R16G01-20191011_61_B2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R16G01-20191011_61_B2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R16G01-20191011_61_B2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R16G01-20191011_61_B2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R16G01-20191011_61_B2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R16G01-20191011_61_B2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -547,9 +547,9 @@
       "aggregateCoverage": 92.34785719876113,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT056313-20200117_65_D1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT056313-20200117_65_D1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT056313-20200117_65_D1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT056313-20200117_65_D1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT056313-20200117_65_D1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT056313-20200117_65_D1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT056313-20200117_65_D1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -570,9 +570,9 @@
       "aggregateCoverage": 95.30406198638175,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R94B04-20190419_63_J3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R94B04-20190419_63_J3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R94B04-20190419_63_J3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R94B04-20190419_63_J3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R94B04-20190419_63_J3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R94B04-20190419_63_J3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R94B04-20190419_63_J3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -593,9 +593,9 @@
       "aggregateCoverage": 96.00845268842448,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R40F11-20191008_61_H8-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R40F11-20191008_61_H8-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R40F11-20191008_61_H8-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R40F11-20191008_61_H8-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R40F11-20191008_61_H8-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R40F11-20191008_61_H8-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R40F11-20191008_61_H8-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -616,9 +616,9 @@
       "aggregateCoverage": 98.4346873287939,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R26C12-20181218_61_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R26C12-20181218_61_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R26C12-20181218_61_A1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R26C12-20181218_61_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R26C12-20181218_61_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R26C12-20181218_61_A1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R26C12-20181218_61_A1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -639,9 +639,9 @@
       "aggregateCoverage": 89.86348237346121,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R11B09-20180828_62_E6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R11B09-20180828_62_E6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R11B09-20180828_62_E6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R11B09-20180828_62_E6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R11B09-20180828_62_E6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R11B09-20180828_62_E6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R11B09-20180828_62_E6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -662,9 +662,9 @@
       "aggregateCoverage": 99.46667561131048,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT006395-20191218_63_K4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT006395-20191218_63_K4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT006395-20191218_63_K4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT006395-20191218_63_K4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT006395-20191218_63_K4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT006395-20191218_63_K4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT006395-20191218_63_K4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -685,9 +685,9 @@
       "aggregateCoverage": 94.78303648296603,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT058704-20180803_61_A3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT058704-20180803_61_A3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT058704-20180803_61_A3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT058704-20180803_61_A3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT058704-20180803_61_A3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT058704-20180803_61_A3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT058704-20180803_61_A3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -708,9 +708,9 @@
       "aggregateCoverage": 99.19498205480826,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R64E01-20190221_61_A2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R64E01-20190221_61_A2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R64E01-20190221_61_A2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R64E01-20190221_61_A2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R64E01-20190221_61_A2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R64E01-20190221_61_A2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R64E01-20190221_61_A2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -731,9 +731,9 @@
       "aggregateCoverage": 97.34344078086737,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT050306-20180323_64_G5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT050306-20180323_64_G5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT050306-20180323_64_G5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT050306-20180323_64_G5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT050306-20180323_64_G5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT050306-20180323_64_G5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT050306-20180323_64_G5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -754,9 +754,9 @@
       "aggregateCoverage": 86.05194601907442,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT017191-20200228_61_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT017191-20200228_61_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT017191-20200228_61_B1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT017191-20200228_61_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT017191-20200228_61_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT017191-20200228_61_B1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT017191-20200228_61_B1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -777,9 +777,9 @@
       "aggregateCoverage": 90.91447802412814,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R43C10-20190205_63_D4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R43C10-20190205_63_D4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R43C10-20190205_63_D4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R43C10-20190205_63_D4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R43C10-20190205_63_D4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R43C10-20190205_63_D4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R43C10-20190205_63_D4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -800,9 +800,9 @@
       "aggregateCoverage": 99.99999999999997,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R81G11-20191218_63_I3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R81G11-20191218_63_I3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R81G11-20191218_63_I3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R81G11-20191218_63_I3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R81G11-20191218_63_I3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R81G11-20191218_63_I3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R81G11-20191218_63_I3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -823,9 +823,9 @@
       "aggregateCoverage": 86.63782019029726,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT037727-20180530_62_G5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT037727-20180530_62_G5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT037727-20180530_62_G5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT037727-20180530_62_G5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT037727-20180530_62_G5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT037727-20180530_62_G5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT037727-20180530_62_G5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -846,9 +846,9 @@
       "aggregateCoverage": 84.51234919889532,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R50C12-20190514_64_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R50C12-20190514_64_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R50C12-20190514_64_D6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R50C12-20190514_64_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R50C12-20190514_64_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R50C12-20190514_64_D6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R50C12-20190514_64_D6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -869,9 +869,9 @@
       "aggregateCoverage": 87.6206129317188,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R51C07-20190118_63_J3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R51C07-20190118_63_J3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R51C07-20190118_63_J3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R51C07-20190118_63_J3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R51C07-20190118_63_J3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R51C07-20190118_63_J3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R51C07-20190118_63_J3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -892,9 +892,9 @@
       "aggregateCoverage": 96.33269602746003,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT007396-20180703_62_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT007396-20180703_62_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT007396-20180703_62_A1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT007396-20180703_62_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT007396-20180703_62_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT007396-20180703_62_A1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT007396-20180703_62_A1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -915,9 +915,9 @@
       "aggregateCoverage": 92.8800635069712,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT029361-20171222_69_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT029361-20171222_69_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT029361-20171222_69_E4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT029361-20171222_69_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT029361-20171222_69_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT029361-20171222_69_E4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT029361-20171222_69_E4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -938,9 +938,9 @@
       "aggregateCoverage": 89.9305672022272,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT043796-20180601_63_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT043796-20180601_63_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT043796-20180601_63_B1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT043796-20180601_63_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT043796-20180601_63_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT043796-20180601_63_B1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT043796-20180601_63_B1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -961,9 +961,9 @@
       "aggregateCoverage": 91.27338185802613,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT015783-20180501_61_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT015783-20180501_61_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT015783-20180501_61_E4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT015783-20180501_61_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT015783-20180501_61_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT015783-20180501_61_E4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT015783-20180501_61_E4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -984,9 +984,9 @@
       "aggregateCoverage": 95.39350842473638,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT007752-20171114_62_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT007752-20171114_62_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT007752-20171114_62_D6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT007752-20171114_62_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT007752-20171114_62_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT007752-20171114_62_D6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT007752-20171114_62_D6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1007,9 +1007,9 @@
       "aggregateCoverage": 99.82110712329072,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT004438-20200131_63_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT004438-20200131_63_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT004438-20200131_63_D6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT004438-20200131_63_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT004438-20200131_63_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT004438-20200131_63_D6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT004438-20200131_63_D6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1030,9 +1030,9 @@
       "aggregateCoverage": 97.25064010107445,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT000817-20180925_62_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT000817-20180925_62_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT000817-20180925_62_D6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT000817-20180925_62_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT000817-20180925_62_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT000817-20180925_62_D6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT000817-20180925_62_D6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1053,9 +1053,9 @@
       "aggregateCoverage": 95.84633101890671,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT049245-20191220_68_C8-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT049245-20191220_68_C8-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT049245-20191220_68_C8-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT049245-20191220_68_C8-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT049245-20191220_68_C8-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT049245-20191220_68_C8-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT049245-20191220_68_C8-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1076,9 +1076,9 @@
       "aggregateCoverage": 94.25642057715312,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R14G03-20180905_65_J1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R14G03-20180905_65_J1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R14G03-20180905_65_J1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R14G03-20180905_65_J1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R14G03-20180905_65_J1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R14G03-20180905_65_J1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R14G03-20180905_65_J1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1099,9 +1099,9 @@
       "aggregateCoverage": 94.86577443844405,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT016281-20180413_64_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT016281-20180413_64_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT016281-20180413_64_F1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT016281-20180413_64_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT016281-20180413_64_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT016281-20180413_64_F1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT016281-20180413_64_F1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1122,9 +1122,9 @@
       "aggregateCoverage": 99.99999999999997,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R11B09-20180828_62_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R11B09-20180828_62_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R11B09-20180828_62_E4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R11B09-20180828_62_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R11B09-20180828_62_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R11B09-20180828_62_E4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R11B09-20180828_62_E4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1145,9 +1145,9 @@
       "aggregateCoverage": 95.95590290589115,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R74D06-20190705_61_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R74D06-20190705_61_D6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R74D06-20190705_61_D6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R74D06-20190705_61_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R74D06-20190705_61_D6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R74D06-20190705_61_D6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R74D06-20190705_61_D6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1168,9 +1168,9 @@
       "aggregateCoverage": 93.11038808573437,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R22E04-20180921_62_E3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R22E04-20180921_62_E3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R22E04-20180921_62_E3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R22E04-20180921_62_E3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R22E04-20180921_62_E3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R22E04-20180921_62_E3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R22E04-20180921_62_E3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1191,9 +1191,9 @@
       "aggregateCoverage": 97.70122653428591,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT014430-20200211_61_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT014430-20200211_61_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT014430-20200211_61_H5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT014430-20200211_61_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT014430-20200211_61_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT014430-20200211_61_H5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT014430-20200211_61_H5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1214,9 +1214,9 @@
       "aggregateCoverage": 82.88889634275873,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R12C07-20180831_61_D5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R12C07-20180831_61_D5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R12C07-20180831_61_D5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R12C07-20180831_61_D5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R12C07-20180831_61_D5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R12C07-20180831_61_D5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R12C07-20180831_61_D5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1237,9 +1237,9 @@
       "aggregateCoverage": 97.96509352743206,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT019753-20180130_61_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT019753-20180130_61_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT019753-20180130_61_F1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT019753-20180130_61_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT019753-20180130_61_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT019753-20180130_61_F1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT019753-20180130_61_F1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1260,9 +1260,9 @@
       "aggregateCoverage": 99.99999999999997,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT049245-20180821_61_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT049245-20180821_61_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT049245-20180821_61_F1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT049245-20180821_61_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT049245-20180821_61_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT049245-20180821_61_F1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT049245-20180821_61_F1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1283,9 +1283,9 @@
       "aggregateCoverage": 90.01665939914353,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R19F06-20181207_61_E1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R19F06-20181207_61_E1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R19F06-20181207_61_E1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R19F06-20181207_61_E1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R19F06-20181207_61_E1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R19F06-20181207_61_E1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R19F06-20181207_61_E1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1306,9 +1306,9 @@
       "aggregateCoverage": 94.79757152919865,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R71B08-20191008_63_G3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R71B08-20191008_63_G3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R71B08-20191008_63_G3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R71B08-20191008_63_G3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R71B08-20191008_63_G3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R71B08-20191008_63_G3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R71B08-20191008_63_G3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1329,9 +1329,9 @@
       "aggregateCoverage": 76.34477129663792,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT058387-20171114_63_G6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT058387-20171114_63_G6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT058387-20171114_63_G6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT058387-20171114_63_G6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT058387-20171114_63_G6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT058387-20171114_63_G6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT058387-20171114_63_G6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1352,9 +1352,9 @@
       "aggregateCoverage": 91.8536656268518,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R78B06-20190426_63_I2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R78B06-20190426_63_I2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R78B06-20190426_63_I2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R78B06-20190426_63_I2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R78B06-20190426_63_I2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R78B06-20190426_63_I2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R78B06-20190426_63_I2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1375,9 +1375,9 @@
       "aggregateCoverage": 78.96890618186696,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R16E12-20180907_63_D1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R16E12-20180907_63_D1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R16E12-20180907_63_D1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R16E12-20180907_63_D1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R16E12-20180907_63_D1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R16E12-20180907_63_D1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R16E12-20180907_63_D1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1398,9 +1398,9 @@
       "aggregateCoverage": 94.999944095976,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT045607-20200310_61_H6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT045607-20200310_61_H6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT045607-20200310_61_H6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT045607-20200310_61_H6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT045607-20200310_61_H6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT045607-20200310_61_H6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT045607-20200310_61_H6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1421,9 +1421,9 @@
       "aggregateCoverage": 93.86844665078992,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT039498-20190507_62_D5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT039498-20190507_62_D5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT039498-20190507_62_D5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT039498-20190507_62_D5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT039498-20190507_62_D5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT039498-20190507_62_D5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT039498-20190507_62_D5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1444,9 +1444,9 @@
       "aggregateCoverage": 98.81818893323938,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT020370-20171006_62_G5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT020370-20171006_62_G5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT020370-20171006_62_G5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT020370-20171006_62_G5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT020370-20171006_62_G5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT020370-20171006_62_G5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT020370-20171006_62_G5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1467,9 +1467,9 @@
       "aggregateCoverage": 99.06752088015291,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT056816-20200225_61_I7-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT056816-20200225_61_I7-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT056816-20200225_61_I7-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT056816-20200225_61_I7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT056816-20200225_61_I7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT056816-20200225_61_I7-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT056816-20200225_61_I7-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1490,9 +1490,9 @@
       "aggregateCoverage": 85.95355493688436,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT022985-20180814_64_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT022985-20180814_64_F1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT022985-20180814_64_F1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT022985-20180814_64_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT022985-20180814_64_F1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT022985-20180814_64_F1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT022985-20180814_64_F1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1513,9 +1513,9 @@
       "aggregateCoverage": 99.99999999999997,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT016966-20180710_61_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT016966-20180710_61_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT016966-20180710_61_C2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT016966-20180710_61_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT016966-20180710_61_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT016966-20180710_61_C2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT016966-20180710_61_C2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1536,9 +1536,9 @@
       "aggregateCoverage": 92.53793088026475,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT056867-20191218_66_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT056867-20191218_66_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT056867-20191218_66_B1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT056867-20191218_66_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT056867-20191218_66_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT056867-20191218_66_B1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT056867-20191218_66_B1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1559,9 +1559,9 @@
       "aggregateCoverage": 97.23945929628012,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT008142-20171013_62_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT008142-20171013_62_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT008142-20171013_62_H5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT008142-20171013_62_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT008142-20171013_62_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT008142-20171013_62_H5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT008142-20171013_62_H5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1582,9 +1582,9 @@
       "aggregateCoverage": 92.35009335972002,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R56G08-20190820_64_E1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R56G08-20190820_64_E1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R56G08-20190820_64_E1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R56G08-20190820_64_E1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R56G08-20190820_64_E1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R56G08-20190820_64_E1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R56G08-20190820_64_E1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1605,9 +1605,9 @@
       "aggregateCoverage": 99.91055356164534,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT003238-20200131_63_C3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT003238-20200131_63_C3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT003238-20200131_63_C3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT003238-20200131_63_C3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT003238-20200131_63_C3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT003238-20200131_63_C3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT003238-20200131_63_C3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1628,9 +1628,9 @@
       "aggregateCoverage": 95.13075951206964,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT044326-20180306_61_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT044326-20180306_61_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT044326-20180306_61_H5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT044326-20180306_61_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT044326-20180306_61_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT044326-20180306_61_H5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT044326-20180306_61_H5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1651,9 +1651,9 @@
       "aggregateCoverage": 98.13504176030588,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT034804-20170721_66_A2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT034804-20170721_66_A2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT034804-20170721_66_A2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT034804-20170721_66_A2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT034804-20170721_66_A2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT034804-20170721_66_A2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT034804-20170721_66_A2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1674,9 +1674,9 @@
       "aggregateCoverage": 90.14188441284001,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT050246-20180309_62_A6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT050246-20180309_62_A6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT050246-20180309_62_A6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT050246-20180309_62_A6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT050246-20180309_62_A6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT050246-20180309_62_A6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT050246-20180309_62_A6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1697,9 +1697,9 @@
       "aggregateCoverage": 93.29487136484083,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT030303-20171222_69_F5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT030303-20171222_69_F5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT030303-20171222_69_F5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT030303-20171222_69_F5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT030303-20171222_69_F5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT030303-20171222_69_F5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT030303-20171222_69_F5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1720,9 +1720,9 @@
       "aggregateCoverage": 98.97136595892171,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT061711-20180309_63_F4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT061711-20180309_63_F4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT061711-20180309_63_F4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT061711-20180309_63_F4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT061711-20180309_63_F4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT061711-20180309_63_F4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT061711-20180309_63_F4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1743,9 +1743,9 @@
       "aggregateCoverage": 98.86962063529329,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT006391-20191115_61_A7-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT006391-20191115_61_A7-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT006391-20191115_61_A7-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT006391-20191115_61_A7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT006391-20191115_61_A7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT006391-20191115_61_A7-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT006391-20191115_61_A7-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1766,9 +1766,9 @@
       "aggregateCoverage": 96.74974004628851,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R31E03-20181106_64_D1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R31E03-20181106_64_D1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R31E03-20181106_64_D1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R31E03-20181106_64_D1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R31E03-20181106_64_D1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R31E03-20181106_64_D1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R31E03-20181106_64_D1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1789,9 +1789,9 @@
       "aggregateCoverage": 96.54177707711398,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT040569-20180112_61_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT040569-20180112_61_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT040569-20180112_61_B1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT040569-20180112_61_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT040569-20180112_61_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT040569-20180112_61_B1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT040569-20180112_61_B1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1812,9 +1812,9 @@
       "aggregateCoverage": 98.53419649146343,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT049493-20180605_62_B3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT049493-20180605_62_B3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT049493-20180605_62_B3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT049493-20180605_62_B3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT049493-20180605_62_B3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT049493-20180605_62_B3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT049493-20180605_62_B3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1835,9 +1835,9 @@
       "aggregateCoverage": 94.43531345386238,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R19F06-20191018_61_A3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R19F06-20191018_61_A3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R19F06-20191018_61_A3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R19F06-20191018_61_A3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R19F06-20191018_61_A3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R19F06-20191018_61_A3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R19F06-20191018_61_A3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1858,9 +1858,9 @@
       "aggregateCoverage": 89.3905343306611,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R89F06-20191001_62_C9-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R89F06-20191001_62_C9-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R89F06-20191001_62_C9-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R89F06-20191001_62_C9-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R89F06-20191001_62_C9-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R89F06-20191001_62_C9-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R89F06-20191001_62_C9-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1881,9 +1881,9 @@
       "aggregateCoverage": 91.2968615480942,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT002063-20170525_62_D4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT002063-20170525_62_D4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT002063-20170525_62_D4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT002063-20170525_62_D4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT002063-20170525_62_D4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT002063-20170525_62_D4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT002063-20170525_62_D4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1904,9 +1904,9 @@
       "aggregateCoverage": 94.21728776037297,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R26C12-20181218_61_A3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R26C12-20181218_61_A3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R26C12-20181218_61_A3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R26C12-20181218_61_A3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R26C12-20181218_61_A3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R26C12-20181218_61_A3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R26C12-20181218_61_A3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1927,9 +1927,9 @@
       "aggregateCoverage": 82.9213206766623,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R48E02-20190315_63_F2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R48E02-20190315_63_F2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R48E02-20190315_63_F2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R48E02-20190315_63_F2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R48E02-20190315_63_F2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R48E02-20190315_63_F2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R48E02-20190315_63_F2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1950,9 +1950,9 @@
       "aggregateCoverage": 91.33152204295664,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R71B08-20191029_64_D4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R71B08-20191029_64_D4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R71B08-20191029_64_D4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R71B08-20191029_64_D4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R71B08-20191029_64_D4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R71B08-20191029_64_D4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R71B08-20191029_64_D4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1973,9 +1973,9 @@
       "aggregateCoverage": 99.73501492637436,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT014430-20200211_61_H7-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT014430-20200211_61_H7-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT014430-20200211_61_H7-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT014430-20200211_61_H7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT014430-20200211_61_H7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT014430-20200211_61_H7-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT014430-20200211_61_H7-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -1996,9 +1996,9 @@
       "aggregateCoverage": 82.47632464584798,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R12C07-20180831_61_E1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R12C07-20180831_61_E1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R12C07-20180831_61_E1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R12C07-20180831_61_E1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R12C07-20180831_61_E1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R12C07-20180831_61_E1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R12C07-20180831_61_E1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2019,9 +2019,9 @@
       "aggregateCoverage": 97.77054752401074,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R27B03-20181221_62_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R27B03-20181221_62_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R27B03-20181221_62_C6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R27B03-20181221_62_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R27B03-20181221_62_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R27B03-20181221_62_C6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R27B03-20181221_62_C6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2042,9 +2042,9 @@
       "aggregateCoverage": 84.99088764409262,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT049105-20180511_61_C1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT049105-20180511_61_C1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT049105-20180511_61_C1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT049105-20180511_61_C1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT049105-20180511_61_C1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT049105-20180511_61_C1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT049105-20180511_61_C1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2065,9 +2065,9 @@
       "aggregateCoverage": 85.1608358769664,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT006395-20171212_61_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT006395-20171212_61_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT006395-20171212_61_C2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT006395-20171212_61_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT006395-20171212_61_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT006395-20171212_61_C2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT006395-20171212_61_C2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2088,9 +2088,9 @@
       "aggregateCoverage": 98.31393463701515,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R23F05-20180921_64_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R23F05-20180921_64_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R23F05-20180921_64_E4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R23F05-20180921_64_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R23F05-20180921_64_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R23F05-20180921_64_E4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R23F05-20180921_64_E4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2111,9 +2111,9 @@
       "aggregateCoverage": 86.39631480673975,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT014430-20200211_61_H8-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT014430-20200211_61_H8-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT014430-20200211_61_H8-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT014430-20200211_61_H8-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT014430-20200211_61_H8-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT014430-20200211_61_H8-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT014430-20200211_61_H8-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2134,9 +2134,9 @@
       "aggregateCoverage": 99.08205592638555,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R50C12-20190514_64_D3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R50C12-20190514_64_D3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R50C12-20190514_64_D3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R50C12-20190514_64_D3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R50C12-20190514_64_D3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R50C12-20190514_64_D3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R50C12-20190514_64_D3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2157,9 +2157,9 @@
       "aggregateCoverage": 78.25892507742707,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT049377-20191220_68_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT049377-20191220_68_E4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT049377-20191220_68_E4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT049377-20191220_68_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT049377-20191220_68_E4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT049377-20191220_68_E4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT049377-20191220_68_E4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2180,9 +2180,9 @@
       "aggregateCoverage": 83.53514685987095,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT008483-20170926_63_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT008483-20170926_63_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT008483-20170926_63_C2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT008483-20170926_63_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT008483-20170926_63_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT008483-20170926_63_C2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT008483-20170926_63_C2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2203,9 +2203,9 @@
       "aggregateCoverage": 87.66980847281387,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT045607-20200310_61_H1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT045607-20200310_61_H1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT045607-20200310_61_H1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT045607-20200310_61_H1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT045607-20200310_61_H1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT045607-20200310_61_H1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT045607-20200310_61_H1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2226,9 +2226,9 @@
       "aggregateCoverage": 95.04913963707105,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R11B09-20180828_62_E3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R11B09-20180828_62_E3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R11B09-20180828_62_E3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R11B09-20180828_62_E3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R11B09-20180828_62_E3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R11B09-20180828_62_E3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R11B09-20180828_62_E3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2249,9 +2249,9 @@
       "aggregateCoverage": 93.02094164737974,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R56G08-20190820_64_E6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R56G08-20190820_64_E6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R56G08-20190820_64_E6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R56G08-20190820_64_E6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R56G08-20190820_64_E6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R56G08-20190820_64_E6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R56G08-20190820_64_E6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2272,9 +2272,9 @@
       "aggregateCoverage": 87.30866847795703,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R34C04-20191004_61_I9-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R34C04-20191004_61_I9-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R34C04-20191004_61_I9-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R34C04-20191004_61_I9-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R34C04-20191004_61_I9-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R34C04-20191004_61_I9-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R34C04-20191004_61_I9-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2295,9 +2295,9 @@
       "aggregateCoverage": 86.21294960811278,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT024648-20180828_65_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT024648-20180828_65_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT024648-20180828_65_A1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT024648-20180828_65_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT024648-20180828_65_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT024648-20180828_65_A1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT024648-20180828_65_A1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2318,9 +2318,9 @@
       "aggregateCoverage": 87.71453169199117,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R35B08-20190301_63_A6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R35B08-20190301_63_A6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R35B08-20190301_63_A6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R35B08-20190301_63_A6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R35B08-20190301_63_A6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R35B08-20190301_63_A6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R35B08-20190301_63_A6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2341,9 +2341,9 @@
       "aggregateCoverage": 96.99348159080488,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT043695-20180209_61_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT043695-20180209_61_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT043695-20180209_61_B1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT043695-20180209_61_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT043695-20180209_61_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT043695-20180209_61_B1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT043695-20180209_61_B1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2364,9 +2364,9 @@
       "aggregateCoverage": 91.37512718165452,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R65B05-20190705_62_H2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R65B05-20190705_62_H2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R65B05-20190705_62_H2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R65B05-20190705_62_H2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R65B05-20190705_62_H2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R65B05-20190705_62_H2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R65B05-20190705_62_H2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2387,9 +2387,9 @@
       "aggregateCoverage": 87.47749863035139,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R19F06-20181207_61_F2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R19F06-20181207_61_F2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R19F06-20181207_61_F2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R19F06-20181207_61_F2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R19F06-20181207_61_F2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R19F06-20181207_61_F2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R19F06-20181207_61_F2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2410,9 +2410,9 @@
       "aggregateCoverage": 84.86007222799897,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT058698-20180119_61_G2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT058698-20180119_61_G2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT058698-20180119_61_G2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT058698-20180119_61_G2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT058698-20180119_61_G2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT058698-20180119_61_G2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT058698-20180119_61_G2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2433,9 +2433,9 @@
       "aggregateCoverage": 82.8978409865942,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT029752-20170525_62_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT029752-20170525_62_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT029752-20170525_62_A1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT029752-20170525_62_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT029752-20170525_62_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT029752-20170525_62_A1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT029752-20170525_62_A1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2456,9 +2456,9 @@
       "aggregateCoverage": 92.85434765594425,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT063541-20200122_62_B5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT063541-20200122_62_B5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT063541-20200122_62_B5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT063541-20200122_62_B5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT063541-20200122_62_B5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT063541-20200122_62_B5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT063541-20200122_62_B5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2479,9 +2479,9 @@
       "aggregateCoverage": 88.95224678272339,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R40B01-20190205_62_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R40B01-20190205_62_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R40B01-20190205_62_A5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R40B01-20190205_62_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R40B01-20190205_62_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R40B01-20190205_62_A5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R40B01-20190205_62_A5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2502,9 +2502,9 @@
       "aggregateCoverage": 84.8276478940954,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R20D06-20190705_62_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R20D06-20190705_62_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R20D06-20190705_62_A5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R20D06-20190705_62_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R20D06-20190705_62_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R20D06-20190705_62_A5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R20D06-20190705_62_A5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2525,9 +2525,9 @@
       "aggregateCoverage": 91.00392446248279,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT063541-20180216_62_A2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT063541-20180216_62_A2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT063541-20180216_62_A2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT063541-20180216_62_A2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT063541-20180216_62_A2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT063541-20180216_62_A2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT063541-20180216_62_A2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2548,9 +2548,9 @@
       "aggregateCoverage": 86.84131083755406,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT057231-20180117_62_E1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT057231-20180117_62_E1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT057231-20180117_62_E1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT057231-20180117_62_E1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT057231-20180117_62_E1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT057231-20180117_62_E1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT057231-20180117_62_E1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2571,9 +2571,9 @@
       "aggregateCoverage": 78.35172575721998,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT038780-20180410_61_J2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT038780-20180410_61_J2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT038780-20180410_61_J2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT038780-20180410_61_J2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT038780-20180410_61_J2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT038780-20180410_61_J2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT038780-20180410_61_J2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2594,9 +2594,9 @@
       "aggregateCoverage": 99.26877536645084,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT058732-20191101_62_B4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT058732-20191101_62_B4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT058732-20191101_62_B4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT058732-20191101_62_B4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT058732-20191101_62_B4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT058732-20191101_62_B4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT058732-20191101_62_B4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2617,9 +2617,9 @@
       "aggregateCoverage": 79.94387235993246,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT007395-20171222_62_I4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT007395-20171222_62_I4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT007395-20171222_62_I4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT007395-20171222_62_I4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT007395-20171222_62_I4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT007395-20171222_62_I4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT007395-20171222_62_I4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2640,9 +2640,9 @@
       "aggregateCoverage": 90.84962935632106,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT000272-20171006_63_H2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT000272-20171006_63_H2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT000272-20171006_63_H2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT000272-20171006_63_H2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT000272-20171006_63_H2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT000272-20171006_63_H2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT000272-20171006_63_H2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2663,9 +2663,9 @@
       "aggregateCoverage": 90.09939735462156,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R74H07-20190405_63_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R74H07-20190405_63_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R74H07-20190405_63_A1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R74H07-20190405_63_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R74H07-20190405_63_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R74H07-20190405_63_A1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R74H07-20190405_63_A1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2686,9 +2686,9 @@
       "aggregateCoverage": 83.21425776227372,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT007194-20180615_61_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT007194-20180615_61_A5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT007194-20180615_61_A5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT007194-20180615_61_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT007194-20180615_61_A5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT007194-20180615_61_A5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT007194-20180615_61_A5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2709,9 +2709,9 @@
       "aggregateCoverage": 93.27250975525216,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT058732-20191101_62_B5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT058732-20191101_62_B5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT058732-20191101_62_B5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT058732-20191101_62_B5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT058732-20191101_62_B5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT058732-20191101_62_B5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT058732-20191101_62_B5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2732,9 +2732,9 @@
       "aggregateCoverage": 92.3154328648576,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT033620-20191220_65_I6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT033620-20191220_65_I6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT033620-20191220_65_I6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT033620-20191220_65_I6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT033620-20191220_65_I6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT033620-20191220_65_I6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT033620-20191220_65_I6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2755,9 +2755,9 @@
       "aggregateCoverage": 98.84055054282804,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT041039-20170908_61_H4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT041039-20170908_61_H4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT041039-20170908_61_H4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT041039-20170908_61_H4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT041039-20170908_61_H4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT041039-20170908_61_H4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT041039-20170908_61_H4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2778,9 +2778,9 @@
       "aggregateCoverage": 95.76023882199037,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT002408-20200122_63_B6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT002408-20200122_63_B6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT002408-20200122_63_B6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT002408-20200122_63_B6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT002408-20200122_63_B6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT002408-20200122_63_B6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT002408-20200122_63_B6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2801,9 +2801,9 @@
       "aggregateCoverage": 85.62036695401333,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT058732-20191101_62_B2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT058732-20191101_62_B2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT058732-20191101_62_B2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT058732-20191101_62_B2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT058732-20191101_62_B2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT058732-20191101_62_B2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT058732-20191101_62_B2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2824,9 +2824,9 @@
       "aggregateCoverage": 96.42214246581466,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT008825-20170510_63_B2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT008825-20170510_63_B2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT008825-20170510_63_B2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT008825-20170510_63_B2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT008825-20170510_63_B2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT008825-20170510_63_B2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT008825-20170510_63_B2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2847,9 +2847,9 @@
       "aggregateCoverage": 92.35009335972,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT063220-20180515_62_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT063220-20180515_62_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT063220-20180515_62_A1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT063220-20180515_62_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT063220-20180515_62_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT063220-20180515_62_A1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT063220-20180515_62_A1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2870,9 +2870,9 @@
       "aggregateCoverage": 94.43531345386238,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R94E06-20190423_61_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R94E06-20190423_61_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R94E06-20190423_61_C2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R94E06-20190423_61_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R94E06-20190423_61_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R94E06-20190423_61_C2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R94E06-20190423_61_C2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2893,9 +2893,9 @@
       "aggregateCoverage": 76.74951643019264,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT038829-20180109_62_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT038829-20180109_62_A1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT038829-20180109_62_A1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT038829-20180109_62_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT038829-20180109_62_A1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT038829-20180109_62_A1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT038829-20180109_62_A1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2916,9 +2916,9 @@
       "aggregateCoverage": 81.4264470756605,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R29G11-20190723_64_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R29G11-20190723_64_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R29G11-20190723_64_C6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R29G11-20190723_64_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R29G11-20190723_64_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R29G11-20190723_64_C6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R29G11-20190723_64_C6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2939,9 +2939,9 @@
       "aggregateCoverage": 90.08933463030667,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT028340-20171031_62_I1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT028340-20171031_62_I1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT028340-20171031_62_I1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT028340-20171031_62_I1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT028340-20171031_62_I1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT028340-20171031_62_I1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT028340-20171031_62_I1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2962,9 +2962,9 @@
       "aggregateCoverage": 98.69743624146064,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT061711-20180309_63_F6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT061711-20180309_63_F6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT061711-20180309_63_F6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT061711-20180309_63_F6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT061711-20180309_63_F6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT061711-20180309_63_F6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT061711-20180309_63_F6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -2985,9 +2985,9 @@
       "aggregateCoverage": 92.96950994532583,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT057230-20180117_62_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT057230-20180117_62_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT057230-20180117_62_C6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT057230-20180117_62_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT057230-20180117_62_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT057230-20180117_62_C6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT057230-20180117_62_C6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3008,9 +3008,9 @@
       "aggregateCoverage": 98.88527376200535,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT045982-20180420_63_H4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT045982-20180420_63_H4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT045982-20180420_63_H4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT045982-20180420_63_H4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT045982-20180420_63_H4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT045982-20180420_63_H4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT045982-20180420_63_H4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3031,9 +3031,9 @@
       "aggregateCoverage": 92.92925904806626,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT012289-20170825_62_C1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT012289-20170825_62_C1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT012289-20170825_62_C1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT012289-20170825_62_C1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT012289-20170825_62_C1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT012289-20170825_62_C1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT012289-20170825_62_C1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3054,9 +3054,9 @@
       "aggregateCoverage": 87.32096736323079,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT012319-20200219_61_I7-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT012319-20200219_61_I7-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT012319-20200219_61_I7-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT012319-20200219_61_I7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT012319-20200219_61_I7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT012319-20200219_61_I7-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT012319-20200219_61_I7-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3077,9 +3077,9 @@
       "aggregateCoverage": 95.19113585795903,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT007708-20180427_62_D3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT007708-20180427_62_D3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT007708-20180427_62_D3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT007708-20180427_62_D3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT007708-20180427_62_D3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT007708-20180427_62_D3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT007708-20180427_62_D3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3100,9 +3100,9 @@
       "aggregateCoverage": 86.2990418050291,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R10E07-20180828_61_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R10E07-20180828_61_H5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R10E07-20180828_61_H5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R10E07-20180828_61_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R10E07-20180828_61_H5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R10E07-20180828_61_H5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R10E07-20180828_61_H5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3123,9 +3123,9 @@
       "aggregateCoverage": 99.2911369760395,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT063560-20200114_62_B5-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT063560-20200114_62_B5-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT063560-20200114_62_B5-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT063560-20200114_62_B5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT063560-20200114_62_B5-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT063560-20200114_62_B5-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT063560-20200114_62_B5-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3146,9 +3146,9 @@
       "aggregateCoverage": 88.05219199677991,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R89A02-20190904_63_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R89A02-20190904_63_B1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R89A02-20190904_63_B1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R89A02-20190904_63_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R89A02-20190904_63_B1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R89A02-20190904_63_B1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R89A02-20190904_63_B1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3169,9 +3169,9 @@
       "aggregateCoverage": 83.51837565267945,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT061711-20200131_62_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT061711-20200131_62_C6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT061711-20200131_62_C6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT061711-20200131_62_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT061711-20200131_62_C6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT061711-20200131_62_C6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT061711-20200131_62_C6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3192,9 +3192,9 @@
       "aggregateCoverage": 97.48543700175537,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R44B02-20190308_62_E3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R44B02-20190308_62_E3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R44B02-20190308_62_E3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R44B02-20190308_62_E3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R44B02-20190308_62_E3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R44B02-20190308_62_E3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R44B02-20190308_62_E3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3215,9 +3215,9 @@
       "aggregateCoverage": 79.01698364248259,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R16H01-20180905_62_I1-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R16H01-20180905_62_I1-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R16H01-20180905_62_I1-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R16H01-20180905_62_I1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R16H01-20180905_62_I1-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R16H01-20180905_62_I1-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R16H01-20180905_62_I1-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3238,9 +3238,9 @@
       "aggregateCoverage": 99.55276780822682,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R65F12-20190329_61_H3-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R65F12-20190329_61_H3-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R65F12-20190329_61_H3-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R65F12-20190329_61_H3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R65F12-20190329_61_H3-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R65F12-20190329_61_H3-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R65F12-20190329_61_H3-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3261,9 +3261,9 @@
       "aggregateCoverage": 96.38748197095224,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT006391-20171222_61_G2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT006391-20171222_61_G2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT006391-20171222_61_G2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT006391-20171222_61_G2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT006391-20171222_61_G2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT006391-20171222_61_G2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT006391-20171222_61_G2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3284,9 +3284,9 @@
       "aggregateCoverage": 89.19598832723979,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R40C01-20191008_61_D7-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R40C01-20191008_61_D7-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R40C01-20191008_61_D7-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R40C01-20191008_61_D7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R40C01-20191008_61_D7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R40C01-20191008_61_D7-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R40C01-20191008_61_D7-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3307,9 +3307,9 @@
       "aggregateCoverage": 83.2791064300808,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT063223-20180817_62_A4-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT063223-20180817_62_A4-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT063223-20180817_62_A4-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT063223-20180817_62_A4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT063223-20180817_62_A4-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT063223-20180817_62_A4-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT063223-20180817_62_A4-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3330,9 +3330,9 @@
       "aggregateCoverage": 84.86007222799897,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT059774-20180911_62_D2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT059774-20180911_62_D2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT059774-20180911_62_D2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT059774-20180911_62_D2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT059774-20180911_62_D2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT059774-20180911_62_D2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT059774-20180911_62_D2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3353,9 +3353,9 @@
       "aggregateCoverage": 89.03833897963975,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R16G08-20190719_61_F2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R16G08-20190719_61_F2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R16G08-20190719_61_F2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R16G08-20190719_61_F2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R16G08-20190719_61_F2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R16G08-20190719_61_F2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R16G08-20190719_61_F2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3376,9 +3376,9 @@
       "aggregateCoverage": 93.94671228435021,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R55D02-20190208_61_G6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R55D02-20190208_61_G6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R55D02-20190208_61_G6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R55D02-20190208_61_G6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R55D02-20190208_61_G6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R55D02-20190208_61_G6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R55D02-20190208_61_G6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3399,9 +3399,9 @@
       "aggregateCoverage": 99.55276780822682,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-R95H02-20190910_61_C7-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R95H02-20190910_61_C7-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R95H02-20190910_61_C7-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R95H02-20190910_61_C7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R95H02-20190910_61_C7-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R95H02-20190910_61_C7-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R95H02-20190910_61_C7-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3422,9 +3422,9 @@
       "aggregateCoverage": 90.69309808920043,
       "mirrored": false,
       "files": {
-        "CDM": "23/2384750665/2384750665-R10G09-20181121_62_A6-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-R10G09-20181121_62_A6-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-R10G09-20181121_62_A6-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-R10G09-20181121_62_A6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-R10G09-20181121_62_A6-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-R10G09-20181121_62_A6-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-R10G09-20181121_62_A6-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },
@@ -3445,9 +3445,9 @@
       "aggregateCoverage": 81.6780151835329,
       "mirrored": true,
       "files": {
-        "CDM": "23/2384750665/2384750665-VT007714-20180703_62_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
+        "ColorDepthMip": "23/2384750665/2384750665-VT007714-20180703_62_C2-40x-JRC2018_Unisex_20x_HR-ch.png",
         "SignalMipMaskedSkel": "23/2384750665/2384750665-VT007714-20180703_62_C2-40x-JRC2018_Unisex_20x_HR-skel.png",
-        "CDMSkel": "23/2384750665/2384750665-VT007714-20180703_62_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
+        "ColorDepthMipSkel": "23/2384750665/2384750665-VT007714-20180703_62_C2-40x-JRC2018_Unisex_20x_HR-ch_skel.png",
         "SignalMip": "23/2384750665/2384750665-VT007714-20180703_62_C2-40x-JRC2018_Unisex_20x_HR-raw.png",
         "SignalMipMasked": "23/2384750665/2384750665-VT007714-20180703_62_C2-40x-JRC2018_Unisex_20x_HR-masked_raw.png"
       },

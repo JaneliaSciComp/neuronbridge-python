@@ -8,6 +8,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyEM_Hemibrain_v1.2.1/1734696429-JRC2018_Unisex_20x_HR-CDM.jpg",
         "AlignedBodySWC": "FlyEM_Hemibrain_v1.2.1/1734696429.swc",

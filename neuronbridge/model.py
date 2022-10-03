@@ -47,7 +47,7 @@ class Files(BaseModel, extra=Extra.forbid):
     """
     Files associated with a NeuronImage or Match. These are either absolute URLs (e.g. starting with a protocol like http://) or relative paths. For relative paths, the first component should be replaced with its corresponding base URL from the DataConfig.
     """
-    Store: str = Field(title="Data Store", description="Name of the DataStore that provides access to imagery for any relative paths in this object.")
+    store: str = Field(title="Data Store", description="Name of the DataStore that provides access to imagery for any relative paths in this object.")
     CDM: Optional[str] = Field(title="Color Depth MIP", description="The CDM of the image. For PPPM, this is the best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.")
     CDMThumbnail: Optional[str] = Field(title="Thumbnail of the CDM", description="The thumbnail sized version of the CDM, if available.")
     CDMInput: Optional[str] = Field(title="CDM input", description="CDM-only. The actual color depth image that was input. 'Matched CDM' in the NeuronBridge GUI.")
@@ -86,7 +86,6 @@ class NeuronImage(BaseModel, extra=Extra.forbid):
     alignmentSpace: str = Field(title="Alignment space", description="Alignment space to which this image was registered.")
     anatomicalArea: str = Field(title="Anatomical area", description="Anatomical area represented in the image.")
     gender: Gender = Field(title="Gender", description="Gender of the sample imaged.")
-    store: str = Field(title="Data store", description="Identifier for the data store where the files can be found.")
     files: Files = Field(title="Files", description="Files associated with the image.")
 
 

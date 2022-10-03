@@ -8,6 +8,7 @@
       "anatomicalArea": "VNC",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_VNC_Unisex_40x_DS/FlyEM_VNC_v0.6/19782-JRC2018_VNC_Unisex_40x_DS-CDM.png",
         "CDMThumbnail": "JRC2018_VNC_Unisex_40x_DS/FlyEM_VNC_v0.6/19782-JRC2018_VNC_Unisex_40x_DS-CDM.jpg",
         "AlignedBodySWC": "FlyEM_VNC_v0.6/19782.swc",

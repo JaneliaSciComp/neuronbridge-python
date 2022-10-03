@@ -8,6 +8,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -27,6 +28,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -46,6 +48,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H1-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H1-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -65,6 +68,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H2-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -84,6 +88,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H2-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -103,6 +108,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H2-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H2-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -122,6 +128,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H3-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -141,6 +148,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H3-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -160,6 +168,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H3-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H3-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -179,6 +188,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H4-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -198,6 +208,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H4-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -217,6 +228,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H4-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H4-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -236,6 +248,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H5-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -255,6 +268,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H5-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -274,6 +288,7 @@
       "anatomicalArea": "Brain",
       "gender": "m",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20190430_64_H5-GAL4-m-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20190430_64_H5-m-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -293,6 +308,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -312,6 +328,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -331,6 +348,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E1-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E1-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -350,6 +368,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E10-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -369,6 +388,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E10-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -388,6 +408,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E10-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E10-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -407,6 +428,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -426,6 +448,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -445,6 +468,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E2-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E2-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -464,6 +488,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E3-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -483,6 +508,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E3-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -502,6 +528,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E3-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E3-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -521,6 +548,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E4-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -540,6 +568,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E4-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -559,6 +588,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E4-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E4-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -578,6 +608,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -597,6 +628,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -616,6 +648,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E5-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E5-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -635,6 +668,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -654,6 +688,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -673,6 +708,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E6-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E6-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -692,6 +728,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E7-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -711,6 +748,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E7-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -730,6 +768,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E7-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E7-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -749,6 +788,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E8-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -768,6 +808,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E8-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -787,6 +828,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E8-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E8-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -806,6 +848,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E9-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -825,6 +868,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E9-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -844,6 +888,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Gen1_MCFO/R77F05-20191001_63_E9-GAL4-f-40x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Gen1+MCFO/R77F05/R77F05-20191001_63_E9-f-40x-central-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -863,6 +908,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A1-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -882,6 +928,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A1-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -901,6 +948,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A1-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -920,6 +968,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A2-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -939,6 +988,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A2-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -958,6 +1008,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A2-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -977,6 +1028,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A2-f-63x-right_dorsal-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -996,6 +1048,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A2-f-63x-right_dorsal-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1015,6 +1068,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A2-GAL4-f-63x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A2-f-63x-right_dorsal-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1034,6 +1088,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A3-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1053,6 +1108,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A3-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1072,6 +1128,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A3-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A3-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1091,6 +1148,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A4-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A4-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A4-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1110,6 +1168,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A4-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A4-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A4-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1129,6 +1188,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A5-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1148,6 +1208,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A5-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1167,6 +1228,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A5-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A5-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1186,6 +1248,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A6-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A6-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A6-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1205,6 +1268,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A6-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A6-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A6-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1224,6 +1288,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A7-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A7-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A7-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1243,6 +1308,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A7-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A7-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A7-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1262,6 +1328,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A8-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_A8-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_A8-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1281,6 +1348,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_1.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_B1-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1300,6 +1368,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_2.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_B1-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",
@@ -1319,6 +1388,7 @@
       "anatomicalArea": "Brain",
       "gender": "f",
       "files": {
+        "store": "prod",
         "CDM": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.png",
         "CDMThumbnail": "JRC2018_Unisex_20x_HR/FlyLight_Annotator_Gen1_MCFO/R77F05-20161007_19_B1-GAL4-f-20x-brain-JRC2018_Unisex_20x_HR-CDM_3.jpg",
         "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/Annotator+Gen1+MCFO/R77F05/R77F05-20161007_19_B1-f-20x-brain-GAL4-JRC2018_Unisex_20x_HR-aligned_stack.h5j",

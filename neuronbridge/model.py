@@ -3,9 +3,11 @@ from enum import Enum
 from pydantic import BaseModel, Field, Extra
 from typing_extensions import Annotated
 
+
 class Gender(str, Enum):
     male = 'm'
     female = 'f'
+
 
 class AnatomicalArea(BaseModel, extra=Extra.forbid):
     """
@@ -15,13 +17,22 @@ class AnatomicalArea(BaseModel, extra=Extra.forbid):
     alignmentSpace: str = Field(title="Alignment space", description="Alignment space to which this images in this area are registered.")
 
 
+class LibraryConfig(BaseModel, extra=Extra.forbid):
+    """
+    Configuration for libraries used for custom searches.
+    """
+    name: str = Field(title="Library identifier", description="Library name or identifier")
+    publishedNamePrefix: Optional[str] = Field(title="Published name prefix",
+            description="Optional value that when set, is used to prefix published names. This is currently used to identify EM data set")
+
+
 class CustomSearchConfig(BaseModel, extra=Extra.forbid):
     """
     Configuration for the custom search on a data set.
     """
     searchFolder: str = Field(title="Search folder", description="Name of sub-folder on S3 to traverse when using custom search.")
-    lmLibraries: List[str] = Field(title="List of LM libraries", description="List of the identifiers of LM libraries included in this data set.")
-    emLibraries: List[str] = Field(title="List of EM libraries", description="List of the identifiers of EM libraries included in this data set.")
+    lmLibraries: List[LibraryConfig] = Field(title="List of LM libraries", description="List of LM libraries included in this data set.")
+    emLibraries: List[LibraryConfig] = Field(title="List of EM libraries", description="List of EM libraries included in this data set.")
 
 
 class DataStore(BaseModel, extra=Extra.forbid):

@@ -6,6 +6,8 @@ A Python API for the [NeuronBridge](https://github.com/JaneliaSciComp/neuronbrid
 
 See [this notebook](notebooks/python_api_examples.ipynb) for usage examples.
 
+![Data Model Diagram](model_diagram.png)
+
 ## Development Notes
 
 Create a conda env with all the dependencies including Jupyter:

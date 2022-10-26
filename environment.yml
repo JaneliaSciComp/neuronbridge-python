@@ -1,24 +1,13 @@
-name: neuronbridge-python
+name: neuronbridge-python3
 channels:
   - defaults
   - conda-forge
   - flyem-forge
 dependencies:
   - python=3.8
-  - jupyter
-  - pillow
-  - requests
-  - pydantic=1.10.2
-  - python-devtools
-  - numpy
-  - pandas
-  - twine
-  - python-rapidjson
   - neuprint-python
-  - pymongo=3.12.0
-  - pip-tools
-  - pipreqs
-  - pytest
+  - jupyter
   - pip
   - pip:
-    - ray[default]
+    - -r requirements.txt
+

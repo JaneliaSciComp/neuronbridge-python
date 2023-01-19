@@ -120,38 +120,33 @@ def validate_match(filepath, counts, publishedNames=None):
     tic = time.perf_counter()
     with open(filepath) as f:
         obj = rapidjson.load(f)
-        modelSuccess = False
-        try:
-            matches = model.Matches(**obj)
-            modelSuccess = True
-        except pydantic.ValidationError:
-            error(counts, "Validation failed when loading Matches", filepath)
-        if modelSuccess:
-            validate(counts, matches.inputImage, filepath)
-            if publishedNames and matches.inputImage.publishedName not in publishedNames:
-                error(counts, f"Published name not indexed", matches.inputImage.publishedName, filepath)
-            for match in matches.results:
-                validate(counts, match.image, filepath)
-                files = match.image.files
-                if isinstance(match, model.CDSMatch):
-                    if not files.CDMInput:
-                        error(counts, "Missing CDMInput", match.image.id, filepath)
-                    if not files.CDMMatch:
-                        error(counts, "Missing CDMMatch", match.image.id, filepath)
-                if isinstance(match, model.PPPMatch):
-                    if not files.CDMSkel:
-                        error(counts, "Missing CDMSkel", match.image.id, filepath)
-                    if not files.SignalMip:
-                        error(counts, "Missing SignalMip", match.image.id, filepath)
-                    if not files.SignalMipMasked:
-                        error(counts, "Missing SignalMipMasked", match.image.id, filepath)
-                    if not files.SignalMipMaskedSkel:
-                        error(counts, "Missing SignalMipMaskedSkel", match.image.id, filepath)
-                if publishedNames and match.image.publishedName not in publishedNames:
-                    error(counts, "Match published name not indexed", match.image.publishedName, filepath)
-                inc_count(counts, "Num Matches")
+        matches = model.PrecomputedMatches(**obj)
+        validate(counts, matches.inputImage, filepath)
+        if publishedNames and matches.inputImage.publishedName not in publishedNames:
+            error(counts, f"Published name not indexed", matches.inputImage.publishedName, filepath)
+        for match in matches.results:
+            validate(counts, match.image, filepath)
+            files = match.files
+            if isinstance(match, model.CDSMatch):
+                if not files.CDMInput:
+                    error(counts, "Missing CDMInput", match.image.id, filepath)
+                if not files.CDMMatch:
+                    error(counts, "Missing CDMMatch", match.image.id, filepath)
+            if isinstance(match, model.PPPMatch):
+                if not files.CDMSkel:
+                    error(counts, "Missing CDMSkel", match.image.id, filepath)
+                if not files.SignalMip:
+                    error(counts, "Missing SignalMip", match.image.id, filepath)
+                if not files.SignalMipMasked:
+                    error(counts, "Missing SignalMipMasked", match.image.id, filepath)
+                if not files.SignalMipMaskedSkel:
+                    error(counts, "Missing SignalMipMaskedSkel", match.image.id, filepath)
+            if publishedNames and match.image.publishedName not in publishedNames:
+                error(counts, "Match published name not indexed", match.image.publishedName, filepath)
+            inc_count(counts, "Num Matches")
         inc_count(counts, "Items")
         inc_count(counts, "Elapsed", value=time.perf_counter()-tic)
+
 
 @ray.remote
 def validate_matches(match_files, publishedNames=None):

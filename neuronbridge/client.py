@@ -14,7 +14,7 @@ class Client:
             data_bucket:
                 name of the S3 bucket containing the NeuronBridge metadata
             version:
-                version number (e.g. "v2.4.0") or "current" to use the latest version
+                version number (e.g. "v3.0.0") or "current" to use the latest version
                 
         """
 
@@ -35,8 +35,45 @@ class Client:
         if res.status_code != 200:
             raise Exception("Could not retrieve "+url)
 
-        self.config = res.json()
+        self.config = DataConfig(**res.json())
 
+
+    def _get_image(self, url):
+        """
+        Fetches and opens the image at the given URL.
+        """
+        res = requests.get(url, stream=True)
+
+        if res.status_code != 200:
+            raise Exception("Could not retrieve "+url)
+
+        return Image.open(res.raw)
+
+
+    def _get_files_url(self, files : Files, file_key : str) -> str:
+        """
+        Returns the full URL to the given file.
+        """
+        store = files.store
+        prefixes = self.config.stores[store].prefixes
+        prefix = prefixes[file_key]
+        if not prefix: raise Exception("Config has no prefix for file type '"+file_key+"'")
+        path = getattr(files, file_key)
+        if not path: return None
+        return prefix + path
+
+
+    def _get_match_url(self, match : Union[NeuronImage, CDSMatch], file_key : str) -> str:
+        """
+        Returns the full URL to the given file, checking both the match files and image files.
+        In case of the file type being in both places, the match file is returned.
+        """
+        url = self._get_files_url(match.files, file_key)
+        if url: return url
+        url = self._get_files_url(match.image.files, file_key)
+        if url: return url
+        raise Exception("Match contains no file with type '"+file_key+"'")
+    
 
     def get_em_image(self, body_id) -> EMImage:
         """
@@ -49,7 +86,7 @@ class Client:
         if res.status_code != 200:
             raise Exception("Could not retrieve "+url)
 
-        images = EMImageLookup(**res.json()).results
+        images = ImageLookup(**res.json()).results
         if not images: return None
         return images[0]
 
@@ -65,7 +102,7 @@ class Client:
         if res.status_code != 200:
             raise Exception("Could not retrieve "+url)
 
-        return LMImageLookup(**res.json()).results
+        return ImageLookup(**res.json()).results
 
     
     def get_cds_matches(self, neuron_image : NeuronImage) -> List[CDSMatch]:
@@ -73,18 +110,15 @@ class Client:
         Returns the CDS matches for the specified neuron image (i.e. LMImage or EMImage).
         """
 
-        url = f"{self.data_url}/metadata/cdsresults/{neuron_image.id}.json"
+        url = self._get_files_url(neuron_image.files, 'CDSResults')
         res = requests.get(url)
 
         if res.status_code != 200:
             raise Exception("Could not retrieve "+url)
 
-        cds_matches = CDSMatches(**res.json())
+        cds_matches = PrecomputedMatches(**res.json())
         results = cds_matches.results
 
-        # TODO: this is a hack to get around the fact that PPP imagery is stored under the mask library name
-        for result in results:
-            result.maskLibraryName = cds_matches.maskLibraryName
         return results
     
     
@@ -92,40 +126,26 @@ class Client:
         """
         Returns the PPPM matches for the specified EMImage.
         """
-
-        url = f"{self.data_url}/metadata/pppresults/{em_image.publishedName}.json"
+        url = self._get_files_url(em_image.files, 'PPPMResults')
         res = requests.get(url)
 
         if res.status_code != 200:
             raise Exception("Could not retrieve "+url)
 
-        ppp_matches = PPPMatches(**res.json())
+        ppp_matches = PrecomputedMatches(**res.json())
         results = ppp_matches.results
 
-        # TODO: this is a hack to get around the fact that PPP imagery is stored under the mask library name
-        for result in results:
-            result.maskLibraryName = ppp_matches.maskLibraryName
         return results
-
-    def _get_image(self, url):
-
-        res = requests.get(url, stream=True)
-
-        if res.status_code != 200:
-            raise Exception("Could not retrieve "+url)
-
-        return Image.open(res.raw)
 
 
     def get_cds_image(self, match : Union[NeuronImage, CDSMatch], thumbnail=False) -> Image:
         """
         Returns the representative PNG image for the specified CDSMatch or NeuronImage.
         """
-
         if thumbnail:
-            url = self.config['thumbnailsBaseURLs'] + "/" + match.thumbnailURL
+            url = self._get_match_url(match, 'CDMThumbnail')
         else:
-            url = self.config['imageryBaseURL'] + "/" + match.imageURL
+            url = self._get_match_url(match, 'CDM')
         return self._get_image(url)
 
 
@@ -133,7 +153,8 @@ class Client:
         """
         Returns the target image for the specified CDSMatch.
         """
-        url = f"{self.config['imageryBaseURL']}/{match.alignmentSpace}/{match.maskLibraryName.replace(' ','_')}/searchable_neurons/pngs/{match.sourceSearchablePNG}"
+        store = match.files.store
+        url = self._get_match_url(match, 'CDMInput')
         return self._get_image(url)
 
 
@@ -141,16 +162,18 @@ class Client:
         """
         Returns the matched image for the specified CDSMatch.
         """
-
-        url = f"{self.config['imageryBaseURL']}/{match.alignmentSpace}/{match.libraryName.replace(' ','_')}/searchable_neurons/pngs/{match.searchablePNG}"
+        url = self._get_match_url(match, 'CDMMatch')
         return self._get_image(url)
 
 
-    def get_ppp_image(self, match : PPPMatch) -> Image:
+    def get_ppp_image(self, match : PPPMatch, thumbnail=False) -> Image:
         """
         Returns the representative PNG image for the specified PPPMatch.
         """
-        url = f"{self.config['pppImageryBaseURL']}/{match.alignmentSpace}/{match.maskLibraryName}/{match.files.CDM}"
+        if thumbnail:
+            url = self._get_match_url(match, 'CDMBestThumbnail')
+        else:
+            url = self._get_match_url(match, 'CDMBest')
         return self._get_image(url)
 
 
@@ -158,7 +181,7 @@ class Client:
         """
         Returns the SWC skeleton for the specified PPPMatch.
         """
-        url = f"{self.config['swcBaseURL']}/{match.publishedName}.swc"
+        url = self._get_match_url(match, 'AlignedBodySWC')
         return self._get_image(url)
 
 
@@ -166,4 +189,5 @@ class Client:
         """
         Returns the LM image stack for the specified Match.
         """
-        return self._get_image(match.imageStack)
+        url = self._get_match_url(match, 'VisuallyLosslessStack')
+        return self._get_image(url)

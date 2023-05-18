@@ -22,8 +22,7 @@ class LibraryConfig(BaseModel, extra=Extra.forbid):
     Configuration for libraries used for custom searches.
     """
     name: str = Field(title="Library identifier", description="Library name or identifier")
-    publishedNamePrefix: Optional[str] = Field(title="Published name prefix",
-            description="Optional value that when set, is used to prefix published names. This is currently used to identify EM data set")
+    publishedNamePrefix: Optional[str] = Field(title="Published name prefix", description="Optional value that when set, is used to prefix published names. This is currently used to identify EM data set")
 
 
 class CustomSearchConfig(BaseModel, extra=Extra.forbid):

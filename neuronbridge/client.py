@@ -76,6 +76,12 @@ class Client:
     
 
     def get_em_image(self, body_id) -> EMImage:
+        images = self.get_em_images(body_id)
+        if not images: return None
+        return images[0]
+
+
+    def get_em_images(self, body_id) -> EMImage:
         """
         Returns the EMImage for the specified body ID.
         """
@@ -86,9 +92,7 @@ class Client:
         if res.status_code != 200:
             raise Exception("Could not retrieve "+url)
 
-        images = ImageLookup(**res.json()).results
-        if not images: return None
-        return images[0]
+        return ImageLookup(**res.json()).results
 
     
     def get_lm_images(self, line_id) -> List[LMImage]:

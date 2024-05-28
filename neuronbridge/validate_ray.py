@@ -1,97 +1,126 @@
 #!/usr/bin/env python
-# To use the dashboard on a remote server:
-#   ssh -L 8265:0.0.0.0:8265 <server address>
-#   run validate.py
-#   open http://localhost:8265 in your browser
+"""
+This program validates a NeuronBridge metadata set. 
+
+The image metadata is validated first, and all the published names are kept 
+in a set in memory. Then the matches are validated, and each item in the 
+matches is checked to make sure its publishedName exists in the set.
+
+The validation can be run on a single host like this:
+./neuronbridge/validate_ray.py --cores 40 --max-logs 5
+
+To run on a cluster, you can use 
+
+To use the dashboard on a remote server:
+   ssh -L 8265:0.0.0.0:8265 <server address>
+   run validate.py
+   open http://localhost:8265 in your browser
+"""
 
 import os
 import sys
 import time
 import argparse
 import traceback
+from typing import DefaultDict, Set
+from collections import defaultdict
 
-import rapidjson
-import neuronbridge.model as model
-import pydantic
 import ray
+import pydantic
+import rapidjson
 
-default_data_version = "3.3.0"
-max_logs = 0
+import neuronbridge.model as model
+
+
 debug = False
 batch_size = 1000
+default_data_version = "3.3.0"
 
-def inc_count(counts, s, value=1):
-    if s in counts:
-        counts[s] += value
-    else:
-        counts[s] = value
+class Counter:
+        
+    def __init__(self, counts=None, max_logs=0):
+        self.counts = counts or defaultdict(int)
+        self.max_logs = max_logs
+        
 
-
-def sum_counts(a, b):
-    c = dict((k,a[k]+v) for k,v in b.items() if k in a)
-    d = a.copy()
-    d.update(b)
-    d.update(c)
-    return d
-
-
-def error(counts, s, *tags, trace=None):
-    inc_count(counts, s)
-    if counts[s] < max_logs:
-        print(f"{s}:", *tags, file=sys.stderr)
-        if trace:
-            print(trace)
-    if counts[s] == max_logs:
-        #print(f"Reached maximum logging count for '{s}'", file=sys.stderr)
-        pass
+    def count(self, s:str, value=1):
+        """ Increment the count for a message
+        """
+        self.counts[s] += value
 
 
-def print_summary(title, counts):
-    print()
-    print(title)
-    cc = counts.copy()
-    if 'Elapsed' in cc and 'Items' in cc:
-        mean_elapsed = cc['Elapsed'] / cc['Items']
-        print(f"  Items: {cc['Items']}")
-        print(f"  Elapsed: {mean_elapsed:0.4f} seconds (on avg per item)")
-        del cc['Items']
-        del cc['Elapsed']
-    for error,count in cc.items():
-        print(f"  {error}: {count}")
+    def error(self, s:str, *tags:str, trace:str=None):
+        """ Log an error to STDERR and keep a count of the error type.
+        """
+        self.count(s)
+        if self.max_logs is None or self.counts[s] < self.max_logs:
+            print(f"{s}:", *tags, file=sys.stderr)
+            if trace:
+                print(trace)
+
+
+    def sum_counts(self, other_counter):
+        """ Combine two counter dicts into one.
+            TODO: after we upgrade to Python 3.11, we can use 
+                  the Self type for this method signature
+        """
+        a = self.counts
+        b = other_counter.counts
+        c = dict((k,a[k]+v) for k,v in b.items() if k in a)
+        d = a.copy()
+        d.update(b)
+        d.update(c)
+        return Counter(counts=d, max_logs=self.max_logs)
+
+
+    def print_summary(self, title:str):
+        """ Print a summary of the counts and elapsed times 
+            stored in a counter dict.
+        """
+        print()
+        print(title)
+        cc = self.counts.copy()
+        if 'Elapsed' in cc and 'Items' in cc:
+            mean_elapsed = cc['Elapsed'] / cc['Items']
+            print(f"  Items: {cc['Items']}")
+            print(f"  Elapsed: {mean_elapsed:0.4f} seconds (on avg per item)")
+            del cc['Items']
+            del cc['Elapsed']
+        for error,count in cc.items():
+            print(f"  {error}: {count}")
 
 
 
-def validate(counts, image, filepath):
+def validate(counts:Counter, image, filepath):
     if not image.files.CDM:
-        error(counts, "Missing CDM", image.id, filepath)
+        counts.error("Missing CDM", image.id, filepath)
     if not image.files.CDMThumbnail:
-        error(counts, "Missing CDMThumbnail", image.id, filepath)
+        counts.error("Missing CDMThumbnail", image.id, filepath)
     if isinstance(image, model.LMImage):
         if not image.files.VisuallyLosslessStack:
-            error(counts, "Missing VisuallyLosslessStack", image.id, filepath)
+            counts.error("Missing VisuallyLosslessStack", image.id, filepath)
         if not image.mountingProtocol:
-            error(counts, "Missing mountingProtocol", image.id, filepath)
+            counts.error("Missing mountingProtocol", image.id, filepath)
     if isinstance(image, model.EMImage):
         if not image.files.AlignedBodySWC:
-            error(counts, "Missing AlignedBodySWC", image.id, filepath)
+            counts.error("Missing AlignedBodySWC", image.id, filepath)
 
 
-def validate_image(filepath, counts, publishedNames):
+def validate_image(filepath:str, counts:Counter, publishedNames:Set[str]):
     with open(filepath) as f:
         obj = rapidjson.load(f)
         lookup = model.ImageLookup(**obj)
-
         if not lookup.results:
-            error(counts, f"No images", filepath)
+            counts.error("No images", filepath)
         for image in lookup.results:
             validate(counts, image, filepath)
             publishedNames.add(image.publishedName)
 
 
 @ray.remote
-def validate_image_dir(image_dir):
+def validate_image_dir(image_dir:str):
     publishedNames = set()
-    counts = {}
+    counts = Counter()
     for root, dirs, files in os.walk(image_dir):
         if debug: print(f"Validating images from {root}")
         for filename in files:
@@ -99,61 +128,61 @@ def validate_image_dir(image_dir):
             filepath = root+"/"+filename
             try:
                 validate_image(filepath, counts, publishedNames)
-            except pydantic.ValidationError as e:
-                error(counts, "Validation failed for image", filepath, trace=traceback.format_exc())
-                inc_count(counts, "Exceptions")
-            inc_count(counts, "Items")
-            inc_count(counts, "Elapsed", value=time.perf_counter()-tic)
-    print_summary(f"Summary for {image_dir}:", counts)
+            except pydantic.ValidationError:
+                counts.error("Validation failed for image", filepath, trace=traceback.format_exc())
+                counts.count("Exceptions")
+            counts.count("Items")
+            counts.count("Elapsed", value=time.perf_counter()-tic)
+    counts.print_summary(f"Summary for {image_dir}:")
     return {'publishedNames':publishedNames,'counts':counts}
 
 
-def validate_match(filepath, counts, publishedNames=None):
+def validate_match(filepath:str, counts:Counter, publishedNames:Set[str]=None):
     tic = time.perf_counter()
     with open(filepath) as f:
         obj = rapidjson.load(f)
         matches = model.PrecomputedMatches(**obj)
         validate(counts, matches.inputImage, filepath)
         if publishedNames and matches.inputImage.publishedName not in publishedNames:
-            error(counts, f"Published name not indexed", matches.inputImage.publishedName, filepath)
+            counts.error("Published name not indexed", matches.inputImage.publishedName, filepath)
         for match in matches.results:
             validate(counts, match.image, filepath)
             files = match.files
             if isinstance(match, model.CDSMatch):
                 if not files.CDMInput:
-                    error(counts, "Missing CDMInput", match.image.id, filepath)
+                    counts.error("Missing CDMInput", match.image.id, filepath)
                 if not files.CDMMatch:
-                    error(counts, "Missing CDMMatch", match.image.id, filepath)
+                    counts.error("Missing CDMMatch", match.image.id, filepath)
             if isinstance(match, model.PPPMatch):
                 if not files.CDMSkel:
-                    error(counts, "Missing CDMSkel", match.image.id, filepath)
+                    counts.error("Missing CDMSkel", match.image.id, filepath)
                 if not files.SignalMip:
-                    error(counts, "Missing SignalMip", match.image.id, filepath)
+                    counts.error("Missing SignalMip", match.image.id, filepath)
                 if not files.SignalMipMasked:
-                    error(counts, "Missing SignalMipMasked", match.image.id, filepath)
+                    counts.error("Missing SignalMipMasked", match.image.id, filepath)
                 if not files.SignalMipMaskedSkel:
-                    error(counts, "Missing SignalMipMaskedSkel", match.image.id, filepath)
+                    counts.error("Missing SignalMipMaskedSkel", match.image.id, filepath)
             if publishedNames and match.image.publishedName not in publishedNames:
-                error(counts, "Match published name not indexed", match.image.publishedName, filepath)
-            inc_count(counts, "Num Matches")
-        inc_count(counts, "Items")
-        inc_count(counts, "Elapsed", value=time.perf_counter()-tic)
+                counts.error("Match published name not indexed", match.image.publishedName, filepath)
+            counts.count("Num Matches")
+        counts.count("Items")
+        counts.count("Elapsed", value=time.perf_counter()-tic)
 
 
 @ray.remote
-def validate_matches(match_files, publishedNames=None):
-    counts = {}
+def validate_matches(match_files, publishedNames:Set[str]=None):
+    counts = Counter()
     for filepath in match_files:
         try:
             validate_match(filepath, counts, publishedNames)
-        except pydantic.ValidationError as e:
-            error(counts, "Validation failed for match", filepath, trace=traceback.format_exc())
-            inc_count(counts, "Exceptions")
+        except pydantic.ValidationError:
+            counts.error("Validation failed for match", filepath, trace=traceback.format_exc())
+            counts.count("Exceptions")
     return counts
 
 
 @ray.remote
-def validate_match_dir(match_dir, publishedNames=None):
+def validate_match_dir(match_dir, one_batch, publishedNames:Set[str]=None):
 
     unfinished = []
     if debug: print(f"Validating matches from {match_dir}")
@@ -174,21 +203,21 @@ def validate_match_dir(match_dir, publishedNames=None):
             break
         if debug: print(f"Validating {c} matches in {root}")
 
-    counts = {}
+    counts = Counter()
     while unfinished:
         finished, unfinished = ray.wait(unfinished, num_returns=1)
         for result in ray.get(finished):
-            counts = sum_counts(counts, result)
+            counts = counts.sum_counts(result)
 
-    print_summary(f"Summary for {match_dir}:", counts)
+    counts.print_summary(f"Summary for {match_dir}:")
     return counts
 
 
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser(description='Validate the data and print any issues')
-    parser.add_argument('-d', '--data_version', dest='data_version', type=str, \
-        default=default_data_version, help='Data version to validate, found under /nrs/neuronbridge/v<data_version>')
+    parser.add_argument('-d', '--data_path', dest='data_path', type=str, default=f"/nrs/neuronbridge/v{default_data_version}", \
+        help='Data path to validate, which holds "brain", "vnc", etc.')
     parser.add_argument('--nolookups', dest='validateImageLookups', action='store_false', \
         help='If --nolookups, then image lookups are skipped.')
     parser.add_argument('--nomatches', dest='validateMatches', action='store_false', \
@@ -214,22 +243,22 @@ if __name__ == '__main__':
     parser.set_defaults(one_batch=False)
 
     args = parser.parse_args()
-    data_version = args.data_version
+    data_path = args.data_path
     max_logs = args.max_logs
     one_batch = args.one_batch
 
     image_dirs = [
-        f"/nrs/neuronbridge/v{data_version}/brain+vnc/mips/embodies",
-        f"/nrs/neuronbridge/v{data_version}/brain+vnc/mips/lmlines",
+        f"{data_path}/brain+vnc/mips/embodies",
+        f"{data_path}/brain+vnc/mips/lmlines",
     ]
 
     match_dirs = [
-        f"/nrs/neuronbridge/v{data_version}/brain/cdmatches/em-vs-lm/",
-        f"/nrs/neuronbridge/v{data_version}/brain/cdmatches/lm-vs-em/",
-        f"/nrs/neuronbridge/v{data_version}/brain/pppmatches/em-vs-lm/",
-        f"/nrs/neuronbridge/v{data_version}/vnc/cdmatches/em-vs-lm/",
-        f"/nrs/neuronbridge/v{data_version}/vnc/cdmatches/lm-vs-em/",
-        f"/nrs/neuronbridge/v{data_version}/vnc/pppmatches/em-vs-lm/",
+        f"{data_path}/brain/cdmatches/em-vs-lm/",
+        f"{data_path}/brain/cdmatches/lm-vs-em/",
+        f"{data_path}/brain/pppmatches/em-vs-lm/",
+        f"{data_path}/vnc/cdmatches/em-vs-lm/",
+        f"{data_path}/vnc/cdmatches/lm-vs-em/",
+        f"{data_path}/vnc/pppmatches/em-vs-lm/",
     ]
 
     cpus = args.cores
@@ -258,7 +287,8 @@ if __name__ == '__main__':
 
     try:
         publishedNames = set()
-        counts, unfinished = {}, []
+        counts  = Counter(max_logs=args.max_logs)
+        unfinished = []
 
         if args.match_file:
             batch = [args.match_file]
@@ -272,19 +302,20 @@ if __name__ == '__main__':
                     finished, unfinished = ray.wait(unfinished, num_returns=1)
                     for result in ray.get(finished):
                         publishedNames.update(result['publishedNames'])
-                        counts = sum_counts(counts, result['counts'])
-                if debug: print(f"Indexed {len(publishedNames)} published names")
+                        counts = counts.sum_counts(result['counts'])
+                if debug:
+                    print(f"Indexed {len(publishedNames)} published names")
 
             if args.validateMatches:
                 print("Validating matches...")
                 for match_dir in match_dirs:
-                    unfinished.append(validate_match_dir.remote(match_dir, \
+                    unfinished.append(validate_match_dir.remote(match_dir, one_batch, \
                             publishedNames if args.validateImageLookups else None))
                     while unfinished:
                         finished, unfinished = ray.wait(unfinished, num_returns=1)
                         for result in ray.get(finished):
-                            counts = sum_counts(counts, result)
+                            counts = counts.sum_counts(result)
 
     finally:
-        print_summary("Validation complete. Issue summary:", counts)
+        counts.print_summary("Validation complete. Issue summary:")
 

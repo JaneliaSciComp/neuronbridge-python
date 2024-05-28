@@ -15,7 +15,7 @@ import neuronbridge.model as model
 import pydantic
 import ray
 
-default_data_version = "3.1.1"
+default_data_version = "3.3.0"
 max_logs = 0
 debug = False
 batch_size = 1000

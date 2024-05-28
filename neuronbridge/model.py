@@ -96,6 +96,7 @@ class NeuronImage(BaseModel, extra=Extra.forbid):
     anatomicalArea: str = Field(title="Anatomical area", description="Anatomical area represented in the image.")
     gender: Gender = Field(title="Gender", description="Gender of the sample imaged.")
     files: Files = Field(title="Files", description="Files associated with the image.")
+    annotations: Optional[List[str]] = Field(title="List of additional annotations", description="Bag of words associated with this neuron")
 
 
 class EMImage(NeuronImage, extra=Extra.forbid):
@@ -103,8 +104,8 @@ class EMImage(NeuronImage, extra=Extra.forbid):
     A color depth image containing a neuron body reconstructed from EM imagery.
     """
     type: Literal['EMImage'] = 'EMImage'
-    neuronType: Optional[str] = Field(title="Neuron type", description="Neuron type name from neuPrint")
-    neuronInstance: Optional[str] = Field(title="Neuron instance", description="Neuron instance name from neuPrint")
+    neuronType: Optional[str] = Field(title="FlyEM Neuron type", description="Neuron type name from FlyEM's neuPrint")
+    neuronInstance: Optional[str] = Field(title="FlyEM Neuron instance", description="Neuron instance name from FlyEM's neuPrint")
 
 
 class LMImage(NeuronImage, extra=Extra.forbid):

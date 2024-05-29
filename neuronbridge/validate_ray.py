@@ -269,7 +269,7 @@ def main():
         help='Do not run the Ray dashboard for debugging')
     parser.add_argument('--max-logs', '-l', type=int, default=100, \
         help='Number of instances per error to print to stderr (default 100)')
-    parser.add_argument('--one-batch', dest='one_batch', action='store_false', \
+    parser.add_argument('--one-batch', dest='one_batch', action='store_true', \
         help='Do only one batch of match validation (for testing)')
     parser.add_argument('--match', dest='match_file', type=str, default=None, \
         help='Only validate the given match file')

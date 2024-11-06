@@ -34,7 +34,7 @@ import neuronbridge.model as model
 
 DEBUG = False
 BATCH_SIZE = 1000
-DEFAULT_VERSION = "3.3.0"
+DEFAULT_VERSION = "3.4.0"
 
 class Counter:
     """ This class keeps track of validation errors and allows for the 

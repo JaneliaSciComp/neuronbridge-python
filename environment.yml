@@ -1,6 +1,5 @@
-name: neuronbridge-python3
+name: neuronbridge-python
 channels:
-  - defaults
   - conda-forge
   - flyem-forge
 dependencies:

@@ -17,7 +17,7 @@ Create a conda env with all the dependencies including Jupyter:
     conda activate neuronbridge-python
 
 Then install it as a Jupyter kernel:
-    
+
     python -m ipykernel install --user --name=neuronbridge-python
 
 
@@ -25,8 +25,6 @@ Then install it as a Jupyter kernel:
 
 You can install the module for development like this:
 
-    conda create --name neuronbridge-python python=3.8
-    conda activate neuronbridge-python
     pip install -e .
 
 

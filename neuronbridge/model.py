@@ -22,6 +22,7 @@ class LibraryConfig(BaseModel, extra=Extra.forbid):
     Configuration for libraries used for custom searches.
     """
     name: str = Field(title="Library identifier", description="Library name or identifier")
+    count: int = Field(title="Image count", description="Number of images available for search")
     publishedNamePrefix: Optional[str] = Field(title="Published name prefix", description="Optional value that when set, is used to prefix published names. This is currently used to identify EM data set")
 
 
@@ -96,7 +97,7 @@ class NeuronImage(BaseModel, extra=Extra.forbid):
     anatomicalArea: str = Field(title="Anatomical area", description="Anatomical area represented in the image.")
     gender: Gender = Field(title="Gender", description="Gender of the sample imaged.")
     files: Files = Field(title="Files", description="Files associated with the image.")
-    annotations: Optional[List[str]] = Field(title="List of additional annotations", description="Bag of words associated with this neuron")
+    terms: Optional[List[str]] = Field(title="List of additional annotations", description="Bag of words associated with this neuron")
 
 
 class EMImage(NeuronImage, extra=Extra.forbid):

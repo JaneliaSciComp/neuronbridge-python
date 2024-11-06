@@ -6,7 +6,7 @@ dependencies:
   - python=3.8
   - neuprint-python
   - jupyter
-  - pip
+  - pip<25
   - pip:
     - -r requirements.txt
 

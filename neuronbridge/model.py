@@ -97,7 +97,7 @@ class NeuronImage(BaseModel, extra=Extra.forbid):
     anatomicalArea: str = Field(title="Anatomical area", description="Anatomical area represented in the image.")
     gender: Gender = Field(title="Gender", description="Gender of the sample imaged.")
     files: Files = Field(title="Files", description="Files associated with the image.")
-    terms: Optional[List[str]] = Field(title="List of additional annotations", description="Bag of words associated with this neuron")
+    annotations: Optional[List[str]] = Field(title="List of additional annotations", description="Bag of words associated with this neuron")
 
 
 class EMImage(NeuronImage, extra=Extra.forbid):

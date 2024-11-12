@@ -9,11 +9,9 @@ matches is checked to make sure its publishedName exists in the set.
 The validation can be run on a single host like this:
 ./neuronbridge/validate_ray.py --cores 40 --max-logs 5
 
-To run on a cluster, you can use 
-
 To use the dashboard on a remote server:
    ssh -L 8265:0.0.0.0:8265 <server address>
-   run validate.py
+   run validate_ray.py
    open http://localhost:8265 in your browser
 """
 
@@ -267,8 +265,8 @@ def main():
         help='Run the Ray dashboard for debugging')
     parser.add_argument('--no-dashboard', dest='includeDashboard', action='store_false', \
         help='Do not run the Ray dashboard for debugging')
-    parser.add_argument('--max-logs', '-l', type=int, default=100, \
-        help='Number of instances per error to print to stderr (default 100)')
+    parser.add_argument('--max-logs', '-l', type=int, default=10, \
+        help='Number of instances per error to print to stderr (default 10)')
     parser.add_argument('--one-batch', dest='one_batch', action='store_true', \
         help='Do only one batch of match validation (for testing)')
     parser.add_argument('--match', dest='match_file', type=str, default=None, \

@@ -163,59 +163,23 @@ config = json.loads(
                 "searchFolder": "searchable_neurons",
                 "lmLibraries": [
                     {
-                        "name": "FlyLight_Split-GAL4_Drivers"
+                        "name": "FlyLight_Split-GAL4_Drivers",
+                        "count": 68767
                     },
                     {
-                        "name": "FlyLight_Gen1_MCFO"
+                        "name": "FlyLight_Gen1_MCFO",
+                        "count": 349364
                     },
                     {
-                        "name": "FlyLight_Annotator_Gen1_MCFO"
+                        "name": "FlyLight_Annotator_Gen1_MCFO",
+                        "count": 355179
                     }
                 ],
                 "emLibraries": [
                     {
                         "name": "FlyEM_Hemibrain_v1.2.1",
-                        "publishedNamePrefix": "hemibrain:v1.2.1"
-                    }
-                ]
-            }
-        },
-        "fl:pre_release:vnc": {
-            "label": "FlyLight VNC Pre-Release Store",
-            "anatomicalArea": "VNC",
-            "prefixes": {
-                "CDM": "https://s3.amazonaws.com/janelia-flylight-color-depth-devpre/",
-                "CDMThumbnail": "https://s3.amazonaws.com/janelia-flylight-color-depth-thumbnails-devpre/",
-                "CDMInput": "https://s3.amazonaws.com/janelia-flylight-color-depth-devpre/",
-                "CDMMatch": "https://s3.amazonaws.com/janelia-flylight-color-depth-devpre/",
-                "CDMBest": "https://s3.amazonaws.com/janelia-ppp-match-devpre/",
-                "CDMBestThumbnail": "https://s3.amazonaws.com/janelia-ppp-match-devpre/",
-                "CDMSkel": "https://s3.amazonaws.com/janelia-ppp-match-devpre/",
-                "SignalMip": "https://s3.amazonaws.com/janelia-ppp-match-devpre/",
-                "SignalMipMasked": "https://s3.amazonaws.com/janelia-ppp-match-devpre/",
-                "SignalMipMaskedSkel": "https://s3.amazonaws.com/janelia-ppp-match-devpre/",
-                "SignalMipExpression": "https://s3.amazonaws.com/janelia-ppp-match-devpre/",
-                "AlignedBodySWC": "https://s3.amazonaws.com/janelia-flylight-color-depth-devpre/",
-                "AlignedBodyOBJ": "https://s3.amazonaws.com/janelia-flylight-color-depth-devpre/",
-                "CDSResults": "https://s3.amazonaws.com/janelia-neuronbridge-data-devpre/v3.0.0/metadata/cdsresults/",
-                "PPPMResults": "https://s3.amazonaws.com/janelia-neuronbridge-data-devpre/v3.0.0/metadata/pppresults/",
-                "VisuallyLosslessStack": "https://s3.amazonaws.com/janelia-flylight-imagery/",
-                "Gal4Expression": "https://s3.amazonaws.com/janelia-flylight-imagery/"
-            },
-            "customSearch": {
-                "searchFolder": "searchable_neurons",
-                "lmLibraries": [
-                    {
-                        "name": "FlyLight_Split-GAL4_Drivers"
-                    },
-                    {
-                        "name": "FlyLight_Gen1_MCFO"
-                    }
-                ],
-                "emLibraries": [
-                    {
-                        "name": "FlyEM_VNC_v0.6",
-                        "publishedNamePrefix": "vnc:v0.6"
+                        "publishedNamePrefix": "hemibrain:v1.2.1",
+                        "count": 44477
                     }
                 ]
             }

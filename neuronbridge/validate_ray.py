@@ -16,128 +16,34 @@ To use the dashboard on a remote server:
 """
 
 import os
-import gc
 import sys
 import argparse
-import traceback
-from typing import Set, DefaultDict, List
+from typing import Set, List
 from collections import defaultdict
 
-from tqdm import tqdm
 import ray
-import pydantic
-import rapidjson
-import neuronbridge.model as model
+from tqdm import tqdm
 
 # Default version of the data to validate
 DEFAULT_VERSION = "3.4.0"
 
-# Print debug messages on the workers
-DEBUG = False
-
 # Number of matches to send to a worker to process in a single batch
 BATCH_SIZE = 100
 
-# Maximum number of log lines (per worker) to print for each warning or error type
-MAX_LOGS = 1000
-
-# Maximum number of matches allowed per published name
-MAX_MATCHES_PER_NAME = 10
-
-# Maximum number of matches allowed per file
-MAX_MATCHES_PER_FILE = 5000
-
-
-class Counter:
-    """ This class keeps track of validation errors and allows for the 
-        union of multiple Counter objects to represent the validation
-        state of an entire data set.
-    """
-
-    def __init__(self, warnings:DefaultDict[str, int]=None, errors:Set[str]=None, log_file:str=None, max_logs:int=None):
-        self.warnings = warnings if warnings else defaultdict(int)
-        self.errors = errors if errors else defaultdict(int)
-        self.log_file = log_file
-        self.max_logs = max_logs
-        self.tags = set()
-        
-
-    def __enter__(self):
-        """ Open the log file if it was specified.
-        """
-        if self.log_file:
-            # Use line buffering to ensure that each log message is written immediately
-            self.file_handle = open(self.log_file, "a", buffering=1)
-        else:
-            self.file_handle = sys.stderr
-        return self
-
-
-    def __exit__(self, exc_type, exc_val, exc_tb):
-        """ Close the log file if it was opened.
-        """ 
-        if self.file_handle and self.file_handle != sys.stderr:
-            self.file_handle.close()
-
-
-    def __getstate__(self):
-        state = self.__dict__.copy()
-        # Don't pickle file_handle
-        if "file_handle" in state:
-            del state["file_handle"]
-        return state
-
-
-    def __setstate__(self, state):
-        self.__dict__.update(state)
-        # Add file_handle back since it doesn't exist in the pickle
-        self.file_handle = sys.stderr
-
-
-    def print(self, s:str):
-        """ Print a message to the log file.
-        """
-        print(s, file=self.file_handle)
-
-
-    def warn(self, s:str, arg:str, filepath:str):
-        """ Log a warning to STDERR and keep a count of the warning type.
-            Warnings do not produce a failed validation. 
-        """
-        tag = f"{s}: {arg}"
-        if tag not in self.tags:
-            self.tags.add(tag)
-            if not self.max_logs or self.warnings[s] <= self.max_logs:
-                print(f"[WARN] {tag} {filepath}", file=self.file_handle)
-        self.warnings[s] += 1
-
-
-    def error(self, s:str, arg:str, filepath:str, trace:str=None):
-        """ Log an error to STDERR and keep a count of the error type.
-            Errors produce a failed validation.
-        """
-        tag = f"{s}: {arg}"
-        if tag not in self.tags:
-            self.tags.add(tag)
-            if not self.max_logs or self.errors[s] <= self.max_logs:
-                print(f"[ERROR] {tag} {filepath}", file=self.file_handle)
-            if trace:
-                print(trace, file=self.file_handle)
-        self.errors[s] += 1
-
 
 @ray.remote
-class CounterActor(Counter):
+class CounterActor:
     """ This class keeps track of validation errors and allows for the 
         union of multiple Counter objects to represent the validation
         state of an entire data set.
     """
 
     def __init__(self):
-        super().__init__()
+        self.warnings = defaultdict(int)
+        self.errors = defaultdict(int)
        
 
-    def add_counts(self, counter:Counter):
+    def add_counts(self, counter):
         """ Add the counts from the given counter.
             TODO: after we upgrade to Python 3.11, we can use 
                   the Self type for this method signature
@@ -173,112 +79,19 @@ class CounterActor(Counter):
         print()
 
 
-def validate(counter:Counter, image, filepath):
-    if not image.files.CDM:
-        counter.error("Missing CDM", image.id, filepath)
-    if not image.files.CDMThumbnail:
-        counter.error("Missing CDMThumbnail", image.id, filepath)
-    if isinstance(image, model.LMImage):
-        if not image.files.VisuallyLosslessStack:
-            counter.warn("Missing VisuallyLosslessStack", image.id, filepath)
-        if not image.mountingProtocol:
-            counter.warn("Missing mountingProtocol", image.id, filepath)
-    if isinstance(image, model.EMImage):
-        if not image.files.AlignedBodySWC:
-            counter.warn("Missing AlignedBodySWC", image.id, filepath)
-
-
-def validate_image(counter:Counter, filepath:str, published_names:Set[str]):
-    with open(filepath) as f:
-        obj = rapidjson.load(f)
-        lookup = model.ImageLookup(**obj)
-        if not lookup.results:
-            counter.error("No images", "", filepath)
-        for image in lookup.results:
-            validate(counter, image, filepath)
-            published_names.add(image.publishedName)
+@ray.remote
+def validate_image_dir_remote(root_dir:str, batch:List[str], counter_actor):
+    from neuronbridge.validate_worker import validate_image_dir_batch
+    return validate_image_dir_batch(root_dir, batch, counter_actor)
 
 
 @ray.remote
-def validate_image_dir_batch(root_dir:str, image_files:List[str], counter_actor: CounterActor, log_dir:str=None):
-    worker_id = ray.get_runtime_context().get_worker_id()[:16]
-    log_file = f"{log_dir}/validate_image_dir_{worker_id}.log"
-    with Counter(log_file=log_file, max_logs=MAX_LOGS) as counter:
-        published_names = set()
-
-        for filename in image_files:
-            filepath = os.path.join(root_dir, filename)
-            try:
-                validate_image(counter, filepath, published_names)
-            except pydantic.ValidationError:
-                counter.error("Validation failed for image", "", filepath, trace=traceback.format_exc())
-        
-        counter_actor.add_counts.remote(counter)
-        return published_names
+def validate_matches_remote(root_dir:str, batch:List[str], counter_actor, published_names:Set[str]=None):
+    from neuronbridge.validate_worker import validate_matches_batch
+    return validate_matches_batch(root_dir, batch, counter_actor, published_names=published_names)
 
 
-
-def validate_match_file(filepath:str, counter:Counter, published_names:Set[str]=None):
-    with open(filepath) as f:
-        num_matches_per_name = defaultdict(int)
-        obj = rapidjson.load(f)
-        matches = model.PrecomputedMatches(**obj)
-        validate(counter, matches.inputImage, filepath)
-        if published_names and matches.inputImage.publishedName not in published_names:
-            counter.error("Published name not indexed", matches.inputImage.publishedName, filepath)
-        for match in matches.results:
-            num_matches_per_name[match.image.publishedName] += 1
-            validate(counter, match.image, filepath)
-            files = match.files
-            if isinstance(match, model.CDSMatch):
-                if not files.CDMInput:
-                    counter.error("Missing CDMInput", match.image.id, filepath)
-                if not files.CDMMatch:
-                    counter.error("Missing CDMMatch", match.image.id, filepath)
-            if isinstance(match, model.PPPMatch):
-                if not files.CDMSkel:
-                    counter.error("Missing CDMSkel", match.image.id, filepath)
-                if not files.SignalMip:
-                    counter.error("Missing SignalMip", match.image.id, filepath)
-                if not files.SignalMipMasked:
-                    counter.error("Missing SignalMipMasked", match.image.id, filepath)
-                if not files.SignalMipMaskedSkel:
-                    counter.error("Missing SignalMipMaskedSkel", match.image.id, filepath)
-            if published_names and match.image.publishedName not in published_names:
-                counter.error("Match published name not indexed", match.image.publishedName, filepath)
-
-        num_matches = len(matches.results)
-        if num_matches > MAX_MATCHES_PER_FILE:
-            counter.warn("Too many matches", f"({num_matches})", filepath)
-
-        for name, count in num_matches_per_name.items():
-            if count > MAX_MATCHES_PER_NAME:
-                counter.warn("Too many matches for published name", name, filepath)
-                break
-
-
-@ray.remote
-def validate_matches_batch(root_dir:str, match_files:List[str], counter_actor: CounterActor, published_names:Set[str]=None, log_dir:str=None):
-    worker_id = ray.get_runtime_context().get_worker_id()[:16]
-    log_file = f"{log_dir}/validate_matches_{worker_id}.log"
-    i = 0
-    with Counter(log_file=log_file, max_logs=MAX_LOGS) as counter:
-        
-        for filename in match_files:
-            filepath = os.path.join(root_dir, filename)
-            counter.print(f"Validating {filepath} ({i}/{len(match_files)})")
-            try:
-                validate_match_file(filepath, counter, published_names)
-            except pydantic.ValidationError:
-                counter.error("Validation failed for match", "", filepath, trace=traceback.format_exc())
-            i += 1
-        
-        counter_actor.add_counts.remote(counter)
-        
-    gc.collect()
-
-
-def validate_image_dir(image_dir:str, one_batch:bool, counter_actor:CounterActor, log_dir:str=None):
+def validate_image_dir(image_dir:str, one_batch:bool, counter_actor:CounterActor):
     published_names = set()
     unfinished = []
     print(f"Walking image dir {image_dir}")
@@ -288,15 +101,14 @@ def validate_image_dir(image_dir:str, one_batch:bool, counter_actor:CounterActor
         for filename in files:
             batch.append(filename)
             if len(batch)==BATCH_SIZE:
-                unfinished.append(validate_image_dir_batch.remote(root, batch, counter_actor, log_dir=log_dir))
+                unfinished.append(validate_image_dir_remote.remote(root, batch, counter_actor))
                 batch = []
+                if one_batch:
+                    break
             c += 1
+
         if batch:
-            unfinished.append(validate_image_dir_batch.remote(root, batch, counter_actor, log_dir=log_dir))
-            
-        if one_batch and len(batch) > 0:
-            # for testing purposes, just do one batch per dir
-            break
+            unfinished.append(validate_image_dir_remote.remote(root, batch, counter_actor))
         
         print(f"Validating {c} image lookups in {root}")
     
@@ -312,7 +124,7 @@ def validate_image_dir(image_dir:str, one_batch:bool, counter_actor:CounterActor
     return published_names
 
 
-def validate_match_dir(match_dir, one_batch, counter_actor: CounterActor, published_names:Set[str]=None, log_dir:str=None):
+def validate_match_dir(match_dir, one_batch, counter_actor: CounterActor, published_names:Set[str]=None):
     unfinished = []
     print(f"Walking match dir {match_dir}")
     for root, _, files in os.walk(match_dir):
@@ -321,19 +133,14 @@ def validate_match_dir(match_dir, one_batch, counter_actor: CounterActor, publis
         for filename in files:
             batch.append(filename)
             if len(batch)==BATCH_SIZE:
-                unfinished.append(validate_matches_batch.remote(root,batch, counter_actor, 
-                                                          published_names=published_names,
-                                                          log_dir=log_dir))
+                unfinished.append(validate_matches_remote.remote(root,batch, counter_actor, published_names=published_names))
                 batch = []
+                if one_batch:
+                    break
             c += 1
-        if batch:
-            unfinished.append(validate_matches_batch.remote(root, batch, counter_actor, 
-                                                      published_names=published_names,
-                                                      log_dir=log_dir))
             
-        if one_batch and len(batch) > 0:
-            # for testing purposes, just do one batch per match dir
-            break
+        if batch:
+            unfinished.append(validate_matches_remote.remote(root, batch, counter_actor, published_names=published_names))
         
         print(f"Validating {c} matches in {root}")
     
@@ -367,8 +174,6 @@ def main():
         help='Do only one batch of match validation (for testing)')
     parser.add_argument('--match', dest='match_file', type=str, default=None, \
         help='Only validate the given match file')
-    parser.add_argument('--log-dir', dest='log_dir', type=str, default="logs", \
-        help='Directory to store log files')
 
     parser.set_defaults(validateImageLookups=True)
     parser.set_defaults(validateMatches=True)
@@ -388,11 +193,11 @@ def main():
     ]
 
     match_dirs = [
-        f"{data_path}/brain/cdmatches/lm-vs-em/",
         f"{data_path}/brain/cdmatches/em-vs-lm/",
+        f"{data_path}/brain/cdmatches/lm-vs-em/",
         f"{data_path}/brain/pppmatches/em-vs-lm/",
-        f"{data_path}/vnc/cdmatches/lm-vs-em/",
         f"{data_path}/vnc/cdmatches/em-vs-lm/",
+        f"{data_path}/vnc/cdmatches/lm-vs-em/",
         f"{data_path}/vnc/pppmatches/em-vs-lm/",
     ]
 
@@ -421,10 +226,7 @@ def main():
         kwargs["dashboard_host"] = "0.0.0.0"
         kwargs["dashboard_port"] = dashboard_port
 
-    ray.init(num_cpus=cpus, address=address, **kwargs)
-
-    # Ensure the log directory exists
-    os.makedirs(args.log_dir, exist_ok=True)
+    ray.init(num_cpus=cpus, address=address, ignore_reinit_error=True, **kwargs)
 
     try:
         published_names = set()
@@ -435,13 +237,13 @@ def main():
             match_dir = os.path.dirname(args.match_file)
             match_filename = os.path.basename(args.match_file)
             batch = [match_filename]
-            ray.get(validate_matches_batch.remote(match_dir, batch, counter_actor, log_dir=args.log_dir))
+            ray.get(validate_matches_remote.remote(match_dir, batch, counter_actor))
         else:
             if args.validateImageLookups:
                 print("Validating image lookups...")
                 for image_dir in image_dirs:
                     print(f"Validating image lookups in {image_dir}")
-                    result = validate_image_dir(image_dir, one_batch, counter_actor, log_dir=args.log_dir)
+                    result = validate_image_dir(image_dir, one_batch, counter_actor)
                     published_names.update(result)
                                         
                 print(f"Indexed {len(published_names)} total published names")
@@ -450,11 +252,7 @@ def main():
                 print("Validating matches...")
                 for match_dir in match_dirs:
                     p_names = published_names if args.validateImageLookups else None
-                    validate_match_dir(match_dir,
-                                       one_batch,
-                                       counter_actor,
-                                       published_names=p_names,
-                                       log_dir=args.log_dir)
+                    validate_match_dir(match_dir, one_batch, counter_actor, p_names)
 
     finally:
         counter_actor.print_summary.remote("Final totals:")

@@ -16,17 +16,17 @@ To use the dashboard on a remote server:
 """
 
 import os
+import gc
 import sys
-import time
 import argparse
 import traceback
-from typing import Set, DefaultDict
+from typing import Set, DefaultDict, List
 from collections import defaultdict
 
+from tqdm import tqdm
 import ray
 import pydantic
 import rapidjson
-
 import neuronbridge.model as model
 
 
@@ -40,55 +40,88 @@ class Counter:
         state of an entire data set.
     """
 
-    def __init__(self, counts:DefaultDict[str, int]=None, errors:Set[str]=None, max_logs:int=None):
-        self.counts = counts or defaultdict(int)
-        self.errors = errors or set()
-        self.max_logs = max_logs
+    def __init__(self, warnings:DefaultDict[str, int]=None, errors:Set[str]=None, log_file:str=None):
+        self.log_file = log_file
+        self.warnings = warnings if warnings else defaultdict(int)
+        self.errors = errors if errors else defaultdict(int)
+        
 
-
-    def count(self, s:str, value=1):
-        """ Increment the count for a message
+    def __enter__(self):
+        """ Open the log file if it was specified.
         """
-        self.counts[s] += value
+        if self.log_file:
+            # Use line buffering to ensure that each log message is written immediately
+            self.file_handle = open(self.log_file, "a", buffering=1)
+        else:
+            self.file_handle = sys.stderr
+        return self
 
 
-    def warn(self, s:str, *tags:str, trace:str=None):
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        """ Close the log file if it was opened.
+        """ 
+        if self.file_handle and self.file_handle != sys.stderr:
+            self.file_handle.close()
+
+
+    def __getstate__(self):
+        state = self.__dict__.copy()
+        # Don't pickle file_handle
+        if "file_handle" in state:
+            del state["file_handle"]
+        return state
+
+
+    def __setstate__(self, state):
+        self.__dict__.update(state)
+        # Add file_handle back since it doesn't exist in the pickle
+        self.file_handle = sys.stderr
+
+
+    def warn(self, s:str, *tags:str):
         """ Log a warning to STDERR and keep a count of the warning type.
             Warnings do not produce a failed validation. 
         """
-        if self.max_logs is None or self.counts[s] < self.max_logs:
-            print(f"[WARN] {s}:", *tags, file=sys.stderr)
-            if trace:
-                print(trace)
-        self.count(s)
+        print(f"[WARN] {s}:", *tags, file=self.file_handle)
+        self.warnings[s] += 1
 
 
     def error(self, s:str, *tags:str, trace:str=None):
         """ Log an error to STDERR and keep a count of the error type.
             Errors produce a failed validation.
         """
-        if self.max_logs is None or self.counts[s] < self.max_logs:
-            print(f"[ERROR] {s}:", *tags, file=sys.stderr)
-            if trace:
-                print(trace)
-        self.errors.add(s)
-        self.count(s)
+        print(f"[ERROR] {s}:", *tags, file=self.file_handle)
+        if trace:
+            print(trace, file=self.file_handle)
+        self.errors[s] += 1
 
 
-    def sum_counts(self, other_counter):
-        """ Combine two counter dicts into one.
+@ray.remote
+class CounterActor(Counter):
+    """ This class keeps track of validation errors and allows for the 
+        union of multiple Counter objects to represent the validation
+        state of an entire data set.
+    """
+
+    def __init__(self):
+        super().__init__()
+       
+
+    def add_counts(self, counter:Counter):
+        """ Add the counts from the given counter.
             TODO: after we upgrade to Python 3.11, we can use 
                   the Self type for this method signature
         """
-        a = self.counts
-        b = other_counter.counts
-        c = dict((k,a[k]+v) for k,v in b.items() if k in a)
-        d = a.copy()
-        d.update(b)
-        d.update(c)
-        return Counter(counts=d,
-                       errors=self.errors.union(other_counter.errors),
-                       max_logs=self.max_logs)
+        for key, count in counter.warnings.items():
+            self.warnings[key] += count
+        for key, count in counter.errors.items():
+            self.errors[key] += count
+    
+
+    def has_errors(self):
+        """ Returns True if any errors have occurred, and False otherwise.
+        """
+        return bool(self.errors)
 
 
     def print_summary(self, title:str):
@@ -97,155 +130,146 @@ class Counter:
         """
         print()
         print(title)
-        cc = self.counts.copy()
-
-        if 'Elapsed' in cc and 'Items' in cc:
-            mean_elapsed = cc['Elapsed'] / cc['Items']
-            print(f"  Items: {cc['Items']}")
-            print(f"  Elapsed: {mean_elapsed:0.4f} seconds (on avg per item)")
-            del cc['Items']
-            del cc['Elapsed']
 
         errors = "yes" if self.has_errors() else "no"
         print(f"  Has Errors: {errors}")
 
-        for key,count in cc.items():
-            level = 'ERROR' if key in self.errors else 'WARN'
-            print(f"  [{level}] {key}: {count}")
+        for key,count in self.errors.items():
+            print(f"  [ERROR] {key}: {count}")
+
+        for key,count in self.warnings.items():
+            print(f"  [WARN] {key}: {count}")
 
         print()
 
 
-    def has_errors(self):
-        """ Returns True if any errors have occurred, and False otherwise.
-        """
-        return bool(self.errors)
-
-
-def validate(counts:Counter, image, filepath):
+def validate(counter:Counter, image, filepath):
     if not image.files.CDM:
-        counts.error("Missing CDM", image.id, filepath)
+        counter.error("Missing CDM", image.id, filepath)
     if not image.files.CDMThumbnail:
-        counts.error("Missing CDMThumbnail", image.id, filepath)
+        counter.error("Missing CDMThumbnail", image.id, filepath)
     if isinstance(image, model.LMImage):
         if not image.files.VisuallyLosslessStack:
-            counts.warn("Missing VisuallyLosslessStack", image.id, filepath)
+            counter.warn("Missing VisuallyLosslessStack", image.id, filepath)
         if not image.mountingProtocol:
-            counts.warn("Missing mountingProtocol", image.id, filepath)
+            counter.warn("Missing mountingProtocol", image.id, filepath)
     if isinstance(image, model.EMImage):
         if not image.files.AlignedBodySWC:
-            counts.warn("Missing AlignedBodySWC", image.id, filepath)
+            counter.warn("Missing AlignedBodySWC", image.id, filepath)
 
 
-def validate_image(counts:Counter, filepath:str, published_names:Set[str]):
+def validate_image(counter:Counter, filepath:str, published_names:Set[str]):
     with open(filepath) as f:
         obj = rapidjson.load(f)
         lookup = model.ImageLookup(**obj)
         if not lookup.results:
-            counts.error("No images", filepath)
+            counter.error("No images", filepath)
         for image in lookup.results:
-            validate(counts, image, filepath)
+            validate(counter, image, filepath)
             published_names.add(image.publishedName)
 
 
 @ray.remote
-def validate_image_dir(image_dir:str, max_logs:int=None):
-    published_names = set()
-    counts = Counter(max_logs=max_logs)
-    for root, _, files in os.walk(image_dir):
-        if DEBUG: print(f"Validating images from {root}")
-        for filename in files:
-            tic = time.perf_counter()
-            filepath = root+"/"+filename
-            try:
-                validate_image(counts, filepath, published_names)
-            except pydantic.ValidationError:
-                counts.error("Validation failed for image", filepath, trace=traceback.format_exc())
-                counts.count("Exceptions")
-            counts.count("Items")
-            counts.count("Elapsed", value=time.perf_counter()-tic)
-    counts.print_summary(f"Summary for image dir {image_dir}:")
-    return {'published_names':published_names,'counts':counts}
+def validate_image_dir(image_dir:str, counter_actor: CounterActor, log_dir:str=None):
+    worker_id = ray.get_runtime_context().get_worker_id()[:16]
+    log_file = f"{log_dir}/validate_image_dir_{worker_id}.log"
+    with Counter(log_file=log_file) as counter:
+        published_names = set()
+
+        for root, _, files in os.walk(image_dir):
+            if DEBUG: print(f"Validating images from {root}")
+            for filename in files:
+                filepath = root+"/"+filename
+                try:
+                    validate_image(counter, filepath, published_names)
+                except pydantic.ValidationError:
+                    counter.error("Validation failed for image", filepath, trace=traceback.format_exc())
+        
+        counter_actor.add_counts.remote(counter)
+        counter_actor.print_summary.remote(f"Totals after validation of image dir {image_dir}:")
+        
+        for published_name in published_names:
+            print(published_name, file=counter.file_handle)
+
+        return published_names
 
 
-def validate_match(filepath:str, counts:Counter, published_names:Set[str]=None):
-    tic = time.perf_counter()
+def validate_match(filepath:str, counter:Counter, published_names:Set[str]=None):
     with open(filepath) as f:
         obj = rapidjson.load(f)
         matches = model.PrecomputedMatches(**obj)
-        validate(counts, matches.inputImage, filepath)
+        validate(counter, matches.inputImage, filepath)
         if published_names and matches.inputImage.publishedName not in published_names:
-            counts.error("Published name not indexed", matches.inputImage.publishedName, filepath)
+            counter.error("Published name not indexed", matches.inputImage.publishedName, filepath)
         for match in matches.results:
-            validate(counts, match.image, filepath)
+            validate(counter, match.image, filepath)
             files = match.files
             if isinstance(match, model.CDSMatch):
                 if not files.CDMInput:
-                    counts.error("Missing CDMInput", match.image.id, filepath)
+                    counter.error("Missing CDMInput", match.image.id, filepath)
                 if not files.CDMMatch:
-                    counts.error("Missing CDMMatch", match.image.id, filepath)
+                    counter.error("Missing CDMMatch", match.image.id, filepath)
             if isinstance(match, model.PPPMatch):
                 if not files.CDMSkel:
-                    counts.error("Missing CDMSkel", match.image.id, filepath)
+                    counter.error("Missing CDMSkel", match.image.id, filepath)
                 if not files.SignalMip:
-                    counts.error("Missing SignalMip", match.image.id, filepath)
+                    counter.error("Missing SignalMip", match.image.id, filepath)
                 if not files.SignalMipMasked:
-                    counts.error("Missing SignalMipMasked", match.image.id, filepath)
+                    counter.error("Missing SignalMipMasked", match.image.id, filepath)
                 if not files.SignalMipMaskedSkel:
-                    counts.error("Missing SignalMipMaskedSkel", match.image.id, filepath)
+                    counter.error("Missing SignalMipMaskedSkel", match.image.id, filepath)
             if published_names and match.image.publishedName not in published_names:
-                counts.error("Match published name not indexed", match.image.publishedName, filepath)
-            counts.count("Num Matches")
-        counts.count("Items")
-        counts.count("Elapsed", value=time.perf_counter()-tic)
+                counter.error("Match published name not indexed", match.image.publishedName, filepath)
 
 
 @ray.remote
-def validate_matches(match_files, published_names:Set[str]=None, max_logs:int=None):
-    counts = Counter(max_logs=max_logs)
-    for filepath in match_files:
-        try:
-            validate_match(filepath, counts, published_names)
-        except pydantic.ValidationError:
-            counts.error("Validation failed for match", filepath, trace=traceback.format_exc())
-            counts.count("Exceptions")
-    return counts
+def validate_matches(root_dir:str, match_files:List[str], counter_actor: CounterActor, published_names:Set[str]=None, log_dir:str=None):
+    worker_id = ray.get_runtime_context().get_worker_id()[:16]
+    log_file = f"{log_dir}/validate_matches_{worker_id}.log"
+    with Counter(log_file=log_file) as counter:
+        for filename in match_files:
+            filepath = root_dir+"/"+filename
+            try:
+                validate_match(filepath, counter, published_names)
+            except pydantic.ValidationError:
+                counter.error("Validation failed for match", filepath, trace=traceback.format_exc())
+        counter_actor.add_counts.remote(counter)
+
+    gc.collect()
 
 
-@ray.remote
-def validate_match_dir(match_dir, one_batch, published_names:Set[str]=None, max_logs:int=None):
-
+def validate_match_dir(match_dir, one_batch, counter_actor: CounterActor, published_names:Set[str]=None, log_dir:str=None):
     unfinished = []
-    if DEBUG: print(f"Validating matches from {match_dir}")
+    print(f"Validating matches in {match_dir}")
     for root, _, files in os.walk(match_dir):
         c = 0
         batch = []
         for filename in files:
-            filepath = root+"/"+filename
-            batch.append(filepath)
+            batch.append(filename)
             if len(batch)==BATCH_SIZE:
-                unfinished.append(validate_matches.remote(batch,
-                                                          published_names=published_names, 
-                                                          max_logs=max_logs))
+                unfinished.append(validate_matches.remote(root,batch, counter_actor, 
+                                                          published_names=published_names,
+                                                          log_dir=log_dir))
                 batch = []
             c += 1
         if batch:
-            unfinished.append(validate_matches.remote(batch, 
-                                                      published_names=published_names, 
-                                                      max_logs=max_logs))
+            unfinished.append(validate_matches.remote(root, batch, counter_actor, 
+                                                      published_names=published_names,
+                                                      log_dir=log_dir))
+            
         if one_batch and len(batch) > 0:
             # for testing purposes, just do one batch per match dir
             break
-        if DEBUG: print(f"Validating {c} matches in {root}")
+        
+        print(f"Validating {c} matches in {root}")
+    
+    total = len(unfinished)
+    with tqdm(total=total, desc="Processing matches") as pbar:
+        while unfinished:
+            _, unfinished = ray.wait(unfinished, num_returns=1)
+            pbar.update(1)
 
-    counts = Counter(max_logs=max_logs)
-    while unfinished:
-        finished, unfinished = ray.wait(unfinished, num_returns=1)
-        for result in ray.get(finished):
-            counts = counts.sum_counts(result)
-
-    counts.print_summary(f"Summary for match dir {match_dir}:")
-    return counts
+    counter_actor.print_summary.remote(f"Totals after validation of match dir {match_dir}:")
 
 
 def main():
@@ -265,12 +289,12 @@ def main():
         help='Run the Ray dashboard for debugging')
     parser.add_argument('--no-dashboard', dest='includeDashboard', action='store_false', \
         help='Do not run the Ray dashboard for debugging')
-    parser.add_argument('--max-logs', '-l', type=int, default=10, \
-        help='Number of instances per error to print to stderr (default 10)')
     parser.add_argument('--one-batch', dest='one_batch', action='store_true', \
         help='Do only one batch of match validation (for testing)')
     parser.add_argument('--match', dest='match_file', type=str, default=None, \
         help='Only validate the given match file')
+    parser.add_argument('--log-dir', dest='log_dir', type=str, default="logs", \
+        help='Directory to store log files')
 
     parser.set_defaults(validateImageLookups=True)
     parser.set_defaults(validateMatches=True)
@@ -279,7 +303,6 @@ def main():
 
     args = parser.parse_args()
     data_path = args.data_path
-    max_logs = args.max_logs
     one_batch = args.one_batch
 
     if one_batch:
@@ -291,11 +314,11 @@ def main():
     ]
 
     match_dirs = [
-        f"{data_path}/brain/cdmatches/em-vs-lm/",
         f"{data_path}/brain/cdmatches/lm-vs-em/",
+        f"{data_path}/brain/cdmatches/em-vs-lm/",
         f"{data_path}/brain/pppmatches/em-vs-lm/",
-        f"{data_path}/vnc/cdmatches/em-vs-lm/",
         f"{data_path}/vnc/cdmatches/lm-vs-em/",
+        f"{data_path}/vnc/cdmatches/em-vs-lm/",
         f"{data_path}/vnc/pppmatches/em-vs-lm/",
     ]
 
@@ -318,49 +341,55 @@ def main():
     if include_dashboard:
         print(f"Deploying dashboard on port {dashboard_port}")
 
-    ray.init(num_cpus=cpus,
-            include_dashboard=include_dashboard,
-            dashboard_port=dashboard_port,
-            address=address)
+    kwargs = {}
+    if include_dashboard:
+        kwargs["include_dashboard"] = include_dashboard
+        kwargs["dashboard_host"] = "0.0.0.0"
+        kwargs["dashboard_port"] = dashboard_port
+
+    ray.init(num_cpus=cpus, address=address, **kwargs)
+
+    # Ensure the log directory exists
+    os.makedirs(args.log_dir, exist_ok=True)
 
     try:
         published_names = set()
-        counts  = Counter(max_logs=max_logs)
         unfinished = []
-
+        
+        counter_actor = CounterActor.remote()
+        
         if args.match_file:
-            batch = [args.match_file]
-            counts = ray.get(validate_matches.remote(batch, max_logs=max_logs))
+            match_dir = os.path.dirname(args.match_file)
+            match_filename = os.path.basename(args.match_file)
+            batch = [match_filename]
+            ray.get(validate_matches.remote(match_dir, batch, counter_actor, log_dir=args.log_dir))
         else:
             if args.validateImageLookups:
                 print("Validating image lookups...")
                 for image_dir in image_dirs:
-                    unfinished.append(validate_image_dir.remote(image_dir, max_logs))
+                    print(f"Validating image lookups in {image_dir}")
+                    unfinished.append(validate_image_dir.remote(image_dir, counter_actor, log_dir=args.log_dir))
                 while unfinished:
                     finished, unfinished = ray.wait(unfinished, num_returns=1)
                     for result in ray.get(finished):
-                        published_names.update(result['published_names'])
-                        counts = counts.sum_counts(result['counts'])
-                if DEBUG:
-                    print(f"Indexed {len(published_names)} published names")
+                        published_names.update(result)
+                print(f"Indexed {len(published_names)} published names")
 
             if args.validateMatches:
                 print("Validating matches...")
                 for match_dir in match_dirs:
+                    print(f"Validating matches in {match_dir}")
                     p_names = published_names if args.validateImageLookups else None
-                    unfinished.append(validate_match_dir.remote(match_dir,
-                                                                one_batch,
-                                                                published_names=p_names,
-                                                                max_logs=max_logs))
-                    while unfinished:
-                        finished, unfinished = ray.wait(unfinished, num_returns=1)
-                        for result in ray.get(finished):
-                            counts = counts.sum_counts(result)
+                    validate_match_dir(match_dir,
+                                       one_batch,
+                                       counter_actor,
+                                       published_names=p_names,
+                                       log_dir=args.log_dir)
 
     finally:
-        counts.print_summary("Issue summary:")
+        counter_actor.print_summary.remote("Final totals:")
 
-    return 1 if counts.has_errors() else 0
+    return 1 if counter_actor.has_errors.remote() else 0
 
 
 if __name__ == '__main__':

@@ -1,11 +1,8 @@
 name: neuronbridge-python
 channels:
   - conda-forge
-  - flyem-forge
 dependencies:
-  - python=3.8
-  - neuprint-python
-  - jupyter
+  - python=3.9
   - pip<25
   - pip:
     - -r requirements.txt

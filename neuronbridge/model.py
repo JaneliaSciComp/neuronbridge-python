@@ -23,7 +23,7 @@ class LibraryConfig(BaseModel, extra=Extra.forbid):
     """
     name: str = Field(title="Library identifier", description="Library name or identifier")
     count: int = Field(title="Image count", description="Number of images available for search")
-    publishedNamePrefix: Optional[str] = Field(title="Published name prefix", description="Optional value that when set, is used to prefix published names. This is currently used to identify EM data set")
+    publishedNamePrefix: Optional[str] = Field(title="Published name prefix", description="Optional value that when set, is used to prefix published names. This is currently used to identify EM data set", default=None)
 
 
 class CustomSearchConfig(BaseModel, extra=Extra.forbid):
@@ -58,22 +58,22 @@ class Files(BaseModel, extra=Extra.forbid):
     Files associated with a NeuronImage or Match. These are either absolute URLs (e.g. starting with a protocol like http://) or relative paths. For relative paths, the first component should be replaced with its corresponding base URL from the DataConfig.
     """
     store: str = Field(title="Data Store", description="Name of the DataStore that provides access to imagery for any relative paths in this object.")
-    CDM: Optional[str] = Field(title="Color Depth MIP", description="The CDM of the image. For PPPM, this is the best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.")
-    CDMThumbnail: Optional[str] = Field(title="Thumbnail of the CDM", description="The thumbnail sized version of the CDM, if available.")
-    CDMInput: Optional[str] = Field(title="CDM input", description="CDM-only. The actual color depth image that was input. 'Matched CDM' in the NeuronBridge GUI.")
-    CDMMatch: Optional[str] = Field(title="CDM match", description="CDM-only. The actual color depth image that was matched. 'Matched CDM' in the NeuronBridge GUI.")
-    CDMBest: Optional[str] = Field(title="CDM of best-matching channel", description="PPPM-only. The CDM of best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.")
-    CDMBestThumbnail: Optional[str] = Field(title="Thumbnail of the CDM of best-matching channel", description="PPPM-only. The CDM of best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.")
-    CDMSkel: Optional[str] = Field(title="CDM with EM overlay", description="PPPM-only. The CDM of the best matching channel with the matching LM segmentation fragments overlaid. 'LM - Best Channel CDM with EM overlay' in the NeuronBridge GUI.")
-    SignalMip: Optional[str] = Field(title="All-channel MIP of the sample", description="PPPM-only. The full MIP of all channels of the matching sample. 'LM - Sample All-Channel MIP' in the NeuronBridge GUI.")
-    SignalMipMasked: Optional[str] = Field(title="PPPM fragments", description="PPPM-only. LM signal content masked with the matching LM segmentation fragments. 'PPPM Mask' in the NeuronBridge GUI.")
-    SignalMipMaskedSkel: Optional[str] = Field(title="PPPM fragments with EM overlay", description="PPPM-only. LM signal content masked with the matching LM segmentation fragments, overlaid with the EM skeleton. 'PPPM Mask with EM Overlay' in the NeuronBridge GUI.")
-    Gal4Expression: Optional[str] = Field(title="CDM of full LM line expression", description="MCFO-only. A representative CDM image of the full expression of the line.")
-    VisuallyLosslessStack: Optional[str] = Field(title="LM 3D image stack", description="LMImage-only. An H5J 3D image stack of all channels of the LM image.")
-    AlignedBodySWC: Optional[str] = Field(title="EM body in SWC format", description="EMImage-only, A 3D SWC skeleton of the EM body in the alignment space.")
-    AlignedBodyOBJ: Optional[str] = Field(title="EM body in OBJ format", description="EMImage-only. A 3D OBJ representation of the EM body in the alignment space.")
-    CDSResults: Optional[str] = Field(title="Results of CDS matching on this image", description="A JSON file serializing Matches containing CDSMatch objects for the input image.")
-    PPPMResults: Optional[str] = Field(title="Results of PPPM matching on this image", description="EMImage-only, a JSON file serializing Matches containing PPPMatch objects for the input image.")
+    CDM: Optional[str] = Field(title="Color Depth MIP", description="The CDM of the image. For PPPM, this is the best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.", default=None)
+    CDMThumbnail: Optional[str] = Field(title="Thumbnail of the CDM", description="The thumbnail sized version of the CDM, if available.", default=None)
+    CDMInput: Optional[str] = Field(title="CDM input", description="CDM-only. The actual color depth image that was input. 'Matched CDM' in the NeuronBridge GUI.", default=None)
+    CDMMatch: Optional[str] = Field(title="CDM match", description="CDM-only. The actual color depth image that was matched. 'Matched CDM' in the NeuronBridge GUI.", default=None)
+    CDMBest: Optional[str] = Field(title="CDM of best-matching channel", description="PPPM-only. The CDM of best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.", default=None)
+    CDMBestThumbnail: Optional[str] = Field(title="Thumbnail of the CDM of best-matching channel", description="PPPM-only. The CDM of best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.", default=None)
+    CDMSkel: Optional[str] = Field(title="CDM with EM overlay", description="PPPM-only. The CDM of the best matching channel with the matching LM segmentation fragments overlaid. 'LM - Best Channel CDM with EM overlay' in the NeuronBridge GUI.", default=None)
+    SignalMip: Optional[str] = Field(title="All-channel MIP of the sample", description="PPPM-only. The full MIP of all channels of the matching sample. 'LM - Sample All-Channel MIP' in the NeuronBridge GUI.", default=None)
+    SignalMipMasked: Optional[str] = Field(title="PPPM fragments", description="PPPM-only. LM signal content masked with the matching LM segmentation fragments. 'PPPM Mask' in the NeuronBridge GUI.", default=None)
+    SignalMipMaskedSkel: Optional[str] = Field(title="PPPM fragments with EM overlay", description="PPPM-only. LM signal content masked with the matching LM segmentation fragments, overlaid with the EM skeleton. 'PPPM Mask with EM Overlay' in the NeuronBridge GUI.", default=None)
+    Gal4Expression: Optional[str] = Field(title="CDM of full LM line expression", description="MCFO-only. A representative CDM image of the full expression of the line.", default=None)
+    VisuallyLosslessStack: Optional[str] = Field(title="LM 3D image stack", description="LMImage-only. An H5J 3D image stack of all channels of the LM image.", default=None)
+    AlignedBodySWC: Optional[str] = Field(title="EM body in SWC format", description="EMImage-only, A 3D SWC skeleton of the EM body in the alignment space.", default=None)
+    AlignedBodyOBJ: Optional[str] = Field(title="EM body in OBJ format", description="EMImage-only. A 3D OBJ representation of the EM body in the alignment space.", default=None)
+    CDSResults: Optional[str] = Field(title="Results of CDS matching on this image", description="A JSON file serializing Matches containing CDSMatch objects for the input image.", default=None)
+    PPPMResults: Optional[str] = Field(title="Results of PPPM matching on this image", description="EMImage-only, a JSON file serializing Matches containing PPPMatch objects for the input image.", default=None)
 
 
 class UploadedImage(BaseModel, extra=Extra.forbid):
@@ -97,7 +97,7 @@ class NeuronImage(BaseModel, extra=Extra.forbid):
     anatomicalArea: str = Field(title="Anatomical area", description="Anatomical area represented in the image.")
     gender: Gender = Field(title="Gender", description="Gender of the sample imaged.")
     files: Files = Field(title="Files", description="Files associated with the image.")
-    annotations: Optional[List[str]] = Field(title="List of additional annotations", description="Bag of words associated with this neuron")
+    annotations: Optional[List[str]] = Field(title="List of additional annotations", description="Bag of words associated with this neuron", default=None)
 
 
 class EMImage(NeuronImage, extra=Extra.forbid):
@@ -105,8 +105,8 @@ class EMImage(NeuronImage, extra=Extra.forbid):
     A color depth image containing a neuron body reconstructed from EM imagery.
     """
     type: Literal['EMImage'] = 'EMImage'
-    neuronType: Optional[str] = Field(title="FlyEM Neuron type", description="Neuron type name from FlyEM's neuPrint")
-    neuronInstance: Optional[str] = Field(title="FlyEM Neuron instance", description="Neuron instance name from FlyEM's neuPrint")
+    neuronType: Optional[str] = Field(title="FlyEM Neuron type", description="Neuron type name from FlyEM's neuPrint", default=None)
+    neuronInstance: Optional[str] = Field(title="FlyEM Neuron instance", description="Neuron instance name from FlyEM's neuPrint", default=None)
 
 
 class LMImage(NeuronImage, extra=Extra.forbid):
@@ -116,8 +116,8 @@ class LMImage(NeuronImage, extra=Extra.forbid):
     type: Literal['LMImage'] = 'LMImage'
     slideCode: str = Field(title="Slide code", description="Unique identifier for the sample that was imaged.")
     objective: str = Field(title="Objective", description="Magnification of the microscope objective used to imaged this image.")
-    mountingProtocol: Optional[str] = Field(title="Mounting protocol", description="Description of the protocol used to mount the sample for imaging.")
-    channel: Optional[int] = Field(title="Channel", description="Channel index within the full LM image stack. PPPM matches the entire stack and therefore this is blank.")
+    mountingProtocol: Optional[str] = Field(title="Mounting protocol", description="Description of the protocol used to mount the sample for imaging.", default=None)
+    channel: Optional[int] = Field(title="Channel", description="Channel index within the full LM image stack. PPPM matches the entire stack and therefore this is blank.", default=None)
 
 
 ConcreteNeuronImage = Annotated[Union[LMImage, EMImage], Field(discriminator="type")]

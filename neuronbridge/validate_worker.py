@@ -12,7 +12,7 @@ import rapidjson
 import neuronbridge.model as model
 
 # Directory to store log files
-LOG_DIR = "logs"
+LOG_DIR = "logs2"
 
 # Print debug messages on the workers
 DEBUG = False
@@ -21,7 +21,7 @@ DEBUG = False
 MAX_LOGS = 1000
 
 # Maximum number of matches allowed per published name
-MAX_MATCHES_PER_NAME = 10
+MAX_MATCHES_PER_NAME = 5
 
 # Maximum number of matches allowed per file
 MAX_MATCHES_PER_FILE = 5000
@@ -105,20 +105,22 @@ class Counter:
         self.errors[s] += 1
 
 
-# Putting this state in a separate module is a neat little hack that I found here:
+
+# Create log directory if it doesn't exist
+os.makedirs(LOG_DIR, exist_ok=True)
+
+# Get the worker ID and create a log file for this worker
+worker_id = ray.get_runtime_context().get_worker_id()
+log_file = f"{LOG_DIR}/worker_{worker_id}.log"
+
+# Putting this counter state in a separate module is a neat little hack that I found here:
 # https://discuss.ray.io/t/global-variables-to-maintain-a-worker-specific-state/12251/3
 # This makes it possible to retain the worker-specific state (e.g. log file) across multiple
 # remote calls to the worker.
-worker_id = ray.get_runtime_context().get_worker_id()
-log_file = f"{LOG_DIR}/worker_{worker_id}.log"
 counter = Counter(log_file=log_file, max_logs=MAX_LOGS) 
 
 
 def validate(counter:Counter, image, filepath):
-    if not image.files.CDM:
-        counter.error("Missing CDM", image.id, filepath)
-    if not image.files.CDMThumbnail:
-        counter.error("Missing CDMThumbnail", image.id, filepath)
     if isinstance(image, model.LMImage):
         if not image.files.VisuallyLosslessStack:
             counter.warn("Missing VisuallyLosslessStack", image.id, filepath)
@@ -129,7 +131,7 @@ def validate(counter:Counter, image, filepath):
             counter.warn("Missing AlignedBodySWC", image.id, filepath)
 
 
-def validate_image(counter:Counter, filepath:str, published_names:Set[str]):
+def validate_image_lookup(counter:Counter, filepath:str, published_names:Set[str]):
     with open(filepath) as f:
         obj = rapidjson.load(f)
         lookup = model.ImageLookup(**obj)
@@ -137,6 +139,13 @@ def validate_image(counter:Counter, filepath:str, published_names:Set[str]):
             counter.error("No images", "", filepath)
         for image in lookup.results:
             validate(counter, image, filepath)
+            files = image.files
+            if not files.CDM:
+                counter.error("Missing CDM", image.id, filepath)
+            if not files.CDMThumbnail:
+                counter.error("Missing CDMThumbnail", image.id, filepath)
+            if not files.CDSResults and not files.PPPMResults:
+                counter.error("Missing CDSResults or PPPMResults", image.id, filepath)
             published_names.add(image.publishedName)
 
 
@@ -148,7 +157,7 @@ def validate_image_dir_batch(root_dir:str, image_files:List[str], counter_actor)
         for filename in image_files:
             filepath = os.path.join(root_dir, filename)
             try:
-                validate_image(counter, filepath, published_names)
+                validate_image_lookup(counter, filepath, published_names)
             except pydantic.ValidationError:
                 counter.error("Validation failed for image", "", filepath, trace=traceback.format_exc())
         
@@ -162,37 +171,63 @@ def validate_match_file(filepath:str, counter:Counter, published_names:Set[str]=
         num_matches_per_name = defaultdict(int)
         obj = rapidjson.load(f)
         matches = model.PrecomputedMatches(**obj)
-        validate(counter, matches.inputImage, filepath)
+
+        # Validate the input image
+        input_image = matches.inputImage
+        validate(counter, input_image, filepath)
+        files = input_image.files
+        if not files.CDM:
+            counter.error("Missing CDM", input_image.id, filepath)
+        if not files.CDMThumbnail:
+            counter.error("Missing CDMThumbnail", input_image.id, filepath)
+            
+        # Validate the published name
         if published_names and matches.inputImage.publishedName not in published_names:
             counter.error("Published name not indexed", matches.inputImage.publishedName, filepath)
+        
+        # Validate the matches
+        c = 0
         for match in matches.results:
             num_matches_per_name[match.image.publishedName] += 1
             validate(counter, match.image, filepath)
-            files = match.files
+            match_files = match.files
+            image_files = match.image.files
             if isinstance(match, model.CDSMatch):
-                if not files.CDMInput:
+                if not image_files.CDM:
+                    counter.error("Missing CDM", match.image.id, filepath)
+                if not image_files.CDMThumbnail:
+                    counter.error("Missing CDMThumbnail", match.image.id, filepath)
+                if not match_files.CDMInput:
                     counter.error("Missing CDMInput", match.image.id, filepath)
-                if not files.CDMMatch:
+                if not match_files.CDMMatch:
                     counter.error("Missing CDMMatch", match.image.id, filepath)
             if isinstance(match, model.PPPMatch):
-                if not files.CDMSkel:
+                if not match_files.CDMBest:
+                    counter.error("Missing CDMBest", match.image.id, filepath)
+                if not match_files.CDMBestThumbnail:
+                    counter.error("Missing CDMBestThumbnail", match.image.id, filepath)
+                if not match_files.CDMSkel:
                     counter.error("Missing CDMSkel", match.image.id, filepath)
-                if not files.SignalMip:
+                if not match_files.SignalMip:
                     counter.error("Missing SignalMip", match.image.id, filepath)
-                if not files.SignalMipMasked:
+                if not match_files.SignalMipMasked:
                     counter.error("Missing SignalMipMasked", match.image.id, filepath)
-                if not files.SignalMipMaskedSkel:
+                if not match_files.SignalMipMaskedSkel:
                     counter.error("Missing SignalMipMaskedSkel", match.image.id, filepath)
             if published_names and match.image.publishedName not in published_names:
                 counter.error("Match published name not indexed", match.image.publishedName, filepath)
 
-        num_matches = len(matches.results)
-        if num_matches > MAX_MATCHES_PER_FILE:
-            counter.warn("Too many matches", f"({num_matches})", filepath)
+            c += 1
+            
+            # Validate the number of matches. Stop processing if we hit the limit.
+            if c > MAX_MATCHES_PER_FILE:
+                counter.error("Too many matches", f"({c})", filepath)
+                break
 
+        # Validate the number of matches per published name
         for name, count in num_matches_per_name.items():
             if count > MAX_MATCHES_PER_NAME:
-                counter.warn("Too many matches for published name", name, filepath)
+                counter.error("Too many matches for published name", name, filepath)
                 break
 
 

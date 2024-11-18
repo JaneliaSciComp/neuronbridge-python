@@ -58,12 +58,12 @@ class Files(BaseModel, extra=Extra.forbid):
     Files associated with a NeuronImage or Match. These are either absolute URLs (e.g. starting with a protocol like http://) or relative paths. For relative paths, the first component should be replaced with its corresponding base URL from the DataConfig.
     """
     store: str = Field(title="Data Store", description="Name of the DataStore that provides access to imagery for any relative paths in this object.")
-    CDM: Optional[str] = Field(title="Color Depth MIP", description="The CDM of the image. For PPPM, this is the best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.", default=None)
+    CDM: Optional[str] = Field(title="Color Depth MIP", description="The CDM of the image. This is for non-PPPM results only, for PPPM, see CDMBest/CDMBestThumbnail.", default=None)
     CDMThumbnail: Optional[str] = Field(title="Thumbnail of the CDM", description="The thumbnail sized version of the CDM, if available.", default=None)
     CDMInput: Optional[str] = Field(title="CDM input", description="CDM-only. The actual color depth image that was input. 'Matched CDM' in the NeuronBridge GUI.", default=None)
     CDMMatch: Optional[str] = Field(title="CDM match", description="CDM-only. The actual color depth image that was matched. 'Matched CDM' in the NeuronBridge GUI.", default=None)
     CDMBest: Optional[str] = Field(title="CDM of best-matching channel", description="PPPM-only. The CDM of best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.", default=None)
-    CDMBestThumbnail: Optional[str] = Field(title="Thumbnail of the CDM of best-matching channel", description="PPPM-only. The CDM of best matching channel of the matching LM stack and called 'Best Channel CDM' in the NeuronBridge GUI.", default=None)
+    CDMBestThumbnail: Optional[str] = Field(title="Thumbnail of the CDM of best-matching channel", description="PPPM-only. The thumbnail of the CDM of best matching channel of the matching LM stack and called 'Best Channel CDM Thumbnail' in the NeuronBridge GUI.", default=None)
     CDMSkel: Optional[str] = Field(title="CDM with EM overlay", description="PPPM-only. The CDM of the best matching channel with the matching LM segmentation fragments overlaid. 'LM - Best Channel CDM with EM overlay' in the NeuronBridge GUI.", default=None)
     SignalMip: Optional[str] = Field(title="All-channel MIP of the sample", description="PPPM-only. The full MIP of all channels of the matching sample. 'LM - Sample All-Channel MIP' in the NeuronBridge GUI.", default=None)
     SignalMipMasked: Optional[str] = Field(title="PPPM fragments", description="PPPM-only. LM signal content masked with the matching LM segmentation fragments. 'PPPM Mask' in the NeuronBridge GUI.", default=None)

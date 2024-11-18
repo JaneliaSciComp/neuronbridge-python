@@ -30,13 +30,13 @@ You can install the module for development like this:
 
 ### Useful shell commands
 
+To update requirements-universal.txt for UV:
+
+    uv pip compile requirements.txt --universal --output-file  requirements-universal.txt
+
 To update conda_requirements.txt:
 
     conda env export --from-history --file conda_requirements.txt
-
-To update requirements.txt:
-
-    pipreqs --savepath=requirements.txt && pip-compile
 
 Regenerate the JSON schemas:
 
@@ -45,6 +45,13 @@ Regenerate the JSON schemas:
 Run the unit tests:
 
     pytest tests
+
+Migrate to UV:
+
+    uv pip compile requirements.txt --universal --output-file  requirements-universal.txt
+    uv venv
+    uv pip sync requirements-universal.txt
+    uv pip install -e .
 
 
 ### Publishing a new release
@@ -64,7 +71,7 @@ Run the unit tests:
 
 You can run validation multithreaded on a single machine like this:
 
-    ./neuronbridge/validate_ray.py
+    ./neuronbridge/validate_ray.py --dashboard --cores 60
 
 To run the validation script in a distributed manner on the Janelia cluster, you must first install [ray-janelia](https://github.com/JaneliaSciComp/ray-janelia) in a sister directory to where this code base is cloned. Then run a script to bsub the Ray cluster:
 

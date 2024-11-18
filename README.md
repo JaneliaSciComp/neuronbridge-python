@@ -30,10 +30,6 @@ You can install the module for development like this:
 
 ### Useful shell commands
 
-To update requirements-universal.txt for UV:
-
-    uv pip compile requirements.txt --universal --output-file  requirements-universal.txt
-
 To update conda_requirements.txt:
 
     conda env export --from-history --file conda_requirements.txt
@@ -48,8 +44,9 @@ Run the unit tests:
 
 Migrate to UV:
 
-    uv pip compile requirements.txt --universal --output-file  requirements-universal.txt
     uv venv
+    source .venv/bin/activate
+    uv pip compile requirements.txt --universal --output-file  requirements-universal.txt
     uv pip sync requirements-universal.txt
     uv pip install -e .
 

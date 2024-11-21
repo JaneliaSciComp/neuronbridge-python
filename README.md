@@ -4,51 +4,59 @@
 
 A Python API for the [NeuronBridge](https://github.com/JaneliaSciComp/neuronbridge) neuron similarity search service.
 
-See [this notebook](notebooks/python_api_examples.ipynb) for usage examples.
-
 ![Data Model Diagram](model_diagram.png)
+
+
+## Installation
+
+This library is available [on PyPI](https://pypi.org/project/neuronbridge-python/), so you can install it like this:
+
+```bash
+pip install neuronbridge-python
+```
+
+
+## Usage
+
+See [this notebook](notebooks/python_api_examples.ipynb) for usage examples.
 
 
 ## Development Notes
 
-Create a conda env with all the dependencies including Jupyter:
+Create a new virtual environment and install the dependencies:
 
-    conda env create -f environment.yml
-    conda activate neuronbridge-python
-
-Then install it as a Jupyter kernel:
-
-    python -m ipykernel install --user --name=neuronbridge-python
+    uv venv --python 3.11
+    source .venv/bin/activate
+    uv pip sync requirements-universal.txt
+    uv pip install -e .
 
 
-### Install for development
+### Running data validation using Ray
 
-You can install the module for development like this:
+You can run validation multithreaded on a single machine like this:
 
-    pip install -e .
+    ./neuronbridge/validate_ray.py --dashboard --cores 60
+
+To run the validation script in a distributed manner on the Janelia cluster, you must first install [ray-janelia](https://github.com/JaneliaSciComp/ray-janelia) in a sister directory to where this code base is cloned. Then run a script to bsub the Ray cluster:
+
+    ./scripts/launch_validation.sh
 
 
-### Useful shell commands
+### Updating requirements
 
-To update conda_requirements.txt:
+After updating the requirements.txt file, you can sync the requirements-universal.txt file like this:
 
-    conda env export --from-history --file conda_requirements.txt
+    uv pip compile requirements.txt --universal --output-file  requirements-universal.txt
 
-Regenerate the JSON schemas:
+
+### Regenerate the JSON schemas:
 
     python neuronbridge/generate_schemas.py
 
-Run the unit tests:
+
+### Run the unit tests:
 
     pytest tests
-
-Migrate to UV:
-
-    uv venv
-    source .venv/bin/activate
-    uv pip compile requirements.txt --universal --output-file  requirements-universal.txt
-    uv pip sync requirements-universal.txt
-    uv pip install -e .
 
 
 ### Publishing a new release
@@ -62,14 +70,3 @@ Migrate to UV:
 4) Upload to PyPI:
 
     twine upload dist/*
-
-
-### Running validation using Ray
-
-You can run validation multithreaded on a single machine like this:
-
-    ./neuronbridge/validate_ray.py --dashboard --cores 60
-
-To run the validation script in a distributed manner on the Janelia cluster, you must first install [ray-janelia](https://github.com/JaneliaSciComp/ray-janelia) in a sister directory to where this code base is cloned. Then run a script to bsub the Ray cluster:
-
-    ./scripts/launch_validation.sh

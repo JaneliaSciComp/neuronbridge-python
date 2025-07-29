@@ -70,7 +70,7 @@ python neuronbridge/generate_schemas.py
 ### Run the unit tests:
 
 ```bash
-pytest tests
+pixi run test
 ```
 
 ### Publishing a new release
@@ -80,11 +80,11 @@ pytest tests
 3) Build PyPI distribution:
 
 ```bash
-python setup.py sdist bdist_wheel
+pixi run pypi-build
 ```
 
 4) Upload to PyPI:
 
 ```bash
-twine upload dist/*
+pixi run pypi-upload
 ```

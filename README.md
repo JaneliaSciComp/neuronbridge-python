@@ -28,7 +28,9 @@ See [this notebook](https://github.com/JaneliaSciComp/neuronbridge-python/blob/m
 
 ## Development Notes
 
-Create a new virtual environment and install the dependencies:
+To build this code you will need to [install UV](https://docs.astral.sh/uv/getting-started/installation/).
+
+Create a new UV virtual environment and install the dependencies:
 
 ```bash
 uv venv --python 3.11

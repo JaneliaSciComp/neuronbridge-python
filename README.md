@@ -28,15 +28,10 @@ See [this notebook](https://github.com/JaneliaSciComp/neuronbridge-python/blob/m
 
 ## Development Notes
 
-To build this code you will need to [install UV](https://docs.astral.sh/uv/getting-started/installation/).
-
-Create a new UV virtual environment and install the dependencies:
+To build this code you will need to [install Pixi](https://pixi.sh/latest/installation/). After cloning the repository just type:
 
 ```bash
-uv venv --python 3.11
-source .venv/bin/activate
-uv pip sync requirements-universal.txt
-uv pip install -e .
+pixi install
 ```
 
 ### Running data validation using Ray
@@ -44,7 +39,7 @@ uv pip install -e .
 You can run validation multithreaded on a single machine like this:
 
 ```bash
-./neuronbridge/validate_ray.py --dashboard --cores 60
+pixi run python ./neuronbridge/validate_ray.py --dashboard --cores 60
 ```
 
 To run the validation script in a distributed manner on the Janelia cluster, you must first install [ray-janelia](https://github.com/JaneliaSciComp/ray-janelia) in a sister directory to where this code base is cloned. Then run a script to bsub the Ray cluster:
@@ -53,18 +48,10 @@ To run the validation script in a distributed manner on the Janelia cluster, you
 ./scripts/launch_validation.sh
 ```
 
-### Updating requirements
-
-After updating the requirements.txt file, you can sync the requirements-universal.txt file like this:
-
-```bash
-uv pip compile requirements.txt --universal --output-file  requirements-universal.txt
-```
-
 ### Regenerate the JSON schemas:
 
 ```bash
-python neuronbridge/generate_schemas.py
+pixi run python neuronbridge/generate_schemas.py
 ```
 
 ### Run the unit tests:

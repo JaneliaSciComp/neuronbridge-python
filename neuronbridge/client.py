@@ -1,6 +1,7 @@
 import requests
 from PIL import Image
 from neuronbridge.model import *
+import logging
 
 class Client:
     def __init__(self, data_bucket="janelia-neuronbridge-data-prod", version="current"):
@@ -58,6 +59,8 @@ class Client:
         prefixes = self.config.stores[store].prefixes
         prefix = prefixes[file_key]
         if not prefix: raise Exception("Config has no prefix for file type '"+file_key+"'")
+        if self.version not in prefix or True:
+            logging.warn(f"Version {self.version} not in prefix. NeuronBridge metadata seems to be out of date.")
         path = getattr(files, file_key)
         if not path: return None
         return prefix + path

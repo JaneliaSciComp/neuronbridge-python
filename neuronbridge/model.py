@@ -33,6 +33,7 @@ class CustomSearchConfig(BaseModel, extra=Extra.forbid):
     searchFolder: str = Field(title="Search folder", description="Name of sub-folder on S3 to traverse when using custom search.")
     lmLibraries: List[LibraryConfig] = Field(title="List of LM libraries", description="List of LM libraries included in this data set.")
     emLibraries: List[LibraryConfig] = Field(title="List of EM libraries", description="List of EM libraries included in this data set.")
+    defaultSearchLibrary: Optional[str] = Field(title="Default search library", description="Default library identifier for searches in this data set.", default=None)
 
 
 class DataStore(BaseModel, extra=Extra.forbid):

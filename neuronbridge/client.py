@@ -51,18 +51,20 @@ class Client:
         return Image.open(res.raw)
 
 
-    def _get_files_url(self, files : Files, file_key : str) -> str:
+    def _get_files_url(self, files : Files, file_key : str) -> str|None:
         """
         Returns the full URL to the given file.
         """
         store = files.store
         prefixes = self.config.stores[store].prefixes
         prefix = prefixes[file_key]
-        if not prefix: raise Exception("Config has no prefix for file type '"+file_key+"'")
-        if self.version not in prefix or True:
-            logging.warn(f"Version {self.version} not in prefix. NeuronBridge metadata seems to be out of date.")
+        if not prefix:
+            raise Exception("Config has no prefix for file type '"+file_key+"'")
+        if self.version not in prefix:
+            logging.warning(f"Version {self.version} not in prefix. NeuronBridge metadata seems to be out of date.")
         path = getattr(files, file_key)
-        if not path: return None
+        if not path:
+            return None
         return prefix + path
 
 
